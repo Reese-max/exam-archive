@@ -448,6 +448,7 @@ html.dark .subject-card:hover { box-shadow: 0 2px 12px rgba(0,0,0,0.3); }
 .practice-mode .answer-section.revealed { display: block; }
 .practice-mode .mc-option { cursor: pointer; border-radius: 6px; padding-top: 0.35rem; padding-bottom: 0.35rem; transition: background 0.15s; }
 .practice-mode .mc-option:hover { background: #edf2f7; }
+.practice-mode .mc-option:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
 .practice-mode .mc-option.selected { background: #ebf8ff; border-left: 3px solid var(--accent); }
 .practice-mode .mc-option.correct { background: #f0fff4; border-left: 3px solid var(--success); }
 .practice-mode .mc-option.wrong { background: #fff5f5; border-left: 3px solid var(--danger); }
@@ -844,6 +845,7 @@ html.dark .mc-question { border-top-color: #4a5568; }
 </button>
 <div class="main">
 <div class="practice-score" id="practiceScore" role="status" aria-live="polite" aria-label="練習模式計分">
+  <div id="practiceAnnounce" role="status" aria-live="polite" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;"></div>
   <div class="score-text">
     <span>答對 <strong id="scoreCorrect">0</strong> / <strong id="scoreTotal">0</strong> 題</span>
     <span class="score-pct" id="scorePct">--</span>
@@ -10055,9 +10057,7 @@ function switchView(mode) {
           section.parentNode.insertBefore(btn, section);
         }
       });
-      subjectView.querySelectorAll('.mc-option').forEach(opt => {
-        opt.onclick = handleOptionClick;
-      });
+      subjectView.querySelectorAll('.mc-option').forEach(bindOption);
     }
   }
 }
@@ -10146,10 +10146,8 @@ function togglePractice() {
       };
       section.parentNode.insertBefore(btn, section);
     });
-    // 為選擇題選項添加互動
-    document.querySelectorAll('.mc-option').forEach(opt => {
-      opt.onclick = handleOptionClick;
-    });
+    // 為選擇題選項添加互動（含鍵盤操作）
+    document.querySelectorAll('.mc-option').forEach(bindOption);
   } else {
     // 清除練習模式狀態
     document.querySelectorAll('.reveal-btn').forEach(btn => btn.remove());
@@ -10157,13 +10155,36 @@ function togglePractice() {
       s.classList.remove('revealed');
     });
     document.querySelectorAll('.mc-option').forEach(opt => {
-      opt.onclick = null;
+      unbindOption(opt);
       opt.classList.remove('selected', 'correct', 'wrong', 'shake');
     });
     // 關閉時儲存分數再重置
     if (practiceTotal > 0) savePracticeScore(practiceCorrect, practiceTotal);
     resetScore();
   }
+}
+
+function handleOptionKeydown(e) {
+  if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); e.currentTarget.click(); }
+}
+
+function bindOption(opt) {
+  opt.onclick = handleOptionClick;
+  opt.addEventListener('keydown', handleOptionKeydown);
+  opt.setAttribute('tabindex', '0');
+  opt.setAttribute('role', 'button');
+}
+
+function unbindOption(opt) {
+  opt.onclick = null;
+  opt.removeEventListener('keydown', handleOptionKeydown);
+  opt.removeAttribute('tabindex');
+  opt.removeAttribute('role');
+}
+
+function announcePractice(msg) {
+  const el = document.getElementById('practiceAnnounce');
+  if (el) { el.textContent = ''; el.textContent = msg; }
 }
 
 function handleOptionClick(e) {
@@ -10222,6 +10243,7 @@ function handleOptionClick(e) {
   if (correctAns) {
     if (chosen === correctAns) {
       opt.classList.add('correct');
+      announcePractice('答對了。正確答案 ' + correctAns);
       if (!alreadyAnswered) {
         practiceTotal++;
         practiceCorrect++;
@@ -10238,6 +10260,7 @@ function handleOptionClick(e) {
           o.classList.add('correct');
         }
       });
+      announcePractice('答錯。正確答案 ' + correctAns);
       if (!alreadyAnswered) {
         practiceTotal++;
       }
