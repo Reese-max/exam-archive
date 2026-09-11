@@ -14,6 +14,12 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      # issue #1：payload 預算閘門，split 前先防體積再長
+      - name: Payload budget gate
+        run: node scripts/check-budget.mjs
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
