@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "description": "資管系考古題總覽 — single-file exam archive site",
   "scripts": {
-    "test": "node --test tests/",
+    "test": "node --test tests/*.test.mjs",
     "test:e2e": "node tests/e2e-keyboard.mjs"
   },
   "devDependencies": {
