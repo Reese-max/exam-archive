@@ -25,6 +25,8 @@
   `fixupClonedMcGroups()` 重新命名並依 `.selected` 補回 `checked`。
 - `data-akey`（cardId-qidx）在跨檢視複製間維持同一題身份，
   保證首次作答計分一次（first-attempt policy）。
+  原生 radio 群組的方向鍵會同時移動焦點並選取（APG 語意），
+  因此以方向鍵掠過的選項即為首次作答、計分一次。
 - 不使用任何 `id`，clone 不會產生重複 id。
 - 非練習模式下 radio `disabled`（不進 Tab 序）；練習模式啟用。
 - 作答結果同時寫入可見文字 `.mc-verdict`（live region 會播報）與
@@ -35,10 +37,12 @@
 ## 測試
 
 ```bash
-npm install
-npm test          # jsdom：群組/語意/計分/重置/檢視切換
-npm run test:e2e  # 系統 Chrome：真實鍵盤操作 + axe + AX tree 證據
+pip install -r requirements.txt
+python3 -m playwright install chromium   # 首次需要下載瀏覽器
+python3 -m pytest -q                     # 真實 Chromium：鍵盤操作 / 語意 / 計分 / 重置 / 檢視切換 / AX tree
 ```
 
-e2e 需要本機 Chrome/Chromium（`CHROME_PATH` 可覆寫偵測路徑），
+測試以 Playwright 驅動 headless Chromium 載入 `index.html`，
+模擬真實鍵盤（focus、Space、方向鍵）與 label 點擊，
+並經由 CDP `Accessibility.queryAXTree` 檢查輔助科技樹，
 產出寫入 `tests/artifacts/`。
