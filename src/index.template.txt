@@ -144,6 +144,7 @@ body.sidebar-collapsed .sidebar-reopen { display: flex; }
 
 /* Year section */
 .year-section { margin-bottom: 3rem; }
+.year-placeholder { min-height: 5rem; margin-bottom: 3rem; color: var(--text-light); }
 .year-heading {
   font-size: 1.4rem; font-weight: 700; color: var(--primary);
   border-bottom: 3px solid var(--accent);
@@ -907,15 +908,81 @@ html.dark .mc-question { border-top-color: #4a5568; }
 <div id="subjectView" style="display:none"></div>
 </div><!-- /main -->
 
+<script src="src/archive-loader.js"></script>
 <script>
 /* === Debounce utility === */
 function debounce(fn, ms) {
   let t; return function(...a) { clearTimeout(t); t = setTimeout(() => fn.apply(this, a), ms); };
 }
-const debouncedSearch = debounce(v => doSearch(v), 180);
+const archiveLoader = window.createArchiveLoader(window.fetch.bind(window));
+const ARCHIVE_YEARS = archiveLoader.years;
+const SUBJECT_ASSET_SLUG = {
+  '憲法': 'constitution', '國文': 'chinese', '數位鑑識': 'digital-forensics',
+  '警察情境': 'police-scenario', '警察法規': 'police-law',
+  '警政資訊': 'police-information', '電腦犯罪': 'cybercrime'
+};
+let searchRequestId = 0;
+let subjectRequestId = 0;
+
+async function ensureYearLoaded(year) {
+  const value = String(year);
+  const current = document.getElementById(`year-${value}`);
+  if (current && current.classList.contains('year-section')) return current;
+  const html = await archiveLoader.loadYear(value);
+  const template = document.createElement('template');
+  template.innerHTML = html;
+  const section = template.content.firstElementChild;
+  if (!section || section.id !== `year-${value}` || !section.classList.contains('year-section')) {
+    throw new Error(`Invalid archive data for year ${value}`);
+  }
+  const placeholder = document.getElementById(`year-${value}`);
+  if (placeholder && !placeholder.classList.contains('year-section')) placeholder.replaceWith(section);
+  const mounted = document.getElementById(`year-${value}`);
+  if (mounted && mounted.classList.contains('year-section')) {
+    initYearSection(mounted);
+    updateProgressStats();
+    if (bookmarkFilterActive) applyBookmarkFilter();
+    return mounted;
+  }
+  return section;
+}
+
+async function ensureCategoryLoaded(key) {
+  const slug = SUBJECT_ASSET_SLUG[key];
+  if (!slug) throw new Error(`Unknown subject category: ${key}`);
+  const fragments = await Promise.all(ARCHIVE_YEARS.map(year => archiveLoader.loadCategory(slug, year)));
+  return fragments.map((html, index) => ({ year: ARCHIVE_YEARS[index], html }));
+}
+
+async function runSearch(query) {
+  const value = String(query || '');
+  const requestId = ++searchRequestId;
+  if (!value.trim() && currentView === 'year' && !activeYearFilter) { doSearch(value); return; }
+  const stats = document.getElementById('searchStats');
+  if (value.trim() && stats) stats.textContent = '載入搜尋範圍…';
+  try {
+    if (currentView === 'subject') {
+      if (!await filterBySubject(document.getElementById('subjectFilter').value || SUBJECT_KEYS[0])) return;
+    } else if (activeYearFilter) {
+      await ensureYearLoaded(activeYearFilter);
+    } else {
+      await Promise.all(ARCHIVE_YEARS.map(ensureYearLoaded));
+    }
+    if (requestId === searchRequestId) doSearch(value);
+  } catch (error) {
+    if (requestId === searchRequestId && stats) stats.textContent = '搜尋資料載入失敗，請稍後重試';
+    console.error(error);
+  }
+}
+
+const debouncedSearch = debounce(v => runSearch(v), 180);
 
 /* === Toggle helpers === */
-function toggleYear(el) { el.classList.toggle('active'); }
+function toggleYear(el) {
+  el.classList.toggle('active');
+  const match = el.textContent.match(/\d+/);
+  if (match) ensureYearLoaded(match[0]).catch(error => console.error(error));
+}
 function toggleCard(header) { header.parentElement.classList.toggle('open'); }
 
 /* === Search with highlighting === */
@@ -951,7 +1018,7 @@ function toggleFilter(el, type) {
     document.querySelectorAll('.filter-chip[data-year]').forEach(c => c.classList.remove('active'));
     el.classList.add('active');
     activeYearFilter = el.dataset.year || '';
-    doSearch(document.getElementById('searchInput').value);
+    runSearch(document.getElementById('searchInput').value);
   }
 }
 
@@ -966,6 +1033,7 @@ function doSearch(query) {
   const container = isSubjectView ? '#subjectView' : '#yearView';
   const cards = document.querySelectorAll(container + ' .subject-card');
   const yearSections = document.querySelectorAll('.year-section');
+  const yearPlaceholders = document.querySelectorAll('.year-placeholder');
   clearHighlights();
   searchHits = [];
   currentHitIdx = -1;
@@ -976,6 +1044,7 @@ function doSearch(query) {
       const yName = s.querySelector('.year-heading').textContent.trim();
       s.style.display = yName.startsWith(activeYearFilter) ? '' : 'none';
     });
+    yearPlaceholders.forEach(s => { s.style.display = 'none'; });
     cards.forEach(c => c.style.display = '');
     stats.textContent = activeYearFilter ? `篩選：${activeYearFilter}年` : '';
     return;
@@ -983,6 +1052,7 @@ function doSearch(query) {
   if (!query.trim() && !activeYearFilter) {
     cards.forEach(c => { c.style.display = ''; c.classList.remove('open'); });
     if (!isSubjectView) yearSections.forEach(s => s.style.display = '');
+    if (!isSubjectView) yearPlaceholders.forEach(s => { s.style.display = ''; });
     else {
       // 恢復科目篩選器的選擇
       const sf = document.getElementById('subjectFilter');
@@ -993,6 +1063,7 @@ function doSearch(query) {
   }
 
   let matchCount = 0, totalHL = 0;
+  if (!isSubjectView && activeYearFilter) yearPlaceholders.forEach(s => { s.style.display = 'none'; });
   cards.forEach(card => {
     // 年份篩選（僅年份瀏覽模式）
     if (!isSubjectView && activeYearFilter) {
@@ -1113,7 +1184,7 @@ const SUBJECT_FULL = {
   '電腦犯罪': '電腦犯罪偵查'
 };
 
-function switchView(mode) {
+async function switchView(mode) {
   currentView = mode;
   const yearView = document.getElementById('yearView');
   const subjectView = document.getElementById('subjectView');
@@ -1131,70 +1202,72 @@ function switchView(mode) {
     yearView.style.display = 'none';
     subjectView.style.display = '';
     subjectFilter.style.display = '';
-    if (!subjectView.children.length) buildSubjectView();
     if (!subjectFilter.value) subjectFilter.value = SUBJECT_KEYS[0];
-    filterBySubject(subjectFilter.value);
+    await filterBySubject(subjectFilter.value);
     // 切換到科目瀏覽時，若練習模式已啟用，重新綁定 handler
     if (practiceMode) {
-      subjectView.querySelectorAll('.answer-section').forEach(section => {
-        if (!section.previousElementSibling || !section.previousElementSibling.classList.contains('reveal-btn')) {
-          const btn = document.createElement('button');
-          btn.className = 'reveal-btn';
-          btn.textContent = '顯示答案';
-          btn.onclick = function() {
-            section.style.display = '';
-            section.classList.add('revealed');
-            this.textContent = '已顯示答案';
-            this.style.opacity = '0.5';
-          };
-          section.parentNode.insertBefore(btn, section);
-        }
-      });
-      subjectView.querySelectorAll('.mc-option').forEach(opt => {
-        opt.onclick = handleOptionClick;
-      });
+      applyPracticeMode(subjectView);
     }
   }
 }
 
-function buildSubjectView() {
+let loadedSubjectKey = '';
+
+function buildSubjectView(key, fragments) {
   const sv = document.getElementById('subjectView');
-  const allCards = document.querySelectorAll('#yearView .subject-card');
-
-  SUBJECT_KEYS.forEach(key => {
-    const section = document.createElement('div');
-    section.className = 'subject-view-section';
-    section.dataset.subject = key;
-    section.innerHTML = `<h2 class="year-heading">${SUBJECT_FULL[key]}</h2>`;
-
-    allCards.forEach(card => {
-      const title = card.querySelector('.subject-header h3').textContent;
-      if (!title.includes(key === '國文' ? '國文' : key === '憲法' ? '憲法' : key === '數位鑑識' ? '數位鑑識' : key === '警察情境' ? '警察情境' : key === '警察法規' ? '警察法規' : key === '警政資訊' ? '警政資訊' : '電腦犯罪')) return;
-
-      const yearSection = card.closest('.year-section');
-      const yearName = yearSection ? yearSection.querySelector('.year-heading').textContent.trim() : '';
-
-      const wrapper = document.createElement('div');
-      wrapper.className = 'subject-card open';
-      wrapper.innerHTML = `
-        <div class="subject-header" onclick="toggleCard(this)" style="display:flex;justify-content:space-between;align-items:center;">
-          <h3><span class="sv-year-tag">${yearName}</span> ${title}</h3>
-          <span class="subject-toggle">▲</span>
-        </div>`;
-      const body = document.createElement('div');
-      body.className = 'subject-body';
-      body.innerHTML = card.querySelector('.subject-body').innerHTML;
-      wrapper.appendChild(body);
-      section.appendChild(wrapper);
+  sv.replaceChildren();
+  const section = document.createElement('div');
+  section.className = 'subject-view-section active';
+  section.dataset.subject = key;
+  section.innerHTML = `<h2 class="year-heading">${SUBJECT_FULL[key]}</h2>`;
+  fragments.forEach(({ year, html }) => {
+    const template = document.createElement('template');
+    template.innerHTML = html;
+    const source = template.content.querySelector('.subject-card');
+    if (!source) throw new Error(`Invalid ${key} category data for year ${year}`);
+    const title = source.querySelector('.subject-header h3').textContent.trim();
+    const wrapper = document.createElement('div');
+    wrapper.className = 'subject-card open';
+    wrapper.dataset.sourceId = source.id;
+    wrapper.dataset.archiveYear = year;
+    wrapper.innerHTML = `<div class="subject-header" role="button" tabindex="0" aria-expanded="true" style="display:flex;justify-content:space-between;align-items:center;"><h3><span class="sv-year-tag">${year}年</span> ${title}</h3><span class="subject-toggle">▲</span></div>`;
+    const body = source.querySelector('.subject-body').cloneNode(true);
+    wrapper.appendChild(body);
+    const header = wrapper.querySelector('.subject-header');
+    header.addEventListener('click', () => {
+      wrapper.classList.toggle('open');
+      header.setAttribute('aria-expanded', wrapper.classList.contains('open') ? 'true' : 'false');
     });
-    sv.appendChild(section);
+    header.addEventListener('keydown', event => {
+      if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); header.click(); }
+    });
+    if (bookmarkFilterActive && !getStore('exam-bookmarks')[source.id]) wrapper.style.display = 'none';
+    section.appendChild(wrapper);
   });
+  sv.appendChild(section);
+  loadedSubjectKey = key;
+  if (practiceMode) applyPracticeMode(section);
 }
 
-function filterBySubject(key) {
-  document.querySelectorAll('.subject-view-section').forEach(s => {
-    s.classList.toggle('active', s.dataset.subject === key);
-  });
+async function filterBySubject(key) {
+  if (!SUBJECT_ASSET_SLUG[key]) return false;
+  if (loadedSubjectKey === key && document.querySelector('#subjectView .subject-view-section')) return true;
+  const requestId = ++subjectRequestId;
+  const stats = document.getElementById('searchStats');
+  if (stats) stats.textContent = `載入${key}類考題…`;
+  try {
+    const fragments = await ensureCategoryLoaded(key);
+    if (requestId !== subjectRequestId || (currentView === 'subject' && document.getElementById('subjectFilter').value !== key)) return false;
+    buildSubjectView(key, fragments);
+    const query = document.getElementById('searchInput').value;
+    if (query.trim()) doSearch(query);
+    else if (stats) stats.textContent = '';
+    return true;
+  } catch (error) {
+    if (requestId === subjectRequestId && stats) stats.textContent = '科目資料載入失敗，請稍後重試';
+    console.error(error);
+    return false;
+  }
 }
 
 /* === Practice mode === */
@@ -1218,6 +1291,23 @@ function resetScore() {
   });
 }
 
+function applyPracticeMode(root) {
+  root.querySelectorAll('.answer-section').forEach(section => {
+    if (section.previousElementSibling && section.previousElementSibling.classList.contains('reveal-btn')) return;
+    section.classList.remove('revealed');
+    const btn = document.createElement('button');
+    btn.className = 'reveal-btn';
+    btn.textContent = '顯示答案';
+    btn.onclick = function() {
+      section.classList.add('revealed');
+      this.textContent = '已顯示答案';
+      this.style.opacity = '0.5';
+    };
+    section.parentNode.insertBefore(btn, section);
+  });
+  root.querySelectorAll('.mc-option').forEach(opt => { opt.onclick = handleOptionClick; });
+}
+
 function togglePractice() {
   practiceMode = !practiceMode;
   document.body.classList.toggle('practice-mode', practiceMode);
@@ -1227,24 +1317,7 @@ function togglePractice() {
   if (practiceMode) {
     // 重置計分
     resetScore();
-    // 為每個答案區段添加揭示按鈕（放在 answer-section 之前）
-    document.querySelectorAll('.answer-section').forEach(section => {
-      if (section.previousElementSibling && section.previousElementSibling.classList.contains('reveal-btn')) return;
-      section.classList.remove('revealed');
-      const btn = document.createElement('button');
-      btn.className = 'reveal-btn';
-      btn.textContent = '顯示答案';
-      btn.onclick = function() {
-        section.classList.add('revealed');
-        this.textContent = '已顯示答案';
-        this.style.opacity = '0.5';
-      };
-      section.parentNode.insertBefore(btn, section);
-    });
-    // 為選擇題選項添加互動
-    document.querySelectorAll('.mc-option').forEach(opt => {
-      opt.onclick = handleOptionClick;
-    });
+    applyPracticeMode(document);
   } else {
     // 清除練習模式狀態
     document.querySelectorAll('.reveal-btn').forEach(btn => btn.remove());
@@ -1357,26 +1430,20 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  // 統計
-  const cards = document.querySelectorAll('#yearView .subject-card');
-  const years = document.querySelectorAll('.year-section');
-  const essayQ = document.querySelectorAll('.essay-question');
-  const mcQ = document.querySelectorAll('.mc-question');
-  const answerSections = document.querySelectorAll('.answer-section');
-  console.log(`📊 統計：${years.length}年度, ${cards.length}份試卷, ${essayQ.length}題申論, ${mcQ.length}題選擇, ${answerSections.length}份答案`);
-
   // URL hash 路由
   handleHash();
   window.addEventListener('hashchange', handleHash);
 
   // 為 sidebar 連結添加 hash 更新
   document.querySelectorAll('.sidebar-link').forEach(link => {
-    link.addEventListener('click', (e) => {
+    link.addEventListener('click', async (e) => {
       e.preventDefault();
       const target = link.getAttribute('href');
       if (target) {
+        const yearMatch = target.match(/^#y(\d+)-/);
+        if (yearMatch) await ensureYearLoaded(yearMatch[1]);
         history.replaceState(null, '', target);
-        handleHash();
+        await handleHash();
       }
     });
   });
@@ -1411,22 +1478,18 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   // === 鍵盤快捷鍵 ===
-  document.addEventListener('keydown', e => {
-    // Ctrl+K or / 聚焦搜尋
-    if ((e.ctrlKey && e.key === 'k') || (e.key === '/' && !e.target.closest('input,textarea'))) {
-      e.preventDefault();
-      document.getElementById('searchInput').focus();
-    }
-    // Escape 清除搜尋
-    if (e.key === 'Escape' && document.activeElement === document.getElementById('searchInput')) {
-      document.getElementById('searchInput').value = '';
-      doSearch('');
-      document.getElementById('searchInput').blur();
-    }
-  });
+  window.bindArchiveSearchShortcuts(document, document.getElementById('searchInput'), runSearch);
 
   // === 書籤 ===
   initBookmarksAndProgress();
+
+  // Initial usable page: fetch only the newest year. Older years, categories,
+  // and the all-year search scope are loaded when the visitor asks for them.
+  ensureYearLoaded('114').catch(error => {
+    const first = document.getElementById('year-114');
+    if (first) first.innerHTML = '<p role="alert">考題載入失敗，請重新整理頁面。</p>';
+    console.error(error);
+  });
 
   // === 深色模式 ===
   initDarkMode();
@@ -1438,7 +1501,7 @@ function scrollToWithOffset(el) {
   window.scrollTo({ top, behavior: 'smooth' });
 }
 
-function handleHash() {
+async function handleHash() {
   const hash = location.hash.slice(1);
   if (!hash) return;
 
@@ -1446,6 +1509,7 @@ function handleHash() {
   const yearMatch = hash.match(/^year-(\d+)$/);
   if (yearMatch) {
     const yearNum = yearMatch[1];
+    await ensureYearLoaded(yearNum);
     // 展開 sidebar 年份
     document.querySelectorAll('.sidebar-year').forEach(y => {
       if (y.textContent.trim().startsWith(yearNum)) y.classList.add('active');
@@ -1456,6 +1520,8 @@ function handleHash() {
   }
 
   // 嘗試匹配 yXXX-XXXXX 格式（科目卡片）
+  const cardYear = hash.match(/^y(\d+)-/);
+  if (cardYear) await ensureYearLoaded(cardYear[1]);
   const el = document.getElementById(hash);
   if (el && el.classList.contains('subject-card')) {
     el.classList.add('open');
@@ -1479,37 +1545,47 @@ function setStore(key, val) {
   try { localStorage.setItem(key, JSON.stringify(val)); } catch {}
 }
 
-function initBookmarksAndProgress() {
+function initYearSection(section) {
   const bookmarks = getStore('exam-bookmarks');
-
-  document.querySelectorAll('#yearView .subject-card').forEach(card => {
+  section.querySelectorAll('.subject-card').forEach(card => {
     const id = card.id;
-    if (!id) return;
     const header = card.querySelector('.subject-header');
-    if (!header) return;
+    if (!id || !header || card.dataset.archiveInitialized) return;
+    card.dataset.archiveInitialized = 'true';
+    header.setAttribute('role', 'button');
+    header.setAttribute('tabindex', '0');
+    header.setAttribute('aria-expanded', card.classList.contains('open') ? 'true' : 'false');
 
-    // 書籤按鈕
     const bmBtn = document.createElement('button');
     bmBtn.className = 'bookmark-btn' + (bookmarks[id] ? ' active' : '');
     bmBtn.textContent = bookmarks[id] ? '★' : '☆';
     bmBtn.title = '書籤';
-    bmBtn.onclick = function(e) {
-      e.stopPropagation();
-      const bm = getStore('exam-bookmarks');
-      if (bm[id]) { delete bm[id]; this.classList.remove('active'); this.textContent = '☆'; }
-      else { bm[id] = true; this.classList.add('active'); this.textContent = '★'; }
-      setStore('exam-bookmarks', bm);
+    bmBtn.setAttribute('aria-label', bookmarks[id] ? '移除書籤' : '加入書籤');
+    bmBtn.onclick = function(event) {
+      event.stopPropagation();
+      const current = getStore('exam-bookmarks');
+      if (current[id]) { delete current[id]; this.classList.remove('active'); this.textContent = '☆'; this.setAttribute('aria-label', '加入書籤'); }
+      else { current[id] = true; this.classList.add('active'); this.textContent = '★'; this.setAttribute('aria-label', '移除書籤'); }
+      setStore('exam-bookmarks', current);
       updateProgressStats();
+      if (bookmarkFilterActive) applyBookmarkFilter();
     };
     header.appendChild(bmBtn);
-
-    // 卡片展開/收合
     header.removeAttribute('onclick');
-    header.addEventListener('click', (e) => {
-      if (e.target.closest('.bookmark-btn')) return;
+    header.addEventListener('click', event => {
+      if (event.target.closest('.bookmark-btn')) return;
       card.classList.toggle('open');
+      header.setAttribute('aria-expanded', card.classList.contains('open') ? 'true' : 'false');
+    });
+    header.addEventListener('keydown', event => {
+      if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); header.click(); }
     });
   });
+  if (practiceMode) applyPracticeMode(section);
+}
+
+function initBookmarksAndProgress() {
+  document.querySelectorAll('#yearView .year-section').forEach(initYearSection);
   updateProgressStats();
 }
 
@@ -1524,47 +1600,37 @@ function updateProgressStats() {
 
 /* === Bookmark Filter === */
 let bookmarkFilterActive = false;
-function toggleBookmarkFilter() {
+function applyBookmarkFilter() {
+  const bookmarks = getStore('exam-bookmarks');
+  const isSubjectView = currentView === 'subject';
+  const container = isSubjectView ? '#subjectView' : '#yearView';
+  document.querySelectorAll(container + ' .subject-card').forEach(card => {
+    const id = card.id || card.dataset.sourceId;
+    card.style.display = !bookmarkFilterActive || bookmarks[id] ? '' : 'none';
+  });
+  if (!isSubjectView) {
+    document.querySelectorAll('#yearView .year-section').forEach(section => {
+      section.style.display = section.querySelector('.subject-card:not([style*="display: none"])') ? '' : 'none';
+    });
+  }
+  const oldEmpty = document.querySelector('.bookmark-empty');
+  if (oldEmpty) oldEmpty.remove();
+  if (bookmarkFilterActive && !Object.keys(bookmarks).length) {
+    const empty = document.createElement('div');
+    empty.className = 'bookmark-empty';
+    empty.innerHTML = '<span class="empty-icon">☆</span>尚未加入書籤<br><small>點擊試卷標題右側的 ☆ 即可收藏</small>';
+    document.querySelector(container).appendChild(empty);
+  }
+}
+
+async function toggleBookmarkFilter() {
   bookmarkFilterActive = !bookmarkFilterActive;
   const btn = document.getElementById('bookmarkFilter');
   btn.classList.toggle('active', bookmarkFilterActive);
   btn.setAttribute('aria-pressed', bookmarkFilterActive);
   btn.textContent = bookmarkFilterActive ? '顯示全部' : '只看書籤';
-
-  const bookmarks = getStore('exam-bookmarks');
-  const isSubjectView = currentView === 'subject';
-  const container = isSubjectView ? '#subjectView' : '#yearView';
-
-  // 移除之前的空狀態提示
-  const oldEmpty = document.querySelector('.bookmark-empty');
-  if (oldEmpty) oldEmpty.remove();
-
-  if (bookmarkFilterActive) {
-    const bmCount = Object.keys(bookmarks).length;
-    document.querySelectorAll(container + ' .subject-card').forEach(card => {
-      card.style.display = bookmarks[card.id] ? '' : 'none';
-    });
-    // 隱藏沒有可見卡片的年份區塊
-    if (!isSubjectView) {
-      document.querySelectorAll('.year-section').forEach(s => {
-        s.style.display = s.querySelectorAll('.subject-card:not([style*="display: none"])').length ? '' : 'none';
-      });
-    }
-    // 書籤為空時顯示提示
-    if (bmCount === 0) {
-      const emptyEl = document.createElement('div');
-      emptyEl.className = 'bookmark-empty';
-      emptyEl.innerHTML = '<span class="empty-icon">☆</span>尚未加入書籤<br><small>點擊試卷標題右側的 ☆ 即可收藏</small>';
-      document.querySelector(container).appendChild(emptyEl);
-    }
-  } else {
-    document.querySelectorAll(container + ' .subject-card').forEach(card => {
-      card.style.display = '';
-    });
-    if (!isSubjectView) {
-      document.querySelectorAll('.year-section').forEach(s => s.style.display = '');
-    }
-  }
+  if (bookmarkFilterActive && currentView === 'year') await Promise.all(ARCHIVE_YEARS.map(ensureYearLoaded));
+  applyBookmarkFilter();
 }
 
 /* === Practice Score History === */

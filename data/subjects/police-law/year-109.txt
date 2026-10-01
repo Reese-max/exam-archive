@@ -1,0 +1,186 @@
+<div class="subject-card" id="y109-93826">
+<div class="subject-header" onclick="toggleCard(this)">
+  <h3>警察法規(包括警察法、行政執行法、社會秩序維護法、警械使用條例、集會遊行法、警察職權行使法、公務人員行政中立法)</h3>
+  <span class="subject-toggle">▼</span>
+</div>
+<div class="subject-body">
+<div class="exam-meta-bar">
+<span class="meta-tag">4 頁</span>
+<span class="meta-tag">選擇題 25 題</span>
+<span class="meta-tag" style="background:#fff5f5;color:#e53e3e;">有更正答案</span>
+</div>
+<div class="exam-content-v2">
+<div class="exam-metadata">
+<div class="meta-line">一般警察人員考試及109年特種考試交 通 事 業 鐵 路 人 員 考 試 試 題 考 試 別：警察人員考試 等 別：三等考試 類 科 別：行政警察人員、外事警察人員（選試英語）、刑事警察人員、公共安全人員、犯罪防治人員預防組、交通警察人員交通組、交通警察人員電訊組、警察資訊管理人員、國境警察人員、警察法制人員、行政管理人員 科 目：警察法規（包括警察法、行政執行法、社會秩序維護法、警械使用條例、集會遊行法、警察職權行使法、公務人員行政中立法） 考試時間：2 小時 座號：</div>
+</div>
+<div class="exam-note">※注意：禁止使用電子計算器。</div>
+<div class="exam-section-marker">甲、申論題部分：（50分）</div>
+<div class="exam-note">㈠不必抄題，作答時請將試題題號及答案依照順序寫在申論試卷上，於本試題上作答者，不予計分。</div>
+<div class="exam-note">㈡請以藍、黑色鋼筆或原子筆在申論試卷上作答。</div>
+<div class="exam-note">㈢本科目除專門名詞或數理公式外，應使用本國文字作答。</div>
+<div class="essay-question">一、員警某甲認其勤務時間每日 12 小時，超時服勤不合理，向所屬機關申請調整勤務時間為每日 8 小時（請求一）並請求給付加班費或准許補休假（請求二），均遭否准。請回答下列問題：</div>
+<div class="exam-note">㈠某甲不服，依公務人員保障法之規定，應如何尋求救濟？如未獲救濟，得否向行政法院提起行政訴訟？（12 分）</div>
+<div class="exam-note">㈡司法院釋字第 785 號解釋就公務員之勤務時間及給付加班費作成如何之解釋？（13 分）</div>
+<div class="essay-question">二、依國家賠償法及行政訴訟法之規定，人民提起國家賠償之訴，究應向普通法院為之，抑或向行政法院為之？請說明之。（25 分）</div>
+<div class="exam-section-marker">乙、測驗題部分：（50分） 代號：6501</div>
+<div class="exam-note">㈠本測驗試題為單一選擇題，請選出一個正確或最適當的答案，複選作答者，該題不予計分。</div>
+<div class="exam-note">㈡共25題，每題2分，須用2B鉛筆在試卡上依題號清楚劃記，於本試題或申論試卷上作答者，不予計分。</div>
+<div class="mc-question"><span class="q-number">1</span><span class="q-text">行政執行法第四章與警察職權行使法第三章各自規定即時強制。相對於行政執行法之即時強制，警察職權行使法與之屬於何種關係？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">特別關係</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">補充關係</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">吸收關係</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">從屬關係</span></div>
+<div class="mc-question"><span class="q-number">2</span><span class="q-text">關於合法集會遊行之必備條件，下列何者屬之？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">和平</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">申請許可</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">負責人</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">糾察員</span></div>
+<div class="mc-question"><span class="q-number">3</span><span class="q-text">依警察法第2 條及刑事訴訟法第231條規定，警察任務分屬防止一切危害及協助偵查犯罪之不同範疇。關於警察用槍之歸類，下列敘述何者正確？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">警察用槍既可歸類在防止一切危害，亦可歸類在協助偵查犯罪的範疇中</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">警察用槍僅歸類在防止一切危害，而非協助偵查犯罪的範疇中</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">警察用槍僅歸類在協助偵查犯罪，而非防止一切危害的範疇中</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">警察用槍既非歸類在防止一切危害，亦非歸類在協助偵查犯罪的範疇中</span></div>
+<div class="mc-question"><span class="q-number">4</span><span class="q-text">警察職權行使法第7條第2項、第8條第2項分別規定，警察將人民帶往勤務處所查證時，得使用強制力；以及警察因交通工具駕駛人或乘客有異常舉動，而合理懷疑其將有危害行為時，得強制其離車。關於使用強制力及強制其離車，下列敘述何者正確？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">使用強制力為間接強制；強制其離車為直接強制</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">使用強制力為直接強制；強制其離車為間接強制</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">兩者均為間接強制</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">兩者均為直接強制</span></div>
+<div class="mc-question"><span class="q-number">5</span><span class="q-text">關於即時強制之要件，下列敘述何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">須具有法定之職權</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">須行使強制方法之告戒</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">須有應即為處置之緊急事態</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">須符合比例原則</span></div>
+<div class="mc-question"><span class="q-number">6</span><span class="q-text">關於警察使用槍械適法性之敘述，下列何者係最重要的判斷準則？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">警察用槍時，有無進行警告射擊</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">警察用槍時，面對行為人人數的多寡</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">警察用槍時，面臨的情況是否急迫</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">警察用槍後，行為人傷亡是否嚴重</span></div>
+<div class="mc-question"><span class="q-number">7</span><span class="q-text">依警械使用條例之規定，警察於執勤現場使用槍械，屬於行政行為中的那一種類型？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">警察職權之發布警察命令</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">警察職權之違警處分</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">警察罰之其他種類警察罰</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">警察強制之直接強制</span></div>
+<div class="mc-question"><span class="q-number">8</span><span class="q-text">關於司法院大法官會議解釋文涉及警察法規者，下列敘述何者正確？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">司法院釋字第166號解釋，認為警察官署裁決之拘留、罰役，應改由法院以法定程序為之，宣告違警罰法有關規定違憲</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">司法院釋字第251號解釋，認定警察勤務條例違憲，催生了警察職權行使法</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">司法院釋字第 666 號解釋，諭示社會秩序維護法第 89 條第 2 款之規定，與法律明確性原則尚無牴觸</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">司法院釋字第 689 號解釋，指出社會秩序維護法第 80 條第 1 項第 1 款，與憲法第 7 條平等原則有違</span></div>
+<div class="mc-question"><span class="q-number">9</span><span class="q-text">有關社會秩序維護法中之救濟，下列敘述何者正確？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">對警察機關依社會秩序維護法所為之罰鍰處分，其救濟係由行政法院管轄</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">對警察機關依社會秩序維護法所為之罰鍰處分，其救濟得不經原處分之警察機關而直接向管轄法院提起救濟</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">對警察機關依社會秩序維護法移送簡易庭裁定之勒令歇業案件，有不服者，應先向原處分警察機關提起抗告</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">對警察機關依社會秩序維護法移送簡易庭裁定之勒令歇業案件，有不服者，得向同法院普通庭提起抗告</span></div>
+<div class="mc-question"><span class="q-number">10</span><span class="q-text">下列何者並非社會秩序維護法中所稱「情節重大」者？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">手段與實施之程序</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">被害人之人數與受害之程度</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">行為人之到案與否</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">違反義務之程度</span></div>
+<div class="mc-question"><span class="q-number">11</span><span class="q-text">關於警察罰之敘述，下列何者正確？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">警察罰係警察行政罰之簡稱，屬於行政執行罰的一種</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">警察罰之處分，非僅限於社會秩序維護法，集會遊行法亦有警察罰之規定</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">警察罰之種類區分為罰鍰、管收及其他種類行政罰等三種</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">2019 年立法院修正社會秩序維護法，廢除易以拘留制度，整部社會秩序維護法不復存在拘留裁罰的規定</span></div>
+<div class="mc-question"><span class="q-number">12</span><span class="q-text">警械使用條例第4條所規定「警察人員之生命、身體、自由、裝備遭受強暴或脅迫…」，為消除「強暴或脅迫」內容在適用上之疑義及保持行政決定之一致性，內政部警政署對之函頒下達解釋。下列敘述何者正確？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">此解釋函為法規命令</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">此解釋函為對外直接發生法律效果之高權行為</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">此解釋函無須以正式法律授權為必要</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">此解釋函屬行政處分</span></div>
+<div class="mc-question"><span class="q-number">13</span><span class="q-text">警察職權行使法第 28 條第 1 項規定「警察為制止或排除現行危害…得行使本法規定之職權或採取其他必要之措施」，其中對「其他必要措施」之敘述，下列何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">此係警察職權之概括條款</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">可作為警察於採取措施中選取「最適當」作用對象之依據</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">在適用此種規定前須優先適用有特別授權之類型化處分，以避免被濫用</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">此種規定違背法律保留原則</span></div>
+<div class="mc-question"><span class="q-number">14</span><span class="q-text">關於集會遊行法第25條命令解散之規定，下列敘述何者正確？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">命令解散的法律性質為事實行為</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">命令解散兼具義務違反與義務未履行之法律效果</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">偶發性集會之命令解散，係因義務違反之故</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">緊急性集會之命令解散，係因義務未履行之故</span></div>
+<div class="mc-question"><span class="q-number">15</span><span class="q-text">甲、乙兩人偷車後由甲駕駛贓車載乙離開，途中經警方盤查而乙催促甲儘速逃逸，甲亦意圖衝撞執勤員警逃逸，警察丙依照警械使用條例第4條規定使用警械進行射擊，因迴避甲之衝撞而使得子彈彈道偏差而射傷坐於副駕駛座之乙。依實務見解，下列敘述何者正確？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">警察丙應先使用警棍制止甲之駕駛行為，不得直接使用槍械</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">警察丙之射擊違反比例原則</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">乙係單純的乘客，故丙應成立傷害罪</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">乙非警械使用條例第11條第1項中所規定之「第三人」，故不得請求補償</span></div>
+<div class="mc-question"><span class="q-number">16</span><span class="q-text">居住於新北市永和區與中和區的甲與乙於臺北市萬華區的快炒店中酗酒鬧事，店主打電話報警。萬華分局的警方到場處理。下列敘述何者正確？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">案件應由甲居住地的永和分局警方處理</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">案件應由乙居住地的中和分局警方處理</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">案件應由快炒店所在地的萬華分局處理</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">案件應由新北市警察局指定特定分局處理</span></div>
+<div class="mc-question"><span class="q-number">17</span><span class="q-text">警械使用條例第4條有關得使用警械之情況中「為避免非常變故，維持社會治安時」。下列有關「社會治安」之說明何者正確？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">社會治安係確定法律概念之一種</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">社會治安可包括由公法所保護之個人主觀公權及法益</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">社會治安僅針對社會之安全而不及於個人生命、身體之安全</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">社會治安與社會安全於概念內容上相同</span></div>
+<div class="mc-question"><span class="q-number">18</span><span class="q-text">有關我國警察法之敘述，下列何者正確？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">警察法主要規範警察事務相關之管轄、任務分配等事項，故有基準（本）法性質</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">警察法第9 條規定「警察依法行使左列職權…」，此處之依「法」係指警察法本身</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">警察法具有針對具體警察職權要件程序為規定之作用法性質</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">警察在職權行使上可以僅援用警察法中之警察任務為依據</span></div>
+<div class="mc-question"><span class="q-number">19</span><span class="q-text">下列何者並非警察官之任官資格？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">警察人員考試及格者</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">曾任警察官，經依法升官等任用者</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">警察人員人事條例施行前曾任警察官，依法銓敘合格者</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">司法三等考試及格者</span></div>
+<div class="mc-question"><span class="q-number">20</span><span class="q-text">下列何者並非公務人員行政中立法所禁止之行為？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">公務人員兼任某公職候選人競選辦公室之主任</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">公務人員於辦公室穿戴某公職候選人之徽章</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">公務人員出差時間從事政黨之活動</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">公務人員加入政治團體</span></div>
+<div class="mc-question"><span class="q-number">21</span><span class="q-text">關於警察職權行使法第 10 條規定，對可能發生犯罪公共場所，得協調裝設監視器等工具蒐集資料，下列敘述何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">以監視器蒐集資料須於符合法定要件下進行</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">以監視器蒐集資料須以具體危害發生為前提</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">以監視器蒐集資料有干預基本權之疑慮</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">監視器蒐集資料之利用，適用目的拘束原則</span></div>
+<div class="mc-question"><span class="q-number">22</span><span class="q-text">甲因深夜大聲喧嘩妨礙公眾安寧而被該管警方依照社會秩序維護法規定裁罰。甲對此裁罰不服。下列敘述何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">甲之聲明異議可逕向該管簡易庭為之</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">甲之聲明異議須以書狀敘明理由為之</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">甲得於處分書送達之翌日起5日內聲明異議</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">簡易庭若認為甲之聲明異議不符合法定程序但可補正時，應定期先命補正</span></div>
+<div class="mc-question"><span class="q-number">23</span><span class="q-text">某 17 歲少年無正當理由，攜帶用於開啟門窗等安全設備之工具，受到社會秩序維護法之裁罰。該處罰執行完畢後，得責由下列何者對少年加以管教？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">法定代理人</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">教誨師</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">公設辯護人</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">檢察官</span></div>
+<div class="mc-question"><span class="q-number">24</span><span class="q-text">甲父以其所有之汽車載其成年兒子乙驅車赴宴。席間甲、乙兩人皆有飲酒。由於乙另有朋友來電邀約去KTV唱歌，甲便將車交由乙駕駛前往赴約。途中乙被警方攔檢進行酒測，酒測值雖非達刑法公共危險罪標準，但仍超過道路交通管理處罰條例所規定之標準。下列有關裁罰之敘述何者正確？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">甲非駕駛行為人，故不罰</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">乙係受邀約，情有可原，得不罰</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">依規定僅乙因酒駕行為違反規定而須受罰</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">依規定甲與乙皆須處罰</span></div>
+<div class="mc-question"><span class="q-number">25</span><span class="q-text">關於社會秩序維護法之敘述，下列何者正確？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">於法律體系上被歸類為刑事法</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">與刑法之間形成競合關係</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">目的在於預防犯罪，填補刑法之不足</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">僅以公共領域之秩序為保護對象</span></div>
+</div>
+<div class="answer-section">
+<h4 class="answer-title">📋 標準答案</h4>
+<div class="answer-grid">
+<div class="answer-cell corrected"><span class="q-num">1</span><span class="q-ans">B</span></div>
+<div class="answer-cell"><span class="q-num">2</span><span class="q-ans">A</span></div>
+<div class="answer-cell"><span class="q-num">3</span><span class="q-ans">A</span></div>
+<div class="answer-cell"><span class="q-num">4</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">5</span><span class="q-ans">B</span></div>
+<div class="answer-cell"><span class="q-num">6</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">7</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">8</span><span class="q-ans">A</span></div>
+<div class="answer-cell"><span class="q-num">9</span><span class="q-ans">D</span></div>
+<div class="answer-cell corrected"><span class="q-num">10</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">11</span><span class="q-ans">B</span></div>
+<div class="answer-cell"><span class="q-num">12</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">13</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">14</span><span class="q-ans">B</span></div>
+<div class="answer-cell"><span class="q-num">15</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">16</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">17</span><span class="q-ans">B</span></div>
+<div class="answer-cell"><span class="q-num">18</span><span class="q-ans">A</span></div>
+<div class="answer-cell"><span class="q-num">19</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">20</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">21</span><span class="q-ans">B</span></div>
+<div class="answer-cell"><span class="q-num">22</span><span class="q-ans">A</span></div>
+<div class="answer-cell"><span class="q-num">23</span><span class="q-ans">A</span></div>
+<div class="answer-cell"><span class="q-num">24</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">25</span><span class="q-ans">C</span></div>
+</div>
+<div class="correction-note">⚠️ 更正：第1題答Ａ或Ｂ或AB者均給分，第10題答Ａ或Ｃ或ＡＣ者均給分。</div>
+</div>
+</div>
+</div>

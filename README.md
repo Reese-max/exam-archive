@@ -19,21 +19,24 @@ this section becomes the redirect notice.
 
 | Path | Role | Rule |
 |---|---|---|
-| `index.html` | Generated deployable artifact | Never hand-edit; rebuild it |
+| `index.html` | Generated deployable shell with year placeholders | Never hand-edit; rebuild it |
 | `src/index.template.txt` | Page shell (markup, CSS, JS) with `<!--ARCHIVE-DATA:year-NNN-->` seams | Edit for shell/UI changes |
-| `data/year-NNN.txt` | Per-year archive sections (HTML fragments, LF), ROC 114→105 | Edit for content changes |
-| `tests/rebuild_index.py` | Build step | Writes or verifies `index.html` |
-| `tests/test_archive_contract.py` | Executable contract | Budgets, reproducibility, smoke tests |
+| `src/archive-loader.js` | Dependency-free runtime loader and keyboard search shortcuts | Edit for asset loading behavior |
+| `data/year-NNN.txt` | Canonical per-year archive sections (HTML fragments, LF), ROC 114→105 | Edit for content changes |
+| `data/subjects/{slug}/year-NNN.txt` | Generated category/year card fragments | Rebuilt from the canonical year sources |
+| `tests/rebuild_index.py` | Build step | Writes or verifies the shell and category assets |
+| `tests/test_archive_contract.py`, `tests/archive_loader.test.mjs` | Executable contract | Budgets, reproducibility, request scopes, keyboard behavior |
 
 ### Build
 
 ```bash
-python3 tests/rebuild_index.py           # regenerate index.html
-python3 tests/rebuild_index.py --check   # verify index.html matches sources
+python3 tests/rebuild_index.py           # regenerate index.html and category assets
+python3 tests/rebuild_index.py --check   # verify generated files match sources
 ```
 
-Sources are stored LF; the build emits CRLF, matching the committed artifact's
-convention. The build is deterministic and byte-exact: `tests/` verifies it.
+Sources and category assets are stored LF; the build emits CRLF for
+`index.html`, matching the committed artifact's convention. The build is
+deterministic and byte-exact: `tests/` verifies it.
 
 ### Test
 
@@ -42,8 +45,9 @@ python3 -m pip install -r requirements.txt
 python3 -m pytest -q
 ```
 
-CI (`.github/workflows/test.yml`) runs the contract suite and the rebuild
-check on every push to `main` and every pull request.
+CI (`.github/workflows/test.yml`) runs the Python contract suite, dependency-free
+Node loader tests, and the rebuild check on every push to `main` and every pull
+request.
 
 ## Data provenance
 
@@ -54,18 +58,22 @@ in `docs/audits/` and `.github/quality-audits/`; the originating protocol is
 
 ## Payload budgets (enforced by tests)
 
-- `index.html` ≤ 1,400,000 bytes — ratchet ceiling at the current size; may
-  only shrink from here
-- shell template ≤ 120,000 bytes — this becomes the first-load payload once
-  chunks lazy-load
-- per-year chunk ≤ 160,000 bytes — keeps each lazy-load granule small
+- generated `index.html` ≤ 120,000 bytes; the archive questions are not embedded
+- shell template plus `src/archive-loader.js` ≤ 120,000 bytes
+- per-year chunk ≤ 160,000 bytes
+- total generated category/year fragments ≤ 1,400,000 bytes; selecting one
+  subject fetches only its fragments, while the year source remains canonical
 
 ## Roadmap / known gaps
 
-- The 1.32 MiB monolith is now *separated* — per-year chunks are the source of
-  truth and `index.html` is reproducibly generated from them — but not yet
-  *lazy-loaded*. Because the chunks deploy with the site as static assets,
-  switching the runtime to fetch `data/year-*.txt` on demand is a front-end
-  follow-up that needs no layout change.
-- No JavaScript toolchain is vendored; verification is pytest plus static
-  contract assertions against the generated artifact.
+- The first page request contains only the shell and loader. It fetches year
+  114 so the first archive result is usable; other years load when their
+  navigation, hash link, or year filter is opened.
+- Subject view fetches only the selected subject's per-year fragments. A
+  search without a year or subject filter loads all year chunks when the query
+  is submitted so result counts remain complete.
+- Category fragments are generated from `data/year-NNN.txt`; never edit those
+  derived files directly. The Node checks use the built-in test runner and do
+  not require a package manager or third-party JavaScript dependencies.
+- CI does not launch a full browser: mobile and 200%-zoom checks remain
+  markup/CSS contract checks, and there is no real desktop or device smoke run.

@@ -20,10 +20,12 @@ INDEX = ROOT / "index.html"
 TEMPLATE = ROOT / "src" / "index.template.txt"
 DATA_DIR = ROOT / "data"
 README = ROOT / "README.md"
+LOADER = ROOT / "src" / "archive-loader.js"
 
-INDEX_BUDGET_BYTES = 1_400_000   # generated artifact is ~1.32 MiB; may only shrink
-SHELL_BUDGET_BYTES = 120_000     # becomes the first-load payload once chunks lazy-load
-CHUNK_BUDGET_BYTES = 160_000     # per-year lazy-load granule (largest is ~133 KiB)
+INDEX_BUDGET_BYTES = 120_000     # generated page shell; archive content is fetched separately
+SHELL_BUDGET_BYTES = 120_000     # page shell plus its small loader
+CHUNK_BUDGET_BYTES = 160_000     # per-year lazy-load granule
+SUBJECT_CHUNK_BUDGET_BYTES = 60_000
 YEARS_DESC = [str(y) for y in range(114, 104, -1)]  # ROC 114 -> 105, newest first
 
 index_bytes = INDEX.read_bytes()
@@ -59,18 +61,21 @@ def test_chunks_are_complete_year_sections():
         assert frag.endswith(b"</div>\n")
         assert frag.count(b"<div") == frag.count(b"</div")
         assert f"{year}年".encode() in frag
-        # chunk content is verbatim archive data: present in the artifact
-        assert frag.replace(b"\n", b"\r\n") in index_bytes
+        assert len(re.findall(rb'class="subject-card" id="y\d+-\d+"', frag)) == 7
 
 
 def test_first_load_asset_budget():
     assert len(index_bytes) <= INDEX_BUDGET_BYTES
-    # first load must not pull any local subresource besides index.html itself
-    assert b"<script src=" not in index_bytes
+    assert len(TEMPLATE.read_bytes()) + len(LOADER.read_bytes()) <= SHELL_BUDGET_BYTES
+    # Shell carries year placeholders only; one explicit loader fetch is initiated at startup.
+    assert b"class=\"subject-card\"" not in index_bytes
+    assert len(re.findall(rb'class="year-placeholder" id="year-\d+"', index_bytes)) == len(YEARS_DESC)
+    local_scripts = [src for src in re.findall(rb'<script[^>]+src="([^"]+)"', index_bytes) if not src.startswith(b"https://")]
+    assert local_scripts == [b"src/archive-loader.js"]
     for href in re.findall(rb'<link[^>]+href="([^"]+)"', index_bytes):
         assert href.startswith(b"https://"), href
     for src in re.findall(rb'src="([^"]+)"', index_bytes):
-        assert src.startswith(b"https://"), src
+        assert src.startswith(b"https://") or src == b"src/archive-loader.js", src
 
 
 def test_shell_and_chunk_budgets():
@@ -79,8 +84,24 @@ def test_shell_and_chunk_budgets():
     assert len(chunks) == len(YEARS_DESC)
     for path in chunks:
         assert len(path.read_bytes()) <= CHUNK_BUDGET_BYTES, path.name
-    # the data split is real: the bulk of the archive lives in chunks
-    assert sum(len(p.read_bytes()) for p in chunks) > 1_000_000
+    assets = rebuild_index.generated_subject_assets()
+    assert len(assets) == len(YEARS_DESC) * len(rebuild_index.SUBJECTS)
+    for path, content in assets.items():
+        assert len(content) <= SUBJECT_CHUNK_BUDGET_BYTES, path
+    for slug in rebuild_index.SUBJECTS:
+        assert sum(len(content) for path, content in assets.items() if path.parts[2] == slug) <= 600_000
+    assert sum(len(content) for content in assets.values()) < 1_400_000
+    assert all((ROOT / path).read_bytes() == content for path, content in assets.items())
+
+
+def test_first_load_loader_and_requested_search_scopes():
+    source = LOADER.read_bytes().decode("utf-8")
+    assert "loadYear(year)" in source
+    assert "loadCategory(slug, year)" in source
+    assert "loadSearchScope()" in source
+    assert "data/year-${value}.txt" in source
+    assert "data/subjects/${slug}/year-${value}.txt" in source
+    assert "bindArchiveSearchShortcuts" in source
 
 
 def test_readme_repository_contract():
@@ -108,8 +129,10 @@ def test_keyboard_smoke():
     assert 'class="sidebar-year" role="button" tabindex="0"' in index_text
     assert "addEventListener('keydown'" in index_text
     assert "e.key === 'Enter'" in index_text
-    assert "e.key === '/'" in index_text      # '/' focuses search
-    assert "e.key === 'Escape'" in index_text
+    loader = LOADER.read_bytes().decode("utf-8")
+    assert 'event.key === "/"' in loader      # '/' focuses search
+    assert 'event.key === "Escape"' in loader
+    assert "window.bindArchiveSearchShortcuts" in index_text
 
 
 def test_zoom_200_percent_smoke():
@@ -122,14 +145,18 @@ def test_search_open_question_smoke():
     assert 'id="searchInput"' in index_text
     assert "function doSearch(" in index_text
     assert "function toggleCard(" in index_text
-    assert len(re.findall(r'class="subject-card" id="y\d+-\d+"', index_text)) == 70
-    assert "mc-option" in index_text and "essay-question" in index_text
-    assert "answer-section" in index_text
+    assert "ensureYearLoaded(activeYearFilter)" in index_text
+    assert "classList.add('open')" in index_text
+    archive = b"".join(path.read_bytes() for path in DATA_DIR.glob("year-*.txt")).decode("utf-8")
+    assert len(re.findall(r'class="subject-card" id="y\d+-\d+"', archive)) == 70
+    assert "mc-option" in archive and "essay-question" in archive
+    assert "answer-section" in archive
 
 
 def test_sidebar_anchors_resolve():
-    ids = set(re.findall(r'id="([^"]+)"', index_text))
     targets = set(re.findall(r'href="#([^"]+)"', index_text))
+    archive = b"".join(path.read_bytes() for path in DATA_DIR.glob("year-*.txt")).decode("utf-8")
+    ids = set(re.findall(r'id="([^"]+)"', index_text)) | set(re.findall(r'id="([^"]+)"', archive))
     missing = targets - ids
     assert not missing, f"dead sidebar links: {sorted(missing)[:5]}"
     assert len(targets) >= 60

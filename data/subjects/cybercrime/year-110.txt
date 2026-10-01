@@ -1,0 +1,24 @@
+<div class="subject-card" id="y110-92248">
+<div class="subject-header" onclick="toggleCard(this)">
+  <h3>電腦犯罪偵查</h3>
+  <span class="subject-toggle">▼</span>
+</div>
+<div class="subject-body">
+<div class="exam-meta-bar">
+<span class="meta-tag">1 頁</span>
+<span class="meta-tag">申論題</span>
+</div>
+<div class="exam-content-v2">
+<div class="exam-metadata">
+<div class="meta-line">國家安全局國家安全情報人員考試及110年特種考試 交通事業鐵路人員、退除役軍人轉任公務人員考試試題 考 試 別：警察人員考試 等 別：三等考試 類科組別：警察資訊管理人員 科 目：電腦犯罪偵查 考試時間： 2 小時 座號：</div>
+</div>
+<div class="exam-note">※注意：㈠禁止使用電子計算器。</div>
+<div class="exam-note">㈡不必抄題，作答時請將試題題號及答案依照順序寫在試卷上，於本試題上作答者，不予計分。</div>
+<div class="exam-note">㈢本科目除專門名詞或數理公式外，應使用本國文字作答。</div>
+<div class="essay-question">一、由於國內使用網路社群媒體及通訊軟體的人數逐漸增加，不法分子也開始利用這些管道來進行犯罪行為。試問：常見的網路社群犯罪類型有那些？（5 分）網路社群犯罪的特性為何？（10 分）犯罪偵查執法人員對網路社群犯罪的犯罪偵查模式為何？（10 分）</div>
+<div class="essay-question">二、隨著網際網路技術的提升，行動通信裝置尤其是智慧型手機帶來的便利性，成為有心人士犯罪工具。試問：智慧型手機所儲存的電磁紀錄與數位內容有那些？（10 分）若犯罪偵查執法人員進行犯罪偵查，擬取得某智慧型手機所使用的通訊軟體應用程式中所儲存的「過去已結束」之通訊內容數位資料，應遵循與注意那些相關法律規範？（15 分）</div>
+<div class="essay-question">三、由於國內使用網路社群媒體及相關即時通訊軟體的人數逐漸增加，不法分子也開始利用這些管道來進行犯罪行為。試問：網路社群媒體資料有那些種類與其儲存方式為何？（10 分）執法人員在進行網路社群媒體相關的犯罪案件偵查應遵守與注意的相關法律規範為何？（15 分）</div>
+<div class="essay-question">四、2020 年我國警方受理 2 萬多件的詐欺案，其中因網路拍賣、購物交易而遭騙的案件最多。試問：當今常見的網路交易詐欺犯罪類型為何？（5 分）執法人員因應網路交易詐欺犯罪偵查模式為何？（10 分）偵查網路交易詐騙的犯罪現場蒐證與保全該如何進行？（10 分）</div>
+</div>
+</div>
+</div>
