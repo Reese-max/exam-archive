@@ -1,0 +1,25 @@
+<div class="subject-card" id="y114-89699">
+<div class="subject-header" onclick="toggleCard(this)">
+  <h3>警政資訊管理與應用</h3>
+  <span class="subject-toggle">▼</span>
+</div>
+<div class="subject-body">
+<div class="exam-meta-bar">
+<span class="meta-tag">1 頁</span>
+<span class="meta-tag">申論題</span>
+</div>
+<div class="exam-content-v2">
+<div class="exam-text">國家安全局國家安全情報人員、移民行政人員考試及</div>
+<div class="exam-metadata">
+<div class="meta-line">114年特種考試退除役軍人轉任公務人員考試試題 考 試 別：警察人員考試 等 別：三等考試 類科組別：警察資訊管理人員 科 目：警政資訊管理與應用 考試時間：2 小時 座號：</div>
+</div>
+<div class="exam-note">※注意：㈠禁止使用電子計算器。</div>
+<div class="exam-note">㈡不必抄題，作答時請將試題題號及答案依照順序寫在試卷上，於本試題上作答者，不予計分。</div>
+<div class="exam-note">㈢本科目除專門名詞或數理公式外，應使用本國文字作答。</div>
+<div class="essay-question">一、假設某警察單位需要開發一個新的資訊系統來管理犯罪資訊，最後上級決定系統以委外方式開發，並採取雲端運算而非單獨伺服器。你被指派負責雲端方案的規劃，該系統需整合現有資料庫，及彙整已分析的犯罪分布和黑數資料，並提供數據分析、地圖整合和報告功能。請提出兩種可行的雲端方案並進行比較，同時根據警察單位的安全性與效率需求，建議應如何取捨。（25 分）</div>
+<div class="essay-question">二、你被指派協助某警察單位規劃開發一個警察人力派遣決策支援系統，該系統需整合地圖、犯罪黑數（未報案的潛在犯罪數據）和警察人力資料，以協助決策者進行人力調度。請提出初步構想，並列出開發規劃的至少三個關鍵步驟，說明每個步驟的內容。（25 分）</div>
+<div class="essay-question">三、生成式人工智慧（Generative Artificial Intelligence, GenAI）在近年來發展迅速，例如可自動生成案件報告。請提出一個創新的應用構想（排除上述例子），說明如何將 GenAI 應用於警察單位的日常工作。作答應包括：應用的具體場景、GenAI 的作用、預期的效益、潛在風險和技術可行性。（25 分）</div>
+<div class="essay-question">四、最近社會上詐騙案猖獗，你負責一個內部團隊來對付「釣魚」行為。請解釋什麼是釣魚攻擊，並提出一個初步構想（包含技術或教育措施），說明如何防範釣魚攻擊。作答應包括構想的可行性分析。（25 分）</div>
+</div>
+</div>
+</div>

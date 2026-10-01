@@ -1,0 +1,185 @@
+<div class="subject-card" id="y114-93826">
+<div class="subject-header" onclick="toggleCard(this)">
+  <h3>警察法規(包括警察法、行政執行法、社會秩序維護法、警械使用條例、集會遊行法、警察職權行使法、公務人員行政中立法)</h3>
+  <span class="subject-toggle">▼</span>
+</div>
+<div class="subject-body">
+<div class="exam-meta-bar">
+<span class="meta-tag">4 頁</span>
+<span class="meta-tag">選擇題 25 題</span>
+<span class="meta-tag" style="background:#fff5f5;color:#e53e3e;">有更正答案</span>
+</div>
+<div class="exam-content-v2">
+<div class="exam-metadata"><div class="meta-line">114年公務人員特種考試警察人員、一般警察人員、國家安全局國家安全情報人員、移民行政人員考試及114年特種考試退除役軍人轉任公務人員考試試題</div></div>
+<div class="exam-metadata">
+<div class="meta-line">114年特種考試退除役軍人轉任公務人員考試試題 考 試 別：警察人員考試 等 別：三等考試 類科組別：行政警察人員、外事警察人員(選試英語)、刑事警察人員、公共安全人員、犯罪防治人員預防組、交通警察人員交通組、警察資訊管理人員、國境警察人員、警察法制人員、行政管理人員 科 目：警察法規(包括警察法、行政執行法、社會秩序維護法、警械使用條例、集會遊行法、警察職權行使法、公務人員行政中立法) 考試時間：2 小時 座號：</div>
+</div>
+<div class="exam-note">※注意：禁止使用電子計算器。</div>
+<div class="exam-section-marker">甲、申論題部分：（50分）</div>
+<div class="exam-note">㈠不必抄題，作答時請將試題題號及答案依照順序寫在申論試卷上，於本試題上作答者，不予計分。</div>
+<div class="exam-note">㈡請以藍、黑色鋼筆或原子筆在申論試卷上作答。</div>
+<div class="exam-note">㈢本科目除專門名詞或數理公式外，應使用本國文字作答。</div>
+<div class="essay-question">一、請說明警察職權行使法的「警察類型化措施」（或稱警察類型化職權、具體警察措施）及「警察職權概括條款」（或稱警察概括職權）內容為何？（10 分）兩者在適用上的原則為何？（5 分）並請論述其規範及內容是否存在值得商榷之處？（10 分）</div>
+<div class="essay-question">二、請說明「警察裁量」、「裁量瑕疵」的定義及類型？（15 分）並以警察法規條文舉例論述之。（10 分）</div>
+<div class="exam-section-marker">乙、測驗題部分：（50分） 代號：2501</div>
+<div class="exam-note">㈠本試題為單一選擇題，請選出一個正確或最適當答案。</div>
+<div class="exam-note">㈡共25題，每題2分，須用2B鉛筆在試卡上依題號清楚劃記，於本試題或申論試卷上作答者，不予計分。</div>
+<div class="mc-question"><span class="q-number">1</span><span class="q-text">下列何者非屬準用公務人員行政中立法之人員？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">經公務人員考試錄取，接受訓練之人員</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">各級學校之軍訓教官</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">行政法人有給專任之理事</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">私立學校校長及其兼任行政職務之教師</span></div>
+<div class="mc-question"><span class="q-number">2</span><span class="q-text">下列何者違反公務人員行政中立法所要求之行政中立？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">於休假期間擔任罷免團體志工</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">加入政黨</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">具名不具銜兼任公職候選人競選辦事處之職務</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">登記為公職候選人，並自候選人名單公告之日起請事假</span></div>
+<div class="mc-question"><span class="q-number">3</span><span class="q-text">關於行政執行之類型，下列何者非屬之？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">公法上金錢給付義務之執行</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">行為或不行為義務之執行</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">身分查證之詢問</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">即時強制</span></div>
+<div class="mc-question"><span class="q-number">4</span><span class="q-text">依行政執行法規定，關於行政執行機關得向其他機關請求協助之情形，下列何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">須在管轄區域外執行</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">無適當之執行人員</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">執行時有遭遇抗拒之虞</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">執行職務所必要認定之事實，不能獨自調查</span></div>
+<div class="mc-question"><span class="q-number">5</span><span class="q-text">關於行政執行法中所稱執行機關，下列何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">原處分機關</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">該管行政機關</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">法務部行政執行署</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">警察機關</span></div>
+<div class="mc-question"><span class="q-number">6</span><span class="q-text">依據警察職權行使法，警察得採行之即時強制，下列何者正確？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">管收</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">扣留危險物品</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">限制住居</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">拘提</span></div>
+<div class="mc-question"><span class="q-number">7</span><span class="q-text">義務人或利害關係人針對警察依警察職權行使法行使職權，認有侵害其利益之情事時，當場應如何救濟？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">向行使職權之警察陳述理由，表示異議</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">向行使職權警察之長官陳述理由，表示異議</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">向行使職權警察所屬機關之上級機關，提起訴願</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">向高等行政法院之地方行政訴訟庭提起行政訴訟</span></div>
+<div class="mc-question"><span class="q-number">8</span><span class="q-text">關於警察對於集會、遊行得採行之措施，下列敘述何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">應經許可之集會、遊行，未經許可而擅自舉行者，得予警告</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">依負責人之請求，到場疏導交通及維持秩序</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">於集會、遊行活動期間及活動前、後，得以科技工具蒐集參與者之現場活動資料</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">所蒐集集會、遊行參與者之資料，得為調查犯罪或其他違法行為，而延長保存</span></div>
+<div class="mc-question"><span class="q-number">9</span><span class="q-text">關於警察攔停交通工具，下列敘述何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">限於已發生危害或依客觀合理判斷易生危害之交通工具</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">得令駕駛人出示身分證明證件</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">得檢查引擎之號碼</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">得要求駕駛人提供行車紀錄器內之影音資料供查閱</span></div>
+<div class="mc-question"><span class="q-number">10</span><span class="q-text">關於警察於公共場所查證身分時，依據警察職權行使法得蒐集之被查證人資料。下列何者非屬警察得蒐集或出示之資料？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">出生地</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">令其出示國民身分證</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">國籍</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">血液</span></div>
+<div class="mc-question"><span class="q-number">11</span><span class="q-text">關於警察於公共場所查證身分時，得採行之措施，下列何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">攔停交通工具</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">令出示身分證明文件</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">若有明顯事實足認其有攜帶足以自殺、自傷或傷害他人生命或身體之物者，得檢查其身體及所攜帶之物</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">若拒絕配合查證時，得不經當事人同意，當場強制拍攝其臉部照片，並於資料庫中查詢其身分</span></div>
+<div class="mc-question"><span class="q-number">12</span><span class="q-text">當集會、遊行之負責人宣布中止或結束集會、遊行時，參加人應如何自處？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">應即解散</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">若集會、遊行尚未經主管機關命令解散，則無須解散</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">因其僅具建議及勸導之性質，故是否要解散，參加人得自行決定</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">得向主管機關表達異議</span></div>
+<div class="mc-question"><span class="q-number">13</span><span class="q-text">關於集會、遊行負責人之權責，下列敘述何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">應填具申請書，向主管機關申請集會、遊行之許可</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">於集會、遊行中維持秩序</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">清理集會、遊行路線於使用後所遺廢棄物</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">宣布中止或結束集會、遊行，參加人未解散者，應強制其解散</span></div>
+<div class="mc-question"><span class="q-number">14</span><span class="q-text">關於偶發性及緊急性集會、遊行，下列敘述何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">偶發性集會、遊行因特殊原因，未經召集自發聚集，事實上無所謂發起人或負責人，要求其事前申請許可，係屬以法律課予人民事實上難以遵守之義務</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">緊急性集會、遊行因事起倉卒，非即刻舉行無法達到目的，實難期待應先取得許可後舉行</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">要求室外舉行之集會、遊行，應經主管機關之許可或報備，係屬立法者之形成自由</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">偶發性集會、遊行，因屬自發聚集，故其舉行區域不受集會遊行法第6條所定地區及週邊範圍之限制</span></div>
+<div class="mc-question"><span class="q-number">15</span><span class="q-text">偶發性集會、遊行為群眾因特殊原因未經召集自發聚集，事實上無所謂發起人或負責人，故無法事先申請許可或報備。但於偶發性集會、遊行舉行中，以下何者將可能被認定為集會、遊行之負責人，而應宣布集會、遊行之中止或結束？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">偶發性集會、遊行因屬自發聚集，故其中止或結束亦應由參加人自發性為之</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">由主管機關於現場指定之人，宣布集會、遊行之中止或結束</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">曾上台發表講演者，均為負責人，應共同宣布之</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">於現場實際主持或指揮活動之人，為集會、遊行之負責人，應宣布集會、遊行之中止或結束</span></div>
+<div class="mc-question"><span class="q-number">16</span><span class="q-text">下列何者，仍可擔任集會、遊行中糾察員？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">未成年</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">褫奪公權尚未復權</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">受監護之宣告，尚未撤銷</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">無中華民國國籍</span></div>
+<div class="mc-question"><span class="q-number">17</span><span class="q-text">針對主管機關不予許可集會、遊行申請之通知書，若有不服，首先應如何救濟？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">經原主管機關向其上級警察機關提出申復</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">經原主管機關向內政部提起訴願</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">當場向主管機關表示異議</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">向高等行政法院地方行政訴訟庭提起行政訴訟</span></div>
+<div class="mc-question"><span class="q-number">18</span><span class="q-text">關於警察違法使用警械國家賠償之敘述，下列何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">該違法使用警械警察所屬機關為賠償義務機關</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">須使用警械之警察有故意或過失時，始得請求國家賠償</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">警察使用警械所生之國家賠償，依國家賠償法規定辦理</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">使用警械之警察有故意或重大過失之時，賠償義務機關得向其求償</span></div>
+<div class="mc-question"><span class="q-number">19</span><span class="q-text">關於警察職權行使法規定警察進入住宅建築物或處所職權之敘述，下列何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">本項職權是對於私人住宅、建築物或處所之進入</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">進入時應著制服或出示證件表明身分，並應告知事由</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">有賭博或其他妨害風俗或公安之情事，於情況急迫時得進入制止</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">須因人民之生命、身體、財產有迫切之危害，非進入不能救護時</span></div>
+<div class="mc-question"><span class="q-number">20</span><span class="q-text">關於警察對於有事實足認其有參與集團性或組織性犯罪之虞者，以目視或科技工具，進行觀察及動態掌握等資料蒐集活動之敘述，下列何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">期間每次不得逾一年，如有必要得延長之，並以一次為限</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">經由警察分局長書面同意後始得實施</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">僅得對其無隱私或秘密合理期待之行為或生活情形進行觀察及動態掌握</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">蒐集之資料，於達成目的後，除為調查犯罪行為，而有保存之必要者外，應即銷毀之</span></div>
+<div class="mc-question"><span class="q-number">21</span><span class="q-text">有關集會遊行法規定之集會、遊行禁制區之敘述，下列何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">禁制區經主管機關核准者得舉行集會遊行</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">各級法院為禁制區，週邊範圍，由內政部劃定公告，不得逾三百公尺</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">各國駐華使領館為禁制區，週邊範圍，由國防部劃定公告，不得逾三百公尺</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">總統府為禁制區，週邊範圍，由內政部劃定公告，不得逾三百公尺</span></div>
+<div class="mc-question"><span class="q-number">22</span><span class="q-text">關於公法上金錢給付義務執行之敘述，下列何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">義務人死亡遺有財產者，行政執行分署得逕對其遺產強制執行</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">執行人員於查封前，發見義務人之財產業經其他機關查封者，不得再行查封</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">義務人逾期不履行時，主管機關移送行政執行分署就其財產執行之，移送行為之法律性質為觀念通知</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">義務人不服行政執行方法聲明異議時，原處分機關因必要情形，得停止行政執行</span></div>
+<div class="mc-question"><span class="q-number">23</span><span class="q-text">關於集會遊行法申請室外集會遊行相關規定之敘述，下列何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">除緊急性及偶發性集會遊行外，室外集會遊行應由負責人填具申請書，於六日前向主管機關申請許可</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">申請之許可或不許可，主管機關未在規定期限內通知負責人者，視為許可</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">負責人不服主管機關不予許可通知者，應以書面附具理由提出於原主管機關向其上級警察機關申復</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">應經許可之集會、遊行未經許可，主管機關應予警告、制止或命令解散</span></div>
+<div class="mc-question"><span class="q-number">24</span><span class="q-text">關於司法院大法官有關警察之解釋及憲法法庭判決之敘述，下列何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">司法院釋字第718號解釋認為，集會遊行法第8條第1項規定，室外集會、遊行應向主管機關申請許可，未排除緊急性及偶發性集會、遊行部分，違反比例原則</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">司法院釋字第 666 號解釋認為，社會秩序維護法第 80 條就意圖得利與人姦、宿者，對於從事性交易之行為人，僅以意圖得利之一方為處罰對象，與平等原則有違</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">司法院釋字第 689 號解釋認為，社會秩序維護法第 89 條第 2 款規定，使新聞採訪者之跟追行為受到限制，違反比例原則</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">111 年憲判字第 10 號判決認為，警察人員人事條例規定警察人員同一考績年度中，其平時考核獎懲互相抵銷後累積已達二大過應予以免職，與憲法保障人民平等服公職權尚無牴觸</span></div>
+<div class="mc-question"><span class="q-number">25</span><span class="q-text">關於警察裁量權行使之敘述，下列何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">警察行使裁量權，行政法院僅得為適當性審查</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">警察裁量逾越授權之範圍者，構成裁量瑕疵之違法</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">法律所規定之構成要件是否成立，並非裁量權行使範圍</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">警察機關得訂定一般性之裁量基準</span></div>
+</div>
+<div class="answer-section">
+<h4 class="answer-title">📋 標準答案</h4>
+<div class="answer-grid">
+<div class="answer-cell"><span class="q-num">1</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">2</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">3</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">4</span><span class="q-ans">D</span></div>
+<div class="answer-cell corrected"><span class="q-num">5</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">6</span><span class="q-ans">B</span></div>
+<div class="answer-cell"><span class="q-num">7</span><span class="q-ans">A</span></div>
+<div class="answer-cell"><span class="q-num">8</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">9</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">10</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">11</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">12</span><span class="q-ans">A</span></div>
+<div class="answer-cell"><span class="q-num">13</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">14</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">15</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">16</span><span class="q-ans">B</span></div>
+<div class="answer-cell"><span class="q-num">17</span><span class="q-ans">A</span></div>
+<div class="answer-cell"><span class="q-num">18</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">19</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">20</span><span class="q-ans">B</span></div>
+<div class="answer-cell"><span class="q-num">21</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">22</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">23</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">24</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">25</span><span class="q-ans">A</span></div>
+</div>
+<div class="correction-note">⚠️ 更正：第5題一律給分。</div>
+</div>
+</div>
+</div>

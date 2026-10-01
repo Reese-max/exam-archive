@@ -1,0 +1,155 @@
+<div class="subject-card" id="y111-46543">
+<div class="subject-header" onclick="toggleCard(this)">
+  <h3>警察情境實務(包括警察法規、實務操作標準作業程序、人權保障與正當法律程序)</h3>
+  <span class="subject-toggle">▼</span>
+</div>
+<div class="subject-body">
+<div class="exam-meta-bar">
+<span class="meta-tag">4 頁</span>
+<span class="meta-tag">選擇題 20 題</span>
+</div>
+<div class="exam-content-v2">
+<div class="exam-metadata">
+<div class="meta-line">安全情報人員考試及111年特種考試交通事業鐵路人員考試試題 考 試 別：警察人員考試 等 別：三等考試 類科組別：行政警察人員、外事警察人員（選試英語）、刑事警察人員、公共安全人員、犯罪防治人員預防組、交通警察人員交通組、交通警察人員電訊組、警察資訊管理人員、刑事鑑識人員、國境警察人員、警察法制人員、行政管理人員 科 目：警察情境實務（包括警察法規、實務操作標準作業程序、人權保障與正當法律程序） 考試時間：2 小時 座號：</div>
+</div>
+<div class="exam-note">※注意：禁止使用電子計算器。</div>
+<div class="exam-section-marker">甲、申論題部分：（60分）</div>
+<div class="exam-note">㈠不必抄題，作答時請將試題題號及答案依照順序寫在申論試卷上，於本試題上作答者，不予計分。</div>
+<div class="exam-note">㈡請以藍、黑色鋼筆或原子筆在申論試卷上作答。</div>
+<div class="exam-note">㈢本科目除專門名詞或數理公式外，應使用本國文字作答。</div>
+<div class="essay-question">一、你是警察分局長，於主持臨檢勤務勤前教育時，應指導員警依警察職權行使法之規定，執行臨檢時，對人民發動查證身分之「要件」、「措施」及「程序」各為何？（20 分）</div>
+<div class="essay-question">二、某偏僻的墓園內發生一件命案，死者全身赤裸，身中多刀，陳屍在墓園空地，經由指紋比對確認了死者的身分是名中年貴婦，屍體外觀很乾淨，腳底也很清潔，從沒有太多血跡看來，墓地顯然不是殺害被害人的現場。試舉出各種可能對偵辦本案有用的證據，並分別說明其作用為何？（20 分）</div>
+<div class="essay-question">三、你帶班執行取締酒後駕車勤務，於攔檢稽查地點部署告示牌及警示設施完畢後，開始執行時：</div>
+<div class="exam-note">㈠如何過濾、攔停車輛及觀察、研判駕駛人？（10 分）</div>
+<div class="exam-note">㈡若未依指示停車受檢，而逃逸無法攔停者，應如何處置？（10 分）</div>
+<div class="exam-section-marker">乙、測驗題部分：（40分） 代號：5501</div>
+<div class="exam-note">㈠本測驗試題為單一選擇題，請選出一個正確或最適當的答案，複選作答者，該題不予計分。</div>
+<div class="exam-note">㈡共20題，每題2分，須用2B鉛筆在試卡上依題號清楚劃記，於本試題或申論試卷上作答者，不予計分。</div>
+<div class="mc-question"><span class="q-number">1</span><span class="q-text">你擔任派出所所長，帶班執行擴大臨檢時查獲甲持有二級毒品安非他命 10 公克，遂將甲帶回派出所偵辦，甲立即委任律師乙前來派出所，下列敘述何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">偵查中乙與甲，其接見時間不予計入24小時計算之事由</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">有關乙接見之方式，應在警方「監看而不與聞」之狀況下，始足保障甲的秘密接見權</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">甲係現行犯，遇有急迫情形且具正當理由時，必要時得報請檢察官禁止接見</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">乙請求調查證據時，應附記於甲之詢問筆錄，由其於筆錄上簽名</span></div>
+<div class="mc-question"><span class="q-number">2</span><span class="q-text">你是派出所所長，帶領3名員警執行路檢勤務，依警察職權行使法攔檢1輛自小客車，車內有駕駛人甲及副駕駛座乘客乙 2 人，經以警用行動電腦進行查證身分時，發現駕駛人甲為詐欺通緝犯，你應優先採取之處置作為，下列何者正確？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">要求甲將車輛引擎熄火，但不得對乙查證身分</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">要求甲將車輛引擎熄火，下車帶至自小客車後方受檢，注意其舉動；並示意其他員警警戒乙</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">即時拔出警用手槍，開保險，對準甲命令下車接受檢查</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">立即以無線電報告分局勤務指揮中心，並請求派遣線上警力支援</span></div>
+<div class="mc-question"><span class="q-number">3</span><span class="q-text">依警察機關受理刑事案件報案單一窗口實施要點之規定，有關警察機關受理刑事案件報案之敘述，下列何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">本轄案件，民眾逕電 110 報案者，仍應依「受理報案 e 化平臺一般刑案作業規定」，開具受（處）理案件證明單</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">本轄案件，汽車失竊案件，經查證屬實後，另依「車輛協尋電腦輸入作業規定」辦理</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">非本轄案件，民眾以電話報案者應予以受理並記錄，即時通報並傳送受理報案紀錄至管轄分局勤務指揮中心處理</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">非本轄案件，民眾後續提供之相關資料及物證，應以案件已轉送他單位偵辦為由，請其自行提供給管轄分局</span></div>
+<div class="mc-question"><span class="q-number">4</span><span class="q-text">你執行巡邏勤務時，發現轄區內一知名網紅甲正騎著一部電動輔助自行車，從前方人行車道迎面而來，下列敘述何者正確？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">甲未戴安全帽應予舉發</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">電動輔助自行車以人力為主、電力為輔，無行駛速率限制</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">甲行駛人行道未妨礙行人通行且未發生交通事故，不屬於違規行為</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">甲騎車行進間手持行動電話使用網路開放臉書直播，應予舉發</span></div>
+<div class="mc-question"><span class="q-number">5</span><span class="q-text">甲趁今年過年期間，臺鐵花東火車票一票難求，期前透過網路大量訂購，打算賺點外快，每張票以加價200元出售不特定人，下列敘述何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">甲之行為同時觸犯社會秩序維護法及鐵路法，警察查獲後，應優先適用鐵路法</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">甲因未能適時脫手賣出，以致販售逾期車票，甲可能另涉及刑法詐欺罪</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">甲以原價轉售予其親友，係屬自用之性質，不違法</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">甲曾於中秋節以相同方式轉售火車票圖利，該行為已逾2個月，無法依社會秩序維護法及鐵路法處罰</span></div>
+<div class="mc-question"><span class="q-number">6</span><span class="q-text">你於執勤中查獲甲男持有二級毒品安非他命，除依毒品現行犯逮捕查處外，並應依據兒童及少年福利與權益保障法第54條之1，對甲男所監護、照顧兒童進行查訪。相關查訪作為，下列何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">調閱甲男全戶戶役政資料，比對檢核戶內有無未滿12歲兒童</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">詢問甲男有無監護、照顧未滿12歲兒童，載明筆錄</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">經詢甲男稱有監護未滿12歲兒童現在家中獨處無人照顧，僅須通報社工查訪</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">經查甲男有監護未滿12歲兒童，卻拒絕透露兒童行蹤，應傳真紀錄表通知婦幼警察隊面訪</span></div>
+<div class="mc-question"><span class="q-number">7</span><span class="q-text">你是派出所警員，受命執行甲女遭其夫乙家暴案，法院核定相關物品使用權保護令，於保護甲女至住居所拿取機車及生活上物品時，對乙男拒絕交付聲明異議之處置，如認其無理由，下列何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">請村里長協助勸說</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">通知家防官到場協助</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">於不逾越必要程度下強制取交被害人</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">停止執行，報請核發保護令之法院裁定</span></div>
+<div class="mc-question"><span class="q-number">8</span><span class="q-text">A公司因勞資糾紛，經縣政府協調未成，公司負責人乃貼出公告開除勞方代表，引起勞方不滿，為要求公司收回成命，由工會幹部甲向轄區分局申請在縣政府前集會；另乙等 10 多名群眾經媒體報導得知，為聲援勞方，不約而同自發性到A公司靜坐抗議，下列敘述何者正確？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">甲可依緊急性集會提出申請，主管機關應於收受申請書起24小時內，以書面通知甲</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">乙等群眾自發性聚集，無發起人或負責人，無須申請許可或報備</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">甲、乙之集會活動應個別依法提出申請</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">由於事起倉卒非即刻舉行無法達到目的，二項活動均無須申請許可</span></div>
+<div class="mc-question"><span class="q-number">9</span><span class="q-text">你是派出所所長，依據警察偵查犯罪手冊指導所屬，對犯罪現場有關救護傷患之敘述，下列何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">警察人員抵達現場後，應視現場狀況，探查是否有人受傷</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">警察人員護送傷患就醫時，宜於途中詢問案件發生之事實真相，並為必要之記錄</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">傷患衣物，宜交由其家屬保管，避免遺失</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">對受傷者，不論其為被害人或加害人，均應迅速予以救護或送醫</span></div>
+<div class="mc-question"><span class="q-number">10</span><span class="q-text">你帶隊執行巡邏勤務，接獲通報轄區有一部車輛自撞路樹，到場後發現車輛內有一名男子疑似有施用毒品後注意力不集中的跡象，並且胡言亂語，說要自殺及找人報復等言語，但未於車內發現疑似毒品以及施用毒品之器具，男子不承認有使用毒品，且堅持要開車離開現場，你應優先採取下列何種措施最適當？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">依道路交通管理處罰條例第35條第4項予以開單舉發</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">帶回勤務機構，並依刑事訴訟法第205條之2規定強制其接受採驗尿液</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">以涉嫌違反刑法第185條之3予以逮捕，並製作案件測試觀察紀錄表</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">依警察職權行使法第19條規定予以管束</span></div>
+<div class="mc-question"><span class="q-number">11</span><span class="q-text">你接獲分局通報，有人從五樓公寓摔死。你前往轄區該民宅查看，得知死者為中年失業之獨居男子，平日少與人往來，屍體周邊有一雙拖鞋。關於死者係自殺或他殺，你研判下列何種狀況之他殺可能性最高？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">墜樓事故地點之女兒牆上留有多枚鞋印痕跡</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">該公寓一樓入口處之監視器顯示有陌生人按門鈴</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">死者指甲留有非本人之疑似皮膚指屑</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">死者居家內物品與桌椅明顯凌亂</span></div>
+<div class="mc-question"><span class="q-number">12</span><span class="q-text">你帶隊於夜間巡邏時，發現對向一輛行駛中機車未開啟大燈，欲回頭攔查該車時，該機車見警回頭隨即加速逃逸。你們尾隨在後，該駕駛甲於途中某路口前丟出一團衛生紙後，右轉進死巷並被你們成功攔停。經警用行動電腦查詢該駕駛有多項毒品前科，並帶同返回尋找該駕駛丟棄之衛生紙團，發現該衛生紙團內有兩支完整包裝之乾淨注射針筒。下列處置作為何者最適當？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">因甲有多項毒品前科及疑似施用毒品器具之注射針筒，依現行犯逮捕</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">經查其有多項毒品前科紀錄，採集甲之尿液送驗</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">將甲的兩支注射針筒依據施用毒品器具製作扣押筆錄沒入之</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">經清查未發現有其他具體違法之事證，只能製單舉發後讓甲離去</span></div>
+<div class="mc-question"><span class="q-number">13</span><span class="q-text">你是派出所所長，到達刑案現場時，有關刑案現場之處置，下列敘述何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">刑案現場救護傷患時，應儘量避免破壞現場，如確屬無法避免時，應為必要之記錄</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">初抵刑案現場應縝密巡視觀察，俾利發現犯罪嫌疑人，並即時追捕</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">於刑案現場逮捕犯罪嫌疑人時，應立即帶離；於刑案現場以外之處所逮捕時，不可帶回現場</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">刑案現場封鎖範圍及層數，初期封鎖之範圍應窄，待初步勘察後，視實際需要再行界定封鎖範圍</span></div>
+<div class="mc-question"><span class="q-number">14</span><span class="q-text">你是分局偵查員，準備詢問1名被逮捕之性侵害犯罪嫌疑人甲，筆錄製作之前，甲表示要選任辯護人，下列情況之處置，何者最適當？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">等待辯護人抵達的時間內，為爭取時效，應進行非正式之案情詢問</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">經通知辯護人後，逾4小時仍未到場，即可開始進行詢問筆錄製作</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">詢問案情與筆錄製作時，如辯護人欲陳述意見，應禁止其發言</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">如辯護人要檢閱本案衛生紙證物，可允許目視檢閱，但不得觸摸</span></div>
+<div class="mc-question"><span class="q-number">15</span><span class="q-text">你帶班執行取締酒駕勤務，發現汽車駕駛人甲酒後駕車，其經測試檢定吐氣所含酒精濃度達每公升0.25毫克，並有同車乘客乙、丙、丁時，下列處置方式何者正確？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">同車乘客乙、丙、丁均不予製單舉發</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">乙若未滿18 歲，除舉發外並通知家長</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">丙若為 65 歲車主時，明知甲有飲酒駕車而不予禁止駕駛，除依法舉發外，並吊扣該汽車牌照2年</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">因同車乘客人數眾多，經研判現場警力恐難處置時，可先行登錄資料，事後舉發</span></div>
+<div class="mc-question"><span class="q-number">16</span><span class="q-text">你承辦分局交通業務時，針對民眾檢舉交通違規案件，下列敘述何者正確？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">民眾檢舉案件距違規行為終了日10日內，應依違規事實舉發</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">針對未具名檢舉案件，只要檢舉事實具體明確，仍應舉發</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">法人或持有居留證之外籍人士，只要可以確認其身分存在，仍應受理其檢舉，不得拒絕</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">均應再行調閱路口監視器畫面佐證，以確認檢舉人檢舉之違規事實</span></div>
+<div class="mc-question"><span class="q-number">17</span><span class="q-text">你在執行取締汽車裝載超重勤務時，因目視一輛趨近的砂石車滿載，且車輪明顯凹陷，合理懷疑有超載情事，經攔下發現該車核定之總重量為 35 公噸，經過磅總重高達 53.85 公噸，下列處置作為與程序何者正確？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">倘未有其他嚴重危害交通安全情事，得對其施以勸導，免予舉發</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">舉發單上要註明「責令改正」，製單後始得放行</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">過磅後倘駕駛人提出要求，為免爭議，應施以複驗</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">當場禁止其通行或卸貨分裝</span></div>
+<div class="mc-question"><span class="q-number">18</span><span class="q-text">你是分局交通事故案件承辦人，在受理民眾申請道路交通事故資料時，下列敘述何者正確？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">當事人為進行後續民事訴訟，請求提供他造當事人之住址資料，不予提供</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">保險公司辦理理賠業務，受委託請求提供他造當事人姓名、住址資料，不予提供</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">當事人為鑑定需求，請求提供他造當事人之個人資料，不予提供</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">當事人員工受當事人委託請求提供他造當事人姓名、地址資料欲作為申請調解使用，應予提供</span></div>
+<div class="mc-question"><span class="q-number">19</span><span class="q-text">某日，派出所員警甲在值班時，有一對父母親心急如焚地帶他們未成年女兒乙到派出所報案，指述乙女昨天因與網友相約出遊，不料該網友竟在乙女的飲料中加入迷藥，在乙女意識不清的情況下遭到該名網友性侵得逞。有關甲對本案的處理，下列處置何者最不適當？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">通知醫護人員到場驗傷</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">通知分局性侵害專責處理小組人員到派出所處理</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">將該案知會分局家防官</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">必要時，派員協助現場戒護及證據保全</span></div>
+<div class="mc-question"><span class="q-number">20</span><span class="q-text">你是交通分隊長帶班執行計畫性酒測勤務時，攔下一部汽車，請其搖下車窗，見駕駛人滿臉通紅，酒氣衝鼻，遂請其下車接受酒精濃度測試檢定。駕駛人下車之際，同時從車內取出一罐啤酒（酒精成分4.5%），在員警面前迅速喝下。下列處置何者正確？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">因已無法測得駕駛人攔停前駕駛期間之體內實際酒精濃度，免予酒測放行</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">等待 15 分鐘後，提供礦泉水請駕駛人漱口，再對其實施酒測，並依測試檢定結果處理。如仍拒不配合，以拒測處理</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">直接依道路交通管理處罰條例第35條第4項第3款予以舉發</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">依刑法第135 條妨害公務罪嫌逮捕移送法辦</span></div>
+</div>
+<div class="answer-section">
+<h4 class="answer-title">📋 標準答案</h4>
+<div class="answer-grid">
+<div class="answer-cell"><span class="q-num">1</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">2</span><span class="q-ans">B</span></div>
+<div class="answer-cell"><span class="q-num">3</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">4</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">5</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">6</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">7</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">8</span><span class="q-ans">B</span></div>
+<div class="answer-cell"><span class="q-num">9</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">10</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">11</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">12</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">13</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">14</span><span class="q-ans">B</span></div>
+<div class="answer-cell"><span class="q-num">15</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">16</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">17</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">18</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">19</span><span class="q-ans">A</span></div>
+<div class="answer-cell"><span class="q-num">20</span><span class="q-ans">C</span></div>
+</div>
+</div>
+</div>
+</div>

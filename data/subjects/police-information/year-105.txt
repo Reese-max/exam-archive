@@ -1,0 +1,24 @@
+<div class="subject-card" id="y105-89699">
+<div class="subject-header" onclick="toggleCard(this)">
+  <h3>警政資訊管理與應用</h3>
+  <span class="subject-toggle">▼</span>
+</div>
+<div class="subject-body">
+<div class="exam-meta-bar">
+<span class="meta-tag">1 頁</span>
+<span class="meta-tag">申論題</span>
+</div>
+<div class="exam-content-v2">
+<div class="exam-metadata">
+<div class="meta-line">105年公務人員特種考試警察人員、一般警察人員代 號：50850 全一頁 考試及105年特種考試交通事業鐵路人員考試試題 考 試 別： 警察人員考試 等 別： 三等考試 類 科 別： 警察資訊管理人員 科 目： 警政資訊管理與應用考試時間 ： 2 小時 座號：</div>
+</div>
+<div class="exam-note">※注意： ㈠禁止使用電子計算器。</div>
+<div class="exam-note">㈡不必抄題，作答時請將試題題號及答案依照順序寫在試卷上，於本試題上作答者，不予計分。</div>
+<div class="essay-question">一、說明何謂模糊邏輯（fuzzy logic）系統？下圖為一模糊邏輯的隸屬函數（membership function）圖，請說明溫度為 62 時的意義為何？又溫度為 81 時的意義為何？（22 分）</div>
+<div class="essay-question">二、資訊科技基礎建設投資的競爭力模式如下圖所示，那些是外部因素？那些是內部因素？資訊科技基礎建設演進的技術驅動力主要有那些？（30 分）12公司的 公司客戶服務、企業策略 供應商服務與企業服務的市場需求</div>
+<div class="mc-question"><span class="q-number">3</span><span class="q-text">6公司的 公司的 競爭者公司的資訊科技策略、 資訊科技服務 資訊科技基礎基礎建設與成本 與基礎建設 建設投資54競爭者公司的資訊科技資訊科技服務</span></div>
+<div class="essay-question">三、何謂顧客關係管理（Customer Relationship Management, CRM）？顧客關係管理的績效衡量指標應至少包括那五大項？警民之間的顧客關係管理的主要工作為何？請條列敘述之。並說明如何藉由資訊科技取得警民之間的顧客關係？（30 分）</div>
+<div class="essay-question">四、今日法律案件已逐漸增加對儲存在可攜式軟碟、光碟、硬碟，以及電子郵件、簡訊與網際網路上的電子商務交易等數位資料的依賴；但是電子數據必須經過那些檢驗才能作為法律案件之證據？在網路上與網站通訊時的主要加密方式有那兩種？請分別說明之。（18 分）</div>
+</div>
+</div>
+</div>

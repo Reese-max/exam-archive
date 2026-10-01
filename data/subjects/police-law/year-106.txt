@@ -1,0 +1,187 @@
+<div class="subject-card" id="y106-63567">
+<div class="subject-header" onclick="toggleCard(this)">
+  <h3>警察法規（包括警察法、行政執行法、社會秩序維護法、警械使用條例、集會遊行法、警察職權行使法、公務人員行政中立法）</h3>
+  <span class="subject-toggle">▼</span>
+</div>
+<div class="subject-body">
+<div class="exam-meta-bar">
+<span class="meta-tag">2 頁</span>
+<span class="meta-tag">選擇題 25 題</span>
+<span class="meta-tag">申論題</span>
+</div>
+<div class="exam-content-v2">
+<div class="exam-metadata">
+<div class="meta-line">106年公務人員特種考試警察人員、一般警察人員考試及106年特種考試交通事業鐵路人員、退除役軍人轉任公務人員考試試題 考試別：警察人員考試 等別：三等考試 類科別：行政警察人員、外事警察人員（選試英語）、刑事警察人員、公共安全人員、犯罪防治人員預防組、交通警察人員交通組、警察資訊管理人員、國境警察人員、警察法制人員、行政管理人員 科目：警察法規（包括警察法、行政執行法、社會秩序維護法、警械使用條例、集會遊行法、警察職權行使法、公務人員行政中立法） 考試時間： 2 小時 座號：</div>
+</div>
+<div class="exam-note">※注意： 禁止使用電子計算器。</div>
+<div class="exam-section-marker">甲、申論題部分：（50 分）</div>
+<div class="exam-note">㈠不必抄題，作答時請將試題題號及答案依照順序寫在申論試卷上，於本試題上作答者，不予計分。</div>
+<div class="exam-note">㈡請以藍、黑色鋼筆或原子筆在申論試卷上作答。</div>
+<div class="essay-question">一、警方獲報 A 所駕駛的車輛肇事逃逸，員警甲即騎乘警車超前並停放於 A 的車輛正前方，A 往左閃避拒絕攔檢，並衝撞甲致其受傷，員警乙見狀追至下一個路口攔查時，又遭衝撞受傷；員警丙再度接獲通報，獲令查扣上開人車，丙看到 A 因會車暫停，隨即下車持槍快跑至該車右方，拍打車輛並喝令下車，A 反而突然將車輛朝丙站立之位置衝撞，因現場騎樓高出平面約 15 公分，丙往後跳開閃避時開槍，過程中因地面不平，重心無法平衡，且車窗處貼上隔熱紙、車內未開燈，致擊中乘坐於副駕駛座的 B，B 因而受重傷。試問：</div>
+<div class="exam-note">㈠警械使用條例歸類在行政法領域中，請說明警察為何針對刑事追訴之犯罪行為，亦可使用警槍？（10 分）</div>
+<div class="exam-note">㈡本案警察使用槍械是否合法？又警察用槍之法律性質為行政處分或行政事實行為？試論述之。（15分）</div>
+<div class="essay-question">二、行政執行法第 4 章即時強制，與警察職權行使法第 3 章即時強制，兩者之間的關係為何？並闡述警察職權行使法第 20 條第 2 項：「警察對人民實施查證身分或其他詢問，不得依管束之規定，令其供述。」宜如何解讀之？（25 分）</div>
+<div class="exam-section-marker">乙、測驗題部分：（50 分） 代號：4501</div>
+<div class="exam-note">㈠本試題為單一選擇題，請選出一個正確或最適當的答案，複選作答者，該題不予計分。</div>
+<div class="exam-note">㈡共25題，每題2分，須用2B鉛筆在試卡上依題號清楚劃記，於本試題或申論試卷上作答者，不予計分。</div>
+<div class="mc-question"><span class="q-number">1</span><span class="q-text">依據司法院釋字第718號解釋文，集會遊行法規定，室外集會、遊行應向主管機關申請許可，未排除緊急性及偶發性集會、遊行部分，係違反下列何種憲法原則？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">平等原則</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">比例原則</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">明確性原則</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">誠實信用原則</span></div>
+<div class="mc-question"><span class="q-number">2</span><span class="q-text">下列何者不屬於警察職權行使法第2條所稱之警察職權？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">進入住宅</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">物之扣留</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">查證身分</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">警械使用</span></div>
+<div class="mc-question"><span class="q-number">3</span><span class="q-text">下列有關治安顧慮人口查訪之相關法令規定，何者之位階最高？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">內政部警政署強化警勤區治安顧慮人口查訪實施計畫</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">治安顧慮人口查訪作業規定</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">治安顧慮人口查訪辦法</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">警察職權行使法第15條</span></div>
+<div class="mc-question"><span class="q-number">4</span><span class="q-text">下列何者係由行政院單獨訂定？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">違反社會秩序維護法案件處理辦法</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">法院辦理社會秩序維護法案件應行注意事項</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">拘留所設置管理辦法</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">地方法院與警察機關處理違反社會秩序維護法案件聯繫辦法</span></div>
+<div class="mc-question"><span class="q-number">5</span><span class="q-text">警察機關處理違反社會秩序維護法案件之書表格式，由下列何者訂之？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">各警察機關</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">內政部警政署</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">內政部</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">行政院</span></div>
+<div class="mc-question"><span class="q-number">6</span><span class="q-text">依據違反社會秩序維護法案件處理辦法之規定，下列敘述何者正確？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">沒入物品之處理，依行政罰法之規定</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">警察機關處理違反社會秩序維護法案件，有關文書送達之程序，準用行政程序法之規定</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">查獲行為人逃逸而遺留現場之物，均應予以沒入，並移作公用</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">聲請易以拘留案件，被處罰人欲完納罰鍰者，應予准許</span></div>
+<div class="mc-question"><span class="q-number">7</span><span class="q-text">下列何者不屬於社會秩序維護法授權訂定之法規命令？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">拘留所設置基準</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">沒入物品處分規則</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">拘留所設置管理辦法</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">違反社會秩序維護法案件處理辦法</span></div>
+<div class="exam-metadata">
+<div class="meta-line">106年公務人員特種考試警察人員、一般警察 50140-50540全一張 人員考試及106年特種考試交通事業鐵路 50740-50840（背面） 人員、退除役軍人轉任公務人員考試試題 考 試 別： 警察人員考試 等 別： 三等考試 類 科 別： 行政警察人員、外事警察人員（選試英語）、刑事警察人員、公共安全人員、犯罪防治人員預防組、交通警察人員交通組、警察資訊管理人員、國境警察人員、警察法制人員、行政管理人員 科 目： 警察法規（包括警察法、行政執行法、社會秩序維護法、警械使用條例、集會遊行法、警察職權行使法、公務人員行政中立法）</div>
+</div>
+<div class="mc-question"><span class="q-number">8</span><span class="q-text">公法上金錢給付義務逾期不履行，經移送行政執行分署執行者，其執行筆錄應記載之事項，準用下列何者之有關規定？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">刑事訴訟法</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">民事訴訟法</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">行政訴訟法</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">強制執行法</span></div>
+<div class="mc-question"><span class="q-number">9</span><span class="q-text">依行政執行法第25條之規定，因強制執行所支出之必要費用，由下列何者負擔之？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">行政執行署</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">法務部</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">義務人</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">內政部</span></div>
+<div class="mc-question"><span class="q-number">10</span><span class="q-text">依據警察法施行細則第10條之規定，協助偵查犯罪與執行搜索、扣押、拘提及逮捕，依刑事訴訟法及下列那一法律之規定行之？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">警察法</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">警察勤務條例</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">警察職權行使法</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">調度司法警察條例</span></div>
+<div class="mc-question"><span class="q-number">11</span><span class="q-text">「各級警察機關學校武器彈藥統籌調配辦法」係由下列那一法律所授權訂定？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">警察法</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">警械使用條例</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">警察職權行使法</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">槍砲彈藥刀械管制條例</span></div>
+<div class="mc-question"><span class="q-number">12</span><span class="q-text">下列何者不適用或準用公務人員行政中立法之規定？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">公立學校之工友</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">行政法人有給專任人員</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">公立學術研究機構兼任行政職務之研究人員</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">公立學校依法任用之職員</span></div>
+<div class="mc-question"><span class="q-number">13</span><span class="q-text">依據警察職權行使法規定，有關警察資訊作用，下列敘述何者正確？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">警察於其行使職權之目的範圍內，不得依其他機關之請求，傳遞與個人有關之資料</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">警察對於依本法規定所蒐集資料之利用，應於法令職掌之必要範圍內為之，並須與蒐集之特定目的相符</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">警察依法取得之資料對警察之完成任務不再有幫助者，可再提供相關機關運用</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">應註銷或銷毀之資料，得傳遞並可基於公益為不利於被蒐集對象之利用</span></div>
+<div class="mc-question"><span class="q-number">14</span><span class="q-text">依據警察職權行使法規定，警察於公共場所或合法進入之場所，得對於合理懷疑其有犯罪之嫌疑或有犯罪之虞者，實施下列何項措施？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">逮捕並移送法院</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">查證其身分</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">搜索或扣押物品</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">測謊</span></div>
+<div class="mc-question"><span class="q-number">15</span><span class="q-text">依據集會遊行法規定，室外集會、遊行不予許可之通知書，應載明理由及下列何事項？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">申請程序之費用</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">不服之救濟程序</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">審查人之姓名</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">法律諮詢處所</span></div>
+<div class="mc-question"><span class="q-number">16</span><span class="q-text">依據集會遊行法規定，有關申請室外集會遊行之許可，下列敘述何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">應由負責人填具申請書，於6日前向主管機關申請許可</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">申請之許可或不許可，主管機關應於收受申請書之日起3日內以書面通知負責人</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">因不可預見之重大緊急事故，且非即刻舉行，無法達到目的者，不受6日前申請之限制</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">主管機關未在規定期限內通知負責人者，視為不許可</span></div>
+<div class="mc-question"><span class="q-number">17</span><span class="q-text">警察人員執行職務時，遇有疏導群眾之情形者，得使用下列何項警械指揮？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">警棍</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">警刀</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">警槍</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">信號彈</span></div>
+<div class="mc-question"><span class="q-number">18</span><span class="q-text">警察人員依警械使用條例使用警械之行為，係屬下列何項性質之行為？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">緊急避難之行為</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">正當防衛之行為</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">依法令之行為</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">超阻卻違法事由之行為</span></div>
+<div class="mc-question"><span class="q-number">19</span><span class="q-text">依據社會秩序維護法規定，直轄市、縣（市）政府得因地制宜，制定下列何項法規，規劃得從事性交易之區域及其管理？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">自治條例</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">自治規則</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">法規命令</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">行政規則</span></div>
+<div class="mc-question"><span class="q-number">20</span><span class="q-text">依據社會秩序維護法規定，處罰之執行，由下列何者為之？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">法院強制執行處</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">行政執行分署</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">警察機關</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">縣（市）政府</span></div>
+<div class="mc-question"><span class="q-number">21</span><span class="q-text">對於現行違反社會秩序維護法之行為人，警察人員得即時制止其行為，並得為下列何項措施？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">移送地方法院檢察署</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">逕行通知到場</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">逕送地方法院簡易庭</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">舉辦聽證會</span></div>
+<div class="mc-question"><span class="q-number">22</span><span class="q-text">依據社會秩序維護法，有關罰鍰之規定，下列敘述何者正確？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">罰鍰應於裁處確定之翌日起15日內完納</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">被處罰人依其經濟狀況不能即時完納者，得准許其於4個月內分期完納</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">罰鍰逾期不完納者，警察機關得聲請法院管收</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">在罰鍰應完納期內，被處罰人得請求易以拘留</span></div>
+<div class="mc-question"><span class="q-number">23</span><span class="q-text">依據行政執行法之規定，下列何者係屬於間接強制之方法？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">扣留不動產</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">註銷證照</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">怠金</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">斷絕營業所必須之自來水</span></div>
+<div class="mc-question"><span class="q-number">24</span><span class="q-text">「偶發性及緊急性集會遊行處理原則」之法律性質為何？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">行政計畫</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">行政規則</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">法規命令</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">行政指導</span></div>
+<div class="mc-question"><span class="q-number">25</span><span class="q-text">依據警察法規定，地方警察機關預算標準，應依下列何者規劃之？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">由立法院按各該地區情形分別規劃之</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">由各該地區地方議會各自規劃之</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">由中央按各該地區情形分別規劃之</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">由縣（市）長召開協調會按各該地區情形規劃之</span></div>
+</div>
+<div class="answer-section">
+<h4 class="answer-title">📋 標準答案</h4>
+<div class="answer-grid">
+<div class="answer-cell"><span class="q-num">1</span><span class="q-ans">B</span></div>
+<div class="answer-cell"><span class="q-num">2</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">3</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">4</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">5</span><span class="q-ans">B</span></div>
+<div class="answer-cell"><span class="q-num">6</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">7</span><span class="q-ans">A</span></div>
+<div class="answer-cell"><span class="q-num">8</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">9</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">10</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">11</span><span class="q-ans">A</span></div>
+<div class="answer-cell"><span class="q-num">12</span><span class="q-ans">A</span></div>
+<div class="answer-cell"><span class="q-num">13</span><span class="q-ans">B</span></div>
+<div class="answer-cell"><span class="q-num">14</span><span class="q-ans">B</span></div>
+<div class="answer-cell"><span class="q-num">15</span><span class="q-ans">B</span></div>
+<div class="answer-cell"><span class="q-num">16</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">17</span><span class="q-ans">A</span></div>
+<div class="answer-cell"><span class="q-num">18</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">19</span><span class="q-ans">A</span></div>
+<div class="answer-cell"><span class="q-num">20</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">21</span><span class="q-ans">B</span></div>
+<div class="answer-cell"><span class="q-num">22</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">23</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">24</span><span class="q-ans">B</span></div>
+<div class="answer-cell"><span class="q-num">25</span><span class="q-ans">C</span></div>
+</div>
+</div>
+</div>
+</div>
