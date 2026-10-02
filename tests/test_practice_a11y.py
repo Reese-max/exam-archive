@@ -270,3 +270,16 @@ def test_accessibility_tree_exposes_group_names_radio_names_and_checked_state(pa
         for item in radios
         for property_ in item.get("properties", [])
     )
+
+
+def test_dark_mode_keeps_answer_feedback_visible(page):
+    page.locator("#darkToggle").click()
+    practice_on(page)
+    field = page.locator("#yearView fieldset.mc-field").first
+    open_card(field)
+    answer = answer_for(field)
+    wrong = "B" if answer != "B" else "A"
+    choose(page, field, wrong)
+    assert field.locator(".mc-verdict").evaluate(
+        "verdict => getComputedStyle(verdict).color"
+    ) == "rgb(252, 129, 129)"
