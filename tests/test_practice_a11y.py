@@ -178,22 +178,30 @@ def test_keyboard_selection_marks_and_announces_answer(page):
 
 
 def test_tab_enters_and_leaves_native_radio_group(page):
-    field = page.locator("fieldset.mc-field").first
-    card = open_card(field)
     practice_on(page)
 
-    # The card header precedes its answer controls in the actual tab order.
-    card.locator(".subject-header").focus()
-    page.keyboard.press("Tab")
-    # Each card also has a bookmark button between its header and questions.
-    page.keyboard.press("Tab")
-    first = field.locator("input.mc-radio").first
-    assert first.evaluate("el => document.activeElement === el"), \
-        "Tab from the question header must enter the radio group"
+    def assert_tab_stops_at_group(field):
+        card = open_card(field)
+        card.locator(".subject-header").focus()
+        # Year view has a bookmark button between the header and questions;
+        # subject view does not. Advance through the actual intervening controls.
+        for _ in range(card.locator(".bookmark-btn").count() + 1):
+            page.keyboard.press("Tab")
+        first = field.locator("input.mc-radio").first
+        assert first.evaluate("el => document.activeElement === el"), \
+            "Tab from the card header must enter the radio group"
 
-    page.keyboard.press("Tab")
-    assert not field.evaluate("f => f.contains(document.activeElement)"), \
-        "Tab from a radio must leave its group instead of visiting each option"
+        page.keyboard.press("Tab")
+        assert not field.evaluate("f => f.contains(document.activeElement)"), \
+            "Tab from a radio must leave its group instead of visiting each option"
+
+    year_field = page.locator("#yearView fieldset.mc-field").first
+    assert_tab_stops_at_group(year_field)
+
+    page.evaluate("switchView('subject')")
+    subject_field = page.locator("#subjectView fieldset.mc-field").first
+    subject_field.wait_for(state="attached")
+    assert_tab_stops_at_group(subject_field)
 
 
 def test_arrow_keys_move_within_radio_group(page):
@@ -293,7 +301,11 @@ def test_subject_view_clones_share_akey_dedup_but_unique_names(page):
     # a different, unanswered question in subject view counts once more
     card = sv_field.locator(CARD_XPATH)
     field2 = card.locator("fieldset.mc-field").nth(1)
-    pick(page, field2, correct_letter(field2))
+    radio = field2.locator(
+        f'input.mc-radio[value="{correct_letter(field2)}"]')
+    radio.focus()
+    page.keyboard.press(" ")
+    assert radio.is_checked(), "subject-view answers must be selectable by keyboard"
     assert score(page) == {"correct": before["correct"] + 1, "total": before["total"] + 1}
 
 
