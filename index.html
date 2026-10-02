@@ -281,6 +281,50 @@ body.sidebar-collapsed .sidebar-reopen { display: flex; }
   line-height: 1.7;
 }
 
+.mc-field {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  min-width: 0;
+}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+.mc-option { position: relative; }
+.mc-radio {
+  position: absolute;
+  opacity: 0;
+  width: 1px;
+  height: 1px;
+  margin: 0;
+  padding: 0;
+  top: 0.45em;
+  left: 1.15rem;
+}
+.practice-mode .mc-option:focus-within {
+  outline: 2px solid var(--accent);
+  outline-offset: 1px;
+  border-radius: 6px;
+}
+.mc-verdict {
+  padding-left: 2.2rem;
+  font-size: 0.82rem;
+  line-height: 1.5;
+  font-weight: 600;
+}
+.mc-verdict.ok { color: #276749; }
+.mc-verdict.err { color: #c53030; }
+.mc-verdict.na { color: #4a5568; }
+
 /* General text block */
 .exam-text {
   font-size: 0.9rem;
@@ -404,6 +448,7 @@ html.dark .subject-card:hover { box-shadow: 0 2px 12px rgba(0,0,0,0.3); }
   .main { margin-left: 0; max-width: 100%; }
   .subject-body { display: block !important; }
   .search-box { display: none; }
+  .reveal-btn, .practice-score, .mc-verdict { display: none !important; }
 }
 
 /* Toolbar */
@@ -9821,7 +9866,24 @@ const debouncedSearch = debounce(v => doSearch(v), 180);
 
 /* === Toggle helpers === */
 function toggleYear(el) { el.classList.toggle('active'); }
-function toggleCard(header) { header.parentElement.classList.toggle('open'); }
+function toggleCard(header) {
+  const card = header.parentElement;
+  const open = card.classList.toggle('open');
+  header.setAttribute('aria-expanded', open);
+}
+function enhanceSubjectHeaders(root) {
+  root.querySelectorAll('.subject-header').forEach(header => {
+    header.setAttribute('role', 'button');
+    header.tabIndex = 0;
+    header.setAttribute('aria-expanded', header.parentElement.classList.contains('open'));
+    if (header.dataset.keyboardReady) return;
+    header.dataset.keyboardReady = '1';
+    // 鍵盤支援
+    header.addEventListener('keydown', e => {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); header.click(); }
+    });
+  });
+}
 
 /* === Search with highlighting === */
 function clearHighlights() {
@@ -10036,27 +10098,22 @@ function switchView(mode) {
     yearView.style.display = 'none';
     subjectView.style.display = '';
     subjectFilter.style.display = '';
-    if (!subjectView.children.length) buildSubjectView();
+    if (!subjectView.children.length) {
+      buildSubjectView();
+      fixupClonedMcGroups(subjectView);
+    }
+    enhanceSubjectHeaders(subjectView);
     if (!subjectFilter.value) subjectFilter.value = SUBJECT_KEYS[0];
     filterBySubject(subjectFilter.value);
-    // 切換到科目瀏覽時，若練習模式已啟用，重新綁定 handler
+    // 切換到科目瀏覽時，若練習模式已啟用，確保複製題組也有揭示按鈕
     if (practiceMode) {
       subjectView.querySelectorAll('.answer-section').forEach(section => {
         if (!section.previousElementSibling || !section.previousElementSibling.classList.contains('reveal-btn')) {
           const btn = document.createElement('button');
           btn.className = 'reveal-btn';
           btn.textContent = '顯示答案';
-          btn.onclick = function() {
-            section.style.display = '';
-            section.classList.add('revealed');
-            this.textContent = '已顯示答案';
-            this.style.opacity = '0.5';
-          };
           section.parentNode.insertBefore(btn, section);
         }
-      });
-      subjectView.querySelectorAll('.mc-option').forEach(opt => {
-        opt.onclick = handleOptionClick;
       });
     }
   }
@@ -10105,6 +10162,8 @@ function filterBySubject(key) {
 /* === Practice mode === */
 let practiceMode = false;
 let practiceCorrect = 0, practiceTotal = 0;
+let mcGroupSeq = 0;
+const answeredKeys = new Set();
 
 function updateScoreUI() {
   document.getElementById('scoreCorrect').textContent = practiceCorrect;
@@ -10116,11 +10175,102 @@ function updateScoreUI() {
 function resetScore() {
   practiceCorrect = 0;
   practiceTotal = 0;
+  answeredKeys.clear();
   updateScoreUI();
   // 清除所有選擇狀態
   document.querySelectorAll('.mc-option').forEach(opt => {
     opt.classList.remove('selected', 'correct', 'wrong', 'shake');
   });
+  document.querySelectorAll('.mc-radio').forEach(radio => { radio.checked = false; });
+  document.querySelectorAll('.mc-verdict').forEach(verdict => {
+    verdict.textContent = '';
+    verdict.className = 'mc-verdict';
+  });
+}
+
+function mcLetterOf(option) {
+  const label = option.querySelector('.opt-label');
+  return label ? label.textContent.replace(/[()（）]/g, '').trim() : '';
+}
+
+function enhanceMcGroups(root) {
+  root.querySelectorAll('.subject-card').forEach((card, cardIndex) => {
+    const options = Array.from(card.querySelectorAll('.mc-option')).filter(option => !option.closest('.mc-field'));
+    if (!options.length) return;
+    const groups = [];
+    options.forEach(option => {
+      if (mcLetterOf(option) === 'A' || !groups.length) groups.push([]);
+      groups[groups.length - 1].push(option);
+    });
+    const answerCells = card.querySelectorAll('.answer-section .answer-cell');
+    groups.forEach((group, questionIndex) => {
+      const field = document.createElement('fieldset');
+      field.className = 'mc-field';
+      field.dataset.qidx = questionIndex;
+      field.dataset.akey = `${card.id || `card${cardIndex}`}-q${questionIndex}`;
+
+      let questionNumber = '';
+      let questionText = '';
+      const question = group[0].previousElementSibling;
+      if (question && question.classList.contains('mc-question')) {
+        const number = question.querySelector('.q-number');
+        const text = question.querySelector('.q-text');
+        if (number) questionNumber = number.textContent.trim();
+        if (text) questionText = text.textContent.trim();
+      }
+      if (!questionNumber) {
+        const cell = answerCells[questionIndex];
+        const number = cell && cell.querySelector('.q-num');
+        questionNumber = number ? number.textContent.trim() : String(questionIndex + 1);
+      }
+      field.dataset.qnum = questionNumber;
+      const legend = document.createElement('legend');
+      legend.className = 'sr-only';
+      legend.textContent = questionText ? `第${questionNumber}題：${questionText}` : `第${questionNumber}題`;
+      field.appendChild(legend);
+      group[0].parentNode.insertBefore(field, group[0]);
+
+      const name = `mcq-${mcGroupSeq++}`;
+      group.forEach(option => {
+        const label = document.createElement('label');
+        label.className = option.className;
+        const radio = document.createElement('input');
+        radio.type = 'radio';
+        radio.className = 'mc-radio';
+        radio.name = name;
+        radio.value = mcLetterOf(option);
+        radio.disabled = !practiceMode;
+        while (option.firstChild) label.appendChild(option.firstChild);
+        label.insertBefore(radio, label.firstChild);
+        field.appendChild(label);
+        option.remove();
+      });
+
+      const verdict = document.createElement('div');
+      verdict.className = 'mc-verdict';
+      verdict.setAttribute('role', 'status');
+      verdict.setAttribute('aria-live', 'polite');
+      field.appendChild(verdict);
+    });
+  });
+}
+
+function fixupClonedMcGroups(root) {
+  root.querySelectorAll('.mc-field').forEach(field => {
+    const name = `mcq-${mcGroupSeq++}`;
+    field.querySelectorAll('.mc-radio').forEach(radio => {
+      radio.name = name;
+      radio.disabled = !practiceMode;
+      const option = radio.closest('.mc-option');
+      radio.checked = !!(option && option.classList.contains('selected'));
+    });
+  });
+}
+
+function setVerdict(element, kind, text) {
+  if (!element) return;
+  element.className = `mc-verdict ${kind}`;
+  element.textContent = text;
 }
 
 function togglePractice() {
@@ -10136,120 +10286,96 @@ function togglePractice() {
     document.querySelectorAll('.answer-section').forEach(section => {
       if (section.previousElementSibling && section.previousElementSibling.classList.contains('reveal-btn')) return;
       section.classList.remove('revealed');
-      const btn = document.createElement('button');
-      btn.className = 'reveal-btn';
-      btn.textContent = '顯示答案';
-      btn.onclick = function() {
-        section.classList.add('revealed');
-        this.textContent = '已顯示答案';
-        this.style.opacity = '0.5';
-      };
-      section.parentNode.insertBefore(btn, section);
+      const button = document.createElement('button');
+      button.className = 'reveal-btn';
+      button.textContent = '顯示答案';
+      section.parentNode.insertBefore(button, section);
     });
     // 為選擇題選項添加互動
-    document.querySelectorAll('.mc-option').forEach(opt => {
-      opt.onclick = handleOptionClick;
-    });
+    document.querySelectorAll('.mc-radio').forEach(radio => { radio.disabled = false; });
   } else {
     // 清除練習模式狀態
-    document.querySelectorAll('.reveal-btn').forEach(btn => btn.remove());
-    document.querySelectorAll('.answer-section').forEach(s => {
-      s.classList.remove('revealed');
-    });
-    document.querySelectorAll('.mc-option').forEach(opt => {
-      opt.onclick = null;
-      opt.classList.remove('selected', 'correct', 'wrong', 'shake');
-    });
+    document.querySelectorAll('.reveal-btn').forEach(button => button.remove());
+    document.querySelectorAll('.answer-section').forEach(section => section.classList.remove('revealed'));
+    document.querySelectorAll('.mc-radio').forEach(radio => { radio.disabled = true; });
     // 關閉時儲存分數再重置
     if (practiceTotal > 0) savePracticeScore(practiceCorrect, practiceTotal);
     resetScore();
   }
 }
 
-function handleOptionClick(e) {
-  if (!practiceMode) return;
-  const opt = e.currentTarget;
+document.addEventListener('change', event => {
+  const radio = event.target;
+  if (radio && radio.classList && radio.classList.contains('mc-radio')) handleMcOptionChange(radio);
+});
 
-  // 取得此選項的標籤
-  const label = opt.querySelector('.opt-label');
-  if (!label) return;
-  const chosen = label.textContent.replace(/[()（）]/g, '').trim();
+document.addEventListener('click', event => {
+  const button = event.target && event.target.closest ? event.target.closest('.reveal-btn') : null;
+  if (!button || !practiceMode) return;
+  const section = button.nextElementSibling;
+  if (!section || !section.classList.contains('answer-section')) return;
+  section.style.display = '';
+  section.classList.add('revealed');
+  button.textContent = '已顯示答案';
+  button.style.opacity = '0.5';
+});
 
-  // 嘗試找到正確答案
-  const card = opt.closest('.subject-card');
-  if (!card) return;
-  const answerSection = card.querySelector('.answer-section');
+function handleMcOptionChange(radio) {
+  if (!practiceMode || radio.disabled) return;
+  const field = radio.closest('.mc-field');
+  const option = radio.closest('.mc-option');
+  const card = radio.closest('.subject-card');
+  if (!field || !option || !card) return;
 
-  // 將卡片中所有選項按題目分組（遇到 (A) 開始新組）
-  const allOpts = Array.from(card.querySelectorAll('.mc-option'));
-  const groups = [];
-  allOpts.forEach(o => {
-    const l = o.querySelector('.opt-label');
-    const letter = l ? l.textContent.replace(/[()（）]/g, '').trim() : '';
-    if (letter === 'A' || groups.length === 0) groups.push([]);
-    groups[groups.length - 1].push(o);
-  });
-
-  // 找到被點擊選項所在的題組
-  let qIdx = -1;
-  let optionsInQ = [];
-  for (let i = 0; i < groups.length; i++) {
-    if (groups[i].includes(opt)) {
-      qIdx = i;
-      optionsInQ = groups[i];
-      break;
-    }
-  }
-  if (qIdx === -1) return;
-
+  const questionIndex = Number(field.dataset.qidx);
+  const answerKey = field.dataset.akey;
+  const options = Array.from(field.querySelectorAll('.mc-option'));
   // 從答案格找正確答案
-  let correctAns = '';
-  if (answerSection) {
-    const cells = answerSection.querySelectorAll('.answer-cell');
-    if (cells[qIdx]) {
-      const ansEl = cells[qIdx].querySelector('.q-ans');
-      if (ansEl) correctAns = ansEl.textContent.trim();
-    }
-  }
-
+  const answerSection = card.querySelector('.answer-section');
+  const cell = answerSection && answerSection.querySelectorAll('.answer-cell')[questionIndex];
+  const answerElement = cell && cell.querySelector('.q-ans');
+  const correctAnswer = answerElement ? answerElement.textContent.trim() : '';
   // 檢查此題是否已作答（避免重複計分）
-  const alreadyAnswered = optionsInQ.some(o => o.classList.contains('selected'));
+  const firstAttempt = !answeredKeys.has(answerKey);
+  answeredKeys.add(answerKey);
+  const chosen = radio.value;
+  const questionNumber = field.dataset.qnum || String(questionIndex + 1);
 
   // 標記選擇
-  optionsInQ.forEach(o => o.classList.remove('selected', 'correct', 'wrong', 'shake'));
-  opt.classList.add('selected');
+  options.forEach(item => item.classList.remove('selected', 'correct', 'wrong', 'shake'));
+  option.classList.add('selected');
+  const verdict = field.querySelector('.mc-verdict');
 
-  if (correctAns) {
-    if (chosen === correctAns) {
-      opt.classList.add('correct');
-      if (!alreadyAnswered) {
-        practiceTotal++;
-        practiceCorrect++;
-      }
-    } else {
-      opt.classList.add('wrong');
-      // shake 動畫
-      opt.classList.add('shake');
-      setTimeout(() => opt.classList.remove('shake'), 400);
-      // 標示正確答案
-      optionsInQ.forEach(o => {
-        const l = o.querySelector('.opt-label');
-        if (l && l.textContent.replace(/[()（）]/g, '').trim() === correctAns) {
-          o.classList.add('correct');
-        }
-      });
-      if (!alreadyAnswered) {
-        practiceTotal++;
-      }
-    }
-    if (!alreadyAnswered) {
-      updateScoreUI();
-    }
+  if (!correctAnswer) {
+    setVerdict(verdict, 'na', `第${questionNumber}題：已選擇 ${chosen}（本卷無標準答案）`);
+    return;
   }
+  if (chosen === correctAnswer) {
+    option.classList.add('correct');
+    if (firstAttempt) {
+      practiceCorrect++;
+      practiceTotal++;
+    }
+    setVerdict(verdict, 'ok', `第${questionNumber}題：答對了 ✓`);
+  } else {
+    option.classList.add('wrong', 'shake');
+    // shake 動畫
+    setTimeout(() => option.classList.remove('shake'), 400);
+    // 標示正確答案
+    options.forEach(item => {
+      if (mcLetterOf(item) === correctAnswer) item.classList.add('correct');
+    });
+    if (firstAttempt) practiceTotal++;
+    setVerdict(verdict, 'err', `第${questionNumber}題：答錯了，正確答案是 ${correctAnswer}`);
+  }
+  if (firstAttempt) updateScoreUI();
 }
 
 /* === DOMContentLoaded === */
 document.addEventListener('DOMContentLoaded', () => {
+  enhanceMcGroups(document);
+  enhanceSubjectHeaders(document);
+
   // Sidebar accordion
   document.querySelectorAll('.sidebar-year').forEach(y => {
     y.addEventListener('click', () => {
@@ -10287,19 +10413,7 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   // === ARIA attributes ===
-  document.querySelectorAll('.subject-card').forEach(card => {
-    const header = card.querySelector('.subject-header');
-    const body = card.querySelector('.subject-body');
-    if (header && body) {
-      header.setAttribute('role', 'button');
-      header.setAttribute('tabindex', '0');
-      header.setAttribute('aria-expanded', card.classList.contains('open') ? 'true' : 'false');
-      // 鍵盤支援
-      header.addEventListener('keydown', e => {
-        if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); header.click(); }
-      });
-    }
-  });
+  enhanceSubjectHeaders(document);
 
   // MutationObserver 更新 aria-expanded
   const observer = new MutationObserver(mutations => {
