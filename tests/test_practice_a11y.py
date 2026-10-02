@@ -177,6 +177,25 @@ def test_keyboard_selection_marks_and_announces_answer(page):
     assert ans in verdict.inner_text()
 
 
+def test_tab_enters_and_leaves_native_radio_group(page):
+    field = page.locator("fieldset.mc-field").first
+    card = open_card(field)
+    practice_on(page)
+
+    # The card header precedes its answer controls in the actual tab order.
+    card.locator(".subject-header").focus()
+    page.keyboard.press("Tab")
+    # Each card also has a bookmark button between its header and questions.
+    page.keyboard.press("Tab")
+    first = field.locator("input.mc-radio").first
+    assert first.evaluate("el => document.activeElement === el"), \
+        "Tab from the question header must enter the radio group"
+
+    page.keyboard.press("Tab")
+    assert not field.evaluate("f => f.contains(document.activeElement)"), \
+        "Tab from a radio must leave its group instead of visiting each option"
+
+
 def test_arrow_keys_move_within_radio_group(page):
     field = page.locator("fieldset.mc-field").first
     open_card(field)
@@ -362,4 +381,4 @@ def test_ax_tree_exposes_question_group_and_named_radios(page):
 
     ARTIFACTS.mkdir(exist_ok=True)
     (ARTIFACTS / "ax-tree.json").write_text(
-        json.dumps(nodes[:60], ensure_ascii=False, indent=2))
+        json.dumps(nodes[:60], ensure_ascii=False, indent=2), encoding="utf-8")
