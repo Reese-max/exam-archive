@@ -309,6 +309,24 @@ def test_subject_view_clones_share_akey_dedup_but_unique_names(page):
     assert score(page) == {"correct": before["correct"] + 1, "total": before["total"] + 1}
 
 
+def test_subject_view_headers_keep_keyboard_and_expanded_state(page):
+    page.evaluate("switchView('subject')")
+    header = page.locator("#subjectView .subject-card .subject-header").first
+    card = header.locator(CARD_XPATH)
+    assert header.get_attribute("role") == "button"
+    assert header.get_attribute("tabindex") == "0"
+    assert header.get_attribute("aria-expanded") == "true"
+
+    header.focus()
+    page.keyboard.press("Enter")
+    assert "open" not in (card.get_attribute("class") or "")
+    assert header.get_attribute("aria-expanded") == "false"
+
+    page.keyboard.press(" ")
+    assert "open" in (card.get_attribute("class") or "")
+    assert header.get_attribute("aria-expanded") == "true"
+
+
 def test_toggles_and_view_switches_never_duplicate_structures(page):
     practice_on(page)
     page.evaluate("switchView('subject')")
@@ -352,6 +370,19 @@ def test_score_region_and_verdicts_are_live_regions(page):
     practice_on(page)
     pick(page, field, correct_letter(field))
     assert page.locator("#scoreCorrect").inner_text() == "1"
+
+
+def test_dark_mode_keeps_answer_feedback_visible(page):
+    page.locator("#darkToggle").click()
+    practice_on(page)
+    field = page.locator("#yearView fieldset.mc-field").first
+    open_card(field)
+    answer = correct_letter(field)
+    wrong = "B" if answer != "B" else "A"
+    pick(page, field, wrong)
+    assert field.locator(".mc-verdict").evaluate(
+        "verdict => getComputedStyle(verdict).color"
+    ) == "rgb(252, 129, 129)"
 
 
 def test_ax_tree_exposes_question_group_and_named_radios(page):

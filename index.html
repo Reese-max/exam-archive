@@ -9873,7 +9873,28 @@ const debouncedSearch = debounce(v => doSearch(v), 180);
 
 /* === Toggle helpers === */
 function toggleYear(el) { el.classList.toggle('active'); }
-function toggleCard(header) { header.parentElement.classList.toggle('open'); }
+function toggleCard(header) {
+  const card = header.parentElement;
+  const open = card.classList.toggle('open');
+  header.setAttribute('aria-expanded', open);
+}
+function enhanceSubjectHeaders(root) {
+  root.querySelectorAll('.subject-card').forEach(card => {
+    const header = card.querySelector('.subject-header');
+    if (!header) return;
+    header.setAttribute('role', 'button');
+    header.tabIndex = 0;
+    header.setAttribute('aria-expanded', card.classList.contains('open'));
+    if (header.dataset.keyboardReady) return;
+    header.dataset.keyboardReady = '1';
+    header.addEventListener('keydown', e => {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        header.click();
+      }
+    });
+  });
+}
 
 /* === Search with highlighting === */
 function clearHighlights() {
@@ -10090,6 +10111,7 @@ function switchView(mode) {
     subjectFilter.style.display = '';
     if (!subjectView.children.length) {
       buildSubjectView();
+      enhanceSubjectHeaders(subjectView);
       // innerHTML clone 會帶走監聽器並複製 radio name：重新命名並依 .selected 補回 checked
       fixupClonedMcGroups(subjectView);
       // 練習模式下補齊揭示按鈕（點擊處理採事件委派，clone 自動生效）
@@ -10424,19 +10446,7 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   // === ARIA attributes ===
-  document.querySelectorAll('.subject-card').forEach(card => {
-    const header = card.querySelector('.subject-header');
-    const body = card.querySelector('.subject-body');
-    if (header && body) {
-      header.setAttribute('role', 'button');
-      header.setAttribute('tabindex', '0');
-      header.setAttribute('aria-expanded', card.classList.contains('open') ? 'true' : 'false');
-      // 鍵盤支援
-      header.addEventListener('keydown', e => {
-        if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); header.click(); }
-      });
-    }
-  });
+  enhanceSubjectHeaders(document);
 
   // MutationObserver 更新 aria-expanded
   const observer = new MutationObserver(mutations => {
