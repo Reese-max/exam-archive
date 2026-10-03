@@ -281,6 +281,54 @@ body.sidebar-collapsed .sidebar-reopen { display: flex; }
   line-height: 1.7;
 }
 
+/* Practice mode: accessible native-radio options */
+.mc-field {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  min-width: 0;
+}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+.mc-option {
+  position: relative;
+}
+.mc-radio {
+  position: absolute;
+  opacity: 0;
+  width: 1px;
+  height: 1px;
+  margin: 0;
+  padding: 0;
+  top: 0.45em;
+  left: 1.15rem;
+}
+.practice-mode .mc-option:focus-within {
+  outline: 2px solid var(--accent);
+  outline-offset: 1px;
+  border-radius: 6px;
+}
+.mc-verdict {
+  font-size: 0.82rem;
+  line-height: 1.5;
+  padding-left: 2.2rem;
+  font-weight: 600;
+}
+/* 比全域色更深的文字色，讓小字達到 4.5:1 對比 */
+.mc-verdict.ok { color: #276749; }
+.mc-verdict.err { color: #c53030; }
+.mc-verdict.na { color: #4a5568; }
+
 /* General text block */
 .exam-text {
   font-size: 0.9rem;
@@ -404,6 +452,7 @@ html.dark .subject-card:hover { box-shadow: 0 2px 12px rgba(0,0,0,0.3); }
   .main { margin-left: 0; max-width: 100%; }
   .subject-body { display: block !important; }
   .search-box { display: none; }
+  .reveal-btn, .practice-score, .mc-verdict { display: none !important; }
 }
 
 /* Toolbar */
@@ -457,7 +506,7 @@ html.dark .subject-card:hover { box-shadow: 0 2px 12px rgba(0,0,0,0.3); }
   gap: 0.4rem;
   padding: 0.4rem 1rem;
   margin-top: 0.75rem;
-  background: var(--accent);
+  background: var(--primary);
   color: #fff;
   border: none;
   border-radius: 6px;
@@ -466,7 +515,7 @@ html.dark .subject-card:hover { box-shadow: 0 2px 12px rgba(0,0,0,0.3); }
   cursor: pointer;
   transition: background 0.2s;
 }
-.reveal-btn:hover { background: var(--primary); }
+.reveal-btn:hover { background: var(--primary-light); }
 
 /* Practice score panel */
 .practice-score {
@@ -579,13 +628,16 @@ html.dark .highlight { background: #92400e; color: #fef3c7; border-radius: 3px; 
 html.dark .highlight.current { background: #d97706; color: #1a202c; box-shadow: 0 0 0 3px rgba(251,191,36,0.5); }
 html.dark .back-to-top { background: #4299e1; }
 html.dark .dark-toggle { background: #2d3748; border-color: #4a5568; }
-html.dark .reveal-btn { background: #4299e1; }
+html.dark .reveal-btn { background: var(--primary-light); }
 html.dark .practice-mode .mc-option:hover { background: #4a5568; }
 html.dark .practice-mode .mc-option.selected { background: #2a4365; color: #e2e8f0; }
 html.dark .practice-mode .mc-option.correct { background: #22543d; color: #c6f6d5; border-left-color: #68d391; }
 html.dark .practice-mode .mc-option.wrong { background: #742a2a; color: #fed7d7; border-left-color: #fc8181; }
 html.dark .practice-mode .mc-option.correct .opt-label { color: #68d391; }
 html.dark .practice-mode .mc-option.wrong .opt-label { color: #fc8181; }
+html.dark .mc-verdict.ok { color: #68d391; }
+html.dark .mc-verdict.err { color: #fc8181; }
+html.dark .mc-verdict.na { color: #cbd5e0; }
 
 
 /* Bookmark filter active state */
@@ -9821,7 +9873,28 @@ const debouncedSearch = debounce(v => doSearch(v), 180);
 
 /* === Toggle helpers === */
 function toggleYear(el) { el.classList.toggle('active'); }
-function toggleCard(header) { header.parentElement.classList.toggle('open'); }
+function toggleCard(header) {
+  const card = header.parentElement;
+  const open = card.classList.toggle('open');
+  header.setAttribute('aria-expanded', open);
+}
+function enhanceSubjectHeaders(root) {
+  root.querySelectorAll('.subject-card').forEach(card => {
+    const header = card.querySelector('.subject-header');
+    if (!header) return;
+    header.setAttribute('role', 'button');
+    header.tabIndex = 0;
+    header.setAttribute('aria-expanded', card.classList.contains('open'));
+    if (header.dataset.keyboardReady) return;
+    header.dataset.keyboardReady = '1';
+    header.addEventListener('keydown', e => {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        header.click();
+      }
+    });
+  });
+}
 
 /* === Search with highlighting === */
 function clearHighlights() {
@@ -10036,29 +10109,25 @@ function switchView(mode) {
     yearView.style.display = 'none';
     subjectView.style.display = '';
     subjectFilter.style.display = '';
-    if (!subjectView.children.length) buildSubjectView();
+    if (!subjectView.children.length) {
+      buildSubjectView();
+      enhanceSubjectHeaders(subjectView);
+      // innerHTML clone 會帶走監聽器並複製 radio name：重新命名並依 .selected 補回 checked
+      fixupClonedMcGroups(subjectView);
+      // 練習模式下補齊揭示按鈕（點擊處理採事件委派，clone 自動生效）
+      if (practiceMode) {
+        subjectView.querySelectorAll('.answer-section').forEach(section => {
+          if (!section.previousElementSibling || !section.previousElementSibling.classList.contains('reveal-btn')) {
+            const btn = document.createElement('button');
+            btn.className = 'reveal-btn';
+            btn.textContent = '顯示答案';
+            section.parentNode.insertBefore(btn, section);
+          }
+        });
+      }
+    }
     if (!subjectFilter.value) subjectFilter.value = SUBJECT_KEYS[0];
     filterBySubject(subjectFilter.value);
-    // 切換到科目瀏覽時，若練習模式已啟用，重新綁定 handler
-    if (practiceMode) {
-      subjectView.querySelectorAll('.answer-section').forEach(section => {
-        if (!section.previousElementSibling || !section.previousElementSibling.classList.contains('reveal-btn')) {
-          const btn = document.createElement('button');
-          btn.className = 'reveal-btn';
-          btn.textContent = '顯示答案';
-          btn.onclick = function() {
-            section.style.display = '';
-            section.classList.add('revealed');
-            this.textContent = '已顯示答案';
-            this.style.opacity = '0.5';
-          };
-          section.parentNode.insertBefore(btn, section);
-        }
-      });
-      subjectView.querySelectorAll('.mc-option').forEach(opt => {
-        opt.onclick = handleOptionClick;
-      });
-    }
   }
 }
 
@@ -10105,6 +10174,9 @@ function filterBySubject(key) {
 /* === Practice mode === */
 let practiceMode = false;
 let practiceCorrect = 0, practiceTotal = 0;
+let mcGroupSeq = 0;
+// 已作答題目的穩定鍵（cardId-qidx）：跨檢視複製也指向同一題，防止重複計分
+const answeredKeys = new Set();
 
 function updateScoreUI() {
   document.getElementById('scoreCorrect').textContent = practiceCorrect;
@@ -10116,11 +10188,107 @@ function updateScoreUI() {
 function resetScore() {
   practiceCorrect = 0;
   practiceTotal = 0;
+  answeredKeys.clear();
   updateScoreUI();
   // 清除所有選擇狀態
   document.querySelectorAll('.mc-option').forEach(opt => {
     opt.classList.remove('selected', 'correct', 'wrong', 'shake');
   });
+  document.querySelectorAll('.mc-radio').forEach(r => { r.checked = false; });
+  document.querySelectorAll('.mc-field .mc-verdict').forEach(v => {
+    v.textContent = '';
+    v.className = 'mc-verdict';
+  });
+}
+
+function mcLetterOf(opt) {
+  const l = opt.querySelector('.opt-label');
+  return l ? l.textContent.replace(/[()（）]/g, '').trim() : '';
+}
+
+/* 將每題選項包進 <fieldset>+<legend>，並把 .mc-option div 升級成
+   <label> 包覆的原生 <input type="radio">，使鍵盤與輔助科技可以作答。
+   分組規則沿用計分邏輯：遇到 (A) 另起新題組（部分試卷題幹內嵌於選項文字）。
+   不使用 id，科目檢視 innerHTML 複製時不會產生重複 id。 */
+function enhanceMcGroups(root) {
+  root.querySelectorAll('.subject-card').forEach((card, cardIdx) => {
+    const opts = Array.from(card.querySelectorAll('.mc-option'));
+    if (!opts.length) return;
+    const groups = [];
+    opts.forEach(o => {
+      if (mcLetterOf(o) === 'A' || !groups.length) groups.push([]);
+      groups[groups.length - 1].push(o);
+    });
+    const ansCells = card.querySelectorAll('.answer-section .answer-cell');
+    groups.forEach((gOpts, qIdx) => {
+      if (gOpts[0].closest('.mc-field')) return; // 已升級過
+      const field = document.createElement('fieldset');
+      field.className = 'mc-field';
+      field.dataset.qidx = qIdx;
+      field.dataset.akey = (card.id || 'card' + cardIdx) + '-q' + qIdx;
+
+      // 群組名稱：前一個 .mc-question 的文字；缺題幹的試卷退回「第N題」
+      let qNum = '', qText = '';
+      const prev = gOpts[0].previousElementSibling;
+      if (prev && prev.classList.contains('mc-question')) {
+        const n = prev.querySelector('.q-number');
+        const t = prev.querySelector('.q-text');
+        if (n) qNum = n.textContent.trim();
+        if (t) qText = t.textContent.trim();
+      }
+      if (!qNum) {
+        const cell = ansCells[qIdx];
+        const nEl = cell && cell.querySelector('.q-num');
+        qNum = (nEl ? nEl.textContent.trim() : '') || String(qIdx + 1);
+      }
+      field.dataset.qnum = qNum;
+      const legend = document.createElement('legend');
+      legend.className = 'sr-only';
+      legend.textContent = qText ? `第${qNum}題：${qText}` : `第${qNum}題`;
+      field.appendChild(legend);
+
+      gOpts[0].parentNode.insertBefore(field, gOpts[0]);
+      const name = 'mcq-' + mcGroupSeq++;
+      gOpts.forEach(o => {
+        const label = document.createElement('label');
+        label.className = o.className;
+        const radio = document.createElement('input');
+        radio.type = 'radio';
+        radio.className = 'mc-radio';
+        radio.name = name;
+        radio.value = mcLetterOf(o);
+        radio.disabled = !practiceMode;
+        while (o.firstChild) label.appendChild(o.firstChild);
+        label.insertBefore(radio, label.firstChild);
+        field.appendChild(label);
+        o.remove();
+      });
+      const verdict = document.createElement('div');
+      verdict.className = 'mc-verdict';
+      verdict.setAttribute('role', 'status');
+      verdict.setAttribute('aria-live', 'polite');
+      field.appendChild(verdict);
+    });
+  });
+}
+
+/* 科目檢視以 innerHTML 複製而來：radio name 需重新指派避免跨檢視撞名，
+   checked 狀態不會被複製，依 .selected class 補回。 */
+function fixupClonedMcGroups(root) {
+  root.querySelectorAll('.mc-field').forEach(field => {
+    const name = 'mcq-' + mcGroupSeq++;
+    field.querySelectorAll('.mc-radio').forEach(r => {
+      r.name = name;
+      const opt = r.closest('.mc-option');
+      r.checked = !!(opt && opt.classList.contains('selected'));
+    });
+  });
+}
+
+function setVerdict(el, kind, text) {
+  if (!el) return;
+  el.className = 'mc-verdict ' + kind;
+  el.textContent = text;
 }
 
 function togglePractice() {
@@ -10139,93 +10307,81 @@ function togglePractice() {
       const btn = document.createElement('button');
       btn.className = 'reveal-btn';
       btn.textContent = '顯示答案';
-      btn.onclick = function() {
-        section.classList.add('revealed');
-        this.textContent = '已顯示答案';
-        this.style.opacity = '0.5';
-      };
       section.parentNode.insertBefore(btn, section);
     });
-    // 為選擇題選項添加互動
-    document.querySelectorAll('.mc-option').forEach(opt => {
-      opt.onclick = handleOptionClick;
-    });
+    // 啟用所有選項 radio（年份與科目檢視皆適用）
+    document.querySelectorAll('.mc-radio').forEach(r => { r.disabled = false; });
   } else {
     // 清除練習模式狀態
     document.querySelectorAll('.reveal-btn').forEach(btn => btn.remove());
     document.querySelectorAll('.answer-section').forEach(s => {
       s.classList.remove('revealed');
     });
-    document.querySelectorAll('.mc-option').forEach(opt => {
-      opt.onclick = null;
-      opt.classList.remove('selected', 'correct', 'wrong', 'shake');
-    });
+    document.querySelectorAll('.mc-radio').forEach(r => { r.disabled = true; });
     // 關閉時儲存分數再重置
     if (practiceTotal > 0) savePracticeScore(practiceCorrect, practiceTotal);
     resetScore();
   }
 }
 
-function handleOptionClick(e) {
-  if (!practiceMode) return;
-  const opt = e.currentTarget;
-
-  // 取得此選項的標籤
-  const label = opt.querySelector('.opt-label');
-  if (!label) return;
-  const chosen = label.textContent.replace(/[()（）]/g, '').trim();
-
-  // 嘗試找到正確答案
-  const card = opt.closest('.subject-card');
-  if (!card) return;
-  const answerSection = card.querySelector('.answer-section');
-
-  // 將卡片中所有選項按題目分組（遇到 (A) 開始新組）
-  const allOpts = Array.from(card.querySelectorAll('.mc-option'));
-  const groups = [];
-  allOpts.forEach(o => {
-    const l = o.querySelector('.opt-label');
-    const letter = l ? l.textContent.replace(/[()（）]/g, '').trim() : '';
-    if (letter === 'A' || groups.length === 0) groups.push([]);
-    groups[groups.length - 1].push(o);
-  });
-
-  // 找到被點擊選項所在的題組
-  let qIdx = -1;
-  let optionsInQ = [];
-  for (let i = 0; i < groups.length; i++) {
-    if (groups[i].includes(opt)) {
-      qIdx = i;
-      optionsInQ = groups[i];
-      break;
-    }
+// 事件委派：radio 的 change 與揭示按鈕的 click 各只綁定一次；
+// 科目檢視的 innerHTML clone 不會帶走監聽器，委派可讓 clone 自動生效。
+document.addEventListener('change', e => {
+  if (e.target && e.target.classList && e.target.classList.contains('mc-radio')) {
+    handleMcOptionChange(e.target);
   }
-  if (qIdx === -1) return;
+});
+document.addEventListener('click', e => {
+  const btn = e.target && e.target.closest ? e.target.closest('.reveal-btn') : null;
+  if (!btn || !practiceMode) return;
+  const section = btn.nextElementSibling;
+  if (!section || !section.classList.contains('answer-section')) return;
+  section.style.display = '';
+  section.classList.add('revealed');
+  btn.textContent = '已顯示答案';
+  btn.style.opacity = '0.5';
+});
+
+function handleMcOptionChange(radio) {
+  if (!practiceMode || radio.disabled) return;
+  const field = radio.closest('.mc-field');
+  const opt = radio.closest('.mc-option');
+  const card = radio.closest('.subject-card');
+  if (!field || !opt || !card) return;
+
+  const chosen = radio.value;
+  const qIdx = +field.dataset.qidx;
+  const akey = field.dataset.akey;
+  const optionsInQ = Array.from(field.querySelectorAll('.mc-option'));
 
   // 從答案格找正確答案
   let correctAns = '';
+  const answerSection = card.querySelector('.answer-section');
   if (answerSection) {
-    const cells = answerSection.querySelectorAll('.answer-cell');
-    if (cells[qIdx]) {
-      const ansEl = cells[qIdx].querySelector('.q-ans');
-      if (ansEl) correctAns = ansEl.textContent.trim();
-    }
+    const cell = answerSection.querySelectorAll('.answer-cell')[qIdx];
+    const ansEl = cell && cell.querySelector('.q-ans');
+    if (ansEl) correctAns = ansEl.textContent.trim();
   }
 
-  // 檢查此題是否已作答（避免重複計分）
-  const alreadyAnswered = optionsInQ.some(o => o.classList.contains('selected'));
+  // 首次作答才計分（同一題跨檢視複製也只算一次）
+  const firstAttempt = !answeredKeys.has(akey);
+  answeredKeys.add(akey);
 
   // 標記選擇
   optionsInQ.forEach(o => o.classList.remove('selected', 'correct', 'wrong', 'shake'));
   opt.classList.add('selected');
 
+  const verdict = field.querySelector('.mc-verdict');
+  const qNum = field.dataset.qnum || String(qIdx + 1);
+
   if (correctAns) {
     if (chosen === correctAns) {
       opt.classList.add('correct');
-      if (!alreadyAnswered) {
+      if (firstAttempt) {
         practiceTotal++;
         practiceCorrect++;
       }
+      setVerdict(verdict, 'ok', `第${qNum}題：答對了 ✓`);
     } else {
       opt.classList.add('wrong');
       // shake 動畫
@@ -10233,23 +10389,26 @@ function handleOptionClick(e) {
       setTimeout(() => opt.classList.remove('shake'), 400);
       // 標示正確答案
       optionsInQ.forEach(o => {
-        const l = o.querySelector('.opt-label');
-        if (l && l.textContent.replace(/[()（）]/g, '').trim() === correctAns) {
-          o.classList.add('correct');
-        }
+        if (mcLetterOf(o) === correctAns) o.classList.add('correct');
       });
-      if (!alreadyAnswered) {
+      if (firstAttempt) {
         practiceTotal++;
       }
+      setVerdict(verdict, 'err', `第${qNum}題：答錯了，正確答案是 ${correctAns}`);
     }
-    if (!alreadyAnswered) {
+    if (firstAttempt) {
       updateScoreUI();
     }
+  } else {
+    setVerdict(verdict, 'na', `第${qNum}題：已選擇 ${chosen}（本卷無標準答案）`);
   }
 }
 
 /* === DOMContentLoaded === */
 document.addEventListener('DOMContentLoaded', () => {
+  // 選擇題選項升級為 fieldset+legend+原生 radio（鍵盤/輔助科技可操作）
+  enhanceMcGroups(document);
+
   // Sidebar accordion
   document.querySelectorAll('.sidebar-year').forEach(y => {
     y.addEventListener('click', () => {
@@ -10287,19 +10446,7 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   // === ARIA attributes ===
-  document.querySelectorAll('.subject-card').forEach(card => {
-    const header = card.querySelector('.subject-header');
-    const body = card.querySelector('.subject-body');
-    if (header && body) {
-      header.setAttribute('role', 'button');
-      header.setAttribute('tabindex', '0');
-      header.setAttribute('aria-expanded', card.classList.contains('open') ? 'true' : 'false');
-      // 鍵盤支援
-      header.addEventListener('keydown', e => {
-        if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); header.click(); }
-      });
-    }
-  });
+  enhanceSubjectHeaders(document);
 
   // MutationObserver 更新 aria-expanded
   const observer = new MutationObserver(mutations => {
