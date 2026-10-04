@@ -46,8 +46,19 @@ python3 -m pytest -q
 ```
 
 CI (`.github/workflows/test.yml`) runs the Python contract suite, dependency-free
-Node loader tests, and the rebuild check on every push to `main` and every pull
-request.
+Node loader tests, the rebuild check, and a separate Chromium browser smoke on
+every push to `main` and every pull request. To run the browser checks locally:
+
+```bash
+python3 -m pip install -r requirements-browser.txt
+python3 -m playwright install chromium
+python3 tests/browser_smoke.py
+```
+
+The five browser journeys verify first-load year scoping, keyboard search and
+question expansion, mobile navigation, selected-subject loading, and reflow at
+640 CSS pixels (the effective width of a 1280-pixel viewport at 200% zoom).
+They serve the generated site on loopback and block optional external fonts.
 
 ## Data provenance
 
@@ -75,5 +86,6 @@ in `docs/audits/` and `.github/quality-audits/`; the originating protocol is
 - Category fragments are generated from `data/year-NNN.txt`; never edit those
   derived files directly. The Node checks use the built-in test runner and do
   not require a package manager or third-party JavaScript dependencies.
-- CI does not launch a full browser: mobile and 200%-zoom checks remain
-  markup/CSS contract checks, and there is no real desktop or device smoke run.
+- Automated Chromium tests run against the candidate's local static server.
+  Deployed Pages, physical-device zoom, and human screen-reader acceptance
+  remain outstanding; equivalent-width reflow is not a device zoom receipt.

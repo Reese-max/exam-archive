@@ -732,7 +732,7 @@ html.dark .mc-question { border-top-color: #4a5568; }
 <body>
 
 <a href="#searchInput" class="skip-link">跳至搜尋</a>
-<button class="hamburger" id="hamburgerBtn" aria-label="開啟導航選單">☰</button>
+<button class="hamburger" id="hamburgerBtn" aria-label="開啟導航選單" aria-controls="sidebar" aria-expanded="false">☰</button>
 <div class="sidebar-overlay" id="sidebarOverlay"></div>
 <button class="sidebar-reopen" id="sidebarReopen" aria-label="展開導航">☰</button>
 <nav class="sidebar" id="sidebar" aria-label="年份導航">
@@ -1133,13 +1133,19 @@ const sidebarOverlay = document.getElementById('sidebarOverlay');
 function closeMobileSidebar() {
   sidebar.classList.remove('open');
   sidebarOverlay.classList.remove('active');
-  if (hamburger) hamburger.textContent = '☰';
+  if (hamburger) {
+    hamburger.textContent = '☰';
+    hamburger.setAttribute('aria-expanded', 'false');
+    hamburger.setAttribute('aria-label', '開啟導航選單');
+  }
 }
 if (hamburger) {
   hamburger.addEventListener('click', () => {
     const open = sidebar.classList.toggle('open');
     sidebarOverlay.classList.toggle('active');
     hamburger.textContent = open ? '✕' : '☰';
+    hamburger.setAttribute('aria-expanded', String(open));
+    hamburger.setAttribute('aria-label', open ? '關閉導航選單' : '開啟導航選單');
   });
   sidebarOverlay.addEventListener('click', closeMobileSidebar);
   sidebar.querySelectorAll('.sidebar-link').forEach(l =>
@@ -1466,15 +1472,17 @@ document.addEventListener('DOMContentLoaded', () => {
   // MutationObserver 更新 aria-expanded
   const observer = new MutationObserver(mutations => {
     mutations.forEach(m => {
-      if (m.type === 'attributes' && m.attributeName === 'class') {
+      if (m.type === 'attributes' && m.attributeName === 'class' && m.target.classList.contains('subject-card')) {
         const card = m.target;
         const header = card.querySelector('.subject-header');
         if (header) header.setAttribute('aria-expanded', card.classList.contains('open') ? 'true' : 'false');
       }
     });
   });
-  document.querySelectorAll('.subject-card').forEach(card => {
-    observer.observe(card, { attributes: true });
+  // Cards arrive after DOMContentLoaded. Observe their containers so hash
+  // navigation and search keep dynamically inserted cards' state announced.
+  ['yearView', 'subjectView'].forEach(id => {
+    observer.observe(document.getElementById(id), { attributes: true, subtree: true, attributeFilter: ['class'] });
   });
 
   // === 鍵盤快捷鍵 ===
