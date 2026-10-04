@@ -309,6 +309,47 @@ def test_subject_view_clones_share_akey_dedup_but_unique_names(page):
     assert score(page) == {"correct": before["correct"] + 1, "total": before["total"] + 1}
 
 
+def test_answer_selection_and_feedback_stay_synced_between_views(page):
+    practice_on(page)
+    year_field = page.locator("#yearView fieldset.mc-field").first
+    open_card(year_field)
+    akey = year_field.get_attribute("data-akey")
+    answer = correct_letter(year_field)
+    assert akey and answer
+    wrong = next(letter for letter in "ABCD" if letter != answer)
+
+    # Build the subject-view snapshot before answering in year view.
+    page.evaluate("switchView('subject')")
+    page.evaluate("switchView('year')")
+    pick(page, year_field, wrong)
+    assert year_field.locator("input.mc-radio:checked").get_attribute("value") == wrong
+    assert year_field.locator(".mc-option.wrong").count() == 1
+    assert year_field.locator(".mc-option.correct").count() == 1
+    assert score(page) == {"correct": 0, "total": 1}
+
+    page.evaluate("switchView('subject')")
+    subject_field = page.locator(f'#subjectView fieldset.mc-field[data-akey="{akey}"]').first
+    open_card(subject_field)
+    assert subject_field.locator("input.mc-radio:checked").get_attribute("value") == wrong
+    assert subject_field.locator(".mc-option.selected").locator("input").get_attribute("value") == wrong
+    assert subject_field.locator(".mc-option.wrong").count() == 1
+    assert subject_field.locator(".mc-option.correct").count() == 1
+    assert "答錯" in subject_field.locator(".mc-verdict").inner_text()
+    assert score(page) == {"correct": 0, "total": 1}
+
+    # Changing the same answer in subject view updates the hidden year copy,
+    # while the existing first-attempt score remains unchanged.
+    pick(page, subject_field, answer)
+    assert score(page) == {"correct": 0, "total": 1}
+    page.evaluate("switchView('year')")
+    assert year_field.locator("input.mc-radio:checked").get_attribute("value") == answer
+    assert year_field.locator(".mc-option.selected").locator("input").get_attribute("value") == answer
+    assert year_field.locator(".mc-option.correct").count() == 1
+    assert year_field.locator(".mc-option.wrong").count() == 0
+    assert "答對" in year_field.locator(".mc-verdict").inner_text()
+    assert score(page) == {"correct": 0, "total": 1}
+
+
 def test_subject_view_headers_keep_keyboard_and_expanded_state(page):
     page.evaluate("switchView('subject')")
     header = page.locator("#subjectView .subject-card .subject-header").first

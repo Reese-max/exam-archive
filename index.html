@@ -10291,6 +10291,40 @@ function setVerdict(el, kind, text) {
   el.textContent = text;
 }
 
+/* 年份與科目檢視包含同一題的獨立 DOM：同步選擇、作答回饋與 radio 狀態，
+   讓使用者切換檢視後仍看見目前答案；程式化更新不觸發 change，因此不會重複計分。 */
+function syncMcGroupClones(sourceField) {
+  const akey = sourceField && sourceField.dataset.akey;
+  if (!akey) return;
+
+  const optionStates = new Map(
+    Array.from(sourceField.querySelectorAll('.mc-option')).map(option => [mcLetterOf(option), {
+      selected: option.classList.contains('selected'),
+      correct: option.classList.contains('correct'),
+      wrong: option.classList.contains('wrong')
+    }])
+  );
+  const sourceVerdict = sourceField.querySelector('.mc-verdict');
+
+  document.querySelectorAll('.mc-field').forEach(targetField => {
+    if (targetField === sourceField || targetField.dataset.akey !== akey) return;
+    targetField.querySelectorAll('.mc-option').forEach(option => {
+      const state = optionStates.get(mcLetterOf(option));
+      option.classList.toggle('selected', !!(state && state.selected));
+      option.classList.toggle('correct', !!(state && state.correct));
+      option.classList.toggle('wrong', !!(state && state.wrong));
+      option.classList.remove('shake');
+      const radio = option.querySelector('.mc-radio');
+      if (radio) radio.checked = !!(state && state.selected);
+    });
+    const targetVerdict = targetField.querySelector('.mc-verdict');
+    if (sourceVerdict && targetVerdict) {
+      targetVerdict.className = sourceVerdict.className;
+      targetVerdict.textContent = sourceVerdict.textContent;
+    }
+  });
+}
+
 function togglePractice() {
   practiceMode = !practiceMode;
   document.body.classList.toggle('practice-mode', practiceMode);
@@ -10402,6 +10436,7 @@ function handleMcOptionChange(radio) {
   } else {
     setVerdict(verdict, 'na', `第${qNum}題：已選擇 ${chosen}（本卷無標準答案）`);
   }
+  syncMcGroupClones(field);
 }
 
 /* === DOMContentLoaded === */
