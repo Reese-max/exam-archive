@@ -1,7 +1,10 @@
 import os
 import re
 import shutil
+from functools import partial
+from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
+from threading import Thread
 
 import pytest
 from playwright.sync_api import sync_playwright
@@ -30,11 +33,26 @@ def browser():
 
 
 @pytest.fixture()
-def page(browser):
+def page(browser, site_url):
     page = browser.new_page()
-    page.goto(INDEX.as_uri(), wait_until="load")
+    page.goto(site_url, wait_until="load")
     yield page
     page.close()
+
+
+@pytest.fixture(scope="session")
+def site_url():
+    # A loopback origin works in managed browsers that prohibit file:// pages.
+    handler = partial(SimpleHTTPRequestHandler, directory=str(ROOT))
+    server = ThreadingHTTPServer(("127.0.0.1", 0), handler)
+    thread = Thread(target=server.serve_forever, daemon=True)
+    thread.start()
+    try:
+        yield f"http://127.0.0.1:{server.server_port}/index.html"
+    finally:
+        server.shutdown()
+        server.server_close()
+        thread.join(timeout=2)
 
 
 def score(page):
