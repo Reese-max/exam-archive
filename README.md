@@ -89,3 +89,22 @@ in `docs/audits/` and `.github/quality-audits/`; the originating protocol is
 - Automated Chromium tests run against the candidate's local static server.
   Deployed Pages, physical-device zoom, and human screen-reader acceptance
   remain outstanding; equivalent-width reflow is not a device zoom receipt.
+
+## Practice accessibility
+
+Multiple-choice questions use native radio groups with question legends, visible
+keyboard focus, and polite live result announcements. Only the first attempt per
+source question counts toward the score, including when switching between year
+and subject views. Reset clears the score and selections. Lazy-loaded years and
+subjects receive the same enhancement; inactive practice controls are disabled.
+
+Run the keyboard, accessibility-tree and scoring regression cases using:
+
+```bash
+python3 -m pip install -r requirements.txt -r requirements-browser.txt
+python3 -m playwright install chromium
+python3 -m pytest tests/test_practice_a11y.py -q
+```
+
+These Chromium checks do not replace a human screen-reader check on the deployed
+site. That acceptance layer remains outstanding.
