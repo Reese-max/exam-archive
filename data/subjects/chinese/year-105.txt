@@ -1,0 +1,85 @@
+<div class="subject-card" id="y105-30930">
+<div class="subject-header" onclick="toggleCard(this)">
+  <h3>國文（作文、公文與測驗）</h3>
+  <span class="subject-toggle">▼</span>
+</div>
+<div class="subject-body">
+<div class="exam-meta-bar">
+<span class="meta-tag">2 頁</span>
+<span class="meta-tag">選擇題 10 題</span>
+<span class="meta-tag">申論題</span>
+</div>
+<div class="exam-content-v2">
+<div class="exam-metadata">
+<div class="meta-line">105年公務人員特種考試警察人員、一般警察人員考試及105年特種考試交通事業鐵路人員考試試題 考試別：一般警察人員考試、警察人員考試、鐵路人員考試 等別：三等考試、高員三級考試 類科別：各類別、各類科 科目：國文（作文、公文與測驗） 考試時間 ： 2 小時 座號：</div>
+</div>
+<div class="exam-note">※注意： 禁止使用電子計算器。</div>
+<div class="exam-section-marker">甲、作文與公文部分：</div>
+<div class="exam-note">㈠請以藍、黑色鋼筆或原子筆在申論試卷上由左至右橫式作答，於本試題上作答者，不予計分。</div>
+<div class="exam-note">㈡不得於試卷上書寫姓名或入場證號。</div>
+<div class="essay-question">一、作文：（60 分）無論從事何者職務，皆有其應盡的責任與義務。所謂稱職，就是指自己的才能足夠勝任所擔負的職務。但是有一個不可忽略的關鍵是：能否清楚認識到什麼是應盡的責任與義務？請以「本分」為題，作文一篇，闡述自己對於工作的態度與期待。</div>
+<div class="essay-question">二、公文：（20 分）諾羅病毒為一群病毒，可感染人類而引起腸胃道發炎，在國外已迭有發生。其主要感染途徑為食入被病毒感染之食物、飲水，或接觸被感染者之排泄物、嘔吐物等。衛生福利部編印有《學校病毒性腸胃炎防治手冊》，可供參考。試擬衛生福利部致教育部、直轄市及各縣（市）政府教育局函，請各機關轉知所屬各級學校加強諾羅病毒防治宣導，以維護學生身體健康。</div>
+<div class="exam-section-marker">乙、測驗部分：（20 分） 代號：1301</div>
+<div class="exam-note">㈠本試題為單一選擇題，請選出一個正確或最適當的答案，複選作答者，該題不予計分。</div>
+<div class="exam-note">㈡共10題，每題2分，須用2B鉛筆在試卡上依題號清楚劃記，於本試題或申論試卷上作答者，不予計分。①下列語句，用詞完全適當的選項是：</div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">張先生榮升處長已近一個月，處內同仁特別為他舉辦彌月慶祝餐會</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">王老師年前轉職至本校任教，在他任教百日時，校方決定予以彌留</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">百貨公司的行銷策略之一，就是在開館週年期間推出大型促銷活動</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">公車上備有多個博愛座椅，目的是讓身懷甲子的準媽媽們安全乘車②「白聞天下談士相聚而言曰：『生不用封萬戶侯，但願一識韓荊州！』何令人之景慕，一至於此耶？豈不以有周公之風，躬吐握之事，使海內豪俊，奔走而歸之。一登龍門，則聲價十倍；所以龍蟠鳳逸之士，皆欲收名定價於君侯。君侯不以富貴而驕之，寒賤而忽之，則三千賓中有毛遂，使白得脫穎而出，即其人焉！」（李白〈與韓荊州書〉）上文內容屬於那一類的應用文寫作？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">平行公文</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">保證契約</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">徵才廣告</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">自薦書信③下列選項中的「君子」，何者強調有品德操守之人？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">冉冉孤生竹，託根中谷卑。結髮事君子，江蘺近華池</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">我今幸北轅，又念眾君子。懷哉千金軀，博此五斗米</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">何以延君子，唯有滿牀書。何以解君頤，淡句無足娛</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">丈夫無苟求，君子有素守。不能垂竹帛，正可死隴畝④「人性本善」是孟子的中心思想，下列選項，何者是孟子闡述性善的言論？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">賊仁者，謂之賊；賊義者，謂之殘。殘賊之人，謂之一夫。聞誅一夫紂矣，未聞弒君也〈梁惠王下〉</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">桀紂之失天下也，失其民也。失其民者，失其心也。得天下有道，得其民，斯得天下矣〈離婁上〉</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">所以謂人皆有不忍人之心者，今人乍見孺子將入於井，皆有怵惕惻隱之心，非所以內交於孺子之父母也〈公孫丑上〉</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">明君制民之產，必使仰足以事父母，俯足以畜妻子；樂歲終身飽，凶年免於死亡。然後驅而之善，故民之從之也輕〈梁惠王上〉</span></div>
+<div class="exam-metadata">
+<div class="meta-line">105年公務人員特種考試警察人員、一般警察人員 30110-30710 全一張 考試及105年特種考試交通事業鐵路人員考試試題 （背面）考 試 別 ：一般警察人員考試、警察人員考試、鐵路人員考試等 別 ：三等考試、高員三級考試類 科 別 ：各類別、各類科科 目 ：國文（作文、公文與測驗）⑤華歆、王朗俱乘船避難，有一人欲依附，歆輒難之。朗曰：「幸尚寬，何為不可？」後賊追至，王欲捨所攜人。歆曰：「本所以疑，正為此耳；既已納其自託，寧可以急相棄邪？」遂攜拯如初。世以此定華、王之優劣。依照文意，當時的人從這個事件中，所做的優劣判斷是：</div>
+</div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">華歆謀事深遠，優於王朗</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">華歆三心二意，劣於王朗</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">王朗慈悲為懷，優於華歆</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">王朗見異思遷，劣於華歆⑥承上題，下列那一個選項是這個故事給我們最主要的啟示？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">所託非人，反而招致傷害</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">自私自利，終將遭人唾棄</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">行善助人，應該思慮周延</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">兩相激發，讓事情更完善⑦把麵包拿到嘴邊是個簡單的動作，如果肚子餓還是件好事，既對身體提供糧食，也讓農夫受益。不過可能最得利的是有些人，懂得從鐮刀到牙齒之間，如何插手搬來運去與囤積，這就是生財之道。下列那個選項最可能是本段文字討論的重點？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">大人家有糧食的，囤住了不肯出糶</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">鐮刀指盜匪公然搶糧，牙齒喻商人舌燦蓮花</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">坐商囤積居奇，轉易牟利，致穀價貴二三倍餘</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">旱澇不時，當思囤積穀秕、轉運糧食，庶無欠缺懸隔之憂⑧「縣人冉氏，有狗而猛，遇行人輒搏噬之，往往為所傷。傷則主人躬詣請罪，出財救療，如是者數矣。冉氏以是頗患苦狗，然以其猛也，未忍殺，故置之。居數月，冉氏之鄰至，問其狗，曰：『烹之矣。』驚而詰其故，曰：『日者冉氏有盜，主人覺之，呼二子起，操械共逐之，盜驚而遁。主人疑狗之不吠也，呼之不應，遍索之無有也。將寢，聞臥床下若有微息者，燭之則狗也。卷曲蹲伏，不敢少轉側，垂頭閉目，若惟恐人之聞其聲者。主人曰：「嘻！吾向之隱忍不之殺也，為其有倉卒一旦之用也，惡知其搏行人則勇，而見盜則怯乎哉？」以是故，遂烹之也。』」（崔述《崔東壁遺書．冉氏烹狗》）下列最適合用來形容「冉氏之狗」的選項是：</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">畫地自限</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">欺善怕惡</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">樹大招風</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">為虎作倀⑨「『一髮』是最小境界，『五湖』是廣大境界。能把一髮溪水，當作五湖般觀看，那個『作』的工夫，就不等閒。千萬不要以為是『做作』的『作』，也不要殘忍解為『自我欺騙』，而是處於狹窄侷促的現實裏，心境的恒常廣大。在荒謬的世代，淨土何處？五湖何處？誰能天天安躲淨土？誰能日日浪遊五湖？於是只有『作』了。心境是自己的，可以狹窄得殺死自己，殺死別人，也可以寬廣得容下世界，容下宇宙。是憂是樂，由人自取。市塵蔽眼處，我心裏依然有一片青天；喧聲封耳地，我心裏依然有半簾岑寂。狹如一髮之溪，能作五湖看，則對現今世界，當作如是觀，當作如是觀。」本篇文章所闡揚的境界，與下列那一個選項所論相同？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">對負面的人生，做不平衡的反省，會使你沮喪</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">只要看看我們在閒暇時如何不甘寂寞，就知道我們的內心多空虛了</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">心就是一座花園，我們想什麼，它就長什麼。或雜草叢生，或鮮花滿園</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">我們的一生必須睡掉三分之一，因為我們整天喜歡這個，不喜歡那個，把自己搞得筋疲力盡⑩承上題，下列那一個選項的詩句也呈現了相近的境界？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">結廬在人境，而無車馬喧。問君何能爾，心遠地自偏</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">悵恨獨策還，崎嶇歷榛曲。山澗清且淺，可以濯吾足</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">且求容立錐頭地，免似漂流木偶人。但道吾廬心便足，敢辭湫隘與囂塵</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">日日抄書懶出門，小窗弄筆到黃昏。丫頭婢子忙勻粉，不管先生硯水渾</span></div>
+</div>
+<div class="answer-section">
+<h4 class="answer-title">📋 標準答案</h4>
+<div class="answer-grid">
+<div class="answer-cell"><span class="q-num">1</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">2</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">3</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">4</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">5</span><span class="q-ans">A</span></div>
+<div class="answer-cell"><span class="q-num">6</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">7</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">8</span><span class="q-ans">B</span></div>
+<div class="answer-cell"><span class="q-num">9</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">10</span><span class="q-ans">A</span></div>
+</div>
+</div>
+</div>
+</div>

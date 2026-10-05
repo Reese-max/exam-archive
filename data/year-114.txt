@@ -1,0 +1,883 @@
+<div class="year-section" id="year-114">
+<h2 class="year-heading">114年</h2>
+<div class="subject-card" id="y114-38157">
+<div class="subject-header" onclick="toggleCard(this)">
+  <h3>中華民國憲法與警察專業英文</h3>
+  <span class="subject-toggle">▼</span>
+</div>
+<div class="subject-body">
+<div class="exam-meta-bar">
+<span class="meta-tag">8 頁</span>
+<span class="meta-tag">選擇題 60 題</span>
+</div>
+<div class="exam-content-v2">
+<div class="exam-metadata">
+<div class="meta-line">114年公務人員特種考試警察人員、一般警察人員、 代號：50150-50550國家安全局國家安全情報人員、移民行政人員考試及 51250、51350 114年特種考試退除役軍人轉任公務人員考試試題 考 試 別：警察人員考試 等 別：三等考試 類科組別：行政警察人員、外事警察人員（選試英語）、刑事警察人員、公共安全人員、犯罪防治人員預防組、交通警察人員交通組、警察資訊管理人員、刑事鑑識人員、國境警察人員、警察法制人員、行政管理人員 科 目：中華民國憲法與警察專業英文 考試時間： 2 小時 座號：</div>
+</div>
+<div class="exam-note">※注意：禁止使用電子計算器。</div>
+<div class="exam-section-marker">甲、申論題部分：（25分）</div>
+<div class="exam-note">㈠不必抄題，作答時請將試題題號及答案依照順序寫在申論試卷上，於本試題上作答者，不予計分。</div>
+<div class="exam-note">㈡請以藍、黑色鋼筆或原子筆在申論試卷上作答。</div>
+<div class="essay-question">英文作文：（25分）你所屬的單位將針對下列事件發布英文新聞稿。請以英文擬定 300 字左右的新聞內容，其中應敘述事件經過（可自行添加細節），並宣導文末的注意事項。一位美國籍女性旅客來臺探望在本地教英語的表弟，兩人相約於本（6）月 10 日由南投竹山的杉林溪生態渡假園區入山，想要前往 4 小時路程外的水漾森林。兩人出發時天氣晴朗，不料途中遭遇大雨，因攜帶雨具不足，又因讀錯地圖而迷失方向，結果受困山區。美籍男子於當日晚間 7時許向臺灣友人求助，友人撥打 119 報案後，南投縣政府消防局隨即會同中華民國山難救助協會展開救援，於 11 日上午尋獲兩人。因一夜未進食，兩人身體虛弱有輕微失溫現象。救難人員提供保暖衣物、食物及熱飲，並以救護車將兩人送醫，目前已無大礙。兩位外籍人士再三感謝警方救助，美國在臺協會也特地致電相關單位致意。南投縣政府消防局呼籲：登山客在行前應隨時注意未來登山地點天候狀況，事先做好安全相關規劃，並備妥充足登山裝備。另外建議登山前可下載內政部消防署開發的「消防防災 e 點通 APP」，該 APP 支援多種語言，如遭遇緊急狀況時可藉由此 APP 報案，經 APP 定位後，救難人員更精準掌握所在位置，從而減少搜救時間。</div>
+<div class="exam-section-marker">乙、測驗題部分：（75 分） 代號：5501</div>
+<div class="exam-note">㈠本試題為單一選擇題，請選出一個正確或最適當答案。</div>
+<div class="exam-note">㈡共60題，每題1.25分，須用2B鉛筆在試卡上依題號清楚劃記，於本試題或申論試卷上作答者，不予計分。</div>
+<div class="mc-question"><span class="q-number">1</span><span class="q-text">依我國憲法規定人民受逮捕拘禁時，逮捕拘禁機關至遲多久應移送該管法院審問？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">48小時</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">36小時</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">24小時</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">12小時</span></div>
+<div class="mc-question"><span class="q-number">2</span><span class="q-text">依憲法及司法院大法官解釋，下列何者並非憲法上之法官？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">檢察官</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">地方法院簡易庭法官</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">大法官</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">懲戒法院法官</span></div>
+<div class="mc-question"><span class="q-number">3</span><span class="q-text">依司法院大法官解釋，大陸地區人民於臺灣地區設籍未滿 10 年者，不得擔任公務人員之規定，並未牴觸憲法，下列敘述何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">立法者制定規範時應斟酌事物本質的差異而為合理的區別對待，以實現憲法價值</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">法律得基於原大陸地區人民對自由民主憲政體制的認識與其他臺灣人民可能不同，限制其任公職之權利</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">此類爭議涉及兩岸政治事務，故對於代表民意且充分掌握資訊的立法機關，司法機關應完全尊重其決定</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">設籍10年始得任公職的限制，仍在必要及合理的範圍</span></div>
+<div class="mc-question"><span class="q-number">4</span><span class="q-text">副總統缺位時，依憲法增修條文規定，應如何遞補？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">由主要政黨提名候選人，交立法院補選</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">由行政院院長兼任</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">總統應於3個月內提名候選人，由立法院補選</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">重新辦理副總統選舉</span></div>
+<div class="mc-question"><span class="q-number">5</span><span class="q-text">關於憲法法庭，下列敘述何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">憲法法庭之判決得不經言詞辯論</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">憲法法庭之不受理裁定毋須標示主筆大法官</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">憲法法庭之判決，應經全體大法官三分之二以上同意</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">對於憲法法庭之裁判，不得聲明不服</span></div>
+<div class="mc-question"><span class="q-number">6</span><span class="q-text">下列何者是國民主權的直接具體表現？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">立法委員之報酬或待遇，應以法律定之</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">原住民族之地位與政治參與，應予以保障</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">行政院院長由總統任命</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">立法委員由人民選舉產生</span></div>
+<div class="mc-question"><span class="q-number">7</span><span class="q-text">依司法院大法官解釋，下列何者並非修憲界限？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">國民主權原則</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">基本權保障</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">權力分立原則</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">租稅法定原則</span></div>
+<div class="mc-question"><span class="q-number">8</span><span class="q-text">關於憲法國民經濟之規定，下列敘述何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">金融機構，應依法受國家之管理</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">國家應普設平民金融機構，以救濟失業</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">有獨佔性之企業，應以法律禁止之</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">國民生產事業及對外貿易，應受國家之獎勵、指導及保護</span></div>
+<div class="mc-question"><span class="q-number">9</span><span class="q-text">下列何者是憲法與憲法增修條文中，對於原住民族有保障，對於邊疆地區民族卻沒有明文保障的事項？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">教育</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">文化</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">交通</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">語言</span></div>
+<div class="mc-question"><span class="q-number">10</span><span class="q-text">有關憲法第7條規定之平等權，下列敘述何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">本條雖稱中華民國人民，在法律上一律平等，並不表示外國人不得享有平等權</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">對於婦女當選名額之保障，不違反憲法第7條平等權之精神</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">憲法第7條所定男女、宗教、種族、階級、黨派之分類事由，係採列舉方式</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">憲法第7條適用範圍包括立法、行政及司法機關的公權力行為</span></div>
+<div class="mc-question"><span class="q-number">11</span><span class="q-text">依司法院大法官解釋，軍事審判具有下列何種國家權力之性質？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">司法權</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">監察權</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">行政院之軍事統帥權</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">總統之軍事統帥權</span></div>
+<div class="mc-question"><span class="q-number">12</span><span class="q-text">如果法令規定：「民眾登山，須辦理入山證」，這是對何種基本權之干預？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">居住自由</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">一般行為自由</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">人身自由</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">隱私權</span></div>
+<div class="mc-question"><span class="q-number">13</span><span class="q-text">依司法院釋字第689號解釋，憲法保障新聞自由之目的，不包括下列何者？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">完成自我實現</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">促進資訊流通</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">滿足知的權利</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">形成公共意見</span></div>
+<div class="mc-question"><span class="q-number">14</span><span class="q-text">關於教育領域之宗教中立原則，下列敘述何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">主管教育行政機關不得強迫教師參加特定宗教團體舉辦之宗教活動</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">主管教育行政機關不得強迫學生參加特定宗教團體舉辦之宗教活動</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">主管教育行政機關不得強迫學校行政人員參加特定宗教團體舉辦之宗教活動</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">公立大學得要求學生在畢業前須參加至少一次宗教活動，否則不具畢業資格</span></div>
+<div class="mc-question"><span class="q-number">15</span><span class="q-text">依司法院大法官解釋，關於憲法結社自由，下列敘述何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">人民團體法亦為我國人民結社之法律依據</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">結社自由之保障範圍不包含組織內部之安排，主管機關依人民團體法得予以介入</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">大法官解釋曾宣告人民團體法限制人民團體不得主張共產主義之規定違憲</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">結社自由包含社團組成之發起自由、名稱使用及更改名稱之自由</span></div>
+<div class="mc-question"><span class="q-number">16</span><span class="q-text">依司法院釋字第 790 號解釋，有關毒品危害防制條例第 12 條第 2 項所定栽種大麻罪之法定刑，下列敘述何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">情輕法重，違反憲法罪刑相當原則</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">立法者就何種犯罪及何種情狀得否減輕其刑，屬立法形成自由之範疇</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">5年以上最低法定刑部分，對人身自由之限制，違反比例原則</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">毒品危害防制條例第17條第2項減輕其刑規定，未包括犯同條例第12條第2項栽種大麻之罪，違反憲法第7條保障平等權之意旨</span></div>
+<div class="mc-question"><span class="q-number">17</span><span class="q-text">依司法院釋字第400號解釋，既成道路成立公用地役關係之三個要件，不包括下列何者？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">須為不特定之公眾通行所必要，而非僅為通行之便利或省時</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">於公眾通行之初，土地所有權人並無阻止之情事</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">須經歷之年代久遠而未曾中斷</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">須有建築法或民法等之相關規定作為依據</span></div>
+<div class="mc-question"><span class="q-number">18</span><span class="q-text">土地稅法第 39 條第 2 項關於免徵土地增值稅規定，僅就依都市計畫法指定之公共設施保留地，免徵其土地增值稅；至非都市土地經編定為交通用地，且依法核定為公共設施用地者，則不予免徵土地增值稅。依司法院釋字第779號解釋，於此範圍內，係違反下列何項原則？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">比例原則</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">平等原則</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">法律明確性原則</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">依法行政原則</span></div>
+<div class="mc-question"><span class="q-number">19</span><span class="q-text">關於服兵役，下列敘述何者正確？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">為憲法所未明文列舉之義務</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">若需降低服兵役之年齡，應修改憲法</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">若需納入女性為服兵役義務主體，應修改憲法</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">人民如何履行服兵役之義務，應以法律定之</span></div>
+<div class="mc-question"><span class="q-number">20</span><span class="q-text">人民受教育之權利分為「受國民教育之權利」及「受國民教育以外教育之權利」，依司法院大法官解釋之意旨，下列敘述何者正確？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">憲法明定，受國民教育與受國民教育以外教育，均為人民之權利與義務</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">分別受憲法不同條文所保障</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">國家對提供國民教育與國民教育以外之教育，均負有義務</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">二者皆不得訂定特定之入學資格，排除資格不符之考生入學就讀</span></div>
+<div class="mc-question"><span class="q-number">21</span><span class="q-text">依相關司法院大法官解釋，有關契約自由，下列敘述何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">跨國婚姻媒合不得期約報酬，係對契約自由之限制</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">契約自由為司法院大法官解釋肯認之非明文憲法權利</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">契約自由為個人自主發展與實現自我之重要機制</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">公法上契約與私法上契約享有同樣的契約自由</span></div>
+<div class="mc-question"><span class="q-number">22</span><span class="q-text">有關健康權之敘述，下列何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">為司法院大法官解釋肯認之非明文憲法權利</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">有關藥害救濟制度之設置，屬社會福利措施，尚無涉憲法保障之健康權</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">有關消防人員勤務休息規定，涉及健康權之保障</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">萊克多巴胺容許標準之訂定，涉及國家對於人民健康權之保障</span></div>
+<div class="mc-question"><span class="q-number">23</span><span class="q-text">依司法院釋字第803號解釋，原住民可基於生命權、身體權、原住民狩獵文化權，主張享有持安全獵槍進行狩獵的自由。下列何者最適合描述此處生命權、身體權、原住民狩獵文化權的關係？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">基本權衝突</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">基本權競合</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">基本權涵攝</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">基本權位階</span></div>
+<div class="mc-question"><span class="q-number">24</span><span class="q-text">比較憲法第 43 條關於緊急命令與憲法增修條文第 2 條第 3 項關於緊急命令之要件與程序，下列敘述何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">發布事由中之「國家遇有天然災害、癘疫」，改成「為避免國家或人民遭受緊急危難」</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">發布依據從必須「依緊急命令法發布緊急命令」，改成得不必依緊急命令法就可以發布</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">追認時間從「發布命令後 1 個月內提交立法院追認」，改成「發布命令後 10 日內提交立法院追認」</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">從原本之「立法院休會期間，經行政院會議決議，得發布緊急命令」，改成無論是否在立法院休會期間，均無須經行政院會議決議，總統即可發布緊急命令</span></div>
+<div class="mc-question"><span class="q-number">25</span><span class="q-text">依據權力分立原則並參照憲法增修條文相關規定，行政院應受立法院之監督，下列敘述何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">行政院必須向立法院提出施政方針及施政報告</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">總統提名行政院院長後必須經立法院同意</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">立法院得經全體立法委員3分之1以上連署，對行政院院長提出不信任案</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">行政院移請立法院覆議案，經全體立法委員2分之1以上決議維持原案者，行政院院長應接受該決議</span></div>
+<div class="mc-question"><span class="q-number">26</span><span class="q-text">關於議會議員之地位及職權，下列敘述何者最為正確？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">現代代議民主國家多採自由委任制，即代議士為選區選民所派遣，受到選區選民指令的拘束</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">以區域選舉產生之各級民意代表得為原選舉區選民所罷免，故非純粹的自由委任制</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">憲法明文規定立法委員及地方議員均享有言論免責權</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">立法委員於會期中及休會期間，皆享有不受逮捕拘禁之特權；而地方議員之此項特權，僅限於會期內</span></div>
+<div class="mc-question"><span class="q-number">27</span><span class="q-text">依憲法與增修條文之現行規定，有關公務人員選拔，下列敘述何者正確？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">公務人員之選拔，應以實作方式考選，以確保任用優秀人才</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">公務人員之選拔，應按省（直轄市）分定名額，分區考試</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">公務人員之選拔，應經公開考試，方得任用</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">公務人員之選拔，應依年齡分布，任用一定比例之青年</span></div>
+<div class="mc-question"><span class="q-number">28</span><span class="q-text">關於審計長，下列敘述何者正確？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">由總統逕自任命之</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">不受任期保障</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">應於行政院提出決算後於期限內完成審核，並提出審核報告於立法院</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">立法院委員會審議決算報告時，有至立法院備詢之義務</span></div>
+<div class="mc-question"><span class="q-number">29</span><span class="q-text">依憲法訴訟法規定，有關法庭之友之敘述，下列何者正確？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">法庭之友制度，乃沿用司法院大法官審理案件法中已存之制度</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">案件之關聯性，應包含情感上的關聯性</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">依裁定許可提出專業意見或資料時，無需揭露與當事人間之關係</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">人民向憲法法庭聲請擔任法庭之友時，應委任代理人</span></div>
+<div class="mc-question"><span class="q-number">30</span><span class="q-text">關於訴訟權的限制，下列敘述何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">不得以經濟利益，限制上訴</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">不得以身分，限制訴訟權之行使</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">得設再審不變期間之限制</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">得設上訴期間之限制</span></div>
+<div class="mc-question"><span class="q-number">31</span><span class="q-text">依憲法及相關法律規定，關於國家賠償，下列敘述何者正確？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">國家賠償乃是基於填補人民之特別犧牲而生的責任</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">國家補償係針對國家無過失造成的損害，國家賠償則僅限於國家有過失所造成之損害</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">憲法第 24 條關於公務員違法導致損害應負賠償責任，未規定以故意過失為要件，故屬於無過失責任</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">國家對公務員之求償，限於具故意或重大過失之情形</span></div>
+<div class="mc-question"><span class="q-number">32</span><span class="q-text">特別公課是指國家為一定政策目標之需要，對於有特定關係之國民所課徵之公法上負擔，將課徵所得之金錢，以建立特別基金，專供特定目標達成，有專款專用之意旨。依上述說明，下列何者屬於特別公課？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">空氣污染防制費</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">貨物稅</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">全民健康保險費</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">國家考試報名費</span></div>
+<div class="mc-question"><span class="q-number">33</span><span class="q-text">有關一般行為自由之保障範圍，不包括下列何者？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">與非配偶從事性行為之性自主權</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">人民隨時任意前往他方或停留一定處所之行動自由</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">一般人民駕駛汽車之自由</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">人民依其意志作為或不作為</span></div>
+<div class="mc-question"><span class="q-number">34</span><span class="q-text">依憲法增修條文規定，關於總統解散立法院，下列敘述何者正確？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">總統上任後，如所屬政黨在國會席次未過半，可藉由主動解散立法院改選立委，尋求最新民意的支持</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">立法院解散後應於60日內舉行立法委員選舉，並於選舉結果確認後10日內自行集會</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">為即時因應政治困局，縱使於戒嚴或緊急命令生效期間，總統亦可解散立法院</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">總統宣告解散立法院前應向司法院院長進行諮詢，以確保此一解散決定的合憲性</span></div>
+<div class="mc-question"><span class="q-number">35</span><span class="q-text">依司法院釋字第613號解釋，有關獨立機關，下列敘述何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">憲法規定行政院為國家最高行政機關，基於行政一體原則，須為包括獨立機關在內之所有行政院所屬機關之整體施政表現負責</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">獨立機關可以依據法律，排除上級機關於層級式行政體制下，對具體個案決定之指揮與監督，不受政治干擾、可專業自主決定</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">基於責任政治以及行政一體原則，行政院院長遇有更迭時，獨立機關之委員也應該與行政院院長一同辭職，以符合民主正當性</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">獨立機關之人選與其施政良窳有密切關係，故行政院應擁有對獨立機關重要人事一定之決定權限，以落實行政一體及責任政治</span></div>
+<div class="mc-question"><span class="q-number">36</span><span class="q-text">依憲法增修條文規定，關於立法院立法委員之選舉，下列敘述何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">任期4年，連選得連任</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">由地區直轄市、縣市選舉出 73 人，依各其人口比例分配，並按應選名額劃分同額選舉區選出之</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">全國不分區及僑居國外國民共34人，依政黨名單投票選舉之，由獲得5%以上政黨選舉票之政黨依得票比率選出之</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">各政黨當選名單中，婦女不得低於三分之一</span></div>
+<div class="mc-question"><span class="q-number">37</span><span class="q-text">關於司法權，下列敘述何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">司法院院長及副院長就預算案之審議，無需赴立法院備詢</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">關於司法院所提出年度司法概算，行政院得加註意見後，編入中央政府總預算，送立法院審議</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">由大法官組成之憲法法庭，其審理範圍包含法規範憲法審查及裁判憲法審查案件</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">本於司法行政監督權，最高司法機關就審理事項所發布之規則，涉及審判上之法律見解者，法官於審判案件時，受其拘束</span></div>
+<div class="mc-question"><span class="q-number">38</span><span class="q-text">依憲法第63條規定，關於立法院之職權，不包括下列何者？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">宣戰案</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">戒嚴案</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">特赦案</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">大赦案</span></div>
+<div class="mc-question"><span class="q-number">39</span><span class="q-text">依司法院釋字第738號解釋，下列敘述何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">自治法規除不得違反中央與地方權限劃分外，若涉人民基本權之限制，仍應符合憲法第23條之法律保留原則</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">地方就其自治事項，或依法律及上級法規之授權，於合理範圍內以自治條例限制居民基本權，不違法律保留原則</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">轄區內電子遊戲場業營業場所距離之限制，係屬地方自治之範疇，地方自得訂定比中央法律規定更為嚴格之要求</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">轄區內電子遊戲場業營業場所之距離限制屬自治事項，不受法律拘束</span></div>
+<div class="mc-question"><span class="q-number">40</span><span class="q-text">關於地方自治或中央與地方權限之規定，下列敘述何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">屬於縣之立法權，由縣議會行之</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">憲法並未明文規定直轄市有何自治事項</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">中央法律宜留給地方，就其自治事項，有一定之立法或執行空間</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">為貫徹地方自治，憲法較偏好地方分權，俾利因地制宜妥善處理</span></div>
+<div class="mc-question"><span class="q-number">41</span><span class="q-text">Officers obtain a legal _____ from the court, allowing them to search the suspect's home for evidence related to the burglary.</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">complaint</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">warrant</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">dispatcher</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">baton</span></div>
+<div class="mc-question"><span class="q-number">42</span><span class="q-text">Police initiated a covert _____ operation by placing hidden cameras around a suspect's residence to gather evidence on possible criminal activity.</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">pursuit</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">apprehend</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">surveillance</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">complaint</span></div>
+<div class="mc-question"><span class="q-number">43</span><span class="q-text">The woman officially filed a _____ against her partner, accusing him of domestic violence and requesting immediate protection from local authorities.</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">affidavit</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">custody order</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">complaint</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">subpoena</span></div>
+<div class="mc-question"><span class="q-number">44</span><span class="q-text">Police officers are professionally trained to handle tense or potentially dangerous situations. In many cases, instead of using physical force immediately, officers are expected to apply _____ techniques to calm the individual and reduce the risk of violence.</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">dispatch</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">de-escalation</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">force</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">arrest</span></div>
+<div class="mc-question"><span class="q-number">45</span><span class="q-text">As part of community policing strategies, officers are regularly assigned to monitor residential and commercial areas. During a _____, they remain alert for any signs of suspicious, illegal, or unusual activity that may pose a threat to public safety.</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">traffic stop</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">routine patrol</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">highway block</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">vehicle inspection</span></div>
+<div class="mc-question"><span class="q-number">46</span><span class="q-text">After conducting a lawful arrest based on sufficient evidence, the police officers decided to place the suspect into _____ to ensure that he would remain under supervision.</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">custody</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">bail</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">probation</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">testimony</span></div>
+<div class="mc-question"><span class="q-number">47</span><span class="q-text">At a burglary scene, officers must follow proper procedures when handling physical evidence. Wearing gloves is essential to prevent _____, which could affect the credibility of the evidence in court.</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">contamination</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">authorization</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">interrogation</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">inspection</span></div>
+<div class="mc-question"><span class="q-number">48</span><span class="q-text">A common strategy of fraudsters is offering financial _____ such as a bonus or lottery as a bait.</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">interests</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">incentives</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">assistance</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">obligation</span></div>
+<div class="mc-question"><span class="q-number">49</span><span class="q-text">The fact that no one stepped up to help the victim in the MRT assault suggests public _____.</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">apathy</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">empathy</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">sympathy</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">antipathy</span></div>
+<div class="mc-question"><span class="q-number">50</span><span class="q-text">The witness was _____ into silence because her family members were threatened by people associated with the offender.</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">tamed</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">humiliated</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">disciplined</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">intimidated</span></div>
+<div class="exam-note">請依下文回答第51題至第55題</div>
+<div class="essay-question">A common fraudulent scheme is the email phishing attempt. Take the case that occurred before the New Year's Day as an example. The targets were people who had high bills from the holidays. The phisherman promised credibility and set the __51__ the reader would get for accepting the offer. Then, the email tells you what to do to get your money. Requiring the victim to ignore risk is at the heart of phishing fraud because it requests the reader to turn over valuable personal information. In the next move, the phishing email makes a threat, warning that the relationship being __52__ between sender and receiver is secret and special. The purpose is to exploit the excitement of found money by the lucky recipient. The fraudster intends to create a contagion of excitement while making the reader ignore any fear of risk. The phisherman pursues the strategy of __53__ from fear in several ways. First, he wants the reader to relax, feel safe, and trust the email. He uses enjoyment, an affect that allows us to be able to relax and trust, to engender credibility. Second, it is helpful that the gift is for a __54__ cause, such as a financial empowerment program. The third tactic is the sense of specialness. If the recipient betrays the secret, then the found money will be lost. The last element is __55__, which will be experienced by the receiver if s/he disappoints the powerful person who is disseminating his or her wealth for social good. The phishing email utilizes common affects and core human emotions to achieve its purpose.</div>
+<div class="mc-question"><span class="q-number">51</span><span class="q-text">(A)reply (B)return (C)reward (D)response</span></div>
+<div class="mc-question"><span class="q-number">52</span><span class="q-text">(A)ignited (B)implored (C)initialed (D)initiated</span></div>
+<div class="mc-question"><span class="q-number">53</span><span class="q-text">(A)avoiding (B)panicking (C)distracting (D)hesitating</span></div>
+<div class="mc-question"><span class="q-number">54</span><span class="q-text">(A)major (B)noble (C)common (D)natural</span></div>
+<div class="mc-question"><span class="q-number">55</span><span class="q-text">(A)face (B)guilt (C)humor (D)shame</span></div>
+<div class="exam-note">請依下文回答第56題至第60題</div>
+<div class="essay-question">Artificial Intelligence (AI) refers to computer systems that mimic human functions like communication, learning, and reasoning. In recent years, AI companion chatbots have become widespread. However, their increasing use has raised global safety concerns—especially in relation to youth protection and digital misconduct. In 2023, Geoffrey Hinton, often called the "Godfather of AI," resigned from Google to warn about AI's potential dangers. He highlighted risks such as misinformation, job displacement, and even threats to national security. Consequently, many experts are calling for stronger regulation and ethical oversight to prevent misuse and ensure public safety. In 2025, U.S. senators launched a formal inquiry into AI apps like Replika and Character.ai after reports of inappropriate interactions with minors. These cases raised alarms about content control failures and the exposure of vulnerable users to online exploitation. As a result, authorities demanded transparency regarding age verification and internal safety protocols. Meanwhile, Taiwan has encountered similar incidents. Educators and law enforcement have observed increased emotional dependence among teens using AI tools, with some cases involving access to harmful content. Experts emphasize the need for early intervention, clear usage guidelines, and increased digital literacy to reduce risks. In conclusion, while AI offers innovation, governments and police agencies must work together to implement protective measures—especially for minors and at-risk individuals—to prevent digital exploitation and ensure ethical use.</div>
+<div class="mc-question"><span class="q-number">56</span><span class="q-text">What would be the most appropriate title for this article?</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">The history of AI Development</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">Chatbots for Minors</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">Growing Global Concerns Over AI Safety</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">How AI Will Replace All Teachers</span></div>
+<div class="mc-question"><span class="q-number">57</span><span class="q-text">Why did U.S. senators launch an investigation into certain AI chat apps?</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">Because the apps provided inaccurate information.</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">Because people were becoming overly reliant on AI chat apps.</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">Because the apps showed signs of being hacked.</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">Because minors were reportedly exposed to inappropriate interactions.</span></div>
+<div class="mc-question"><span class="q-number">58</span><span class="q-text">Which of the following is the best alternative to "calling for"?</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">Fond of.</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">Advocating for.</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">Complaining about.</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">Preparing for.</span></div>
+<div class="mc-question"><span class="q-number">59</span><span class="q-text">Which of the following statements is TRUE according to the article?</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">AI chatbots are currently banned in both the U.S. and Taiwan.</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">Geoffrey Hinton believes AI can never surpass human intelligence.</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">Geoffrey Hinton warned that AI could surpass human intelligence and pose serious risks.</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">AI tools are only used by children under age 13.</span></div>
+<div class="mc-question"><span class="q-number">60</span><span class="q-text">What does the article suggest about the role of law enforcement and governments?</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">They are promoting the use of more AI chatbots.</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">They are responsible for replacing human relationships with AI.</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">They should help create rules and monitor AI use to protect users.</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">They are developing new AI chatbots for children.</span></div>
+</div>
+<div class="answer-section">
+<h4 class="answer-title">📋 標準答案</h4>
+<div class="answer-grid">
+<div class="answer-cell"><span class="q-num">1</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">2</span><span class="q-ans">A</span></div>
+<div class="answer-cell"><span class="q-num">3</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">4</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">5</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">6</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">7</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">8</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">9</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">10</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">11</span><span class="q-ans">A</span></div>
+<div class="answer-cell"><span class="q-num">12</span><span class="q-ans">B</span></div>
+<div class="answer-cell"><span class="q-num">13</span><span class="q-ans">A</span></div>
+<div class="answer-cell"><span class="q-num">14</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">15</span><span class="q-ans">B</span></div>
+<div class="answer-cell"><span class="q-num">16</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">17</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">18</span><span class="q-ans">B</span></div>
+<div class="answer-cell"><span class="q-num">19</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">20</span><span class="q-ans">B</span></div>
+<div class="answer-cell"><span class="q-num">21</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">22</span><span class="q-ans">B</span></div>
+<div class="answer-cell"><span class="q-num">23</span><span class="q-ans">B</span></div>
+<div class="answer-cell"><span class="q-num">24</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">25</span><span class="q-ans">B</span></div>
+<div class="answer-cell"><span class="q-num">26</span><span class="q-ans">B</span></div>
+<div class="answer-cell"><span class="q-num">27</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">28</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">29</span><span class="q-ans">B</span></div>
+<div class="answer-cell"><span class="q-num">30</span><span class="q-ans">A</span></div>
+<div class="answer-cell"><span class="q-num">31</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">32</span><span class="q-ans">A</span></div>
+<div class="answer-cell"><span class="q-num">33</span><span class="q-ans">A</span></div>
+<div class="answer-cell"><span class="q-num">34</span><span class="q-ans">B</span></div>
+<div class="answer-cell"><span class="q-num">35</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">36</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">37</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">38</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">39</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">40</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">41</span><span class="q-ans">B</span></div>
+<div class="answer-cell"><span class="q-num">42</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">43</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">44</span><span class="q-ans">B</span></div>
+<div class="answer-cell"><span class="q-num">45</span><span class="q-ans">B</span></div>
+<div class="answer-cell"><span class="q-num">46</span><span class="q-ans">A</span></div>
+<div class="answer-cell"><span class="q-num">47</span><span class="q-ans">A</span></div>
+<div class="answer-cell"><span class="q-num">48</span><span class="q-ans">B</span></div>
+<div class="answer-cell"><span class="q-num">49</span><span class="q-ans">A</span></div>
+<div class="answer-cell"><span class="q-num">50</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">51</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">52</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">53</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">54</span><span class="q-ans">B</span></div>
+<div class="answer-cell"><span class="q-num">55</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">56</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">57</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">58</span><span class="q-ans">B</span></div>
+<div class="answer-cell"><span class="q-num">59</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">60</span><span class="q-ans">C</span></div>
+</div>
+</div>
+</div>
+</div>
+<div class="subject-card" id="y114-28884">
+<div class="subject-header" onclick="toggleCard(this)">
+  <h3>國文(作文與測驗)</h3>
+  <span class="subject-toggle">▼</span>
+</div>
+<div class="subject-body">
+<div class="exam-meta-bar">
+<span class="meta-tag">4 頁</span>
+<span class="meta-tag">選擇題 10 題</span>
+</div>
+<div class="exam-content-v2">
+<div class="exam-text">國家安全局國家安全情報人員、移民行政人員考試及</div>
+<div class="exam-metadata">
+<div class="meta-line">114年特種考試退除役軍人轉任公務人員考試試題 考 試 別：退除役軍人轉任公務人員考試、一般警察人員考試、國家安全情報人員考試、警察人員考試、移民行政人員考試 等 別：三等考試 類科組別：各類科、各類別、各組別、移民行政 科 目：國文（作文與測驗） 考試時間：2 小時 座號：</div>
+</div>
+<div class="exam-note">※注意：㈠禁止使用電子計算器。</div>
+<div class="exam-note">㈡本科目試題包括作文及測驗兩部分，請妥適分配各題作答時間。</div>
+<div class="exam-section-marker">甲、申論部分：（60分）</div>
+<div class="exam-section-marker">甲、作文部分：（80 分）</div>
+<div class="exam-note">㈠作答時請將試題題號及答案依照順序寫在申論試卷上，並以藍、黑色鋼筆或原子筆由左至右橫式作答，於本試題上作答者，不予計分。</div>
+<div class="exam-note">㈡不得於試卷上書寫姓名或座號。</div>
+<div class="essay-question">前人曾提出「木桶原理」，意指一個木桶能盛裝多少水，取決於圍成木桶的木板中最短的那塊。這個形象化的比喻，強調了在一個團隊中，必須所有人的素質、能力都一樣好，方可獲得最理想的成就。若其中一人落後其他人，他會成為團隊的破口，影響整體的實力。在個人方面亦然，應儘量培養各項能力，並找出不足之處設法彌補，方可在考場、職場等各種人生場合贏得肯定。但後來有人提出：如果將木桶斜放，水的盛裝高度就不是受限於短的木板，反而是由長的木板決定。此即「斜木桶原理」或「長板原理」。若改用這個觀點，團隊要提高整體實力的方式，就未必是強求人人同樣優秀，而是找出木桶最恰當的傾放角度，鞏固並儘可能發揮既有的強項，透過適才適所來放大成效。而個人也不用為自己的匱乏或不擅長的事所苦，而是珍惜天賦，讓本身的優勢展現最大的價值。你比較認同「木桶原理」或「斜木桶原理」？或者在不同場合、目的及人生階段，這兩個原理各有其適用性？請以「墊高成就，來自補足短處或延展長處」為題，結合經驗或見聞，寫一篇文章，說明你的觀察、體會或反思。</div>
+<div class="exam-section-marker">乙、測驗部分：（20 分） 代號：1131</div>
+<div class="exam-note">㈠本試題為單一選擇題，請選出一個正確或最適當答案。</div>
+<div class="exam-note">㈡共10題，每題2分，須用2B鉛筆在試卡上依題號清楚劃記，於本試題或申論試卷上作答者，不予計分。</div>
+<div class="mc-question"><span class="q-number">1</span><span class="q-text">下列文句「」中用詞，何者最為妥切？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">好友已值「從心所欲」之年，是拚搏事業的好時機</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">土耳其大地震，死傷人數慘重，令人「忍俊不住」</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">王生誤解了李生的好意，慚愧的登門「負荊請罪」</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">他們兄弟感情深厚，真是「舉案齊眉」，令人稱羨</span></div>
+<div class="mc-question"><span class="q-number">2</span><span class="q-text">「樹上的花是小說，有枝有幹地攀在縱橫交叉的結構上，那裡面有多層次、多角度的說不盡的故事。草花是詩，由於矮，像是剛從土裡蹦上來的，一種精粹的、鮮艷的、凝聚的、集中的美。散文是爬籐花，都有一種走到那裡就開到那裡的渾灑。如果有什麼花可以稱之為舞台劇的，大概就是曇花了吧。它是一種徹底的時間藝術，在絲帷的開闔間即生而即死。」根據上文，下列選項，何者最接近文意？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">小說是高高在上，像樹上的花必須仰望</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">詩則俯拾即是，就像草花一樣隨處可見</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">散文必須像爬籐，要旅行才能寫得渾灑</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">舞台劇如曇花，在開幕謝幕間展演人生</span></div>
+<div class="mc-question"><span class="q-number">3</span><span class="q-text">「最有名的顯性遺傳疾病，莫過於杭丁頓舞蹈症（Huntington&#x27;s Disease）。這是一種異常殘酷的疾病，患者通常要到四、五十歲才會發病。發病後，病人的中樞神經系統會慢慢退化、肌肉無力、四肢協調性變差，慢慢喪失記憶，性情和行為發生改變、喪失高層認知功能、癱瘓、進入植物人狀態，最後昏迷、死亡。上述的退化過程極為緩慢，大約要五到十年，目前沒有任何藥物或任何療法可以減緩病程發展。病人和摯愛的家人完全無能為力，只能眼睜睜看著這一切發生。」關於杭丁頓舞蹈症的敘述，下列何者正確？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">是隱性遺傳疾病，沒有藥物能治療或預防</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">發病後會緩慢漸進式退化，病人較能因應</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">屬於腦神經系統退化的疾病，發病後即將失去記憶</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">病患的家屬，只能眼睜睜看著病人退化而無力挽救</span></div>
+<div class="mc-question"><span class="q-number">4</span><span class="q-text">下列文句，存在語病的是：</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">儘管比賽前他受了點傷，但比賽時依舊所向披靡</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">參加試鏡者很少，我得用盡心力才能爭取到角色</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">這些八卦新聞經過查證後，實屬空穴來風</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">他被債務逼得走投無路，不得不鋌而走險</span></div>
+<div class="mc-question"><span class="q-number">5</span><span class="q-text">「一座臨水的扇面小亭，每當夜深人靜，清風徐來，明月當空，水天上下相映，好一派清淨幽寂，小亭以蘇軾詞中『與誰同坐，明月清風我』句，取名為『與誰同坐軒』。」根據上文，此亭取名「與誰同坐軒」的原因為何？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">此亭清幽能讓人興起飄飄欲仙之感</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">明月與清風正好是臨水小亭的特色</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">感念蘇軾的儒雅風采渴望與其同坐</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">美景當前總讓人傷嘆無知己可共賞</span></div>
+<div class="mc-question"><span class="q-number">6</span><span class="q-text">「尚樸的日本茶道愛好者早在數百年前便推崇侘寂之道，珍視器皿製造過程中無心造就的不完美，追求『碗碗有瑕，各瑕不同』的美學，認為每個茶碗的獨特缺陷恰好賦予其無法模仿的『個性』；宋代鑑賞家與文人認為開片（瓷器釉面自然龜裂的現象）最符合審美原則，因為其效果『非人工做作，而是從材質與技法之中自然生發而成。』」根據上文，下列選項何者正確？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">日本茶道推崇的侘寂之道即宋代的品茶審美之道</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">侘寂之道強調簡樸美學，格外注重器皿製造材質</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">宋代瓷器製造技術尚未成熟，才會經常出現「開片」效果</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">日本茶道愛好者與宋代鑑賞家均注重難以複製的缺陷之美</span></div>
+<div class="mc-question"><span class="q-number">7</span><span class="q-text">「為了獲得更漂亮的羽毛而落去原有的羽毛，這有點像是學著每年自我更新，儘管必須歷經一段艱困的時期才能達成。身為有別於鳥的人類，我們雖然會掉毛髮，但並不了解這些換羽的階段——然而對我們人類來說，有時也必須換羽。在某些重大的生命時刻——為愛心碎、哀悼、失業、遷居之際，我們必須改頭換面、變換衣著或髮型以及生活作息。」根據上文，下列何者最適合用來解釋人類的「換羽」？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">調整後重新出發</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">挑戰體能的極限</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">思考後審慎行動</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">把握當下的時光</span></div>
+<div class="mc-question"><span class="q-number">8</span><span class="q-text">「『形破』（Deformation）是對既定的形的突破，要說是追求自由的人們所表現出的念想也可以；也可以說是『未定型』或『未成形』，我想以容易理解的『奇數之美』來稱之。『奇』並不是奇怪的意思，是與『偶』相對的『奇』，或『不完整』。」下列選項，何者最貼近上文的觀點？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">奇數的美，往往比偶數的美，來得更容易被看見</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">勇於打破形式的框架限制，展現創作的自由意志</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">形破，因為還不完整，故能取得最大的想像空間</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">創作自由，就是要不斷地推陳出新，表現新形式</span></div>
+<div class="mc-question"><span class="q-number">9</span><span class="q-text">「2022 年，聊天機器人 ChatGPT 的出現引領了全球人工智慧的熱潮，但也帶來了人們對就業和倫理的擔憂。關於就業，研究表明，在未來幾十年內，真正被取代的工作僅占所有工作的 10％左右。並非所有工作都會被完全自動化，而是某些特定任務會被自動化。重要的是，我們需要關注人們是否具備與機器協作的技能，並提供技能再造和適應新職場的支持。關於倫理問題，面對強大的人工智慧系統時，需要思考如何合理應用它，避免不良利用。如何制定合理的使用原則，確保訓練和應用符合實際需求。同時，也要關注可能的誤用，包括無意的落差和有意的濫用。解決這些就業和倫理問題，需要的不僅是電腦工程專家，還需要涉及多個領域的專家，如社會科學家、倫理學者和哲學家等。」根據上文，下列選項何者最符合文意？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">解決就業和倫理問題，端賴全球電腦工程專家的共同努力</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">研究表明，在未來幾十年內，所有工作都會被完全自動化取代</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">人工智慧帶來就業和倫理的擔憂，需要關注技能再造和適應新職場</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">強大人工智慧系統的應用，需要遵循傳統的使用原則，以防止不良利用</span></div>
+<div class="mc-question"><span class="q-number">10</span><span class="q-text">「大企業為什麼凡事都得曠日廢時？主要是官僚作風的無形掣肘——每件事都必須按照規定與流程完成。許多企業主管表示希望從官僚作風轉變為『菁英精神』，置人才與構想於一切之上。但事實證明，菁英精神可以跟官僚作風一樣拖拖拉拉，一樣著眼於內部。我們在最古老的菁英體系——大學——中工作，儘管我們痛恨規則，卻熱愛事事針鋒相對。所以，你需要的是著重於行動。在實務上，簡化公司正式流程、減少跨部門委員會的數量與規模，以靈活、敏捷的小型團隊模式取而代之；這些團隊獲得授權，可以快速直接因應顧客需求。打比方，你不妨將這些團隊想像成軍方派入敵區作戰的特殊部隊。」根據上文，下列敘述何者正確？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">官僚作風可以靈活地省略各種規定與流程</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">菁英精神重視人才與構想，而且行動迅速</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">菁英精神未必能克服官僚作風在處理事務上的效率問題</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">團體組織更見效率，流程簡化時擴大跨部會委員會規模</span></div>
+</div>
+<div class="answer-section">
+<h4 class="answer-title">📋 標準答案</h4>
+<div class="answer-grid">
+<div class="answer-cell"><span class="q-num">1</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">2</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">3</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">4</span><span class="q-ans">B</span></div>
+<div class="answer-cell"><span class="q-num">5</span><span class="q-ans">B</span></div>
+<div class="answer-cell"><span class="q-num">6</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">7</span><span class="q-ans">A</span></div>
+<div class="answer-cell"><span class="q-num">8</span><span class="q-ans">B</span></div>
+<div class="answer-cell"><span class="q-num">9</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">10</span><span class="q-ans">C</span></div>
+</div>
+</div>
+</div>
+</div>
+<div class="subject-card" id="y114-66628">
+<div class="subject-header" onclick="toggleCard(this)">
+  <h3>數位鑑識執法</h3>
+  <span class="subject-toggle">▼</span>
+</div>
+<div class="subject-body">
+<div class="exam-meta-bar">
+<span class="meta-tag">2 頁</span>
+<span class="meta-tag">申論題</span>
+</div>
+<div class="exam-content-v2">
+<div class="exam-text">國家安全局國家安全情報人員、移民行政人員考試及</div>
+<div class="exam-metadata">
+<div class="meta-line">114年特種考試退除役軍人轉任公務人員考試試題考 試 別 ：警 察人員考試等 別 ：三 等考試類科組別 ：警 察資訊管理人員科 目 ：數 位鑑識執法考試時間 ： 2 小時 座號：</div>
+</div>
+<div class="exam-note">※注意： 禁止使用電子計算器。不必抄題，作答時請將試題題號及答案依照順序寫在試卷上，於本試題上作答者，不予計分。本科目除專門名詞或數理公式外，應使用本國文字作答。</div>
+<div class="essay-question">一、生成式人工智慧（Generative Artificial Intelligence, Gen AI）技術，已被廣泛應用於製作擬真度極高的虛假資料，同時也被惡意利用來製造偽造證據。面對這種情況，如何有效鑑別與處理偽證據，成為數位鑑識實務中急需解決的重要課題。請說明生成式 AI 對數位鑑識所可能產生之挑戰。(7 分)請說明數位鑑識人員可利用那些技術、工具以及如何運用這些技術、工具與程序來辨識、處理及證明偽造內容的存在。(18 分)</div>
+<div class="essay-question">二、在數位鑑識調查中，MACE 時間是檔案系統提供的重要時間戳記，可協助重建使用者行為與檔案操作歷程。假設鑑識人員從一位涉嫌內部洩密的員工電腦中，提取出兩份檔案。一份名為 ReportA.docx。另一份名為ReportB.docx。使用鑑識工具觀察到 A、B 檔案的 MACE 時間分別如表A 與表 B：表 A：屬性 時間M 2024/12/15 10:22:41A 2025/01/04 09:03:10C 2024/12/01 08:45:00E 2025/01/03 23:58:02表 B：屬性 時間M 2023/11/01 14:05:00A 2023/12/01 10:00:00C 2024/01/15 09:30:00E 2024/01/15 09:30:00請回答下列問題：請解釋檔案的 MACE 四個時間戳記分別代表的意義，並說明那一項最容易因系統搬移、下載或複製等操作而改變。（8 分）根據表 A 與表 B 中的時間資訊，請分別推論這兩份檔案的完整歷程，例如：是否有被複製、打開瀏覽或修改的跡象？並請具體說明理由。（17 分）</div>
+<div class="essay-question">三、假設你接到某公司要求調查員工涉嫌內部資料外洩的案件時，鑑識流程的第一步通常會是進行「案件接收與初步分析」。這部分的細項包含了⑴與該公司聯繫確認案件範圍與關鍵目標（特定員工、主機、檔案類型等）⑵了解事件時間點、通報來源與可疑行為。進行完第一步後，請詳細說明接下來所需的步驟，也就是後續你將採取的鑑識調查流程與各細項說明。(25 分)</div>
+<div class="essay-question">四、在數位鑑識調查結束後，鑑識人員需撰寫鑑識報告作為最終成果，此報告不僅用於向委託單位呈交結果，也可能作為法庭證據使用。請說明一份具備法庭可採性的數位鑑識報告應包含那些「關鍵內容與結構」？(25 分)</div>
+</div>
+</div>
+</div>
+<div class="subject-card" id="y114-46543">
+<div class="subject-header" onclick="toggleCard(this)">
+  <h3>警察情境實務(包括警察法規、實務操作標準作業程序、人權保障與正當法律程序)</h3>
+  <span class="subject-toggle">▼</span>
+</div>
+<div class="subject-body">
+<div class="exam-meta-bar">
+<span class="meta-tag">4 頁</span>
+<span class="meta-tag">選擇題 20 題</span>
+<span class="meta-tag" style="background:#fff5f5;color:#e53e3e;">有更正答案</span>
+</div>
+<div class="exam-content-v2">
+<div class="exam-metadata">
+<div class="meta-line">114年公務人員特種考試警察人員、一般警察人員、國家安全局國家安全情報人員、移民行政人員考試及114年特種考試退除役軍人轉任公務人員考試試題 考 試 別：警察人員考試 等 別：三等考試 類科組別：行政警察人員、外事警察人員（選試英語）、刑事警察人員、公共安全人員、犯罪防治人員預防組、交通警察人員交通組、警察資訊管理人員、刑事鑑識人員、國境警察人員、警察法制人員、行政管理人員 科 目：警察情境實務(包括警察法規、實務操作標準作業程序、人權保障與正當法律程序) 考試時間：2 小時 座號：</div>
+</div>
+<div class="exam-note">※注意：禁止使用電子計算器。</div>
+<div class="exam-section-marker">甲、申論題部分：（60分）</div>
+<div class="exam-note">㈠不必抄題，作答時請將試題題號及答案依照順序寫在申論試卷上，於本試題上作答者，不予計分。</div>
+<div class="exam-note">㈡請以藍、黑色鋼筆或原子筆在申論試卷上作答。</div>
+<div class="exam-note">㈢本科目除專門名詞或數理公式外，應使用本國文字作答。</div>
+<div class="essay-question">一、近期國內警察機關連續破獲假求職真詐騙集團，民眾被歹徒誘騙至指定地點後旋即被扣留個人證件與存摺，並遭受到囚禁及虐待，甚至有人不幸遭虐致死而被棄屍山林，詐騙集團兇殘之犯罪手法引起國人恐慌，監察委員亦已主動申請調查，此類犯罪行為已嚴重影響臺灣社會治安，警察應主動積極查緝不法，預防是類案件發生，淨化社會治安環境。你是派出所所長，如何根據轄區特性採取有效的警察勤務措施？（20 分）</div>
+<div class="essay-question">二、你是派出所所長，帶班巡邏獲報轄內有酒駕事故發生，到達現場後對肇事駕駛人進行酒測，依所測得吐氣酒精濃度值結果，酒駕肇事駕駛人移送法辦原則為何？（10 分）另因應憲法法庭 111 年憲判字第 1 號判決，就道路交通管理處罰條例第 35 條第 5 項，有關對汽車肇事駕駛人強制實施血液或其他檢體之採樣及測試檢定，宣告違憲，現階段若汽車駕駛人肇事拒絕接受或無法實施吐氣酒精濃度測試之檢定，內政部警政署對血液酒精濃度測試之規定為何？（10 分）</div>
+<div class="essay-question">三、你是分局偵查隊長，轄內某日發生知名幫派分子甲於住家門前遭不詳歹徒埋伏槍擊，歹徒隨即逃逸無蹤，你接獲勤務指揮中心通知立刻趕至現場，發現派出所同仁已將現場封鎖保全，被害人送醫急救中，請問你應如何部署偵查作為？（20 分）</div>
+<div class="exam-section-marker">乙、測驗題部分：（40分） 代號：4501</div>
+<div class="exam-note">㈠本試題為單一選擇題，請選出一個正確或最適當答案。</div>
+<div class="exam-note">㈡共20題，每題2分，須用2B鉛筆在試卡上依題號清楚劃記，於本試題或申論試卷上作答者，不予計分。</div>
+<div class="mc-question"><span class="q-number">1</span><span class="q-text">社會秩序維護法第38條規定：「違反本法之行為，涉嫌違反刑事法律……者，應移送檢察官……依刑事法律……規定辦理。但其行為應處……罰鍰……之部分，仍依本法規定處罰。」其但書關於處罰鍰部分之規定，於行為人之同一行為已受刑事法律追訴並經有罪判決確定者，構成重複處罰，依據司法院釋字第808號解釋，違反法治國之下列何種原則？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">絕對法律保留原則</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">法律明確性原則</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">一罪不二罰原則</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">不溯及既往原則</span></div>
+<div class="mc-question"><span class="q-number">2</span><span class="q-text">甲不慎遺失護照，親自前往派出所報案，派出所受理報案的警察乙其處理程序，下列何者最為適當？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">製作筆錄，填寫「受（處）理案件證明單」， 移請分局辦理</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">委婉告知民眾，為縮短申報流程及立即通報外交部，請其直接至分局偵查隊辦理</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">先登錄案件，再列印「受理各類案件紀錄表」及「受理案件登記表」</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">製作筆錄，進入內政部警政署案件管理系統登錄資料</span></div>
+<div class="mc-question"><span class="q-number">3</span><span class="q-text">你是派出所所長，會同分局偵查隊，執行查緝通緝犯甲，甲曾犯有毒品、加重竊盜、殺人、槍砲、恐嚇、偽造文書、傷害等刑案紀錄，目前因竊盜案被地方檢察署通緝中，經探訪得知甲持槍躲藏於轄區一棟商業大樓內，下列處置何者最適當？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">依緊急搜索方式前往逮捕</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">會同里鄰長及管理員前往訪視</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">請檢察官帶隊前往查緝</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">持搜索票及全副武裝執行</span></div>
+<div class="mc-question"><span class="q-number">4</span><span class="q-text">你為派出所所長，某日轄區居民甲至派出所報案稱不慎遺失手機，因內有機密資料十分擔心外流，想以侵占遺失物報案，下列處理方法，何者最不適當？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">請勤務指揮中心協助定位甲之手機位置，協助甲尋找手機</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">協助甲調閱監視錄影畫面，釐清遺失經過</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">員警委婉說明，以遺失物受理開立受（處）理案件證明單</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">洽詢警察廣播電臺有無民眾尋獲該手機送該臺認領</span></div>
+<div class="mc-question"><span class="q-number">5</span><span class="q-text">警勤區員警對勤區內某集合式住宅因環境複雜且暫住人口多，經陳請所長同意實施聯合查察時，經現住戶甲同意入內後，現場有不明人士乙、丙2人，核對身分時發現乙為毒品通緝犯，丙為列管應受尿液採驗人，下列處置作為何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">將乙上銬逮捕</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">經詢乙同意搜索後，當場搜索乙所使用暫停放屋前之交通工具</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">將丙逕行帶回派出所採尿送驗</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">經丙同意後，檢視隨身攜帶之皮包</span></div>
+<div class="mc-question"><span class="q-number">6</span><span class="q-text">警員甲擔服勤區查察，前往勤區家戶訪查在家看電視之治安顧慮人口乙時，經警員甲按門鈴多次，治安顧慮人口乙拒絕開門接受查訪，有關甲後續處置作為之敘述，下列作為何者最為適當？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">立即會同里長，要求乙開門接受訪查</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">立即請求其他警勤區員警支援，對乙實施聯合查察</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">得以書面經局長核准，採跟監方式，蒐集乙之行蹤</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">得以側訪方式對乙實施查訪</span></div>
+<div class="mc-question"><span class="q-number">7</span><span class="q-text">內政部為保障警察人員執法安全，爰對警械使用條例不合時宜部分全面進行檢討，本條例修正案業經立法院三讀通過，並經總統民國111 年10月19日公布施行，針對修正條文內容規範警察人員執行職務時之情境，下列敘述何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">警察執勤時，遇有緊急狀況，得彈性使用警械以外之物品</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">警察遇到危及生命情形時，得不經鳴槍警告直接射擊</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">內政部警政署應設置「警械使用調查小組」，由專家學者協助調查用槍案件</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">警察使用警械導致傷亡須賠償民眾權益時，適用國家賠償機制</span></div>
+<div class="mc-question"><span class="q-number">8</span><span class="q-text">值班員警受理民眾甲女報案遭受跟蹤騷擾案，如果你是值班員警，甲女報案之下列敘述內容，何者非屬實行「跟蹤騷擾行為」構成要件之一？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">保育人士乙男長期跟蹤騷擾我，要求我棄養保育動物</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">鄰居丙男因我拒絕其追求，竟多次遷怒傳訊威脅我母親，造成全家人心生畏怖，影響日常生活</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">同學丁男經常傳送手機簡訊向我追求，雖經回訊拒絕，但仍簡訊不斷</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">同學戊男多次從學校跟蹤我回家，要求約會與聯絡，邀約看電影，但我均避不見面</span></div>
+<div class="mc-question"><span class="q-number">9</span><span class="q-text">你是派出所所長，在你的轄區治安要點有設置錄影監視系統，民眾甲（案件關係人）陳情，需要調閱監視系統之影音檔案，依據「治安要點錄影監視系統調閱影像檔案處理作業程序」之規定，有關甲的申請及影音檔案保存，下列何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">若因情況急迫，得讓甲先行調閱，但須於3日內補申請、陳閱</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">監視系統之影音檔案資料，自錄製完成時起，至少應保存1個月</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">除無其他特殊情形，此影音檔案資料保存，至遲應於1年內銷毀</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">若因調查犯罪之必要者，則不得任意銷毀此影音檔案資料</span></div>
+<div class="mc-question"><span class="q-number">10</span><span class="q-text">槍砲彈藥刀械管制條例相關原住民「自製獵槍或彈藥」之規定與解釋，下列何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">原住民未經許可持有自製獵槍，供作生活工具之用者，處以行政罰</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">司法院釋字第803號解釋，認為自製之獵槍一詞，尚與法律明確性原則無違</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">原住民相互間未經許可出借自製獵槍，非供作生活工具之用者，處以刑事罰</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">原住民未經許可製造自製獵槍或彈藥，供作生活工具者，處以刑事罰</span></div>
+<div class="mc-question"><span class="q-number">11</span><span class="q-text">你是派出所所長，獲悉轄內某檳榔店發生槍擊案，依警察偵查犯罪手冊規定，下列敘述何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">立即到場指揮員警運用巡邏車等器材封鎖現場，並將採訪之媒體記者引導至中間層管制區</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">現場有人受傷應立即讓醫護人員進入實施急救，但應引導儘可能不要破壞現場並觀察是否有移動現場物品</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">被害人胸部中槍大量出血，救護車送醫過程，應派員隨同上車，並交付儘可能了解案情及記錄陳述內容</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">現場派員實施封鎖、警戒，對駐足圍觀群眾全面錄影，記錄周邊人車資料，並指定專人立即調閲監視器影像</span></div>
+<div class="mc-question"><span class="q-number">12</span><span class="q-text">鑒於現今社會詐欺案件居高不下，嚴重影響民眾財產安全，究其原因係犯罪集團透過政府相關部門的管制措施不足所致，因此，行政院於民國 111 年 7 月 15 日核定「新世代打擊詐欺策略行動綱領」，成立「打詐國家隊」，由各機關協力打擊詐騙犯罪，針對協力偵防之策略，下列敍述何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">識詐（宣導教育面）由內政部擔任統籌機關，強化分層、分眾、分齡犯罪預防宣導工作，提升民眾防詐免疫力</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">堵詐（電信網路面）由交通部擔任統籌機關，防堵資通訊服務淪為犯罪工具，毀斷詐欺犯嫌施詐之管道</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">阻詐（贓款流向面）由金融監督管理委員會擔任統籌機關，強化金融監管功能，推動各項金融防詐減損策略</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">懲詐（偵查打擊面）由法務部擔任統籌機關，結合檢警全面查緝各類詐騙犯嫌，並強化贓款查扣工作，阻斷詐騙集團金流</span></div>
+<div class="mc-question"><span class="q-number">13</span><span class="q-text">依警察偵查犯罪手冊規定，有關製作犯罪嫌疑人詢問筆錄之敘述，下列何者正確？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">筆錄經受詢問人確認無誤後，應由受詢問人於緊接其記載之末行簽名或按指印，不得僅蓋章</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">詢問時應一律全程連續錄音及錄影</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">筆錄不得竄改、挖補或留空行，如有增刪更改，應由製作人及受詢問人同時在其上蓋章或按指印</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">詢問犯罪嫌疑人，應採一人詢問，另一人記錄之方式製作。如有全程錄音或錄影者，即可由一人製作</span></div>
+<div class="mc-question"><span class="q-number">14</span><span class="q-text">派出所接獲某醫院報案稱，有1位酒醉男子甲自摔受傷，經救護車送抵急診室，因不耐久候，大聲咆哮、吵鬧，要求醫生馬上幫其看診，經醫院保全人員勸阻不聽，擔任備勤勤務人員受命前往處理，下列處置何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">到場後應先行評估現場狀況，必要時請求支援警力協處</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">甲雖尚無犯罪嫌疑，應就實際狀況依社會秩序維護法處理</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">甲酒醉滋擾醫院，得為管束至危險（害）結束或清醒時止，不受24小時限制</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">甲如有抗拒管束措施，必要時得使用防護型噴霧器</span></div>
+<div class="mc-question"><span class="q-number">15</span><span class="q-text">現今資通訊匯流時代，犯嫌手機內的相關資料是極重要的數位證物，你是偵查隊分隊長，帶隊執行詐欺轉帳水房搜索，於現場查扣到犯嫌之手機時，下列偵查作為何者最不適當？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">請犯嫌提供手機解鎖密碼</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">以標籤方式標示手機廠牌、型號、序號及持有人</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">開啟飛航模式初篩內容再行查扣</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">關機並取出 SIM 卡彌封保管，送鑑識單位進行數位鑑識</span></div>
+<div class="mc-question"><span class="q-number">16</span><span class="q-text">派出所所長甲帶班擔服巡邏勤務時，發現民眾乙有騎乘機車蛇行之情形，遂依法將其攔停並進行交通稽查；嗣乙提供身分證並自承確有飲酒後，於甲全程錄影並依規定對其進行酒精濃度檢測之際，乙隨即保持沉默且不願以礦泉水漱口時，有關甲之處置作為，下列敘述何者正確？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">通報分局勤務指揮中心後，即以優勢警力陪同乙前往醫院抽血檢測</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">將乙帶返派出所，並報請檢察官核發鑑定許可書後，將乙強制送醫抽血檢測</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">告知乙若再不配合漱口及檢測，將以妨礙公務之現行犯進行逮捕並製單舉發拒絕酒測</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">對乙告知拒絕檢測之法律效果15分鐘後，即製單舉發拒絕酒測</span></div>
+<div class="mc-question"><span class="q-number">17</span><span class="q-text">你處理一起汽車駕駛人甲因拒絕接受酒精濃度測試經強制抽血檢測之案件，同車乘客乙與丙分別為70歲與17 歲，後續經取得甲血液中酒精濃度達百分之零點零四。對於本案因甲酒後駕車是否舉發同車乘客乙與丙，下列敘述之認定與處置何者正確？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">處理現場因無甲之酒測值，同車乘客當場即應予放行，後續不再舉發乘客</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">甲酒測值未達處罰同車乘客的法定標準</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">甲酒測值已達處罰同車乘客的法定標準，乙有違規</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">甲酒測值已達處罰同車乘客的法定標準，丙無違規</span></div>
+<div class="mc-question"><span class="q-number">18</span><span class="q-text">如果你是一位派出所所長，參加社區治安會議，轄內居民反映其所住社區前方交岔路口 10 公尺內經常有汽車違停，影響安全，現場你應該如何回應，下列何者正確？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">社區周邊合法停車空間不易尋，請居民能夠同理心多予包容</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">因派出所警力有限，尚須負責轄內治安及為民服務項目，面對是類輕微交通違規項目，請民眾直接透過市政府陳情系統反映，警方會錄案辦理</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">將派員加強巡查取締移置拖吊，轄內民眾若有發現該項違規停車，亦可在違規行為終了日起未逾7日者，檢具違規證據資料，向警察機關檢舉</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">交岔路口10 公尺內違規停車不在可檢舉之項目內，請民眾一律撥打110通知警方到場</span></div>
+<div class="mc-question"><span class="q-number">19</span><span class="q-text">派出所所長甲於主持勤前教育時，向所屬宣達駕駛警備車於開啟警示燈及警鳴器執行「緊急任務」時，依法可不受標誌、標線及號誌的限制，惟仍應顧及行人及其他車輛安全；警員乙詢問甲「何謂緊急任務？」，有關甲答覆乙之敘述，下列何者不屬於「警察人員駕車安全考核實施要點」所列舉之緊急任務範疇？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">執行專案勤務、路檢及重點巡邏任務</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">緝捕現行犯、逃犯</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">取締重大交通違規不服攔檢稽查，不立即制止，有危害交通安全之虞者</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">搶救災難或重大事故，馳往現場</span></div>
+<div class="mc-question"><span class="q-number">20</span><span class="q-text">派出所所長甲於凌晨三點，帶班執行巡邏勤務時，接獲分局勤務指揮中心通報：「民眾報稱，其住家旁之便利商店周遭路段，現有多輛汽機車違規停車，請前往交通整理並依規定取締」，甲到達現場後，發現多數違規停車情節輕微且未危害交通安全或秩序，下列何者不得施以勸導，免予舉發？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">在禁止臨時停車處所違規停車者</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">不依順行方向違規停車者</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">於身心障礙專用停車位違規停車者</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">在設有禁止停車標線之處所違規停車者</span></div>
+</div>
+<div class="answer-section">
+<h4 class="answer-title">📋 標準答案</h4>
+<div class="answer-grid">
+<div class="answer-cell"><span class="q-num">1</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">2</span><span class="q-ans">B</span></div>
+<div class="answer-cell"><span class="q-num">3</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">4</span><span class="q-ans">A</span></div>
+<div class="answer-cell"><span class="q-num">5</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">6</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">7</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">8</span><span class="q-ans">A</span></div>
+<div class="answer-cell"><span class="q-num">9</span><span class="q-ans">A</span></div>
+<div class="answer-cell"><span class="q-num">10</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">11</span><span class="q-ans">A</span></div>
+<div class="answer-cell"><span class="q-num">12</span><span class="q-ans">B</span></div>
+<div class="answer-cell"><span class="q-num">13</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">14</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">15</span><span class="q-ans">D</span></div>
+<div class="answer-cell corrected"><span class="q-num">16</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">17</span><span class="q-ans">B</span></div>
+<div class="answer-cell corrected"><span class="q-num">18</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">19</span><span class="q-ans">A</span></div>
+<div class="answer-cell"><span class="q-num">20</span><span class="q-ans">C</span></div>
+</div>
+<div class="correction-note">⚠️ 更正：第16題答Ｂ或Ｄ者均給分，第18題答Ｄ給分。</div>
+</div>
+</div>
+</div>
+<div class="subject-card" id="y114-93826">
+<div class="subject-header" onclick="toggleCard(this)">
+  <h3>警察法規(包括警察法、行政執行法、社會秩序維護法、警械使用條例、集會遊行法、警察職權行使法、公務人員行政中立法)</h3>
+  <span class="subject-toggle">▼</span>
+</div>
+<div class="subject-body">
+<div class="exam-meta-bar">
+<span class="meta-tag">4 頁</span>
+<span class="meta-tag">選擇題 25 題</span>
+<span class="meta-tag" style="background:#fff5f5;color:#e53e3e;">有更正答案</span>
+</div>
+<div class="exam-content-v2">
+<div class="exam-metadata"><div class="meta-line">114年公務人員特種考試警察人員、一般警察人員、國家安全局國家安全情報人員、移民行政人員考試及114年特種考試退除役軍人轉任公務人員考試試題</div></div>
+<div class="exam-metadata">
+<div class="meta-line">114年特種考試退除役軍人轉任公務人員考試試題 考 試 別：警察人員考試 等 別：三等考試 類科組別：行政警察人員、外事警察人員(選試英語)、刑事警察人員、公共安全人員、犯罪防治人員預防組、交通警察人員交通組、警察資訊管理人員、國境警察人員、警察法制人員、行政管理人員 科 目：警察法規(包括警察法、行政執行法、社會秩序維護法、警械使用條例、集會遊行法、警察職權行使法、公務人員行政中立法) 考試時間：2 小時 座號：</div>
+</div>
+<div class="exam-note">※注意：禁止使用電子計算器。</div>
+<div class="exam-section-marker">甲、申論題部分：（50分）</div>
+<div class="exam-note">㈠不必抄題，作答時請將試題題號及答案依照順序寫在申論試卷上，於本試題上作答者，不予計分。</div>
+<div class="exam-note">㈡請以藍、黑色鋼筆或原子筆在申論試卷上作答。</div>
+<div class="exam-note">㈢本科目除專門名詞或數理公式外，應使用本國文字作答。</div>
+<div class="essay-question">一、請說明警察職權行使法的「警察類型化措施」（或稱警察類型化職權、具體警察措施）及「警察職權概括條款」（或稱警察概括職權）內容為何？（10 分）兩者在適用上的原則為何？（5 分）並請論述其規範及內容是否存在值得商榷之處？（10 分）</div>
+<div class="essay-question">二、請說明「警察裁量」、「裁量瑕疵」的定義及類型？（15 分）並以警察法規條文舉例論述之。（10 分）</div>
+<div class="exam-section-marker">乙、測驗題部分：（50分） 代號：2501</div>
+<div class="exam-note">㈠本試題為單一選擇題，請選出一個正確或最適當答案。</div>
+<div class="exam-note">㈡共25題，每題2分，須用2B鉛筆在試卡上依題號清楚劃記，於本試題或申論試卷上作答者，不予計分。</div>
+<div class="mc-question"><span class="q-number">1</span><span class="q-text">下列何者非屬準用公務人員行政中立法之人員？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">經公務人員考試錄取，接受訓練之人員</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">各級學校之軍訓教官</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">行政法人有給專任之理事</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">私立學校校長及其兼任行政職務之教師</span></div>
+<div class="mc-question"><span class="q-number">2</span><span class="q-text">下列何者違反公務人員行政中立法所要求之行政中立？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">於休假期間擔任罷免團體志工</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">加入政黨</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">具名不具銜兼任公職候選人競選辦事處之職務</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">登記為公職候選人，並自候選人名單公告之日起請事假</span></div>
+<div class="mc-question"><span class="q-number">3</span><span class="q-text">關於行政執行之類型，下列何者非屬之？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">公法上金錢給付義務之執行</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">行為或不行為義務之執行</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">身分查證之詢問</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">即時強制</span></div>
+<div class="mc-question"><span class="q-number">4</span><span class="q-text">依行政執行法規定，關於行政執行機關得向其他機關請求協助之情形，下列何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">須在管轄區域外執行</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">無適當之執行人員</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">執行時有遭遇抗拒之虞</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">執行職務所必要認定之事實，不能獨自調查</span></div>
+<div class="mc-question"><span class="q-number">5</span><span class="q-text">關於行政執行法中所稱執行機關，下列何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">原處分機關</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">該管行政機關</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">法務部行政執行署</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">警察機關</span></div>
+<div class="mc-question"><span class="q-number">6</span><span class="q-text">依據警察職權行使法，警察得採行之即時強制，下列何者正確？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">管收</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">扣留危險物品</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">限制住居</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">拘提</span></div>
+<div class="mc-question"><span class="q-number">7</span><span class="q-text">義務人或利害關係人針對警察依警察職權行使法行使職權，認有侵害其利益之情事時，當場應如何救濟？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">向行使職權之警察陳述理由，表示異議</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">向行使職權警察之長官陳述理由，表示異議</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">向行使職權警察所屬機關之上級機關，提起訴願</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">向高等行政法院之地方行政訴訟庭提起行政訴訟</span></div>
+<div class="mc-question"><span class="q-number">8</span><span class="q-text">關於警察對於集會、遊行得採行之措施，下列敘述何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">應經許可之集會、遊行，未經許可而擅自舉行者，得予警告</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">依負責人之請求，到場疏導交通及維持秩序</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">於集會、遊行活動期間及活動前、後，得以科技工具蒐集參與者之現場活動資料</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">所蒐集集會、遊行參與者之資料，得為調查犯罪或其他違法行為，而延長保存</span></div>
+<div class="mc-question"><span class="q-number">9</span><span class="q-text">關於警察攔停交通工具，下列敘述何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">限於已發生危害或依客觀合理判斷易生危害之交通工具</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">得令駕駛人出示身分證明證件</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">得檢查引擎之號碼</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">得要求駕駛人提供行車紀錄器內之影音資料供查閱</span></div>
+<div class="mc-question"><span class="q-number">10</span><span class="q-text">關於警察於公共場所查證身分時，依據警察職權行使法得蒐集之被查證人資料。下列何者非屬警察得蒐集或出示之資料？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">出生地</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">令其出示國民身分證</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">國籍</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">血液</span></div>
+<div class="mc-question"><span class="q-number">11</span><span class="q-text">關於警察於公共場所查證身分時，得採行之措施，下列何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">攔停交通工具</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">令出示身分證明文件</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">若有明顯事實足認其有攜帶足以自殺、自傷或傷害他人生命或身體之物者，得檢查其身體及所攜帶之物</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">若拒絕配合查證時，得不經當事人同意，當場強制拍攝其臉部照片，並於資料庫中查詢其身分</span></div>
+<div class="mc-question"><span class="q-number">12</span><span class="q-text">當集會、遊行之負責人宣布中止或結束集會、遊行時，參加人應如何自處？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">應即解散</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">若集會、遊行尚未經主管機關命令解散，則無須解散</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">因其僅具建議及勸導之性質，故是否要解散，參加人得自行決定</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">得向主管機關表達異議</span></div>
+<div class="mc-question"><span class="q-number">13</span><span class="q-text">關於集會、遊行負責人之權責，下列敘述何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">應填具申請書，向主管機關申請集會、遊行之許可</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">於集會、遊行中維持秩序</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">清理集會、遊行路線於使用後所遺廢棄物</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">宣布中止或結束集會、遊行，參加人未解散者，應強制其解散</span></div>
+<div class="mc-question"><span class="q-number">14</span><span class="q-text">關於偶發性及緊急性集會、遊行，下列敘述何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">偶發性集會、遊行因特殊原因，未經召集自發聚集，事實上無所謂發起人或負責人，要求其事前申請許可，係屬以法律課予人民事實上難以遵守之義務</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">緊急性集會、遊行因事起倉卒，非即刻舉行無法達到目的，實難期待應先取得許可後舉行</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">要求室外舉行之集會、遊行，應經主管機關之許可或報備，係屬立法者之形成自由</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">偶發性集會、遊行，因屬自發聚集，故其舉行區域不受集會遊行法第6條所定地區及週邊範圍之限制</span></div>
+<div class="mc-question"><span class="q-number">15</span><span class="q-text">偶發性集會、遊行為群眾因特殊原因未經召集自發聚集，事實上無所謂發起人或負責人，故無法事先申請許可或報備。但於偶發性集會、遊行舉行中，以下何者將可能被認定為集會、遊行之負責人，而應宣布集會、遊行之中止或結束？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">偶發性集會、遊行因屬自發聚集，故其中止或結束亦應由參加人自發性為之</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">由主管機關於現場指定之人，宣布集會、遊行之中止或結束</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">曾上台發表講演者，均為負責人，應共同宣布之</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">於現場實際主持或指揮活動之人，為集會、遊行之負責人，應宣布集會、遊行之中止或結束</span></div>
+<div class="mc-question"><span class="q-number">16</span><span class="q-text">下列何者，仍可擔任集會、遊行中糾察員？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">未成年</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">褫奪公權尚未復權</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">受監護之宣告，尚未撤銷</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">無中華民國國籍</span></div>
+<div class="mc-question"><span class="q-number">17</span><span class="q-text">針對主管機關不予許可集會、遊行申請之通知書，若有不服，首先應如何救濟？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">經原主管機關向其上級警察機關提出申復</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">經原主管機關向內政部提起訴願</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">當場向主管機關表示異議</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">向高等行政法院地方行政訴訟庭提起行政訴訟</span></div>
+<div class="mc-question"><span class="q-number">18</span><span class="q-text">關於警察違法使用警械國家賠償之敘述，下列何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">該違法使用警械警察所屬機關為賠償義務機關</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">須使用警械之警察有故意或過失時，始得請求國家賠償</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">警察使用警械所生之國家賠償，依國家賠償法規定辦理</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">使用警械之警察有故意或重大過失之時，賠償義務機關得向其求償</span></div>
+<div class="mc-question"><span class="q-number">19</span><span class="q-text">關於警察職權行使法規定警察進入住宅建築物或處所職權之敘述，下列何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">本項職權是對於私人住宅、建築物或處所之進入</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">進入時應著制服或出示證件表明身分，並應告知事由</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">有賭博或其他妨害風俗或公安之情事，於情況急迫時得進入制止</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">須因人民之生命、身體、財產有迫切之危害，非進入不能救護時</span></div>
+<div class="mc-question"><span class="q-number">20</span><span class="q-text">關於警察對於有事實足認其有參與集團性或組織性犯罪之虞者，以目視或科技工具，進行觀察及動態掌握等資料蒐集活動之敘述，下列何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">期間每次不得逾一年，如有必要得延長之，並以一次為限</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">經由警察分局長書面同意後始得實施</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">僅得對其無隱私或秘密合理期待之行為或生活情形進行觀察及動態掌握</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">蒐集之資料，於達成目的後，除為調查犯罪行為，而有保存之必要者外，應即銷毀之</span></div>
+<div class="mc-question"><span class="q-number">21</span><span class="q-text">有關集會遊行法規定之集會、遊行禁制區之敘述，下列何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">禁制區經主管機關核准者得舉行集會遊行</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">各級法院為禁制區，週邊範圍，由內政部劃定公告，不得逾三百公尺</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">各國駐華使領館為禁制區，週邊範圍，由國防部劃定公告，不得逾三百公尺</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">總統府為禁制區，週邊範圍，由內政部劃定公告，不得逾三百公尺</span></div>
+<div class="mc-question"><span class="q-number">22</span><span class="q-text">關於公法上金錢給付義務執行之敘述，下列何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">義務人死亡遺有財產者，行政執行分署得逕對其遺產強制執行</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">執行人員於查封前，發見義務人之財產業經其他機關查封者，不得再行查封</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">義務人逾期不履行時，主管機關移送行政執行分署就其財產執行之，移送行為之法律性質為觀念通知</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">義務人不服行政執行方法聲明異議時，原處分機關因必要情形，得停止行政執行</span></div>
+<div class="mc-question"><span class="q-number">23</span><span class="q-text">關於集會遊行法申請室外集會遊行相關規定之敘述，下列何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">除緊急性及偶發性集會遊行外，室外集會遊行應由負責人填具申請書，於六日前向主管機關申請許可</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">申請之許可或不許可，主管機關未在規定期限內通知負責人者，視為許可</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">負責人不服主管機關不予許可通知者，應以書面附具理由提出於原主管機關向其上級警察機關申復</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">應經許可之集會、遊行未經許可，主管機關應予警告、制止或命令解散</span></div>
+<div class="mc-question"><span class="q-number">24</span><span class="q-text">關於司法院大法官有關警察之解釋及憲法法庭判決之敘述，下列何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">司法院釋字第718號解釋認為，集會遊行法第8條第1項規定，室外集會、遊行應向主管機關申請許可，未排除緊急性及偶發性集會、遊行部分，違反比例原則</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">司法院釋字第 666 號解釋認為，社會秩序維護法第 80 條就意圖得利與人姦、宿者，對於從事性交易之行為人，僅以意圖得利之一方為處罰對象，與平等原則有違</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">司法院釋字第 689 號解釋認為，社會秩序維護法第 89 條第 2 款規定，使新聞採訪者之跟追行為受到限制，違反比例原則</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">111 年憲判字第 10 號判決認為，警察人員人事條例規定警察人員同一考績年度中，其平時考核獎懲互相抵銷後累積已達二大過應予以免職，與憲法保障人民平等服公職權尚無牴觸</span></div>
+<div class="mc-question"><span class="q-number">25</span><span class="q-text">關於警察裁量權行使之敘述，下列何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">警察行使裁量權，行政法院僅得為適當性審查</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">警察裁量逾越授權之範圍者，構成裁量瑕疵之違法</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">法律所規定之構成要件是否成立，並非裁量權行使範圍</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">警察機關得訂定一般性之裁量基準</span></div>
+</div>
+<div class="answer-section">
+<h4 class="answer-title">📋 標準答案</h4>
+<div class="answer-grid">
+<div class="answer-cell"><span class="q-num">1</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">2</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">3</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">4</span><span class="q-ans">D</span></div>
+<div class="answer-cell corrected"><span class="q-num">5</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">6</span><span class="q-ans">B</span></div>
+<div class="answer-cell"><span class="q-num">7</span><span class="q-ans">A</span></div>
+<div class="answer-cell"><span class="q-num">8</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">9</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">10</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">11</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">12</span><span class="q-ans">A</span></div>
+<div class="answer-cell"><span class="q-num">13</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">14</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">15</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">16</span><span class="q-ans">B</span></div>
+<div class="answer-cell"><span class="q-num">17</span><span class="q-ans">A</span></div>
+<div class="answer-cell"><span class="q-num">18</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">19</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">20</span><span class="q-ans">B</span></div>
+<div class="answer-cell"><span class="q-num">21</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">22</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">23</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">24</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">25</span><span class="q-ans">A</span></div>
+</div>
+<div class="correction-note">⚠️ 更正：第5題一律給分。</div>
+</div>
+</div>
+</div>
+<div class="subject-card" id="y114-89699">
+<div class="subject-header" onclick="toggleCard(this)">
+  <h3>警政資訊管理與應用</h3>
+  <span class="subject-toggle">▼</span>
+</div>
+<div class="subject-body">
+<div class="exam-meta-bar">
+<span class="meta-tag">1 頁</span>
+<span class="meta-tag">申論題</span>
+</div>
+<div class="exam-content-v2">
+<div class="exam-text">國家安全局國家安全情報人員、移民行政人員考試及</div>
+<div class="exam-metadata">
+<div class="meta-line">114年特種考試退除役軍人轉任公務人員考試試題 考 試 別：警察人員考試 等 別：三等考試 類科組別：警察資訊管理人員 科 目：警政資訊管理與應用 考試時間：2 小時 座號：</div>
+</div>
+<div class="exam-note">※注意：㈠禁止使用電子計算器。</div>
+<div class="exam-note">㈡不必抄題，作答時請將試題題號及答案依照順序寫在試卷上，於本試題上作答者，不予計分。</div>
+<div class="exam-note">㈢本科目除專門名詞或數理公式外，應使用本國文字作答。</div>
+<div class="essay-question">一、假設某警察單位需要開發一個新的資訊系統來管理犯罪資訊，最後上級決定系統以委外方式開發，並採取雲端運算而非單獨伺服器。你被指派負責雲端方案的規劃，該系統需整合現有資料庫，及彙整已分析的犯罪分布和黑數資料，並提供數據分析、地圖整合和報告功能。請提出兩種可行的雲端方案並進行比較，同時根據警察單位的安全性與效率需求，建議應如何取捨。（25 分）</div>
+<div class="essay-question">二、你被指派協助某警察單位規劃開發一個警察人力派遣決策支援系統，該系統需整合地圖、犯罪黑數（未報案的潛在犯罪數據）和警察人力資料，以協助決策者進行人力調度。請提出初步構想，並列出開發規劃的至少三個關鍵步驟，說明每個步驟的內容。（25 分）</div>
+<div class="essay-question">三、生成式人工智慧（Generative Artificial Intelligence, GenAI）在近年來發展迅速，例如可自動生成案件報告。請提出一個創新的應用構想（排除上述例子），說明如何將 GenAI 應用於警察單位的日常工作。作答應包括：應用的具體場景、GenAI 的作用、預期的效益、潛在風險和技術可行性。（25 分）</div>
+<div class="essay-question">四、最近社會上詐騙案猖獗，你負責一個內部團隊來對付「釣魚」行為。請解釋什麼是釣魚攻擊，並提出一個初步構想（包含技術或教育措施），說明如何防範釣魚攻擊。作答應包括構想的可行性分析。（25 分）</div>
+</div>
+</div>
+</div>
+<div class="subject-card" id="y114-92248">
+<div class="subject-header" onclick="toggleCard(this)">
+  <h3>電腦犯罪偵查</h3>
+  <span class="subject-toggle">▼</span>
+</div>
+<div class="subject-body">
+<div class="exam-meta-bar">
+<span class="meta-tag">1 頁</span>
+<span class="meta-tag">申論題</span>
+</div>
+<div class="exam-content-v2">
+<div class="exam-text">國家安全局國家安全情報人員、移民行政人員考試及</div>
+<div class="exam-metadata">
+<div class="meta-line">114年特種考試退除役軍人轉任公務人員考試試題 考 試 別：警察人員考試 等 別：三等考試 類科組別：警察資訊管理人員 科 目：電腦犯罪偵查 考試時間：2 小時 座號：</div>
+</div>
+<div class="exam-note">※注意：㈠禁止使用電子計算器。</div>
+<div class="exam-note">㈡不必抄題，作答時請將試題題號及答案依照順序寫在試卷上，於本試題上作答者，不予計分。</div>
+<div class="exam-note">㈢本科目除專門名詞或數理公式外，應使用本國文字作答。</div>
+<div class="essay-question">一、請論述及比較網路犯罪偵查與傳統犯罪偵查在偵查目標、證據形式和方法上的主要異同。（10 分）並請具體說明傳統偵查方法（如訪談、情資蒐集、臥底）如何在網路犯罪偵查的背景下進行應用和調整？（15 分）</div>
+<div class="essay-question">二、請說明犯罪偵查及知識工程化的基本原則及偵查技術有那些？（10 分）另欲使犯罪偵查工作走向知識化、科學化、系統化及合理化的道路，應具備下列五大階段（鑑定化階段、概念化階段、正規化階段、實作及測試階段、證實階段），請詳細舉例說明（如第一銀行 ATM 盜領案），並繪圖說明之。（15 分）</div>
+<div class="essay-question">三、數位鑑識在「重建數位犯罪事件的發生過程」或「還原數位犯罪事實」方面扮演核心角色。請詳細說明時間軸分析（Timeline Analysis）、關聯分析（Relational analysis）和功能分析（Functional analysis）這三種特殊技術如何通過偵查及分析數位證據，幫助科技偵查（刑事）人員拼湊出犯罪圖景，並回答案件的「人、事、時、地、物、原因」等要素。（25 分）</div>
+<div class="essay-question">四、請說明依循 ISO/IEC 27043：2015 國際標準來進行資安犯罪事件偵查程序的四大階段程序（包含準備程序、開始程序、獲取程序、調查程序）為何？並請舉例及繪圖表說明之。（25 分）（ISO/IEC 27043：2015 Incident Investigation Principles and Processes 之國際資安事件偵查原則與程序標準）</div>
+</div>
+</div>
+</div>
+</div>

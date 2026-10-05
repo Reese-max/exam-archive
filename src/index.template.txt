@@ -1,0 +1,1671 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>資管系考古題總覽 (105-114年)</title>
+<meta name="description" content="警察特考三等資訊管理組考古題總覽，涵蓋105-114年7科目共70份試卷，含搜尋、練習模式、書籤功能">
+<meta name="theme-color" content="#1a365d">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root {
+  --primary: #1a365d;
+  --primary-light: #2b6cb0;
+  --accent: #3182ce;
+  --bg: #f0f4f8;
+  --card-bg: #ffffff;
+  --border: #e2e8f0;
+  --text: #2d3748;
+  --text-light: #718096;
+  --text-muted: #a0aec0;
+  --success: #38a169;
+  --warning: #d69e2e;
+  --danger: #e53e3e;
+  --sidebar-w: 280px;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; scroll-padding-top: 140px; }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+}
+
+body {
+  font-family: "Noto Sans TC", "Microsoft JhengHei", -apple-system, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+}
+
+/* Sidebar */
+.sidebar {
+  position: fixed;
+  top: 0; left: 0;
+  width: var(--sidebar-w);
+  height: 100vh;
+  background: var(--primary);
+  color: #fff;
+  overflow-y: auto;
+  z-index: 100;
+  padding: 1.5rem 0;
+  transition: transform 0.3s ease;
+}
+.sidebar-title {
+  font-size: 1.1rem; font-weight: 700;
+  padding: 0 1.25rem 1rem;
+  border-bottom: 1px solid rgba(255,255,255,0.15);
+  margin-bottom: 0.75rem;
+}
+.sidebar-year {
+  padding: 0.4rem 1.25rem;
+  font-size: 0.95rem; font-weight: 600;
+  color: rgba(255,255,255,0.7);
+  cursor: pointer; user-select: none;
+}
+.sidebar-year:hover { color: #fff; background: rgba(255,255,255,0.08); }
+.sidebar-year.active { color: #fff; }
+.sidebar-subjects { display: none; padding: 0.25rem 0; }
+.sidebar-year.active + .sidebar-subjects { display: block; }
+.sidebar-link {
+  display: block;
+  padding: 0.3rem 1.25rem 0.3rem 2rem;
+  font-size: 0.82rem;
+  color: rgba(255,255,255,0.6);
+  text-decoration: none;
+  transition: all 0.15s;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.sidebar-link:hover { color: #fff; background: rgba(255,255,255,0.1); }
+
+/* Main */
+.main {
+  margin-left: var(--sidebar-w);
+  padding: 2rem 2.5rem;
+  max-width: 960px;
+  transition: margin-left 0.3s ease;
+}
+
+/* Sidebar toggle button (desktop) — inside sidebar title */
+.sidebar-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.sidebar-toggle {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.15);
+  color: rgba(255,255,255,0.7);
+  border: none;
+  cursor: pointer;
+  font-size: 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: background 0.2s, color 0.2s;
+}
+.sidebar-toggle:hover { background: rgba(255,255,255,0.25); color: #fff; }
+
+/* Collapsed: show a fixed re-open button */
+body.sidebar-collapsed .sidebar {
+  transform: translateX(-100%);
+}
+body.sidebar-collapsed .main {
+  margin-left: 0;
+}
+.sidebar-reopen {
+  display: none;
+  position: fixed;
+  top: 1rem;
+  left: 0.75rem;
+  z-index: 101;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: var(--primary);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 0.85rem;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  transition: background 0.2s;
+}
+.sidebar-reopen:hover { background: var(--primary-light); }
+body.sidebar-collapsed .sidebar-reopen { display: flex; }
+.page-title { font-size: 1.8rem; font-weight: 800; color: var(--primary); margin-bottom: 0.5rem; }
+.page-subtitle { color: var(--text-light); font-size: 0.95rem; margin-bottom: 2rem; }
+
+/* Year section */
+.year-section { margin-bottom: 3rem; }
+.year-placeholder { min-height: 5rem; margin-bottom: 3rem; color: var(--text-light); }
+.year-heading {
+  font-size: 1.4rem; font-weight: 700; color: var(--primary);
+  border-bottom: 3px solid var(--accent);
+  padding-bottom: 0.5rem; margin-bottom: 1.5rem;
+}
+
+/* Subject card */
+.subject-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 12px; margin-bottom: 1.5rem;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+.subject-header {
+  background: linear-gradient(135deg, var(--primary), var(--primary-light));
+  color: #fff; padding: 1rem 1.5rem;
+  cursor: pointer; user-select: none;
+  display: flex; justify-content: space-between; align-items: center;
+}
+.subject-header h3 { font-size: 1rem; font-weight: 600; flex: 1; min-width: 0; }
+.subject-toggle { font-size: 1.2rem; transition: transform 0.2s; flex-shrink: 0; margin-left: 0.75rem; }
+.subject-card.open .subject-toggle { transform: rotate(180deg); }
+.subject-body { display: none; padding: 1.5rem; }
+.subject-card.open .subject-body { display: block; }
+
+/* Exam metadata bar */
+.exam-meta-bar { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-bottom: 1rem; }
+.meta-tag {
+  font-size: 0.78rem; padding: 0.2rem 0.6rem;
+  border-radius: 4px; background: #edf2f7; color: var(--text-light);
+}
+
+/* ============================================================
+   NEW: Structured exam content styles
+   ============================================================ */
+
+.exam-content-v2 {
+  padding: 0.5rem 0;
+}
+
+/* Metadata block (考試別、等別等) */
+.exam-metadata {
+  background: #f7fafc;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 0.75rem 1rem;
+  margin-bottom: 1rem;
+  font-size: 0.82rem;
+  color: var(--text-light);
+  line-height: 1.6;
+}
+.meta-line {
+  margin-bottom: 0.15rem;
+}
+
+/* Notes (注意事項) */
+.exam-note {
+  font-size: 0.82rem;
+  color: var(--text-light);
+  padding: 0.2rem 0 0.2rem 1rem;
+  border-left: 3px solid var(--border);
+  margin-bottom: 0.25rem;
+}
+
+/* Section markers (甲、申論題 / 乙、測驗題) */
+.exam-section-marker {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--primary);
+  padding: 0.75rem 0 0.4rem;
+  margin-top: 0.5rem;
+  border-top: 1px solid var(--border);
+}
+
+/* Essay questions (一、二、三、四) */
+.essay-question {
+  font-size: 0.92rem;
+  line-height: 1.85;
+  padding: 0.75rem 0 0.5rem;
+  border-bottom: 1px dashed #e2e8f0;
+  margin-bottom: 0.5rem;
+  text-indent: -1.5em;
+  padding-left: 1.5em;
+}
+
+/* Multiple choice question */
+.mc-question {
+  padding: 0.6rem 0 0.25rem;
+  border-top: 1px solid #edf2f7;
+  margin-top: 0.4rem;
+  display: flex;
+  gap: 0.5rem;
+  align-items: baseline;
+}
+.mc-question:first-child,
+.exam-section-marker + .mc-question,
+.exam-note + .mc-question {
+  border-top: none;
+  margin-top: 0;
+}
+.q-number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: var(--primary);
+  color: #fff;
+  font-size: 0.78rem;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+.q-text {
+  font-size: 0.92rem;
+  line-height: 1.75;
+}
+
+/* Options (A)(B)(C)(D) */
+.mc-option {
+  display: flex;
+  gap: 0.4rem;
+  padding: 0.2rem 0 0.2rem 2.2rem;
+  align-items: baseline;
+}
+.opt-label {
+  font-weight: 700;
+  color: var(--accent);
+  flex-shrink: 0;
+  font-size: 0.88rem;
+}
+.opt-text {
+  font-size: 0.9rem;
+  line-height: 1.7;
+}
+
+/* General text block */
+.exam-text {
+  font-size: 0.9rem;
+  line-height: 1.8;
+  padding: 0.25rem 0;
+  color: var(--text);
+}
+
+/* ============================================================
+   Answer section (same as v1)
+   ============================================================ */
+.answer-section {
+  margin-top: 1rem; padding-top: 1rem;
+  border-top: 2px dashed var(--border);
+}
+.answer-title {
+  font-size: 0.95rem; font-weight: 700;
+  margin-bottom: 0.75rem; color: var(--primary);
+}
+.answer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(56px, 1fr));
+  gap: 0.35rem;
+}
+.answer-cell {
+  text-align: center; padding: 0.3rem;
+  border-radius: 6px; background: #edf2f7; font-size: 0.82rem;
+}
+.answer-cell .q-num { display: block; font-size: 0.7rem; color: var(--text-muted); }
+.answer-cell .q-ans { display: block; font-weight: 700; color: var(--primary); font-size: 0.95rem; }
+.answer-cell.corrected { background: #fff5f5; border: 1px solid #feb2b2; }
+.answer-cell.corrected .q-ans { color: var(--danger); }
+.correction-note {
+  margin-top: 0.75rem; padding: 0.5rem 0.75rem;
+  background: #fffbeb; border-left: 3px solid var(--warning);
+  border-radius: 0 6px 6px 0; font-size: 0.85rem; color: #744210;
+}
+
+/* Search */
+.search-box {
+  position: sticky; top: 0; background: var(--bg);
+  padding: 1rem 0; z-index: 50; margin-bottom: 1rem;
+}
+.search-input {
+  width: 100%; padding: 0.75rem 1rem;
+  border: 2px solid var(--border); border-radius: 10px;
+  font-size: 1rem; font-family: inherit; outline: none;
+  transition: border-color 0.2s;
+}
+.search-input:focus { border-color: var(--accent); }
+.search-filters {
+  display: flex; gap: 0.4rem; flex-wrap: wrap; margin-top: 0.5rem;
+}
+.filter-chip {
+  padding: 0.5rem 0.75rem;
+  border: 1.5px solid var(--border);
+  border-radius: 20px;
+  background: var(--card-bg);
+  color: var(--text-light);
+  font-size: 0.78rem;
+  min-height: 44px;
+  display: inline-flex; align-items: center;
+  font-family: inherit;
+  cursor: pointer;
+  transition: all 0.15s;
+  user-select: none;
+}
+.filter-chip:hover { border-color: var(--accent); color: var(--accent); }
+.filter-chip.active { background: var(--primary); color: #fff; border-color: var(--primary); }
+.search-stats { font-size: 0.82rem; color: var(--text-light); margin-top: 0.4rem; }
+.search-jump { display: inline-flex; gap: 0.3rem; margin-left: 0.5rem; align-items: center; }
+.search-jump button {
+  padding: 0.3rem 0.7rem; border: 1px solid var(--primary); border-radius: 6px;
+  background: var(--card-bg); font-size: 0.8rem; cursor: pointer; font-family: inherit;
+  color: var(--primary); font-weight: 600; min-height: 32px;
+  transition: all 0.15s;
+}
+.search-jump button:hover { background: var(--primary); color: #fff; }
+.search-jump .hit-counter { font-size: 0.8rem; color: var(--primary); font-weight: 700; min-width: 3em; text-align: center; }
+
+/* Stats bar */
+.stats-bar {
+  display: flex; gap: 1.5rem; padding: 1rem 1.5rem;
+  background: var(--card-bg); border: 1px solid var(--border);
+  border-radius: 10px; margin-bottom: 2rem;
+}
+.stat-item { text-align: center; }
+.stat-value { font-size: 1.5rem; font-weight: 800; color: var(--primary); }
+.stat-label { font-size: 0.78rem; color: var(--text-light); }
+
+/* Focus visible for accessibility */
+:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* Smooth transitions */
+.subject-card { transition: box-shadow 0.2s; }
+.subject-card:hover { box-shadow: 0 2px 12px rgba(0,0,0,0.08); }
+html.dark .subject-card:hover { box-shadow: 0 2px 12px rgba(0,0,0,0.3); }
+
+/* Skip link for accessibility */
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: 1rem;
+  background: var(--primary);
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 0 0 6px 6px;
+  z-index: 999;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+.skip-link:focus { top: 0; }
+
+/* Print */
+@media print {
+  .sidebar { display: none; }
+  .main { margin-left: 0; max-width: 100%; }
+  .subject-body { display: block !important; }
+  .search-box { display: none; }
+}
+
+/* Toolbar */
+.toolbar {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 1.5rem;
+  align-items: center;
+}
+.toolbar-btn {
+  padding: 0.55rem 1rem;
+  border: 2px solid var(--border);
+  border-radius: 8px;
+  background: var(--card-bg);
+  color: var(--text);
+  font-size: 0.85rem;
+  min-height: 44px;
+  display: inline-flex; align-items: center;
+  font-family: inherit;
+  cursor: pointer;
+  transition: all 0.2s;
+  user-select: none;
+}
+.toolbar-btn:hover { border-color: var(--accent); color: var(--accent); }
+.toolbar-btn.active { background: var(--primary); color: #fff; border-color: var(--primary); }
+.toolbar-sep { width: 1px; height: 24px; background: var(--border); margin: 0 0.25rem; }
+.toolbar-select {
+  padding: 0.45rem 0.75rem;
+  border: 2px solid var(--border);
+  border-radius: 8px;
+  background: var(--card-bg);
+  color: var(--text);
+  font-size: 0.85rem;
+  font-family: inherit;
+  cursor: pointer;
+}
+.toolbar-select:focus { border-color: var(--accent); outline: none; }
+
+/* Practice mode: hide answers */
+.practice-mode .answer-section { display: none; }
+.practice-mode .answer-section.revealed { display: block; }
+.practice-mode .mc-option { cursor: pointer; border-radius: 6px; padding-top: 0.35rem; padding-bottom: 0.35rem; transition: background 0.15s; }
+.practice-mode .mc-option:hover { background: #edf2f7; }
+.practice-mode .mc-option.selected { background: #ebf8ff; border-left: 3px solid var(--accent); }
+.practice-mode .mc-option.correct { background: #f0fff4; border-left: 3px solid var(--success); }
+.practice-mode .mc-option.wrong { background: #fff5f5; border-left: 3px solid var(--danger); }
+.reveal-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.4rem 1rem;
+  margin-top: 0.75rem;
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.82rem;
+  font-family: inherit;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.reveal-btn:hover { background: var(--primary); }
+
+/* Practice score panel */
+.practice-score {
+  position: sticky; top: 0; z-index: 80;
+  background: linear-gradient(135deg, var(--primary), var(--accent));
+  color: #fff; padding: 0.6rem 1rem; margin: -1rem -1rem 1rem -1rem;
+  display: none; align-items: center; justify-content: space-between;
+  font-size: 0.9rem; font-weight: 600;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+body.practice-mode .practice-score { display: flex; }
+.practice-score .score-text { display: flex; align-items: center; gap: 0.5rem; }
+.practice-score .score-pct {
+  background: rgba(255,255,255,0.2); border-radius: 20px;
+  padding: 0.2rem 0.6rem; font-size: 0.8rem;
+}
+.practice-score .score-reset {
+  background: rgba(255,255,255,0.2); border: none; color: #fff;
+  border-radius: 6px; padding: 0.3rem 0.6rem; cursor: pointer;
+  font-size: 0.75rem; font-family: inherit;
+  min-height: 36px; display: inline-flex; align-items: center;
+}
+.practice-score .score-reset:hover { background: rgba(255,255,255,0.35); }
+
+/* Wrong answer shake animation */
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  20% { transform: translateX(-4px); }
+  40% { transform: translateX(4px); }
+  60% { transform: translateX(-3px); }
+  80% { transform: translateX(2px); }
+}
+.mc-option.wrong.shake { animation: shake 0.4s ease; }
+
+/* Subject view mode */
+.subject-view-section { display: none; margin-bottom: 2rem; }
+.subject-view-section.active { display: block; }
+.subject-view-section .subject-header h3 { font-size: 0.95rem; white-space: normal; word-break: break-word; }
+.sv-year-tag {
+  display: inline-block;
+  padding: 0.15rem 0.6rem;
+  background: var(--accent);
+  color: #fff;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+/* Bookmark & Progress */
+.bookmark-btn {
+  background: none; border: none; cursor: pointer; font-size: 1.2rem;
+  padding: 0.5rem; opacity: 0.35; transition: all 0.15s; line-height: 1;
+  flex-shrink: 0; margin-left: 0.25rem;
+  min-width: 44px; min-height: 44px;
+  display: inline-flex; align-items: center; justify-content: center;
+}
+.bookmark-btn:hover { opacity: 0.7; }
+.bookmark-btn.active { opacity: 1; color: #d69e2e; }
+/* Dark mode */
+.dark-toggle {
+  position: fixed; bottom: 2rem; left: 2rem; z-index: 200;
+  width: 44px; height: 44px; border-radius: 50%;
+  background: var(--card-bg); border: 2px solid var(--border);
+  cursor: pointer;
+  display: flex; align-items: center; justify-content: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: all 0.3s;
+  overflow: hidden;
+}
+.dark-toggle:hover { border-color: var(--accent); transform: scale(1.1); }
+.dark-toggle svg {
+  width: 22px; height: 22px;
+  transition: transform 0.4s ease;
+}
+.dark-toggle:active svg { transform: rotate(30deg); }
+.dark-icon-moon, .dark-icon-sun { display: block; }
+html.dark .dark-icon-moon { display: none; }
+html:not(.dark) .dark-icon-sun { display: none; }
+
+html.dark {
+  --primary: #63b3ed;
+  --primary-light: #4299e1;
+  --accent: #90cdf4;
+  --bg: #1a202c;
+  --card-bg: #2d3748;
+  --border: #4a5568;
+  --text: #e2e8f0;
+  --text-light: #a0aec0;
+  --text-muted: #718096;
+  --success: #68d391;
+  --warning: #f6e05e;
+  --danger: #fc8181;
+}
+html.dark .sidebar { background: #171923; }
+html.dark .sidebar-overlay { background: rgba(0,0,0,0.6); }
+html.dark .subject-header { background: linear-gradient(135deg, #2a4365, #2b6cb0); }
+html.dark .search-input { background: #2d3748; color: #e2e8f0; border-color: #4a5568; }
+html.dark .search-input::placeholder { color: #718096; }
+html.dark .toolbar-btn { background: #2d3748; color: #e2e8f0; border-color: #4a5568; }
+html.dark .toolbar-btn.active { background: #4299e1; border-color: #4299e1; }
+html.dark .toolbar-select { background: #2d3748; color: #e2e8f0; border-color: #4a5568; }
+html.dark .filter-chip { background: #2d3748; color: #a0aec0; border-color: #4a5568; }
+html.dark .filter-chip.active { background: #4299e1; color: #fff; border-color: #4299e1; }
+html.dark .meta-tag { background: #4a5568; color: #a0aec0; }
+html.dark .exam-metadata { background: #2d3748; border-color: #4a5568; }
+html.dark .exam-note { border-color: #4a5568; }
+html.dark .answer-cell { background: #4a5568; }
+html.dark .highlight { background: #92400e; color: #fef3c7; border-radius: 3px; padding: 1px 3px; }
+html.dark .highlight.current { background: #d97706; color: #1a202c; box-shadow: 0 0 0 3px rgba(251,191,36,0.5); }
+html.dark .back-to-top { background: #4299e1; }
+html.dark .dark-toggle { background: #2d3748; border-color: #4a5568; }
+html.dark .reveal-btn { background: #4299e1; }
+html.dark .practice-mode .mc-option:hover { background: #4a5568; }
+html.dark .practice-mode .mc-option.selected { background: #2a4365; color: #e2e8f0; }
+html.dark .practice-mode .mc-option.correct { background: #22543d; color: #c6f6d5; border-left-color: #68d391; }
+html.dark .practice-mode .mc-option.wrong { background: #742a2a; color: #fed7d7; border-left-color: #fc8181; }
+html.dark .practice-mode .mc-option.correct .opt-label { color: #68d391; }
+html.dark .practice-mode .mc-option.wrong .opt-label { color: #fc8181; }
+
+
+/* Bookmark filter active state */
+.toolbar-btn.bookmark-filter.active { background: #f6e05e; color: #744210; border-color: #ecc94b; }
+html.dark .toolbar-btn.bookmark-filter.active { background: #d69e2e; color: #1a202c; border-color: #d69e2e; }
+
+/* Practice history badge */
+.practice-history { font-size: 0.75rem; color: var(--text-light); margin-top: 0.25rem; }
+.practice-history strong { color: var(--primary); }
+
+
+/* Bookmark filter empty state */
+.bookmark-empty {
+  text-align: center; padding: 3rem 1.5rem; color: var(--text-muted);
+  font-size: 0.95rem;
+}
+.bookmark-empty .empty-icon { font-size: 2.5rem; margin-bottom: 0.75rem; display: block; }
+
+/* Card body slide animation */
+.subject-card.open .subject-body { animation: slideDown 0.25s ease; }
+@keyframes slideDown {
+  from { opacity: 0; transform: translateY(-8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+html.dark .correction-note { background: #44337a; border-left-color: #f6e05e; color: #fefcbf; }
+html.dark .answer-cell.corrected { background: #742a2a; border-color: #fc8181; }
+html.dark .answer-cell.corrected .q-ans { color: #fc8181; }
+html.dark .stats-bar { background: var(--card-bg); border-color: var(--border); }
+html.dark .exam-section-marker { color: var(--primary); border-top-color: var(--border); }
+html.dark .essay-question { border-bottom-color: #4a5568; }
+html.dark .mc-question { border-top-color: #4a5568; }
+
+/* Back to top */
+.back-to-top {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: var(--primary);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 1.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s;
+  z-index: 200;
+}
+.back-to-top.visible { opacity: 1; visibility: visible; }
+.back-to-top:hover { background: var(--accent); transform: translateY(-2px); }
+
+/* Hamburger */
+.hamburger {
+  display: none;
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  z-index: 300;
+  width: 44px;
+  height: 44px;
+  border-radius: 8px;
+  background: var(--primary);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 1.4rem;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+.sidebar-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0,0,0,0.4);
+  z-index: 90;
+}
+.sidebar-overlay.active { display: block; }
+
+/* Search highlight animation */
+.highlight {
+  background: #fefcbf;
+  padding: 1px 3px;
+  border-radius: 3px;
+  animation: hlFade 0.3s ease;
+}
+.highlight.current {
+  background: #f6e05e;
+  box-shadow: 0 0 0 3px rgba(246,224,94,0.5);
+  font-weight: 600;
+}
+@keyframes hlFade { from { background: #f6e05e; } to { background: #fefcbf; } }
+
+/* Mobile */
+@media (max-width: 768px) {
+  .hamburger { display: flex; }
+  .sidebar-toggle { display: none; }
+  .sidebar-reopen { display: none !important; }
+  .sidebar { transform: translateX(-100%); transition: transform 0.3s; }
+  .sidebar.open,
+  body.sidebar-collapsed .sidebar.open { transform: translateX(0); }
+  .main { margin-left: 0; padding: 1rem; padding-top: 4rem; max-width: 100%; }
+  .page-title { font-size: 1.4rem; }
+  .page-subtitle { font-size: 0.85rem; }
+  .stats-bar { gap: 0.75rem; padding: 0.75rem 1rem; flex-wrap: wrap; justify-content: center; }
+  .stat-value { font-size: 1.2rem; }
+  .stat-label { font-size: 0.72rem; }
+  .search-box { top: 0; padding: 0.75rem 0; }
+  .search-input { font-size: 0.9rem; padding: 0.6rem 0.75rem; }
+  .search-filters { gap: 0.3rem; overflow-x: auto; flex-wrap: nowrap; padding-bottom: 0.25rem; }
+  .filter-chip { white-space: nowrap; flex-shrink: 0; }
+  .toolbar { gap: 0.4rem; }
+  .toolbar-sep { display: none; }
+  .toolbar-select { font-size: 0.78rem; max-width: 160px; }
+  .year-heading { font-size: 1.15rem; }
+  .subject-header { padding: 0.75rem 1rem; }
+  .subject-header h3 { font-size: 0.88rem; }
+  .subject-body { padding: 1rem; }
+  .exam-metadata { font-size: 0.78rem; padding: 0.6rem 0.75rem; }
+  .essay-question { font-size: 0.85rem; line-height: 1.75; }
+  .q-text { font-size: 0.85rem; }
+  .opt-text { font-size: 0.83rem; }
+  .mc-option { padding-left: 1.5rem; }
+  .answer-grid { grid-template-columns: repeat(auto-fill, minmax(48px, 1fr)); }
+  .back-to-top { bottom: 1.5rem; right: 1.5rem; }
+  .dark-toggle { bottom: 1.5rem; left: 1.5rem; }
+  .toolbar-btn { font-size: 0.82rem; padding: 0.5rem 0.75rem; }
+  .toolbar-select { min-height: 44px; }
+  .subject-view-section .subject-header h3 { font-size: 0.82rem; }
+  .sv-year-tag { font-size: 0.68rem; padding: 0.1rem 0.4rem; }
+}
+</style>
+</head>
+<body>
+
+<a href="#searchInput" class="skip-link">跳至搜尋</a>
+<button class="hamburger" id="hamburgerBtn" aria-label="開啟導航選單" aria-controls="sidebar" aria-expanded="false">☰</button>
+<div class="sidebar-overlay" id="sidebarOverlay"></div>
+<button class="sidebar-reopen" id="sidebarReopen" aria-label="展開導航">☰</button>
+<nav class="sidebar" id="sidebar" aria-label="年份導航">
+<div class="sidebar-title"><span>📚 資管系考古題</span><button class="sidebar-toggle" id="sidebarToggle" aria-label="收合導航">✕</button></div>
+<div class="sidebar-year" role="button" tabindex="0" onclick="toggleYear(this)">114年</div>
+<div class="sidebar-subjects">
+<a class="sidebar-link" href="#y114-38157">憲法與警察英文</a>
+<a class="sidebar-link" href="#y114-28884">國文</a>
+<a class="sidebar-link" href="#y114-66628">數位鑑識執法</a>
+<a class="sidebar-link" href="#y114-46543">警察情境實務</a>
+<a class="sidebar-link" href="#y114-93826">警察法規</a>
+<a class="sidebar-link" href="#y114-89699">警政資訊管理</a>
+<a class="sidebar-link" href="#y114-92248">電腦犯罪偵查</a>
+</div>
+<div class="sidebar-year" role="button" tabindex="0" onclick="toggleYear(this)">113年</div>
+<div class="sidebar-subjects">
+<a class="sidebar-link" href="#y113-38157">憲法與警察英文</a>
+<a class="sidebar-link" href="#y113-28884">國文</a>
+<a class="sidebar-link" href="#y113-66628">數位鑑識執法</a>
+<a class="sidebar-link" href="#y113-46543">警察情境實務</a>
+<a class="sidebar-link" href="#y113-93826">警察法規</a>
+<a class="sidebar-link" href="#y113-89699">警政資訊管理</a>
+<a class="sidebar-link" href="#y113-92248">電腦犯罪偵查</a>
+</div>
+<div class="sidebar-year" role="button" tabindex="0" onclick="toggleYear(this)">112年</div>
+<div class="sidebar-subjects">
+<a class="sidebar-link" href="#y112-38157">憲法與警察英文</a>
+<a class="sidebar-link" href="#y112-28884">國文</a>
+<a class="sidebar-link" href="#y112-66628">數位鑑識執法</a>
+<a class="sidebar-link" href="#y112-46543">警察情境實務</a>
+<a class="sidebar-link" href="#y112-93826">警察法規</a>
+<a class="sidebar-link" href="#y112-89699">警政資訊管理</a>
+<a class="sidebar-link" href="#y112-92248">電腦犯罪偵查</a>
+</div>
+<div class="sidebar-year" role="button" tabindex="0" onclick="toggleYear(this)">111年</div>
+<div class="sidebar-subjects">
+<a class="sidebar-link" href="#y111-38157">憲法與警察英文</a>
+<a class="sidebar-link" href="#y111-30930">國文</a>
+<a class="sidebar-link" href="#y111-66628">數位鑑識執法</a>
+<a class="sidebar-link" href="#y111-46543">警察情境實務</a>
+<a class="sidebar-link" href="#y111-93826">警察法規</a>
+<a class="sidebar-link" href="#y111-89699">警政資訊管理</a>
+<a class="sidebar-link" href="#y111-92248">電腦犯罪偵查</a>
+</div>
+<div class="sidebar-year" role="button" tabindex="0" onclick="toggleYear(this)">110年</div>
+<div class="sidebar-subjects">
+<a class="sidebar-link" href="#y110-38157">憲法與警察英文</a>
+<a class="sidebar-link" href="#y110-11008">國文</a>
+<a class="sidebar-link" href="#y110-66628">數位鑑識執法</a>
+<a class="sidebar-link" href="#y110-46543">警察情境實務</a>
+<a class="sidebar-link" href="#y110-93826">警察法規</a>
+<a class="sidebar-link" href="#y110-89699">警政資訊管理</a>
+<a class="sidebar-link" href="#y110-92248">電腦犯罪偵查</a>
+</div>
+<div class="sidebar-year" role="button" tabindex="0" onclick="toggleYear(this)">109年</div>
+<div class="sidebar-subjects">
+<a class="sidebar-link" href="#y109-38157">憲法與警察英文</a>
+<a class="sidebar-link" href="#y109-30930">國文</a>
+<a class="sidebar-link" href="#y109-66628">數位鑑識執法</a>
+<a class="sidebar-link" href="#y109-46543">警察情境實務</a>
+<a class="sidebar-link" href="#y109-93826">警察法規</a>
+<a class="sidebar-link" href="#y109-89699">警政資訊管理</a>
+<a class="sidebar-link" href="#y109-92248">電腦犯罪偵查</a>
+</div>
+<div class="sidebar-year" role="button" tabindex="0" onclick="toggleYear(this)">108年</div>
+<div class="sidebar-subjects">
+<a class="sidebar-link" href="#y108-38157">憲法與警察英文</a>
+<a class="sidebar-link" href="#y108-30930">國文</a>
+<a class="sidebar-link" href="#y108-66628">數位鑑識執法</a>
+<a class="sidebar-link" href="#y108-46543">警察情境實務</a>
+<a class="sidebar-link" href="#y108-93826">警察法規</a>
+<a class="sidebar-link" href="#y108-89699">警政資訊管理</a>
+<a class="sidebar-link" href="#y108-92248">電腦犯罪偵查</a>
+</div>
+<div class="sidebar-year" role="button" tabindex="0" onclick="toggleYear(this)">107年</div>
+<div class="sidebar-subjects">
+<a class="sidebar-link" href="#y107-38157">憲法與警察英文</a>
+<a class="sidebar-link" href="#y107-30930">國文</a>
+<a class="sidebar-link" href="#y107-66628">數位鑑識執法</a>
+<a class="sidebar-link" href="#y107-46543">警察情境實務</a>
+<a class="sidebar-link" href="#y107-93826">警察法規</a>
+<a class="sidebar-link" href="#y107-89699">警政資訊管理</a>
+<a class="sidebar-link" href="#y107-92248">電腦犯罪偵查</a>
+</div>
+<div class="sidebar-year" role="button" tabindex="0" onclick="toggleYear(this)">106年</div>
+<div class="sidebar-subjects">
+<a class="sidebar-link" href="#y106-38157">憲法與警察英文</a>
+<a class="sidebar-link" href="#y106-30930">國文</a>
+<a class="sidebar-link" href="#y106-66628">數位鑑識執法</a>
+<a class="sidebar-link" href="#y106-73897">警察情境實務</a>
+<a class="sidebar-link" href="#y106-63567">警察法規</a>
+<a class="sidebar-link" href="#y106-89699">警政資訊管理</a>
+<a class="sidebar-link" href="#y106-92248">電腦犯罪偵查</a>
+</div>
+<div class="sidebar-year" role="button" tabindex="0" onclick="toggleYear(this)">105年</div>
+<div class="sidebar-subjects">
+<a class="sidebar-link" href="#y105-38157">憲法與警察英文</a>
+<a class="sidebar-link" href="#y105-30930">國文</a>
+<a class="sidebar-link" href="#y105-66628">數位鑑識執法</a>
+<a class="sidebar-link" href="#y105-46543">警察情境實務</a>
+<a class="sidebar-link" href="#y105-93826">警察法規</a>
+<a class="sidebar-link" href="#y105-89699">警政資訊管理</a>
+<a class="sidebar-link" href="#y105-92248">電腦犯罪偵查</a>
+</div>
+</nav>
+<button class="back-to-top" id="backToTop" aria-label="回到頂部">↑</button>
+<button class="dark-toggle" id="darkToggle" aria-label="切換深色模式">
+<svg class="dark-icon-moon" viewBox="0 0 24 24" fill="none" stroke="#4a5568" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+<svg class="dark-icon-sun" viewBox="0 0 24 24" fill="none" stroke="#ecc94b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+</button>
+<div class="main">
+<div class="practice-score" id="practiceScore" role="status" aria-live="polite" aria-label="練習模式計分">
+  <div class="score-text">
+    <span>答對 <strong id="scoreCorrect">0</strong> / <strong id="scoreTotal">0</strong> 題</span>
+    <span class="score-pct" id="scorePct">--</span>
+  </div>
+  <button class="score-reset" onclick="resetScore()">重新計分</button>
+</div>
+<h1 class="page-title">資管系考古題總覽</h1>
+<p class="page-subtitle">105年至114年 ・ 7科目 ・ 共 70 份試卷 ・ 126 個 PDF</p>
+<div class="stats-bar">
+  <div class="stat-item"><div class="stat-value">10</div><div class="stat-label">年度</div></div>
+  <div class="stat-item"><div class="stat-value">7</div><div class="stat-label">科目</div></div>
+  <div class="stat-item"><div class="stat-value">126</div><div class="stat-label">PDF 檔案</div></div>
+  <div class="stat-item"><div class="stat-value">40</div><div class="stat-label">附標準答案</div></div>
+</div>
+<div class="search-box" role="search" aria-label="考古題內容搜尋">
+  <input type="text" class="search-input" id="searchInput" placeholder="🔍 搜尋關鍵字（如：人工智慧、個資、詐騙...）" oninput="debouncedSearch(this.value)" aria-describedby="searchStats">
+  <div class="search-filters" id="searchFilters">
+    <button class="filter-chip active" data-year="" onclick="toggleFilter(this,'year')">全部年份</button>
+    <button class="filter-chip" data-year="114" onclick="toggleFilter(this,'year')">114</button>
+    <button class="filter-chip" data-year="113" onclick="toggleFilter(this,'year')">113</button>
+    <button class="filter-chip" data-year="112" onclick="toggleFilter(this,'year')">112</button>
+    <button class="filter-chip" data-year="111" onclick="toggleFilter(this,'year')">111</button>
+    <button class="filter-chip" data-year="110" onclick="toggleFilter(this,'year')">110</button>
+    <button class="filter-chip" data-year="109" onclick="toggleFilter(this,'year')">109</button>
+    <button class="filter-chip" data-year="108" onclick="toggleFilter(this,'year')">108</button>
+    <button class="filter-chip" data-year="107" onclick="toggleFilter(this,'year')">107</button>
+    <button class="filter-chip" data-year="106" onclick="toggleFilter(this,'year')">106</button>
+    <button class="filter-chip" data-year="105" onclick="toggleFilter(this,'year')">105</button>
+  </div>
+  <div class="search-stats" id="searchStats" aria-live="polite" role="status"></div>
+</div>
+<div class="toolbar" id="toolbar" role="toolbar" aria-label="瀏覽工具列">
+  <button class="toolbar-btn active" id="viewByYear" onclick="switchView('year')" aria-pressed="true">依年份瀏覽</button>
+  <button class="toolbar-btn" id="viewBySubject" onclick="switchView('subject')" aria-pressed="false">依科目瀏覽</button>
+  <div class="toolbar-sep" role="separator"></div>
+  <button class="toolbar-btn" id="practiceToggle" onclick="togglePractice()" aria-pressed="false">練習模式</button>
+  <button class="toolbar-btn bookmark-filter" id="bookmarkFilter" onclick="toggleBookmarkFilter()" aria-pressed="false">只看書籤</button>
+  <select class="toolbar-select" id="subjectFilter" onchange="filterBySubject(this.value)" style="display:none">
+    <option value="">選擇科目...</option>
+    <option value="憲法">中華民國憲法與警察專業英文</option>
+    <option value="國文">國文</option>
+    <option value="數位鑑識">數位鑑識執法</option>
+    <option value="警察情境">警察情境實務</option>
+    <option value="警察法規">警察法規</option>
+    <option value="警政資訊">警政資訊管理與應用</option>
+    <option value="電腦犯罪">電腦犯罪偵查</option>
+  </select>
+</div>
+<div id="yearView">
+<!--ARCHIVE-DATA:year-114-->
+<!--ARCHIVE-DATA:year-113-->
+<!--ARCHIVE-DATA:year-112-->
+<!--ARCHIVE-DATA:year-111-->
+<!--ARCHIVE-DATA:year-110-->
+<!--ARCHIVE-DATA:year-109-->
+<!--ARCHIVE-DATA:year-108-->
+<!--ARCHIVE-DATA:year-107-->
+<!--ARCHIVE-DATA:year-106-->
+<!--ARCHIVE-DATA:year-105-->
+</div><!-- /yearView -->
+<div id="subjectView" style="display:none"></div>
+</div><!-- /main -->
+
+<script src="src/archive-loader.js"></script>
+<script>
+/* === Debounce utility === */
+function debounce(fn, ms) {
+  let t; return function(...a) { clearTimeout(t); t = setTimeout(() => fn.apply(this, a), ms); };
+}
+const archiveLoader = window.createArchiveLoader(window.fetch.bind(window));
+const ARCHIVE_YEARS = archiveLoader.years;
+const SUBJECT_ASSET_SLUG = {
+  '憲法': 'constitution', '國文': 'chinese', '數位鑑識': 'digital-forensics',
+  '警察情境': 'police-scenario', '警察法規': 'police-law',
+  '警政資訊': 'police-information', '電腦犯罪': 'cybercrime'
+};
+let searchRequestId = 0;
+let subjectRequestId = 0;
+
+async function ensureYearLoaded(year) {
+  const value = String(year);
+  const current = document.getElementById(`year-${value}`);
+  if (current && current.classList.contains('year-section')) return current;
+  const html = await archiveLoader.loadYear(value);
+  const template = document.createElement('template');
+  template.innerHTML = html;
+  const section = template.content.firstElementChild;
+  if (!section || section.id !== `year-${value}` || !section.classList.contains('year-section')) {
+    throw new Error(`Invalid archive data for year ${value}`);
+  }
+  const placeholder = document.getElementById(`year-${value}`);
+  if (placeholder && !placeholder.classList.contains('year-section')) placeholder.replaceWith(section);
+  const mounted = document.getElementById(`year-${value}`);
+  if (mounted && mounted.classList.contains('year-section')) {
+    initYearSection(mounted);
+    updateProgressStats();
+    if (bookmarkFilterActive) applyBookmarkFilter();
+    return mounted;
+  }
+  return section;
+}
+
+async function ensureCategoryLoaded(key) {
+  const slug = SUBJECT_ASSET_SLUG[key];
+  if (!slug) throw new Error(`Unknown subject category: ${key}`);
+  const fragments = await Promise.all(ARCHIVE_YEARS.map(year => archiveLoader.loadCategory(slug, year)));
+  return fragments.map((html, index) => ({ year: ARCHIVE_YEARS[index], html }));
+}
+
+async function runSearch(query) {
+  const value = String(query || '');
+  const requestId = ++searchRequestId;
+  if (!value.trim() && currentView === 'year' && !activeYearFilter) { doSearch(value); return; }
+  const stats = document.getElementById('searchStats');
+  if (value.trim() && stats) stats.textContent = '載入搜尋範圍…';
+  try {
+    if (currentView === 'subject') {
+      if (!await filterBySubject(document.getElementById('subjectFilter').value || SUBJECT_KEYS[0])) return;
+    } else if (activeYearFilter) {
+      await ensureYearLoaded(activeYearFilter);
+    } else {
+      await Promise.all(ARCHIVE_YEARS.map(ensureYearLoaded));
+    }
+    if (requestId === searchRequestId) doSearch(value);
+  } catch (error) {
+    if (requestId === searchRequestId && stats) stats.textContent = '搜尋資料載入失敗，請稍後重試';
+    console.error(error);
+  }
+}
+
+const debouncedSearch = debounce(v => runSearch(v), 180);
+
+/* === Toggle helpers === */
+function toggleYear(el) {
+  el.classList.toggle('active');
+  const match = el.textContent.match(/\d+/);
+  if (match) ensureYearLoaded(match[0]).catch(error => console.error(error));
+}
+function toggleCard(header) { header.parentElement.classList.toggle('open'); }
+
+/* === Search with highlighting === */
+function clearHighlights() {
+  document.querySelectorAll('.highlight').forEach(h => {
+    const p = h.parentNode;
+    p.replaceChild(document.createTextNode(h.textContent), h);
+    p.normalize();
+  });
+}
+function highlightText(node, query) {
+  if (node.nodeType === 3) {
+    const idx = node.textContent.indexOf(query);
+    if (idx === -1) return 0;
+    const span = document.createElement('span');
+    span.className = 'highlight';
+    const matched = node.splitText(idx);
+    matched.splitText(query.length);
+    span.appendChild(matched.cloneNode(true));
+    matched.parentNode.replaceChild(span, matched);
+    return 1;
+  } else if (node.nodeType === 1 && node.childNodes.length && !/(script|style)/i.test(node.tagName) && !node.classList.contains('highlight')) {
+    let c = 0;
+    for (let i = 0; i < node.childNodes.length; i++) c += highlightText(node.childNodes[i], query);
+    return c;
+  }
+  return 0;
+}
+/* === Year filter === */
+let activeYearFilter = '';
+function toggleFilter(el, type) {
+  if (type === 'year') {
+    document.querySelectorAll('.filter-chip[data-year]').forEach(c => c.classList.remove('active'));
+    el.classList.add('active');
+    activeYearFilter = el.dataset.year || '';
+    runSearch(document.getElementById('searchInput').value);
+  }
+}
+
+/* === Search with filtering + jump === */
+let searchHits = [];
+let currentHitIdx = -1;
+
+function doSearch(query) {
+  if (query === undefined || query === null) query = document.getElementById('searchInput').value || '';
+  const stats = document.getElementById('searchStats');
+  const isSubjectView = currentView === 'subject';
+  const container = isSubjectView ? '#subjectView' : '#yearView';
+  const cards = document.querySelectorAll(container + ' .subject-card');
+  const yearSections = document.querySelectorAll('.year-section');
+  const yearPlaceholders = document.querySelectorAll('.year-placeholder');
+  clearHighlights();
+  searchHits = [];
+  currentHitIdx = -1;
+
+  // 年份篩選在科目瀏覽模式下不適用
+  if (!isSubjectView && activeYearFilter && !query.trim()) {
+    yearSections.forEach(s => {
+      const yName = s.querySelector('.year-heading').textContent.trim();
+      s.style.display = yName.startsWith(activeYearFilter) ? '' : 'none';
+    });
+    yearPlaceholders.forEach(s => { s.style.display = 'none'; });
+    cards.forEach(c => c.style.display = '');
+    stats.textContent = activeYearFilter ? `篩選：${activeYearFilter}年` : '';
+    return;
+  }
+  if (!query.trim() && !activeYearFilter) {
+    cards.forEach(c => { c.style.display = ''; c.classList.remove('open'); });
+    if (!isSubjectView) yearSections.forEach(s => s.style.display = '');
+    if (!isSubjectView) yearPlaceholders.forEach(s => { s.style.display = ''; });
+    else {
+      // 恢復科目篩選器的選擇
+      const sf = document.getElementById('subjectFilter');
+      if (sf && sf.value) filterBySubject(sf.value);
+    }
+    stats.textContent = '';
+    return;
+  }
+
+  let matchCount = 0, totalHL = 0;
+  if (!isSubjectView && activeYearFilter) yearPlaceholders.forEach(s => { s.style.display = 'none'; });
+  cards.forEach(card => {
+    // 年份篩選（僅年份瀏覽模式）
+    if (!isSubjectView && activeYearFilter) {
+      const yearSection = card.closest('.year-section');
+      const yName = yearSection ? yearSection.querySelector('.year-heading').textContent.trim() : '';
+      if (!yName.startsWith(activeYearFilter)) {
+        card.style.display = 'none';
+        return;
+      }
+    }
+    const text = card.textContent;
+    if (!query.trim() || text.includes(query)) {
+      card.style.display = '';
+      if (query.trim()) {
+        card.classList.add('open');
+        const body = card.querySelector('.subject-body');
+        if (body) totalHL += highlightText(body, query);
+      }
+      matchCount++;
+    } else {
+      card.style.display = 'none'; card.classList.remove('open');
+    }
+  });
+  if (!isSubjectView) {
+    yearSections.forEach(s => {
+      s.style.display = s.querySelectorAll('.subject-card:not([style*="display: none"])').length ? '' : 'none';
+    });
+  } else if (query.trim()) {
+    // 科目瀏覽搜尋時：顯示所有有匹配的科目區段
+    document.querySelectorAll('.subject-view-section').forEach(s => {
+      const hasMatch = s.querySelectorAll('.subject-card:not([style*="display: none"])').length > 0;
+      s.classList.toggle('active', hasMatch);
+    });
+  }
+
+  // 收集高亮元素供跳轉
+  searchHits = Array.from(document.querySelectorAll('.highlight'));
+
+  let txt = '';
+  if (query.trim()) txt += `找到 ${matchCount} 份相關試卷，${totalHL} 處匹配`;
+  else if (activeYearFilter) txt += `篩選：${activeYearFilter}年，${matchCount} 份試卷`;
+
+  if (searchHits.length > 1) {
+    stats.innerHTML = txt + ` <span class="search-jump"><button onclick="jumpHit(-1)">&laquo; 上一個</button><span class="hit-counter" id="hitCounter">-/${searchHits.length}</span><button onclick="jumpHit(1)">下一個 &raquo;</button></span>`;
+  } else {
+    stats.textContent = txt;
+  }
+}
+
+function jumpHit(dir) {
+  if (!searchHits.length) return;
+  if (currentHitIdx >= 0 && searchHits[currentHitIdx]) searchHits[currentHitIdx].classList.remove('current');
+  currentHitIdx = (currentHitIdx + dir + searchHits.length) % searchHits.length;
+  const el = searchHits[currentHitIdx];
+  if (el) {
+    el.classList.add('current');
+    el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  }
+  const counter = document.getElementById('hitCounter');
+  if (counter) counter.textContent = `${currentHitIdx + 1}/${searchHits.length}`;
+}
+
+/* === Hamburger menu === */
+const hamburger = document.getElementById('hamburgerBtn');
+const sidebar = document.getElementById('sidebar');
+const sidebarOverlay = document.getElementById('sidebarOverlay');
+function closeMobileSidebar() {
+  sidebar.classList.remove('open');
+  sidebarOverlay.classList.remove('active');
+  if (hamburger) {
+    hamburger.textContent = '☰';
+    hamburger.setAttribute('aria-expanded', 'false');
+    hamburger.setAttribute('aria-label', '開啟導航選單');
+  }
+}
+if (hamburger) {
+  hamburger.addEventListener('click', () => {
+    const open = sidebar.classList.toggle('open');
+    sidebarOverlay.classList.toggle('active');
+    hamburger.textContent = open ? '✕' : '☰';
+    hamburger.setAttribute('aria-expanded', String(open));
+    hamburger.setAttribute('aria-label', open ? '關閉導航選單' : '開啟導航選單');
+  });
+  sidebarOverlay.addEventListener('click', closeMobileSidebar);
+  sidebar.querySelectorAll('.sidebar-link').forEach(l =>
+    l.addEventListener('click', () => { if (window.innerWidth <= 768) closeMobileSidebar(); })
+  );
+}
+
+/* === Sidebar toggle (desktop) === */
+const sidebarToggle = document.getElementById('sidebarToggle');
+const sidebarReopen = document.getElementById('sidebarReopen');
+if (localStorage.getItem('sidebar-collapsed') === '1') {
+  document.body.classList.add('sidebar-collapsed');
+}
+if (sidebarToggle) {
+  sidebarToggle.addEventListener('click', () => {
+    document.body.classList.add('sidebar-collapsed');
+    localStorage.setItem('sidebar-collapsed', '1');
+  });
+}
+if (sidebarReopen) {
+  sidebarReopen.addEventListener('click', () => {
+    document.body.classList.remove('sidebar-collapsed');
+    localStorage.setItem('sidebar-collapsed', '0');
+  });
+}
+
+/* === Back to top === */
+const backToTop = document.getElementById('backToTop');
+window.addEventListener('scroll', () => backToTop.classList.toggle('visible', window.scrollY > 400));
+backToTop.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+
+/* === View switching (年份 / 科目) === */
+let currentView = 'year';
+const SUBJECT_KEYS = ['憲法', '國文', '數位鑑識', '警察情境', '警察法規', '警政資訊', '電腦犯罪'];
+const SUBJECT_FULL = {
+  '憲法': '中華民國憲法與警察專業英文',
+  '國文': '國文',
+  '數位鑑識': '數位鑑識執法',
+  '警察情境': '警察情境實務',
+  '警察法規': '警察法規',
+  '警政資訊': '警政資訊管理與應用',
+  '電腦犯罪': '電腦犯罪偵查'
+};
+
+async function switchView(mode) {
+  currentView = mode;
+  const yearView = document.getElementById('yearView');
+  const subjectView = document.getElementById('subjectView');
+  const subjectFilter = document.getElementById('subjectFilter');
+  document.getElementById('viewByYear').classList.toggle('active', mode === 'year');
+  document.getElementById('viewBySubject').classList.toggle('active', mode === 'subject');
+  document.getElementById('viewByYear').setAttribute('aria-pressed', mode === 'year');
+  document.getElementById('viewBySubject').setAttribute('aria-pressed', mode === 'subject');
+
+  if (mode === 'year') {
+    yearView.style.display = '';
+    subjectView.style.display = 'none';
+    subjectFilter.style.display = 'none';
+  } else {
+    yearView.style.display = 'none';
+    subjectView.style.display = '';
+    subjectFilter.style.display = '';
+    if (!subjectFilter.value) subjectFilter.value = SUBJECT_KEYS[0];
+    await filterBySubject(subjectFilter.value);
+    // 切換到科目瀏覽時，若練習模式已啟用，重新綁定 handler
+    if (practiceMode) {
+      applyPracticeMode(subjectView);
+    }
+  }
+}
+
+let loadedSubjectKey = '';
+
+function buildSubjectView(key, fragments) {
+  const sv = document.getElementById('subjectView');
+  sv.replaceChildren();
+  const section = document.createElement('div');
+  section.className = 'subject-view-section active';
+  section.dataset.subject = key;
+  section.innerHTML = `<h2 class="year-heading">${SUBJECT_FULL[key]}</h2>`;
+  fragments.forEach(({ year, html }) => {
+    const template = document.createElement('template');
+    template.innerHTML = html;
+    const source = template.content.querySelector('.subject-card');
+    if (!source) throw new Error(`Invalid ${key} category data for year ${year}`);
+    const title = source.querySelector('.subject-header h3').textContent.trim();
+    const wrapper = document.createElement('div');
+    wrapper.className = 'subject-card open';
+    wrapper.dataset.sourceId = source.id;
+    wrapper.dataset.archiveYear = year;
+    wrapper.innerHTML = `<div class="subject-header" role="button" tabindex="0" aria-expanded="true" style="display:flex;justify-content:space-between;align-items:center;"><h3><span class="sv-year-tag">${year}年</span> ${title}</h3><span class="subject-toggle">▲</span></div>`;
+    const body = source.querySelector('.subject-body').cloneNode(true);
+    wrapper.appendChild(body);
+    const header = wrapper.querySelector('.subject-header');
+    header.addEventListener('click', () => {
+      wrapper.classList.toggle('open');
+      header.setAttribute('aria-expanded', wrapper.classList.contains('open') ? 'true' : 'false');
+    });
+    header.addEventListener('keydown', event => {
+      if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); header.click(); }
+    });
+    if (bookmarkFilterActive && !getStore('exam-bookmarks')[source.id]) wrapper.style.display = 'none';
+    section.appendChild(wrapper);
+  });
+  sv.appendChild(section);
+  loadedSubjectKey = key;
+  if (practiceMode) applyPracticeMode(section);
+}
+
+async function filterBySubject(key) {
+  if (!SUBJECT_ASSET_SLUG[key]) return false;
+  if (loadedSubjectKey === key && document.querySelector('#subjectView .subject-view-section')) return true;
+  const requestId = ++subjectRequestId;
+  const stats = document.getElementById('searchStats');
+  if (stats) stats.textContent = `載入${key}類考題…`;
+  try {
+    const fragments = await ensureCategoryLoaded(key);
+    if (requestId !== subjectRequestId || (currentView === 'subject' && document.getElementById('subjectFilter').value !== key)) return false;
+    buildSubjectView(key, fragments);
+    const query = document.getElementById('searchInput').value;
+    if (query.trim()) doSearch(query);
+    else if (stats) stats.textContent = '';
+    return true;
+  } catch (error) {
+    if (requestId === subjectRequestId && stats) stats.textContent = '科目資料載入失敗，請稍後重試';
+    console.error(error);
+    return false;
+  }
+}
+
+/* === Practice mode === */
+let practiceMode = false;
+let practiceCorrect = 0, practiceTotal = 0;
+
+function updateScoreUI() {
+  document.getElementById('scoreCorrect').textContent = practiceCorrect;
+  document.getElementById('scoreTotal').textContent = practiceTotal;
+  const pct = practiceTotal > 0 ? Math.round(practiceCorrect / practiceTotal * 100) : 0;
+  document.getElementById('scorePct').textContent = practiceTotal > 0 ? pct + '%' : '--';
+}
+
+function resetScore() {
+  practiceCorrect = 0;
+  practiceTotal = 0;
+  updateScoreUI();
+  // 清除所有選擇狀態
+  document.querySelectorAll('.mc-option').forEach(opt => {
+    opt.classList.remove('selected', 'correct', 'wrong', 'shake');
+  });
+}
+
+function applyPracticeMode(root) {
+  root.querySelectorAll('.answer-section').forEach(section => {
+    if (section.previousElementSibling && section.previousElementSibling.classList.contains('reveal-btn')) return;
+    section.classList.remove('revealed');
+    const btn = document.createElement('button');
+    btn.className = 'reveal-btn';
+    btn.textContent = '顯示答案';
+    btn.onclick = function() {
+      section.classList.add('revealed');
+      this.textContent = '已顯示答案';
+      this.style.opacity = '0.5';
+    };
+    section.parentNode.insertBefore(btn, section);
+  });
+  root.querySelectorAll('.mc-option').forEach(opt => { opt.onclick = handleOptionClick; });
+}
+
+function togglePractice() {
+  practiceMode = !practiceMode;
+  document.body.classList.toggle('practice-mode', practiceMode);
+  document.getElementById('practiceToggle').classList.toggle('active', practiceMode);
+  document.getElementById('practiceToggle').setAttribute('aria-pressed', practiceMode);
+
+  if (practiceMode) {
+    // 重置計分
+    resetScore();
+    applyPracticeMode(document);
+  } else {
+    // 清除練習模式狀態
+    document.querySelectorAll('.reveal-btn').forEach(btn => btn.remove());
+    document.querySelectorAll('.answer-section').forEach(s => {
+      s.classList.remove('revealed');
+    });
+    document.querySelectorAll('.mc-option').forEach(opt => {
+      opt.onclick = null;
+      opt.classList.remove('selected', 'correct', 'wrong', 'shake');
+    });
+    // 關閉時儲存分數再重置
+    if (practiceTotal > 0) savePracticeScore(practiceCorrect, practiceTotal);
+    resetScore();
+  }
+}
+
+function handleOptionClick(e) {
+  if (!practiceMode) return;
+  const opt = e.currentTarget;
+
+  // 取得此選項的標籤
+  const label = opt.querySelector('.opt-label');
+  if (!label) return;
+  const chosen = label.textContent.replace(/[()（）]/g, '').trim();
+
+  // 嘗試找到正確答案
+  const card = opt.closest('.subject-card');
+  if (!card) return;
+  const answerSection = card.querySelector('.answer-section');
+
+  // 將卡片中所有選項按題目分組（遇到 (A) 開始新組）
+  const allOpts = Array.from(card.querySelectorAll('.mc-option'));
+  const groups = [];
+  allOpts.forEach(o => {
+    const l = o.querySelector('.opt-label');
+    const letter = l ? l.textContent.replace(/[()（）]/g, '').trim() : '';
+    if (letter === 'A' || groups.length === 0) groups.push([]);
+    groups[groups.length - 1].push(o);
+  });
+
+  // 找到被點擊選項所在的題組
+  let qIdx = -1;
+  let optionsInQ = [];
+  for (let i = 0; i < groups.length; i++) {
+    if (groups[i].includes(opt)) {
+      qIdx = i;
+      optionsInQ = groups[i];
+      break;
+    }
+  }
+  if (qIdx === -1) return;
+
+  // 從答案格找正確答案
+  let correctAns = '';
+  if (answerSection) {
+    const cells = answerSection.querySelectorAll('.answer-cell');
+    if (cells[qIdx]) {
+      const ansEl = cells[qIdx].querySelector('.q-ans');
+      if (ansEl) correctAns = ansEl.textContent.trim();
+    }
+  }
+
+  // 檢查此題是否已作答（避免重複計分）
+  const alreadyAnswered = optionsInQ.some(o => o.classList.contains('selected'));
+
+  // 標記選擇
+  optionsInQ.forEach(o => o.classList.remove('selected', 'correct', 'wrong', 'shake'));
+  opt.classList.add('selected');
+
+  if (correctAns) {
+    if (chosen === correctAns) {
+      opt.classList.add('correct');
+      if (!alreadyAnswered) {
+        practiceTotal++;
+        practiceCorrect++;
+      }
+    } else {
+      opt.classList.add('wrong');
+      // shake 動畫
+      opt.classList.add('shake');
+      setTimeout(() => opt.classList.remove('shake'), 400);
+      // 標示正確答案
+      optionsInQ.forEach(o => {
+        const l = o.querySelector('.opt-label');
+        if (l && l.textContent.replace(/[()（）]/g, '').trim() === correctAns) {
+          o.classList.add('correct');
+        }
+      });
+      if (!alreadyAnswered) {
+        practiceTotal++;
+      }
+    }
+    if (!alreadyAnswered) {
+      updateScoreUI();
+    }
+  }
+}
+
+/* === DOMContentLoaded === */
+document.addEventListener('DOMContentLoaded', () => {
+  // Sidebar accordion
+  document.querySelectorAll('.sidebar-year').forEach(y => {
+    y.addEventListener('click', () => {
+      document.querySelectorAll('.sidebar-year.active').forEach(ay => {
+        if (ay !== y) ay.classList.remove('active');
+      });
+    });
+    y.addEventListener('keydown', e => {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); y.click(); }
+    });
+  });
+
+  // URL hash 路由
+  handleHash();
+  window.addEventListener('hashchange', handleHash);
+
+  // 為 sidebar 連結添加 hash 更新
+  document.querySelectorAll('.sidebar-link').forEach(link => {
+    link.addEventListener('click', async (e) => {
+      e.preventDefault();
+      const target = link.getAttribute('href');
+      if (target) {
+        const yearMatch = target.match(/^#y(\d+)-/);
+        if (yearMatch) await ensureYearLoaded(yearMatch[1]);
+        history.replaceState(null, '', target);
+        await handleHash();
+      }
+    });
+  });
+
+  // === ARIA attributes ===
+  document.querySelectorAll('.subject-card').forEach(card => {
+    const header = card.querySelector('.subject-header');
+    const body = card.querySelector('.subject-body');
+    if (header && body) {
+      header.setAttribute('role', 'button');
+      header.setAttribute('tabindex', '0');
+      header.setAttribute('aria-expanded', card.classList.contains('open') ? 'true' : 'false');
+      // 鍵盤支援
+      header.addEventListener('keydown', e => {
+        if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); header.click(); }
+      });
+    }
+  });
+
+  // MutationObserver 更新 aria-expanded
+  const observer = new MutationObserver(mutations => {
+    mutations.forEach(m => {
+      if (m.type === 'attributes' && m.attributeName === 'class' && m.target.classList.contains('subject-card')) {
+        const card = m.target;
+        const header = card.querySelector('.subject-header');
+        if (header) header.setAttribute('aria-expanded', card.classList.contains('open') ? 'true' : 'false');
+      }
+    });
+  });
+  // Cards arrive after DOMContentLoaded. Observe their containers so hash
+  // navigation and search keep dynamically inserted cards' state announced.
+  ['yearView', 'subjectView'].forEach(id => {
+    observer.observe(document.getElementById(id), { attributes: true, subtree: true, attributeFilter: ['class'] });
+  });
+
+  // === 鍵盤快捷鍵 ===
+  window.bindArchiveSearchShortcuts(document, document.getElementById('searchInput'), runSearch);
+
+  // === 書籤 ===
+  initBookmarksAndProgress();
+
+  // Initial usable page: fetch only the newest year. Older years, categories,
+  // and the all-year search scope are loaded when the visitor asks for them.
+  ensureYearLoaded('114').catch(error => {
+    const first = document.getElementById('year-114');
+    if (first) first.innerHTML = '<p role="alert">考題載入失敗，請重新整理頁面。</p>';
+    console.error(error);
+  });
+
+  // === 深色模式 ===
+  initDarkMode();
+});
+
+function scrollToWithOffset(el) {
+  const offset = 140; // 預留 sticky 搜尋框高度
+  const top = el.getBoundingClientRect().top + window.scrollY - offset;
+  window.scrollTo({ top, behavior: 'smooth' });
+}
+
+async function handleHash() {
+  const hash = location.hash.slice(1);
+  if (!hash) return;
+
+  // 嘗試匹配 year-XXX 格式
+  const yearMatch = hash.match(/^year-(\d+)$/);
+  if (yearMatch) {
+    const yearNum = yearMatch[1];
+    await ensureYearLoaded(yearNum);
+    // 展開 sidebar 年份
+    document.querySelectorAll('.sidebar-year').forEach(y => {
+      if (y.textContent.trim().startsWith(yearNum)) y.classList.add('active');
+    });
+    const section = document.getElementById(`year-${yearNum}`);
+    if (section) setTimeout(() => scrollToWithOffset(section), 100);
+    return;
+  }
+
+  // 嘗試匹配 yXXX-XXXXX 格式（科目卡片）
+  const cardYear = hash.match(/^y(\d+)-/);
+  if (cardYear) await ensureYearLoaded(cardYear[1]);
+  const el = document.getElementById(hash);
+  if (el && el.classList.contains('subject-card')) {
+    el.classList.add('open');
+    // 展開對應 sidebar
+    const yearSection = el.closest('.year-section');
+    if (yearSection) {
+      const yearNum = yearSection.id.replace('year-', '');
+      document.querySelectorAll('.sidebar-year').forEach(y => {
+        if (y.textContent.trim().startsWith(yearNum)) y.classList.add('active');
+      });
+    }
+    setTimeout(() => scrollToWithOffset(el), 100);
+  }
+}
+
+/* === Bookmarks & Progress (localStorage) === */
+function getStore(key) {
+  try { return JSON.parse(localStorage.getItem(key)) || {}; } catch { return {}; }
+}
+function setStore(key, val) {
+  try { localStorage.setItem(key, JSON.stringify(val)); } catch {}
+}
+
+function initYearSection(section) {
+  const bookmarks = getStore('exam-bookmarks');
+  section.querySelectorAll('.subject-card').forEach(card => {
+    const id = card.id;
+    const header = card.querySelector('.subject-header');
+    if (!id || !header || card.dataset.archiveInitialized) return;
+    card.dataset.archiveInitialized = 'true';
+    header.setAttribute('role', 'button');
+    header.setAttribute('tabindex', '0');
+    header.setAttribute('aria-expanded', card.classList.contains('open') ? 'true' : 'false');
+
+    const bmBtn = document.createElement('button');
+    bmBtn.className = 'bookmark-btn' + (bookmarks[id] ? ' active' : '');
+    bmBtn.textContent = bookmarks[id] ? '★' : '☆';
+    bmBtn.title = '書籤';
+    bmBtn.setAttribute('aria-label', bookmarks[id] ? '移除書籤' : '加入書籤');
+    bmBtn.onclick = function(event) {
+      event.stopPropagation();
+      const current = getStore('exam-bookmarks');
+      if (current[id]) { delete current[id]; this.classList.remove('active'); this.textContent = '☆'; this.setAttribute('aria-label', '加入書籤'); }
+      else { current[id] = true; this.classList.add('active'); this.textContent = '★'; this.setAttribute('aria-label', '移除書籤'); }
+      setStore('exam-bookmarks', current);
+      updateProgressStats();
+      if (bookmarkFilterActive) applyBookmarkFilter();
+    };
+    header.appendChild(bmBtn);
+    header.removeAttribute('onclick');
+    header.addEventListener('click', event => {
+      if (event.target.closest('.bookmark-btn')) return;
+      card.classList.toggle('open');
+      header.setAttribute('aria-expanded', card.classList.contains('open') ? 'true' : 'false');
+    });
+    header.addEventListener('keydown', event => {
+      if (event.key === 'Enter' || event.key === ' ') { event.preventDefault(); header.click(); }
+    });
+  });
+  if (practiceMode) applyPracticeMode(section);
+}
+
+function initBookmarksAndProgress() {
+  document.querySelectorAll('#yearView .year-section').forEach(initYearSection);
+  updateProgressStats();
+}
+
+function updateProgressStats() {
+  const bmCount = Object.keys(getStore('exam-bookmarks')).length;
+  const totalCards = document.querySelectorAll('#yearView .subject-card[id]').length;
+  const subtitle = document.querySelector('.page-subtitle');
+  if (subtitle) {
+    subtitle.textContent = `105年至114年 ・ 7科目 ・ 共 70 份試卷 ・ 書籤 ${bmCount}`;
+  }
+}
+
+/* === Bookmark Filter === */
+let bookmarkFilterActive = false;
+function applyBookmarkFilter() {
+  const bookmarks = getStore('exam-bookmarks');
+  const isSubjectView = currentView === 'subject';
+  const container = isSubjectView ? '#subjectView' : '#yearView';
+  document.querySelectorAll(container + ' .subject-card').forEach(card => {
+    const id = card.id || card.dataset.sourceId;
+    card.style.display = !bookmarkFilterActive || bookmarks[id] ? '' : 'none';
+  });
+  if (!isSubjectView) {
+    document.querySelectorAll('#yearView .year-section').forEach(section => {
+      section.style.display = section.querySelector('.subject-card:not([style*="display: none"])') ? '' : 'none';
+    });
+  }
+  const oldEmpty = document.querySelector('.bookmark-empty');
+  if (oldEmpty) oldEmpty.remove();
+  if (bookmarkFilterActive && !Object.keys(bookmarks).length) {
+    const empty = document.createElement('div');
+    empty.className = 'bookmark-empty';
+    empty.innerHTML = '<span class="empty-icon">☆</span>尚未加入書籤<br><small>點擊試卷標題右側的 ☆ 即可收藏</small>';
+    document.querySelector(container).appendChild(empty);
+  }
+}
+
+async function toggleBookmarkFilter() {
+  bookmarkFilterActive = !bookmarkFilterActive;
+  const btn = document.getElementById('bookmarkFilter');
+  btn.classList.toggle('active', bookmarkFilterActive);
+  btn.setAttribute('aria-pressed', bookmarkFilterActive);
+  btn.textContent = bookmarkFilterActive ? '顯示全部' : '只看書籤';
+  if (bookmarkFilterActive && currentView === 'year') await Promise.all(ARCHIVE_YEARS.map(ensureYearLoaded));
+  applyBookmarkFilter();
+}
+
+/* === Practice Score History === */
+function savePracticeScore(correct, total) {
+  if (total === 0) return;
+  const history = getStore('exam-practice-history');
+  const entry = { correct, total, pct: Math.round(correct / total * 100), date: Date.now() };
+  if (!history.scores) history.scores = [];
+  history.scores.push(entry);
+  // 只保留最近 20 筆
+  if (history.scores.length > 20) history.scores = history.scores.slice(-20);
+  setStore('exam-practice-history', history);
+}
+
+/* === Dark mode === */
+function initDarkMode() {
+  const toggle = document.getElementById('darkToggle');
+  const saved = localStorage.getItem('exam-dark');
+  // 自動偵測系統偏好
+  if (saved === 'true' || (saved === null && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+    document.documentElement.classList.add('dark');
+  }
+  toggle.addEventListener('click', () => {
+    const isDark = document.documentElement.classList.toggle('dark');
+    localStorage.setItem('exam-dark', isDark);
+  });
+}
+</script>
+
+</body></html>
