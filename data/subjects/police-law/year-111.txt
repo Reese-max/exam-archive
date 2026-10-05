@@ -1,0 +1,184 @@
+<div class="subject-card" id="y111-93826">
+<div class="subject-header" onclick="toggleCard(this)">
+  <h3>警察法規(包括警察法、行政執行法、社會秩序維護法、警械使用條例、集會遊行法、警察職權行使法、公務人員行政中立法)</h3>
+  <span class="subject-toggle">▼</span>
+</div>
+<div class="subject-body">
+<div class="exam-meta-bar">
+<span class="meta-tag">4 頁</span>
+<span class="meta-tag">選擇題 25 題</span>
+<span class="meta-tag" style="background:#fff5f5;color:#e53e3e;">有更正答案</span>
+</div>
+<div class="exam-content-v2">
+<div class="exam-metadata">
+<div class="meta-line">安全情報人員考試及111年特種考試交通事業鐵路人員考試試題 考 試 別：警察人員考試 等 別：三等考試 類科組別：行政警察人員、外事警察人員（選試英文）、刑事警察人員、公共安全人員、犯罪防治人員預防組、交通警察人員交通組、交通警察人員電訊組、警察資訊管理人員、國境警察人員、警察法制人員、行政管理人員 科 目：警察法規（包括警察法、行政執行法、社會秩序維護法、警械使用條例、集會遊行法、警察職權行使法、公務人員行政中立法） 考試時間：2 小時 座號：</div>
+</div>
+<div class="exam-note">※注意：禁止使用電子計算器。</div>
+<div class="exam-section-marker">甲、申論題部分：（50分）</div>
+<div class="exam-note">㈠不必抄題，作答時請將試題題號及答案依照順序寫在申論試卷上，於本試題上作答者，不予計分。</div>
+<div class="exam-note">㈡請以藍、黑色鋼筆或原子筆在申論試卷上作答。</div>
+<div class="exam-note">㈢本科目除專門名詞或數理公式外，應使用本國文字作答。</div>
+<div class="essay-question">一、因警察執行職務行使公權力，於故意或過失，不法侵害人民權利時，被害人得主張損害賠償，所涉規範包含國家賠償法和警械使用條例。試問兩者有何差別？應以何者優先適用？（25分）</div>
+<div class="essay-question">二、員警甲、乙為偵辦跨國販毒組織，由甲臥底於該組織中，乙則喬裝成毒品盤商向該組織接洽，並在校園網路中尋找下線學生買家，進行交易。該事件有關新聞爆發後，甲、乙之相關行為被質疑為釣魚偵查，兩人則稱其相關行為乃係為蒐集犯罪資訊之合法行為。試問甲、乙相關行為之合法性？（25分）</div>
+<div class="exam-section-marker">乙、測驗題部分：（50分） 代號：4501</div>
+<div class="exam-note">㈠本測驗試題為單一選擇題，請選出一個正確或最適當的答案，複選作答者，該題不予計分。</div>
+<div class="exam-note">㈡共25題，每題2分，須用2B鉛筆在試卡上依題號清楚劃記，於本試題或申論試卷上作答者，不予計分。</div>
+<div class="mc-question"><span class="q-number">1</span><span class="q-text">警察任務為依法維持公共秩序，保護社會安全，防止一切危害，促進人民福利。下列敘述何者正確？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">偵查人口販運事件時，應遵守刑事訴訟法之規定</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">就戶口查察之執行，應依行政執行法規定行之</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">刑事警察受檢察官之命執行職務時，如有廢弛職務情事，檢察官得逕予懲處</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">警察人員可逕至海巡機關管轄區內依法執行搜索、逮捕、扣押、拘提，無需知會當地海巡機構</span></div>
+<div class="mc-question"><span class="q-number">2</span><span class="q-text">有關警察職務內容之敘述，下列何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">警察依法協助偵查犯罪，係應檢察機關請求而為之，亦適用行政程序法職務協助規定</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">森林法第 32 條後段規定「未設森林警察者，應由當地警察代行森林警察職務。」所謂代行，係依法規將權限一部分委託不相隸屬行政機關執行之行政委託；故應將此代行事項及其法規依據公告之，並刊登政府公報或新聞紙</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">縣政府工務局執行違章建築拆除時，如有遭遇抗拒之虞，可依行政執行法第6條請求警察機關協助其執行</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">參與地方政府公共安全聯合稽查小組之警察人員，於執行取締違規休閒娛樂服務業聯合稽查時，應著制服或出示證件表明身分，就涉及賭博、色情等業務違規行為，可逕依社會秩序維護法或刑法等規定取締查處</span></div>
+<div class="mc-question"><span class="q-number">3</span><span class="q-text">關於直轄市政府警察組織之敘述，下列何者正確？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">直轄市政府警察局為二級地方行政機關</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">直轄市政府警察局長係比照簡任13職等職務，由直轄市長任免之</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">直轄市警察機關之員額編制，應符合內政部警政署所定警察機關員額設置參酌基準</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">直轄市政府警察局組織規程，由直轄市政府定之</span></div>
+<div class="mc-question"><span class="q-number">4</span><span class="q-text">下列何者為行使警察法第9條警察權限之警察人員？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">法務部行政執行署執行拘提、管收之行政執行人員</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">內政部移民署依入出國及移民法規定實施暫時收容之執行人員</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">具有刑事訴訟法第230條及第231條司法警察官或司法警察身分之憲兵</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">依替代役實施條例執行特定警察勤務之服警察替代役人員</span></div>
+<div class="mc-question"><span class="q-number">5</span><span class="q-text">依照現行法令規定，有關警察人員退休與撫卹之敘述，下列何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">警察人員之退休與撫卹，除警察人員人事條例外，亦適用公務人員退休撫卹法</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">警正以下擔任具有危險及勞力等特殊性質職務者，其退休年齡，得依照公務人員退休法之規定酌予降低</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">警察人員在執行勤務中，遭受暴力或意外危害，致全失能、半失能或在執行勤務中殉職者，其子女應給與教養至成年。如已成年仍在學者，繼續教養至其取得學位畢業為止</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">警察人員曾領有勳章、獎章者，於退休時可加發退休金；如於執行勤務中殉職，亦可加發撫卹金</span></div>
+<div class="mc-question"><span class="q-number">6</span><span class="q-text">下列何者非警察人員依法應遵守之義務？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">派出所基層警員對於所轄分局長所為加強酒駕取締之命令</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">刑事警察對於當地法院檢察官之指揮監督</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">保安警察第四總隊員警奉派前往臺北市執行集會、遊行秩序維持勤務時，應受臺北市長之指揮、監督</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">經直屬長官口頭指示，協助特定人民團體借用閒置廳舍辦理競選募款餐會</span></div>
+<div class="mc-question"><span class="q-number">7</span><span class="q-text">警察人員從事下列行為，何者不違反公務人員行政中立法規定？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">於上班時穿戴標示特定公職候選人之徽章</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">參與公民投票提案之連署</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">以公務電子信箱轉寄反對特定政黨資訊</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">於選舉委員會發布選舉公告日起至投票日止之選舉期間，秉持公正、公平之立場，允許公職候選人或其支持者前來該機關之造訪活動</span></div>
+<div class="mc-question"><span class="q-number">8</span><span class="q-text">警察人員不得假借職務上之權勢，庇護竊盜、贓物、性交易、賭博。下列敘述何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">有具體事實，嚴重影響警譽時，遴任機關或其授權機關、學校應予免職</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">免職處分尚未確定前，仍應先行予以停職</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">對於停職處分不服者，應向內政部警政署提起訴願</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">對於免職處分不服者，應向公務人員保障暨培訓委員會提起復審</span></div>
+<div class="mc-question"><span class="q-number">9</span><span class="q-text">有關警察依法實施臨檢之敘述，下列何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">防止犯罪、或處理重大公共安全或社會秩序事件之必要，得由分局長指定特定路段，進行車輛攔停並查證駕駛人或乘客之身分</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">外國人未能出示外僑居留證者，應立即帶往勤務處所查證其身分，但對其留置，不得逾3小時</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">凌晨發現未開車燈且車速忽快忽慢之車輛，得予以攔停，並檢查引擎、車身號碼或其他足資識別之特徵</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">人民拒絕接受實施查證身分並已有自傷行為時，得對之使用警銬</span></div>
+<div class="mc-question"><span class="q-number">10</span><span class="q-text">警察依法查證人民身分時，下列敘述何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">如發現相對人冒用他人身分證明文件時，可依社會秩序維護法第 66 條規定，處 3 日以下拘留或新臺幣1 萬8千元以下罰鍰</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">得命相對人提出身分證明文件，並詢問其真實姓名、出生年月日、出生地、國籍、住居所、身分證統一編號、職業、工作場所或手機號碼等</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">相對人雖未攜帶國民身分證，亦可請其出示全民健康保險卡或駕駛執照等附有個人頭像照片之身分證明文件</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">相對人不願陳述真實姓名亦不提出身分證明文件並有企圖逃逸行為，致顯然已無法查證其身分時，即可實施強制力將其帶往鄰近派出所查證之</span></div>
+<div class="mc-question"><span class="q-number">11</span><span class="q-text">依警察職權行使法第 9 條規定，警察可使用攝影、錄音或以其他科技工具來蒐集參與者現場活動。下列何者是同條規定所允許之蒐集對象？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">街頭賣藝等群聚活動</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">臺北市捷運地下街某商店內數人使用大聲公抗議消費糾紛</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">立法委員候選人率多名助選人員聚集在臺北市101大樓廣場前散發傳單</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">為迎接大甲鎮瀾宮媽祖活動而在十字路口多方人馬對峙並產生肢體衝突時，圍觀信徒及路過行人</span></div>
+<div class="mc-question"><span class="q-number">12</span><span class="q-text">室外集會遊行參與者行為恐對公共安全或秩序有危害之虞時，警察依法所可採取之資料蒐集手段，不包括下列何者？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">對於集會遊行參與者於集會遊行期間所為網路線上直播，進行側錄</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">就集會遊行期間集會遊行參與者所有活動，施予全程錄音</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">於集會遊行開始之際，在集會遊行場所明顯處架設監視攝影機</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">逕請電信業者提供參與者在集會遊行開始前曾經使用通訊軟體之對話紀錄</span></div>
+<div class="mc-question"><span class="q-number">13</span><span class="q-text">依現行法規定，有關集會遊行之敘述，下列何者正確？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">擬於立法院大門前道路舉辦室外集會之申請，應於6日前向臺北市政府警察局提出</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">大甲媽祖遶境遊行活動屬於大型室外群眾集會，依法須申請集會遊行許可</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">數百名群眾聚集在國際機場入境大廳並有使用大聲公煽惑群眾圍堵出入口情形時，應立即採取人牆隔離群眾，維持公共秩序，但於施予制止或命令解散未果後，方可強制驅離</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">對於臺北市政府警察局所為遊行許可所核定遊行路線限制有所不服時，應於收受通知書之日起6日內以書面附具理由提出經臺北市政府警察局向內政部警政署提出訴願</span></div>
+<div class="mc-question"><span class="q-number">14</span><span class="q-text">警察職權行使法第 14 條規定，警察得通知特定人於指定時間到指定場所進行調查或執行鑑識措施。下列敘述何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">本條之通知到場，僅係觀念通知性質之事實行為，並非具有下命性質之行政處分</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">可採取電話、手機簡訊等方式敘明事由通知之，不限於書函通知</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">依本條執行之鑑識措施，例如量身高體重、照相、採取指紋或掌紋等，但不包括採集尿液或毛髮等行為</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">經依本條通知到場而無正當理由拒不到場者，可依行政執行法科處怠金</span></div>
+<div class="mc-question"><span class="q-number">15</span><span class="q-text">社會秩序維護法第 42 條規定，對於現行違反本法之行為人，警察人員得即時制止其行為，並得逕行通知到場；其不服通知者，得強制其到場。下列敘述何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">違反本法之行為人正有攻擊、毀損行為時，警察役役男得使用警棍即時制止其行為</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">警察人員已確悉其姓名、住所或居所而無逃亡之虞者，即得不強制其到場</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">經依本條通知到場而無正當理由拒不到場者，應報請檢察官簽發拘提，以強制其到場</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">經合法通知仍無正當理由不到場者，警察人員可逕依本法裁處之</span></div>
+<div class="mc-question"><span class="q-number">16</span><span class="q-text">有關行政執行法及社會秩序維護法之執行程序，下列敘述何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">行政執行，除法律另有規定外，不因聲明異議而停止執行</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">義務人得於執行程序終結前聲明異議，執行機關認其無理由者，送直接上級主管機關於 30 日內決定之，其直接上級主管機關為法務部</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">社會秩序維護法處罰之執行，由警察機關為之。罰鍰逾期未完納者，由警察機關依法移送行政執行</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">裁定停止營業或勒令歇業確定之案件，警察機關應於確定後即以執行通知單，命被處罰人於通知送達之翌日起，停止或歇閉其營業</span></div>
+<div class="mc-question"><span class="q-number">17</span><span class="q-text">警察人員執行職務時依法得使用警械。下列敘述何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">為避免非常變故，維持社會治安，警察於必要時得併使用警銬、瓦斯槍或警棍</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">警察機關配備警械種類及規格表之訂定，係針對警械使用之細節性及技術性事項所為之行政規則</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">服務於臺北市中正一分局警察役役男在執行集會、遊行勤務時，擅自使用未經警察機關配發瓦斯槍致使參與遊行群眾及路人受傷時，依法應由臺北市政府對於受傷民眾支付醫療費、慰撫金、補償金或喪葬費</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">當警察違法使用警械致人民受有財產損失時，受害人民經與賠償義務機關進行協議不成後，依法應向普通法院提起國家賠償訴訟</span></div>
+<div class="mc-question"><span class="q-number">18</span><span class="q-text">針對行政執行行為之救濟，下列敘述何者正確？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">義務人或利害關係人對執行命令、執行方法等情事，得於執行程序終結前，向執行機關申訴</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">行政執行，除法律另有規定外，不因聲明異議而停止執行</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">行政執行行為之救濟，在法律程序上為司法審查</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">針對救濟，執行機關認其有理由者，應即移送上級機關審議</span></div>
+<div class="mc-question"><span class="q-number">19</span><span class="q-text">有關警械之使用，下列敘述何者正確？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">有關警械之種類及規格，由內政部定之</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">警察人員執行職務時，為避免非常變故，維持社會治安時，僅能使用警棍，不能使用槍械</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">警械非經內政部或其授權之警察機關許可，不得定製、售賣或持有，違者由警察機關沒入</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">警察人員使用警棍指揮後，應將經過情形，即時報告該管長官</span></div>
+<div class="mc-question"><span class="q-number">20</span><span class="q-text">依據警察職權行使法，有關身分查證之規定，下列敘述何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">警察進入公眾得出入之場所，應於營業時間為之，並不得任意妨礙其營業</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">警察於公共場所或合法進入之場所，得對於合理懷疑其有犯罪之嫌疑或有犯罪之虞者，查證其身分</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">警察依規定查證人民身分，得採取攔停人、車、船及其他交通工具</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">警察攔停車輛，交通工具之駕駛人或乘客有異常舉動而合理懷疑其將有危害行為時，不得強制其離車</span></div>
+<div class="mc-question"><span class="q-number">21</span><span class="q-text">行為人違反社會秩序維護法相關處罰規定，下列敘述何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">違反本法行為，不問出於故意或過失，均應處罰。但出於過失者，不得罰以拘留，並得減輕之</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">二人以上，共同實施違反本法之行為者，分別處罰。其利用他人實施者，依其所利用之行為處罰之</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">違反本法之行為未遂者，得減輕處罰</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">幫助他人實施違反本法之行為者，得減輕處罰</span></div>
+<div class="mc-question"><span class="q-number">22</span><span class="q-text">為了保障人民集會、遊行之自由，維持社會秩序，下列敘述何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">經許可集會、遊行之負責人或代理人對於集會處所、遊行路線於使用後遺有廢棄物或污染者，未清理者應處罰鍰</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">集會、遊行經該管主管機關命令解散而不解散者，處集會、遊行負責人罰鍰</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">集會、遊行經該管主管機關命令解散而不解散，仍繼續舉行者，首謀者處二年以下有期徒刑或拘役</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">參加集會、遊行人員攜帶木棍、竹棒等物品，經現場執勤員警認定足以危害他人生命、身體、自由，不問屬於何人所有，均得扣留並依法處理</span></div>
+<div class="mc-question"><span class="q-number">23</span><span class="q-text">有關警察預防他人生命、身體之危險，執行管束時，下列敘述何者正確？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">警察對於民眾實施管束，應於危險或危害結束時經報告長官後，終止管束，管束時間最長不得逾24小時</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">警察對人民實施查證身分或其他詢問，得依管束之規定，令其供述</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">考量警察人員之安全與民眾權益，所為必要之管束時，僅得檢查受管束人之身體</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">警察依法實施管束時，遇有攻擊、毀損行為之虞時，於必要時，得對其使用警銬</span></div>
+<div class="mc-question"><span class="q-number">24</span><span class="q-text">有關民眾申請集會、遊行及依司法院釋字第718號解釋意旨，下列敘述何者正確？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">因特殊原因未經召集而自發聚集，且無發起人或負責人之偶發性集會，無須申請許可</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">遊行跨越二個以上警察局轄區者之集會、遊行，應向內政部警政署申請許可</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">申請室外集會、遊行，如合理懷疑有危害國家安全、社會秩序或公共利益者，得為不予許可</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">室外集會、遊行，應由負責人填具申請書及檢具集會處所、遊行路線之所有人或管理人之同意文件，於6 日前向主管機關申請許可</span></div>
+<div class="mc-question"><span class="q-number">25</span><span class="q-text">有關行政執行法，下列敘述何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">人民因執行機關依法實施即時強制，致其生命、身體或財產遭受特別損失時，得請求補償</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">損失補償，應以金錢為之，並以補償實際所受之特別損失為限</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">對於執行機關所為損失補償之決定不服者，得依法提起民事訴訟</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">損失補償，應於知有損失後，二年內向執行機關請求之。但自損失發生後，經過五年者，不得為之</span></div>
+</div>
+<div class="answer-section">
+<h4 class="answer-title">📋 標準答案</h4>
+<div class="answer-grid">
+<div class="answer-cell"><span class="q-num">1</span><span class="q-ans">A</span></div>
+<div class="answer-cell"><span class="q-num">2</span><span class="q-ans">A</span></div>
+<div class="answer-cell"><span class="q-num">3</span><span class="q-ans">D</span></div>
+<div class="answer-cell corrected"><span class="q-num">4</span><span class="q-ans">D</span></div>
+<div class="answer-cell corrected"><span class="q-num">5</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">6</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">7</span><span class="q-ans">B</span></div>
+<div class="answer-cell"><span class="q-num">8</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">9</span><span class="q-ans">B</span></div>
+<div class="answer-cell"><span class="q-num">10</span><span class="q-ans">B</span></div>
+<div class="answer-cell"><span class="q-num">11</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">12</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">13</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">14</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">15</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">16</span><span class="q-ans">B</span></div>
+<div class="answer-cell"><span class="q-num">17</span><span class="q-ans">B</span></div>
+<div class="answer-cell"><span class="q-num">18</span><span class="q-ans">B</span></div>
+<div class="answer-cell"><span class="q-num">19</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">20</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">21</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">22</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">23</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">24</span><span class="q-ans">A</span></div>
+<div class="answer-cell"><span class="q-num">25</span><span class="q-ans">C</span></div>
+</div>
+<div class="correction-note">⚠️ 更正：第4題一律給分，第5題答Ａ或Ｂ或Ｃ者均給分。</div>
+</div>
+</div>
+</div>

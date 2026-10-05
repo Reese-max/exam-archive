@@ -36,6 +36,7 @@ def browser():
 def page(browser, site_url):
     page = browser.new_page()
     page.goto(site_url, wait_until="load")
+    page.locator("#year-114 fieldset.mc-field").first.wait_for(state="attached")
     yield page
     page.close()
 

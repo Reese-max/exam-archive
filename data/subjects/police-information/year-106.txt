@@ -1,0 +1,24 @@
+<div class="subject-card" id="y106-89699">
+<div class="subject-header" onclick="toggleCard(this)">
+  <h3>警政資訊管理與應用</h3>
+  <span class="subject-toggle">▼</span>
+</div>
+<div class="subject-body">
+<div class="exam-meta-bar">
+<span class="meta-tag">1 頁</span>
+<span class="meta-tag">申論題</span>
+</div>
+<div class="exam-content-v2">
+<div class="exam-metadata">
+<div class="meta-line">106年公務人員特種考試警察人員、一般警察人員考試及106年特種考試交通事業鐵路人員、退除役軍人轉任公務人員考試試題 考試別：警察人員考試 等別：三等考試 類科別：警察資訊管理人員 科目：警政資訊管理與應用 考試時間 ： 2 小時 座號：</div>
+</div>
+<div class="exam-note">※注意： ㈠禁止使用電子計算器。</div>
+<div class="exam-note">㈡不必抄題，作答時請將試題題號及答案依照順序寫在試卷上，於本試題上作答者，不予計分。</div>
+<div class="essay-question">一、何謂可行性分析（Feasibility Analysis）？身為一位資訊管理者，針對資訊系統發展專案的可行性分析，請列舉並說明三個須考慮的面向及分析的方法？（20 分）</div>
+<div class="essay-question">二、針對資訊系統發展，舉例詳述系統分析（Systems Analysis）與系統設計（Systems Design）之意義與差異，並舉例詳述模式（Model）在系統分析與設計過程中所扮演的角色。（20 分）</div>
+<div class="essay-question">三、試舉例說明類別（Class）與物件（Object）的意義與關係，並舉例詳述物件導向系統發展與功能導向系統發展之差異？（20 分）</div>
+<div class="essay-question">四、試分別說明雲端運算（Cloud Computing）、大數據（Big Data）、及物聯網（Internet of Things）的意義，並以警政資訊相關領域為例，提出一項能整合以上三項科技的創新服務。（20 分）</div>
+<div class="essay-question">五、針對政府部門或企業組織的資訊中心為防止駭客或病毒的不當入侵，除了一般宣導外，請列舉兩項較常使用的作法。此外，針對最近在全世界喧騰一時的網路勒索病毒事件（WannaCry），請說明其發生的原因及防範之道。（20 分）</div>
+</div>
+</div>
+</div>

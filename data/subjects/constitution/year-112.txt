@@ -1,0 +1,374 @@
+<div class="subject-card" id="y112-38157">
+<div class="subject-header" onclick="toggleCard(this)">
+  <h3>中華民國憲法與警察專業英文</h3>
+  <span class="subject-toggle">▼</span>
+</div>
+<div class="subject-body">
+<div class="exam-meta-bar">
+<span class="meta-tag">8 頁</span>
+<span class="meta-tag">選擇題 60 題</span>
+<span class="meta-tag" style="background:#fff5f5;color:#e53e3e;">有更正答案</span>
+</div>
+<div class="exam-content-v2">
+<div class="exam-metadata">
+<div class="meta-line">112年公務人員特種考試警察人員、一般警察人員、國家安全局國家安全 代號：50120-50520 情報人員考試及112年特種考試交通事業鐵路人員、退除役軍人轉任公務人員考試試題 51220-51320 考 試 別：警察人員考試 等 別：三等考試 類科組別：行政警察人員、外事警察人員（選試英語）、刑事警察人員、公共安全人員、犯罪防治人員預防組、交通警察人員交通組、警察資訊管理人員、刑事鑑識人員、國境警察人員、警察法制人員、行政管理人員 科 目：中華民國憲法與警察專業英文 考試時間： 2 小時 座號：</div>
+</div>
+<div class="exam-note">※注意：禁止使用電子計算器。</div>
+<div class="exam-section-marker">甲、申論題部分：（25分）</div>
+<div class="exam-note">㈠不必抄題，作答時請將試題題號及答案依照順序寫在申論試卷上，於本試題上作答者，不予計分。</div>
+<div class="exam-note">㈡請以藍、黑色鋼筆或原子筆在申論試卷上作答。</div>
+<div class="essay-question">一、英文簡報文稿（25 分）請寫一篇關於預防酒駕的兩段式英文簡報文稿，約 200 字。在第一段中，說明酒後駕車發生的原因。在第二段中，說服公眾酒後不開車，以及說明你心目中理想的酒駕處罰方式。</div>
+<div class="exam-section-marker">乙、測驗題部分：（75 分） 代號：2501</div>
+<div class="exam-note">㈠本試題為單一選擇題，請選出一個正確或最適當答案。</div>
+<div class="exam-note">㈡共60題，每題1.25分，須用2B鉛筆在試卡上依題號清楚劃記，於本試題或申論試卷上作答者，不予計分。</div>
+<div class="mc-question"><span class="q-number">1</span><span class="q-text">關於國民教育之敘述，下列何者正確？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">是一種權利</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">目的在於培養服從權威領導的順民</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">公民教育應完全由國家主導</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">教育只是使國民習得謀生技能，與其人格發展無關</span></div>
+<div class="mc-question"><span class="q-number">2</span><span class="q-text">下列有關憲法工作權之敘述，何者正確？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">公務員甲在假日期間至行天宮兼職擔任算命師貼補家用，不屬於工作權保障範圍</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">法律規定計程車駕駛必須經考試取得執業證照，屬於對工作權之客觀許可條件之限制</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">法律規定律師出庭應穿律師袍，係屬於對職業執行方式之限制</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">人民失業有請求國家給予適當工作之權利</span></div>
+<div class="mc-question"><span class="q-number">3</span><span class="q-text">依憲法、增修條文及司法院大法官解釋，關於總統機密特權，下列敘述何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">總統因行使憲法職權而獲得之資訊，如公開可能影響國家安全與國家利益者，總統有決定不予公開之權力</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">總統如以書面釋明，在訴訟程序中公開機密資訊有妨害國家利益之虞，檢察官及法院應予以尊重，不得駁回總統之決定</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">在刑事訴訟程序上，總統就國家機密事項有拒絕證言權</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">總統在訴訟程序中公開機密資訊是否有妨害國家利益之虞，應僅由承辦檢察官或審判庭法官依保密程序為之</span></div>
+<div class="mc-question"><span class="q-number">4</span><span class="q-text">依據憲法第137條第2項規定，國防之組織，應如何規定？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">由三軍統帥訂定命令</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">由國防部訂定命令，但須送立法院備查</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">由國安會訂定命令，但須送立法院備查</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">由立法院制定法律</span></div>
+<div class="mc-question"><span class="q-number">5</span><span class="q-text">依憲法增修條文及司法院大法官解釋，下列有關全民健康保險（下稱全民健保）之敘述，何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">憲法增修條文明定國家有實施全民健保的義務</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">全民健保是社會保險，但國家亦應尊重國民之個人意願，不得強制國民納保</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">全民健保依被保險人的收入，收取不同保險費，符合量能負擔原則</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">因全民健保所生對人民權利義務之影響，應有明確規範，並受法律保留原則之拘束</span></div>
+<div class="mc-question"><span class="q-number">6</span><span class="q-text">依司法院大法官解釋意旨，下列何者非屬大學自治之保障內容？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">關於大學教師薪俸之事項</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">直接關涉教學之學術事項</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">大學之內部組織自主權</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">以成績未達一定標準為由，將學生予以退學</span></div>
+<div class="mc-question"><span class="q-number">7</span><span class="q-text">依司法院解釋意旨，有關平等權或平等原則之司法審查，下列敘述何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">法院於適用平等原則時，必須審查差別待遇之目的是否合憲</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">憲法第7條以「男女、宗教、種族、階級、黨派」作為差別待遇依據，一律適用嚴格審查基準</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">憲法第7條所定之平等權，係為保障人民在法律上地位之實質平等</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">司法院大法官解釋常認平等係指「等者等之，不等者不等之」</span></div>
+<div class="mc-question"><span class="q-number">8</span><span class="q-text">依憲法增修條文第2條之規定，副總統缺位時，總統應如何處理？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">於3個月內提名候選人，由立法院補選</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">於1個月內提名候選人，由行政院院會同意</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">於3個月內提名候選人，交由公民補選</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">讓副總統維持缺位，不必作任何處理</span></div>
+<div class="mc-question"><span class="q-number">9</span><span class="q-text">依憲法及增修條文之規定，下列敘述何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">總統對於院與院間之爭執，除憲法有規定者外，得召集有關各院院長會商解決</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">總統解散立法院之命令，無須行政院院長之副署，不適用憲法第37條</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">總統得經行政院會議之決議，發布緊急命令，不受憲法第43條之限制</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">行政院院長不信任案後通過後，總統得不經諮詢立法院院長，直接宣告解散立法院</span></div>
+<div class="mc-question"><span class="q-number">10</span><span class="q-text">下列有關獨立行政機關之敘述，何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">所謂獨立行政機關，係指依據法律獨立行使職權之合議制機關</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">獨立行政機關不適用行政一體原則，故不受行政院院長之指揮與監督</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">立法院對獨立行政機關人事之決定，仍得施以一定限制，以為制衡</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">行政院所屬之中央選舉委員會、公平交易委員會、國家通訊傳播委員會均屬獨立行政機關</span></div>
+<div class="mc-question"><span class="q-number">11</span><span class="q-text">依憲法及增修條文規定，關於立法委員，下列敘述何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">立法委員不得兼任官吏</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">立法委員在院內所為之言論，對院外不負責任</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">立法委員在院內所為之表決，對院外不負責任</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">立法委員，除現行犯及叛亂罪外，在會期中非經立法院許可，不得逮捕或拘禁</span></div>
+<div class="mc-question"><span class="q-number">12</span><span class="q-text">下列考試院之職權，何者僅及於法制事項？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">公務人員銓敘</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">公務人員考績</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">公務人員保障</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">公務人員退休</span></div>
+<div class="mc-question"><span class="q-number">13</span><span class="q-text">現行法律關於行政訴訟與民事訴訟之審判，依司法院釋字第448號解釋，係採：</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">一元訴訟制度</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">二元訴訟制度</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">三元訴訟制度</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">多元訴訟制度</span></div>
+<div class="mc-question"><span class="q-number">14</span><span class="q-text">關於臺北市政府發布之建築物施工鄰損事件爭議處理規則，下列敘述何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">此為地方自治團體之自治規則</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">若無自治條例授權，不得直接規範人民權利義務</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">如其有牴觸授權之自治條例，由中央各該主管機關函告無效</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">因其為依自治條例授權所訂定者，應函報上級主管機關核定後實施</span></div>
+<div class="mc-question"><span class="q-number">15</span><span class="q-text">依司法院釋字第539號解釋，下列敘述何者正確？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">有關法官轉任之事項，得以命令規定之</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">有關法官免職之事項，應以法律規定之</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">有關法官減俸之事項，應以憲法規定之</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">有關法院庭長任期之事項，應以法律規定之</span></div>
+<div class="mc-question"><span class="q-number">16</span><span class="q-text">依司法院大法官解釋意旨，關於通訊傳播自由，下列敘述何者正確？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">屬於憲法第22條所保障之非明文列舉權利</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">同時保障人民採訪新聞與接收資訊之自由</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">國家有對人民平等接近使用媒體之保障義務</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">人民使用無線電波須先經主管機關許可，屬違憲之事前審查制度</span></div>
+<div class="mc-question"><span class="q-number">17</span><span class="q-text">依憲法及司法院大法官解釋，下列有關人身自由之敘述，何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">警察機關得依法定程序逮捕拘禁人民</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">受逮捕拘禁之人民應由法院審問</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">人民因犯罪嫌疑受逮捕拘禁時，至遲應於24小時內移送檢察官</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">逮捕拘禁機關應以書面告知本人與其指定親友逮捕拘禁之原因</span></div>
+<div class="mc-question"><span class="q-number">18</span><span class="q-text">依司法院釋字第577號解釋，下列敘述何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">商品標示受憲法言論自由保障</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">國家為重大公益目的所必要，仍得強制為一定之商品標示</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">消極不表意自由亦受言論自由保障</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">商品標示與自我實現功能無關</span></div>
+<div class="mc-question"><span class="q-number">19</span><span class="q-text">下列何者並非憲法明文規定之人民義務？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">納稅</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">遵守法律</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">服兵役</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">受國民教育</span></div>
+<div class="mc-question"><span class="q-number">20</span><span class="q-text">依憲法增修條文第3條之規定，關於覆議制度之敘述，下列何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">覆議案逾期未議決者，立法院之原決議失效</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">行政院提起覆議，須得總統之核可</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">覆議之對象以法律案、預算案、條約案為限</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">立法院對行政院之重要政策不贊同時，得以決議移請變更</span></div>
+<div class="mc-question"><span class="q-number">21</span><span class="q-text">依憲法、增修條文及司法院大法官解釋，有關立法委員選舉及產生方式之敘述，下列何者正確？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">百分之五政黨門檻規定會造成選票不等值之情況，牴觸選舉權與平等權</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">全國不分區及僑居國外國民之立法委員共 34 人，依政黨名單投票選舉之，各政黨當選名單中，婦女不得低於二分之一</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">由直轄市、縣市選出之立法委員共 73 人，依人口比例分配，每縣市至少一人，各政黨當選名單中，婦女不得低於二分之一</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">立法委員選舉以政黨選舉票所得票數分配政黨代表席次，會造成政黨干預立法院之獨立運作，牴觸民主共和國與國民主權原則</span></div>
+<div class="mc-question"><span class="q-number">22</span><span class="q-text">依憲法規定，下列何種事項，得由中央立法並執行，或交由省縣執行？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">度量衡</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">公用徵收</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">郵政及電政</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">國營經濟事業</span></div>
+<div class="mc-question"><span class="q-number">23</span><span class="q-text">依司法院大法官解釋，下列何者不構成對居住遷徙自由之限制？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">為維護水庫用水之潔淨與安全，要求原居水質保護區之居民集體遷村</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">為避免役男出國逃避兵役，立法要求役男出國前須向主管機關核備</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">法律規定在特定要件下，主管機關得不待大陸地區人民申辯，強制逕予出境</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">我國政府與他國斷交，致該國拒絕核發簽證予我國國民</span></div>
+<div class="mc-question"><span class="q-number">24</span><span class="q-text">依司法院大法官解釋及現行制度，關於憲法第16條保障之訴訟權，下列敘述何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">法官迴避制度屬訴訟權保障之核心內容</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">基於訴訟權保障及法官依法獨立審判，法定法官原則為我國應遵循之憲法原則</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">公務人員對於服務機關所為之行政處分及管理措施，認違法損害其權利或利益者，均得提起行政訴訟</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">訴訟救濟應循普通訴訟或依行政訴訟為之，由立法機關衡量訴訟案件之性質及訴訟制度之功能等因素定之</span></div>
+<div class="mc-question"><span class="q-number">25</span><span class="q-text">國立大學不得享有下列何種基本權利？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">財產權</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">宗教自由</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">營業自由</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">訴訟權</span></div>
+<div class="mc-question"><span class="q-number">26</span><span class="q-text">依憲法規定及司法院大法官解釋，關於立法權與行政權之關係，下列敘述何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">行政院有向立法院提出施政方針及施政報告之責</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">立法委員在開會時有向行政院院長及各部會首長質詢之權</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">立法院於每年集會時，得聽取總統國情報告</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">立法院不得對任何獨立行使職權之機關行使調查權</span></div>
+<div class="mc-question"><span class="q-number">27</span><span class="q-text">依現行憲法增修條文及司法院大法官解釋，關於監察院及監察委員之敘述，下列何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">監察委員有固定任期</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">監察委員經立法院同意任命之</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">監察委員依據法律獨立行使職權</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">監察院屬於中央民意代表機構</span></div>
+<div class="mc-question"><span class="q-number">28</span><span class="q-text">依憲法及司法院大法官解釋，關於公務員懲戒，下列敘述何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">公務員懲戒屬司法權之一環</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">懲戒法院為行使懲戒權之專屬機關</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">懲戒法院之審議，應予以付懲戒人充分程序保障，包括採取直接審理及給予最後陳述之機會</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">公務員懲戒法未設有通常上訴救濟之機制，屬於立法形成自由，未對人民訴訟權構成侵害</span></div>
+<div class="mc-question"><span class="q-number">29</span><span class="q-text">依憲法增修條文第 10 條第 7 項及第 9 項之規定，國家對於身心障礙者及退役軍人，應提供特別之保障及照顧。依司法院大法官解釋意旨，下列敘述何者正確？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">立法者制定相關法律給予身心障礙者及退役軍人特別保障，其立法目的合憲</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">政府採購法規定得標廠商應強制聘僱一定比例之身心障礙者及原住民，未及於退役軍人，違反上述增修條文規定</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">基於上述增修條文規定，退役軍人得請求國家應於國立大學之招生簡章中規定退役軍人錄取之保障名額</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">法律為保障視障者之工作權，排除其他身心障礙者及非視障者從事按摩業之就業機會，符合平等保障</span></div>
+<div class="mc-question"><span class="q-number">30</span><span class="q-text">依憲法與增修條文規定，下列何者並無獨立行使職權之保障？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">考試委員</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">法官</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">監察委員</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">國安會秘書長</span></div>
+<div class="mc-question"><span class="q-number">31</span><span class="q-text">依司法院大法官解釋，有關應考試服公職權，下列敘述何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">國家須設置客觀公平之考試制度，係為實踐憲法保障人民應考試服公職權利之意旨</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">就人民應考試服公職權所為之差別待遇，司法應採較為嚴格之審查基準</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">以警大容訓量有限為由，排除一般生於警大完成訓練之機會，係屬重要公益</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">將一般生一律安排至警專受訓之手段，與擇優選才目的之達成間難謂具實質關聯</span></div>
+<div class="mc-question"><span class="q-number">32</span><span class="q-text">依司法院大法官解釋，下列何者不是地方自治之權限？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">自治組織權</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">財政自主權</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">犯罪偵查權</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">自治規章制定權</span></div>
+<div class="mc-question"><span class="q-number">33</span><span class="q-text">為有效打擊恐怖活動，國家擬授權警察於必要時，得以高科技方式下載人民儲存於其個人電腦中之私人資料，下列敘述何者正確？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">上述措施雖涉及資訊隱私權，但得逕以行政命令為緊急性之規範</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">上述措施涉及國家安全重大公益，警察下載人民資料之方式，不受憲法之限制</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">上述措施係為維持社會秩序，警察就下載資料之對象，享有裁量權</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">為維持權力制衡及人權保障，對於警察之下載行為，應有適當之事前監督機制</span></div>
+<div class="mc-question"><span class="q-number">34</span><span class="q-text">依司法院大法官解釋，關於總統豁免權，下列敘述何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">豁免權為一種暫時性之程序障礙</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">不得以總統為犯罪嫌疑人而進行偵查</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">與總統有關之特定處所均不得搜索</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">豁免權原則上不得拋棄</span></div>
+<div class="mc-question"><span class="q-number">35</span><span class="q-text">依司法院大法官解釋，有關憲法第 15 條保障之生存權、工作權及財產權，下列敘述何者正確？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">生存權之內涵僅限於生命權</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">工作權之積極面向即為職業自由</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">財產權之保障包含繼承權</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">營業自由屬工作權保障之範圍，與財產權無關</span></div>
+<div class="mc-question"><span class="q-number">36</span><span class="q-text">依憲法增修條文規定，下列何者享有總統罷免案之提案權？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">監察委員</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">立法委員</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">中華民國人民</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">司法院大法官</span></div>
+<div class="mc-question"><span class="q-number">37</span><span class="q-text">依憲法及增修條文規定，下列何者不屬於立法院之職權？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">提出對行政院院長之彈劾案</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">追認緊急命令</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">提出修憲案</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">提出總統罷免案</span></div>
+<div class="mc-question"><span class="q-number">38</span><span class="q-text">依據憲法及增修條文規定與司法院大法官解釋，關於正、副總統之選舉程序，下列敘述何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">對於得推薦總統、副總統候選人之政黨，設有最近一次中央民意代表選舉得票率門檻之限制，合憲</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">對未獲政黨推薦之候選人採行連署制度，合憲</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">要求被連署人提供保證金新臺幣100萬元，違憲</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">總統、副總統候選人應聯名登記，在選票上同列一組圈選，以得票最多之一組為當選</span></div>
+<div class="mc-question"><span class="q-number">39</span><span class="q-text">憲法增修條文有關立法院與總統間關係之規定，下列敘述何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">立法院每年集會時，總統有提交國情報告之義務</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">總統有權解散立法院</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">立法院有權提出總統彈劾案</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">總統發布之緊急命令，立法院得不予追認</span></div>
+<div class="mc-question"><span class="q-number">40</span><span class="q-text">如立法者制定法律，規定僅原住民得擔任原住民族教育工作者，則對於相關規定進行違憲審查時，下列敘述何者正確？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">涉及執行職業自由之限制，為追求一般公益，立法者得予適當之限制</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">涉及選擇職業主觀要件之限制，為保障特別重要公益，立法者得予適當之限制</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">涉及選擇職業客觀要件之限制，基於特別重要公益，立法者得予以限制</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">涉及執行職業自由之限制，為保障原住民族之工作權，立法者得為此差別待遇</span></div>
+<div class="mc-question"><span class="q-number">41</span><span class="q-text">The police got a(n) _____ call that said money was being stolen from a local bank.</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">anonymous</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">collect</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">deficient</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">ancient</span></div>
+<div class="mc-question"><span class="q-number">42</span><span class="q-text">Elder abuse can take on various forms, including economic exploitation, physical and emotional abuse, as well as neglect. Sadly, those who commit elder abuse or _____ of elder abuse may be family members.</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">pathologists</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">pedestrians</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">perpetrators</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">prostitutes</span></div>
+<div class="mc-question"><span class="q-number">43</span><span class="q-text">The goal of airport security is to safeguard passengers, crew, and staff by _____ for forbidden items and preventing acts of terrorism, hijacking, and other criminal activities that could endanger the safety of air travel.</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">bribing</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">pirating</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">conveying</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">screening</span></div>
+<div class="mc-question"><span class="q-number">44</span><span class="q-text">In that country, for sentences in excess of four years, prisoners are eligible to be released on _____ after serving one-third of their sentences.</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">misdemeanor</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">parole</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">dichotomy</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">penalty</span></div>
+<div class="mc-question"><span class="q-number">45</span><span class="q-text">_____ is a criminal charge involving violence, so the prosecution takes it very seriously, especially if a weapon is involved or it results in injury.</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">Penalty</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">Assault</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">Dissonance</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">Fracture</span></div>
+<div class="mc-question"><span class="q-number">46</span><span class="q-text">To prevent identity theft, you should regularly monitor your credit reports and financial statements to detect any _____ or suspicious activity.</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">credible</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">legitimate</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">impeccable</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">unauthorized</span></div>
+<div class="mc-question"><span class="q-number">47</span><span class="q-text">While driving home from a party last night, I was stopped by the police and asked to take a breathalyzer test. Since I had only consumed orange juice at the party, my breath alcohol _____ was normal.</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">acceleration</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">concentration</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">disinfectant</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">intolerance</span></div>
+<div class="mc-question"><span class="q-number">48</span><span class="q-text">The government is being warned about a network of criminals carrying out a sophisticated system of credit card _____.</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">treason</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">rectitude</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">fraud</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">continence</span></div>
+<div class="mc-question"><span class="q-number">49</span><span class="q-text">The court ordered the convicted woman to make _____ to the family that she had done so much harm to.</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">simulations</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">reparations</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">conventions</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">incursions</span></div>
+<div class="mc-question"><span class="q-number">50</span><span class="q-text">The Taiwanese government has implemented new laws that prohibit the production, sale, and importation of e-cigarettes. The legal age for smoking has also been raised from 18 to 20 to curb young people&#x27;s _____ addiction.</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">cocaine</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">ecstasy</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">heroin</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">nicotine</span></div>
+<div class="reading-passage"><p>請依下文回答第 51 題至第 55 題</p><p>The Customs Administration's canine division last year helped customs officers <u>&nbsp;51&nbsp;</u> 758kg of illegal drugs, which were valued at NT$330 million (US$11.86 million). Most of the narcotics detected by sniffer dogs were ketamine, the agency said. Taiwan has 37 detection dogs, with each dog working with one dog handler. Detection dogs are put <u>&nbsp;52&nbsp;</u> duty whenever high-risk flights arrive, and they must finish <u>&nbsp;53&nbsp;</u> the luggage in about 10 minutes, it added. With the establishment of the Maritime Express Consignments Clearance service at the Keelung Customs Office and the construction of Taiwan Taoyuan International Airport's Terminal 3 expected to be completed in 2026, the center said it is aiming to expand the canine division from 37 to 44 sniffer dogs by 2025. The center said that its main task in the next few years is to train more Labradors to find tobacco, narcotics or explosives <u>&nbsp;54&nbsp;</u> the Military Police Command, the National Fire Agency, the National Police Agency, the Bureau of Animal and Plant Inspection and Quarantine, and other agencies. The success rate of training Labrador puppies to become detection dogs has reached more than 20 percent, as puppies born from second-generation dams tend to be stronger and healthier, it said. As the <u>&nbsp;55&nbsp;</u> of puppies is expected to double in the next three years, people living south of Taoyuan or north of Yunlin County are encouraged to become foster families of puppies, the center said, adding that companies in central Taiwan can offer facilities for puppy training.</p></div>
+<div class="mc-question"><span class="q-number">51</span><span class="q-text">(A) intercept (B) intrigue (C) impact (D) imply</span></div>
+<div class="mc-question"><span class="q-number">52</span><span class="q-text">(A) by (B) with (C) on (D) in</span></div>
+<div class="mc-question"><span class="q-number">53</span><span class="q-text">(A) to sniff (B) sniff (C) sniffed (D) sniffing</span></div>
+<div class="mc-question"><span class="q-number">54</span><span class="q-text">(A) on behalf of (B) regardless of (C) inasmuch as (D) in spite of</span></div>
+<div class="mc-question"><span class="q-number">55</span><span class="q-text">(A) volume (B) number (C) latitude (D) length</span></div>
+<div class="reading-passage"><p>請依下文回答第 56 題至第 60 題</p><p>With so many people crossing borders every day, how do we know we're not letting dangerous people into our countries? One response is biometric identification technology. It has been developed to recognize individuals and to identify criminals. In fact, biometric identification is not a new invention. Law enforcement agencies have been using photographs and fingerprints as biometric identifiers since the late 19th century. Today, biometric identification technology, including both physiological and behavioral biometrics, has become increasingly prevalent as a means of enhancing security and protecting individuals' interests.</p><p>Physiological biometrics, such as fingerprints and facial features, use human morphology to identify or recognize individuals. Besides fingerprint scanners, there are software programs that identify faces, palms, and irises. Scanning these physical features ensures that the person being scanned is who he or she claims to be. Unlike personal identification numbers, which are used to access bank accounts, biometric identifiers are extremely difficult, if not impossible, for criminals to steal.</p><p>Behavioral biometrics can also be used to identify people. Certain behaviors are unique to individuals, such as their speech or the way they type. The classic behavioral biometric marker is a person's signature, but it can be problematic as it can be copied. However, people do automatically recognize subtleties in the way a person speaks, such as intonation and regional accents. Typing patterns, likewise, would be very difficult to observe and mimic convincingly.</p><p>Biometrics can have two potential applications: identification and identity verification. Identification uses biometric information to discover the identity of an unknown person. DNA evidence has joined fingerprints as a common tool of law enforcement for this purpose. Today, we use passports to verify our identity when crossing borders, but passports can be stolen or forged. An effective biometric identification system would be difficult to fool. Because of this, many countries are considering biometric additions to or replacements of existing identification system. India, for instance, has already implemented such a system, which utilizes fingerprint and iris scans, in addition to photographs.</p><p>While biometric identification technology shows promise in various applications, there are ethical concerns surrounding the development of biometric identification technology. Critics worry about the possibility of criminal uses of the technology, as legitimate organizations can use biometric scanners to verify personal information. And civil liberties advocates are concerned about the potential for abuse by authorities. Therefore, policymakers will need to balance security and law enforcement against personal freedom and privacy. Ethical considerations must be taken into account when developing biometric identification technology.</p></div>
+<div class="mc-question"><span class="q-number">56</span><span class="q-text">What is the main idea of this passage?</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">The ethical problems with biometric identification.</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">Biometric identification, its uses, and its challenges.</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">Biometric identification and its history in law enforcement.</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">The difference between physiological and behavioral biometrics.</span></div>
+<div class="mc-question"><span class="q-number">57</span><span class="q-text">According to the passage, which of the following can be scanned as a physiological biometric identifier?</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">Bank accounts.</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">Brainwaves.</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">Palms and irises.</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">Speaking speed.</span></div>
+<div class="mc-question"><span class="q-number">58</span><span class="q-text">According to the passage, what is a traditional behavioral biometric marker?</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">Signatures.</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">Facial features.</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">Regional accents.</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">Typing patterns.</span></div>
+<div class="mc-question"><span class="q-number">59</span><span class="q-text">What does the word “forged” mean?</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">built</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">faked</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">missed</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">shaped</span></div>
+<div class="mc-question"><span class="q-number">60</span><span class="q-text">Which ethical concern about biometric identification technology is NOT mentioned in the passage?</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">The potential for illicit usage.</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">The likelihood of misuse by authorities.</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">The dispute over India&#x27;s disregard for civil liberties.</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">The balance between ensuring security and protecting personal privacy.</span></div>
+</div>
+<div class="answer-section">
+<h4 class="answer-title">📋 標準答案</h4>
+<div class="answer-grid">
+<div class="answer-cell"><span class="q-num">1</span><span class="q-ans">A</span></div>
+<div class="answer-cell"><span class="q-num">2</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">3</span><span class="q-ans">B</span></div>
+<div class="answer-cell"><span class="q-num">4</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">5</span><span class="q-ans">B</span></div>
+<div class="answer-cell"><span class="q-num">6</span><span class="q-ans">A</span></div>
+<div class="answer-cell"><span class="q-num">7</span><span class="q-ans">B</span></div>
+<div class="answer-cell"><span class="q-num">8</span><span class="q-ans">A</span></div>
+<div class="answer-cell"><span class="q-num">9</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">10</span><span class="q-ans">B</span></div>
+<div class="answer-cell"><span class="q-num">11</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">12</span><span class="q-ans">B</span></div>
+<div class="answer-cell"><span class="q-num">13</span><span class="q-ans">B</span></div>
+<div class="answer-cell"><span class="q-num">14</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">15</span><span class="q-ans">B</span></div>
+<div class="answer-cell"><span class="q-num">16</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">17</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">18</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">19</span><span class="q-ans">B</span></div>
+<div class="answer-cell"><span class="q-num">20</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">21</span><span class="q-ans">B</span></div>
+<div class="answer-cell"><span class="q-num">22</span><span class="q-ans">B</span></div>
+<div class="answer-cell"><span class="q-num">23</span><span class="q-ans">D</span></div>
+<div class="answer-cell corrected"><span class="q-num">24</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">25</span><span class="q-ans">B</span></div>
+<div class="answer-cell"><span class="q-num">26</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">27</span><span class="q-ans">D</span></div>
+<div class="answer-cell corrected"><span class="q-num">28</span><span class="q-ans">B</span></div>
+<div class="answer-cell"><span class="q-num">29</span><span class="q-ans">A</span></div>
+<div class="answer-cell"><span class="q-num">30</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">31</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">32</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">33</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">34</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">35</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">36</span><span class="q-ans">B</span></div>
+<div class="answer-cell"><span class="q-num">37</span><span class="q-ans">A</span></div>
+<div class="answer-cell"><span class="q-num">38</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">39</span><span class="q-ans">A</span></div>
+<div class="answer-cell"><span class="q-num">40</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">41</span><span class="q-ans">A</span></div>
+<div class="answer-cell"><span class="q-num">42</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">43</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">44</span><span class="q-ans">B</span></div>
+<div class="answer-cell"><span class="q-num">45</span><span class="q-ans">B</span></div>
+<div class="answer-cell"><span class="q-num">46</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">47</span><span class="q-ans">B</span></div>
+<div class="answer-cell"><span class="q-num">48</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">49</span><span class="q-ans">B</span></div>
+<div class="answer-cell"><span class="q-num">50</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">51</span><span class="q-ans">A</span></div>
+<div class="answer-cell"><span class="q-num">52</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">53</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">54</span><span class="q-ans">A</span></div>
+<div class="answer-cell"><span class="q-num">55</span><span class="q-ans">B</span></div>
+<div class="answer-cell"><span class="q-num">56</span><span class="q-ans">B</span></div>
+<div class="answer-cell"><span class="q-num">57</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">58</span><span class="q-ans">A</span></div>
+<div class="answer-cell"><span class="q-num">59</span><span class="q-ans">B</span></div>
+<div class="answer-cell"><span class="q-num">60</span><span class="q-ans">C</span></div>
+</div>
+<div class="correction-note">⚠️ 更正：第24題一律給分，第28題答Ｂ或Ｄ者均給分。</div>
+</div>
+</div>
+</div>

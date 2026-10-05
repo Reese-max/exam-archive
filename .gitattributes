@@ -1,1 +1,10 @@
-*.html whitespace=cr-at-eol
+* text=auto
+*.txt text eol=lf
+*.py text eol=lf
+*.js text eol=lf
+*.mjs text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+index.html -text
+
+index.html whitespace=cr-at-eol
