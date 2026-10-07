@@ -1,0 +1,156 @@
+<div class="subject-card" id="y105-46543">
+<div class="subject-header" onclick="toggleCard(this)">
+  <h3>警察情境實務(包括警察法規、實務操作標準作業程序、人權保障與正當法律程序)</h3>
+  <span class="subject-toggle">▼</span>
+</div>
+<div class="subject-body">
+<div class="exam-meta-bar">
+<span class="meta-tag">4 頁</span>
+<span class="meta-tag">選擇題 20 題</span>
+</div>
+<div class="exam-content-v2">
+<div class="exam-text"></div>
+<div class="exam-metadata">
+<div class="meta-line">考試及105年特種考試交通事業鐵路人員考試試題 考 試 別：警察人員考試 等 別：三等考試 類 科 別：行政警察人員、外事警察人員（選試英語）、刑事警察人員、公共安全人員、犯罪防治人員預防組、交通警察人員交通組、警察資訊管理人員、刑事鑑識人員、國境警察人員、警察法制人員、行政管理人員 科 目：警察情境實務（包括警察法規、實務操作標準作業程序、人權保障與正當法律程序） 考試時間：2 小時 座號：</div>
+</div>
+<div class="exam-note">※注意：禁止使用電子計算器。</div>
+<div class="exam-section-marker">甲、申論題部分：（60分）</div>
+<div class="exam-note">㈠不必抄題，作答時請將試題題號及答案依照順序寫在申論試卷上，於本試題上作答者，不予計分。</div>
+<div class="exam-note">㈡請以藍、黑色鋼筆或原子筆在申論試卷上作答。</div>
+<div class="essay-question">一、你是派出所所長，深夜 l 時許，據報在轄區一處公園入口，有數十名黑衣人聚集，疑似兩派人馬相約談判，有人帶球棒、西瓜刀、電擊棒及信號彈等到現場，經過路人都非常驚恐，依法你應如何處置？（20 分）</div>
+<div class="essay-question">二、你是分局偵查員，1 月 4 日早上接獲刑責區派出所通報，清晨 6 時許一名拾荒老人在某漁塭填補地撿拾資源回收物，發現一具男性焦屍。你到達時鑑識人員正在進行勘察採證，命案地點相當偏僻及空曠，平日少人前往。依鑑識人員初步勘察結果，死者為男性，全身約 80%部分已燒焦碳化，面部無法辨識，肚皮燒穿而腸子外露，衣物全數燒失，赤腳，但現場未發現鞋子。死者身上無任何證件，僅左腳踝有一蜘蛛網狀刺青。現場有一副破損眼鏡鏡框及少量鏡片碎片與打火機等物品，以及一支沾有血跡之未生鏽「釘拔」（一般工地用來拔釘使用之工具）與一塊沾有血跡之大石塊，並有許多清楚輪胎印痕（現場圖如下）。經調閱當地天氣狀況，1 月 2 日晚上 10 時至 11 時曾有降雨。請就所提供之資訊，回答下列問題：（每小題10 分，共 20 分）</div>
+<div class="exam-note">㈠你對本案初步案情研判為何？</div>
+<div class="exam-note">㈡後續應展開那些偵查作為？AE C地面燃燒痕跡D 輪胎印痕 菸蒂4</div>
+<div class="mc-question"><span class="q-number">1</span><span class="q-text">5眼鏡BF 打火機 3釘拔2沾血石塊風向</span></div>
+<div class="essay-question">三、警察機關於執行取締危險駕車勤務中，經執勤人員現場錄影蒐證後，對於駕駛人違反道路交通管理處罰條例第 43 條及第 21 條第 1 項第 1 款者，該項違法（規）之駕駛人應如何處理？（10 分）對於現場之違規車輛又應如何處置？（10 分）請敘述之。</div>
+<div class="exam-section-marker">乙、測驗題部分：（40分） 代號：3501</div>
+<div class="exam-note">㈠本試題為單一選擇題，請選出一個正確或最適當的答案，複選作答者，該題不予計分。</div>
+<div class="exam-note">㈡共20題，每題2分，須用2B鉛筆在試卡上依題號清楚劃記，於本試題或申論試卷上作答者，不予計分。</div>
+<div class="mc-question"><span class="q-number">1</span><span class="q-text">你帶班執行22～24時汽車巡邏勤務，由員警甲擔任駕駛時，下列何項處置錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">路口臨時停車應注意左右有無可疑人、車或可疑人近身</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">到達巡邏點時，你留在車內觀察周遭環境，指派甲下車簽巡邏表</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">到達巡邏點時，不要馬上簽巡邏表，應持手電筒巡視周遭環境</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">完成簽巡邏表後，甲先上車，你擔任警戒，不要同時上車</span></div>
+<div class="mc-question"><span class="q-number">2</span><span class="q-text">你帶班執行巡邏勤務，發現有人高喊搶劫，你立即將搶嫌以現行犯逮捕時，下列何項為最優先處置？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">上手銬</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">搜身</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">報告勤務指揮中心</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">請求支援</span></div>
+<div class="mc-question"><span class="q-number">3</span><span class="q-text">你是派出所所長，據報甲男酒醉後，跑到住家附近的檳榔攤翻桌鬧事，並拿棍子當指揮棒站在路中央指揮交通，有駕駛人經過險遭甲砸車，你到場後應如何處置？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">依法偵訊調查犯罪</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">待被害人提告後立案</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">予以即時強制管束</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">通知家屬前來勸離</span></div>
+<div class="mc-question"><span class="q-number">4</span><span class="q-text">你帶班執行取締酒駕勤務時，發現男子甲駕駛休旅車為逃避檢查，不慎逆向衝向分隔島，員警即上前查看，所幸甲男沒有受傷，因身上有酒氣，員警欲實施酒測遭甲拒絕，此時應如何處置？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">逕予強制抽血檢測</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">聯絡其家屬前來安撫配合檢測</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">告知拒測之處罰後實施舉發</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">請示法官後，再行抽血檢測</span></div>
+<div class="mc-question"><span class="q-number">5</span><span class="q-text">性侵害犯罪加害人甲前往管轄分局報到後，你發現甲之戶籍所在地、居所地、工作地、就學地不同時，對於受理報到之管轄分局的權責歸屬，你應如何處理？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">得依被害人同意，變更受理報到之管轄分局</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">得依職權或申請，變更受理報到之管轄分局</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">不得依職權，變更受理報到之管轄分局</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">不得依申請，變更受理報到之管轄分局</span></div>
+<div class="mc-question"><span class="q-number">6</span><span class="q-text">派出所執行擴大臨檢勤務，因暑氣逼人，遂有員警於勤前教育中，向所長你建議可否不必著防彈衣及不戴防彈頭盔，以便提升執勤效率，你應如何處置？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">得決定不著防彈衣，但必須戴防彈頭盔</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">應著防彈衣，但得決定不戴防彈頭盔</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">經報告分局長同意得不著防彈衣，但必須戴防彈頭盔</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">應著防彈衣，經報告分局長同意得不戴防彈頭盔</span></div>
+<div class="mc-question"><span class="q-number">7</span><span class="q-text">派出所接獲分局勤務指揮中心通報，該轄區有疑似家庭暴力之案件發生，所長帶同所內員警趕赴現場時，發現夫妻大聲爭吵，該夫全身酒味且隨手拿起木棍追打其妻兒，完全不聽勸阻，認為有違反家庭暴力罪嫌疑重大，請問此時應如何處理較為適宜？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">得逕行拘提該夫</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">將夫妻分開即可</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">將妻兒帶離現場</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">將木棍奪下即可</span></div>
+<div class="mc-question"><span class="q-number">8</span><span class="q-text">經民眾檢舉某「養生館」從事色情按摩服務，你帶班執行該處所臨檢勤務時，依規定應如何處理？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">發現僅違規僱用明眼人按摩，依身心障礙者權益保障法處罰</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">發現僅違規僱用明眼人按摩，依社會秩序維護法之規定處罰</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">發現有性交易行為，依刑法及社會秩序維護法之規定處罰</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">發現有性交易行為，依就業服務法處罰</span></div>
+<div class="mc-question"><span class="q-number">9</span><span class="q-text">你偵辦轄內一起命案，死者為23歲甲女陳屍於住處，致命傷為頸部穿刺傷，臉部多處刀痕近乎毀容，下半身衣物遭褪去，但無遭到性侵害跡象。經你清查甲女財物損失，發現甲女身上配戴一條金項鍊遺失，偵查發現死者前男友乙涉嫌本案，經請刑事局測謊人員協助偵查，下列測謊題目何者不宜？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">你是否持刀刺殺甲女</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">你是否知道何人殺害甲女</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">你是否拿走甲女項鍊</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">你是否意圖性侵害甲女</span></div>
+<div class="mc-question"><span class="q-number">10</span><span class="q-text">你是偵查隊分隊長，率隊依法搜索搶匪藏匿處所，搜索過程中你發現廚房內某牆壁為中空隔板，疑似藏有槍枝，但該搶匪堅持否認藏有槍枝，此時你應如何處理？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">請木工撬開隔板，執行搜索</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">請示法官並經同意後，請木工撬開隔板，執行搜索</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">請示檢察官並經同意後，請木工撬開隔板，執行搜索</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">為避免被告毀損，不宜撬開隔板</span></div>
+<div class="mc-question"><span class="q-number">11</span><span class="q-text">你是派出所所長帶隊巡邏，接獲通報鄰近KTV有鬥毆事件，到達現場發現兩派人馬分別有4名及6名男子，多人受到輕傷，下列處理方式何者最適當？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">詢問傷者願意提出告訴後，始啟動偵查作為</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">雙方在現場達成和解，不提告訴，故無調查必要</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">無論是否提起告訴，本案可依社會秩序維護法第87條辦理移送簡易法庭</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">無論是否提起告訴，現場助勢者均依刑法第283條聚眾鬥毆罪送辦</span></div>
+<div class="mc-question"><span class="q-number">12</span><span class="q-text">當接獲同仁報告轄內發生A1類交通事故，同仁已在現場處理，你抵達現場後，下列何者是最優先的處理作為？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">督促處理同仁要審慎蒐證詳細測繪與照相</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">先慰問處理同仁之辛勞，給予鼓勵與肯定</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">對留置於現場之死者屍體是否妥為保護</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">先檢視事故現場警戒安全措施是否完善</span></div>
+<div class="mc-question"><span class="q-number">13</span><span class="q-text">你帶領同仁前往處理勤務指揮中心通報轄內發生的A1類交通事故，抵達現場後發現是肇事逃逸案件，下列何者是最優先的處理作為？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">回報勤務指揮中心，指派刑事或鑑識人員到場支援蒐證</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">尋找現場目擊證人，以確認肇逃車輛特徵與逃逸方向</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">詳細蒐集事故現場路面跡證，掌握輪跡跡證並測繪及照相</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">派員前往調集路口監視器畫面等跡證以掌握肇逃車輛行蹤</span></div>
+<div class="mc-question"><span class="q-number">14</span><span class="q-text">你擔任交通分隊長，於處理移置保管之車輛時，擬通知車輛所有人限期領回，卻發現無法查明車輛所有人，下列處置作為何者正確？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">經公告2個月，仍無人認領者，由交通警察大隊拍賣之</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">經公告3個月，仍無人認領者，由移置保管機關拍賣之</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">經公告2個月，仍無人認領者，由法務部行政執行署拍賣之</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">經公告3個月，仍無人認領者，視同廢棄物自行清除之</span></div>
+<div class="mc-question"><span class="q-number">15</span><span class="q-text">你於尖峰時間督導交通疏導勤務，發現員警以手控號誌代替手勢指揮疏導，請問下列何者是手控號誌之適當時機？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">特種警衛對象座車通過路口時</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">在獨立號誌路口，當流量眾多尚未擁擠時</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">在連鎖號誌路口，當車速、流量均普通時</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">左轉車流影響行車順暢時</span></div>
+<div class="mc-question"><span class="q-number">16</span><span class="q-text">你帶班取締交通違規，發現有一車輛蛇行，經攔停查證後，發現該車輛過去曾因在道路上競駛經受吊扣牌照之處分，對於該車輛之處置，你應下達何種指示？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">當場扣留車輛</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">當場移置保管車輛</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">當場暫代保管車輛</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">車輛限當日駛回</span></div>
+<div class="mc-question"><span class="q-number">17</span><span class="q-text">你帶班執行交通稽查，發現甲騎機車未依規定兩段式左轉，經攔停查證甲為13歲之國中生，該車為其父親所有，也是甲之監護人，你於現場處置，下列何者適當？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">僅對甲之父親舉發處罰</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">同時對甲與其父親舉發處罰</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">調查甲之父親是否允許騎機車</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">查扣機車後將甲放行</span></div>
+<div class="mc-question"><span class="q-number">18</span><span class="q-text">你是派出所所長，在外執行交整勤務的員警甲以無線電向你報告：「○○路口全面交通飽和，各方向車輛均無法通行」，下列你的指示何者不恰當？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">請甲優先維持該路口之淨空</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">請甲先指揮一方向之車輛通行</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">立即通報分局長，並請求支援處理</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">立即派員前往該路口，管制車輛勿繼續進入</span></div>
+<div class="mc-question"><span class="q-number">19</span><span class="q-text">網路動員集會遊行改變聚眾活動的樣態，各警察機關應加強集會、遊行聚眾應處能力，你正要擬定安全維護計畫，下列何者作為最不適當？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">不宜事先與集會、遊行團體接觸，避免困擾</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">事中妥適處置，並有效複式蒐證，依事證嚴正依法處理</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">對相關單位所提供情資，強化傳遞及通報，加強警力整備</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">對於相關單位網路媒體情蒐，納入指揮所作業</span></div>
+<div class="mc-question"><span class="q-number">20</span><span class="q-text">依司法院釋字第718號解釋意旨，內政部於103年12月29日函頒「偶發性及緊急性集會遊行處理原則」以作為修法通過前，處理與認定偶發性及緊急性集會遊行之準據；你是分局承辦人員，下列敘述何者為正確處理？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">偶發性集會遊行無需申請許可；緊急性集會遊行提出申請，立即核辦</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">偶發性集會遊行現地直接申請；緊急性集會遊行提出申請，立即核辦</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">偶發性集會遊行無需申請許可：緊急性集會遊行不待申請，立即核辦</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">偶發性集會遊行無需申請許可；緊急性集會遊行無須申請，立即核辦</span></div>
+</div>
+<div class="answer-section">
+<h4 class="answer-title">📋 標準答案</h4>
+<div class="answer-grid">
+<div class="answer-cell"><span class="q-num">1</span><span class="q-ans">B</span></div>
+<div class="answer-cell"><span class="q-num">2</span><span class="q-ans">A</span></div>
+<div class="answer-cell"><span class="q-num">3</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">4</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">5</span><span class="q-ans">B</span></div>
+<div class="answer-cell"><span class="q-num">6</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">7</span><span class="q-ans">A</span></div>
+<div class="answer-cell"><span class="q-num">8</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">9</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">10</span><span class="q-ans">A</span></div>
+<div class="answer-cell"><span class="q-num">11</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">12</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">13</span><span class="q-ans">B</span></div>
+<div class="answer-cell"><span class="q-num">14</span><span class="q-ans">B</span></div>
+<div class="answer-cell"><span class="q-num">15</span><span class="q-ans">A</span></div>
+<div class="answer-cell"><span class="q-num">16</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">17</span><span class="q-ans">A</span></div>
+<div class="answer-cell"><span class="q-num">18</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">19</span><span class="q-ans">A</span></div>
+<div class="answer-cell"><span class="q-num">20</span><span class="q-ans">A</span></div>
+</div>
+</div>
+</div>
+</div>

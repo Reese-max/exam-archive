@@ -1,0 +1,23 @@
+<div class="subject-card" id="y105-66628">
+<div class="subject-header" onclick="toggleCard(this)">
+  <h3>數位鑑識執法</h3>
+  <span class="subject-toggle">▼</span>
+</div>
+<div class="subject-body">
+<div class="exam-meta-bar">
+<span class="meta-tag">1 頁</span>
+<span class="meta-tag">申論題</span>
+</div>
+<div class="exam-content-v2">
+<div class="exam-metadata">
+<div class="meta-line">105年公務人員特種考試警察人員、一般警察人員代 號：50870 全一頁 考試及105年特種考試交通事業鐵路人員考試試題 考 試 別： 警察人員考試 等 別： 三等考試 類 科 別： 警察資訊管理人員 科 目： 數位鑑識執法考試時間 ： 2 小時 座號：</div>
+</div>
+<div class="exam-note">※注意： ㈠禁止使用電子計算器。</div>
+<div class="exam-note">㈡不必抄題，作答時請將試題題號及答案依照順序寫在試卷上，於本試題上作答者，不予計分。</div>
+<div class="essay-question">一、ISO/IEC 27037 為一國際共通標準，提供了數位證據（Digital Evidence）處理的參考指引，請列出本指引內所包含的主要工作及說明各項工作的內容。（25 分）</div>
+<div class="essay-question">二、請說明電腦鑑識（Computer Forensics）、數位鑑識（Digital Forensics）及網路鑑識（Network/Internet Forensics）的異同處。（25 分）</div>
+<div class="essay-question">三、由於數位證據的脆弱特性，請說明如何確保潛在數位證據之完整性（Integrity）、真實性（Authenticity）與證據調查是否具公信力？（25 分）</div>
+<div class="essay-question">四、請按 ISO/IEC 27037 的定義，論述數位證據處理的三個基本原則（需求）。（25 分）</div>
+</div>
+</div>
+</div>

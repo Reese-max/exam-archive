@@ -1,2 +1,2 @@
-node_modules/
-tests/artifacts/
+__pycache__/
+.pytest_cache/

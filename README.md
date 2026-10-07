@@ -1,48 +1,112 @@
-# 資管系考古題總覽 (exam-archive)
+# 資管系考古題總覽 — exam-archive
 
-單一檔案靜態網站（`index.html`），收錄警察特考三等 105–114 年共 70 份試卷，
-提供搜尋、年份/科目雙檢視、書籤與練習模式。透過 GitHub Pages 部署。
+Static archive of 警察特考三等資訊管理組 (Police Special Examination, Level 3,
+Information Management) past papers: ROC years 105–114, 7 subjects, 70 papers,
+126 referenced PDFs, ~4,700 questions with answers.
 
-## 練習模式的無障礙結構（option component contract）
+## Status
 
-選擇題選項在頁面載入時由 `enhanceMcGroups()` 漸進增強為原生表單語意：
+**Active and maintained.** This repository is the source of truth for the
+archive and is **not superseded** by any other repository. If that ever changes,
+this section becomes the redirect notice.
 
-```html
-<fieldset class="mc-field" data-qidx="0" data-qnum="1" data-akey="y114-38157-q0">
-  <legend class="sr-only">第1題：<題幹></legend>
-  <label class="mc-option">
-    <input type="radio" class="mc-radio" name="mcq-N" value="A">
-    <span class="opt-label">(A)</span><span class="opt-text">…</span>
-  </label>
-  …
-  <div class="mc-verdict" role="status" aria-live="polite"></div>
-</fieldset>
-```
+## Canonical public URL
 
-- 分組沿用原計分規則：每張 `.subject-card` 內遇到 `(A)` 另起新題組
-  （部分試卷題幹內嵌於選項文字，無 `.mc-question`，legend 退回「第N題」）。
-- radio `name` 每題組全文件唯一；科目檢視的 innerHTML clone 會由
-  `fixupClonedMcGroups()` 重新命名並依 `.selected` 補回 `checked`。
-- `data-akey`（cardId-qidx）在跨檢視複製間維持同一題身份，
-  保證首次作答計分一次（first-attempt policy）。
-  原生 radio 群組的方向鍵會同時移動焦點並選取（APG 語意），
-  因此以方向鍵掠過的選項即為首次作答、計分一次。
-- 不使用任何 `id`，clone 不會產生重複 id。
-- 非練習模式下 radio `disabled`（不進 Tab 序）；練習模式啟用。
-- 作答結果同時寫入可見文字 `.mc-verdict`（live region 會播報）與
-  `.practice-score`（`role="status"`）。
-- 事件採 `document` 層委派（`change` / `.reveal-btn` click），
-  clone 節點不需重新綁定、切換檢視或練習模式不會重複掛 handler。
+<https://reese-max.github.io/exam-archive/> — deployed from the repo root by
+`.github/workflows/pages.yml` (GitHub Pages).
 
-## 測試
+## Repository contract
+
+| Path | Role | Rule |
+|---|---|---|
+| `index.html` | Generated deployable shell with year placeholders | Never hand-edit; rebuild it |
+| `src/index.template.txt` | Page shell (markup, CSS, JS) with `<!--ARCHIVE-DATA:year-NNN-->` seams | Edit for shell/UI changes |
+| `src/archive-loader.js` | Dependency-free runtime loader and keyboard search shortcuts | Edit for asset loading behavior |
+| `data/year-NNN.txt` | Canonical per-year archive sections (HTML fragments, LF), ROC 114→105 | Edit for content changes |
+| `data/subjects/{slug}/year-NNN.txt` | Generated category/year card fragments | Rebuilt from the canonical year sources |
+| `tests/rebuild_index.py` | Build step | Writes or verifies the shell and category assets |
+| `tests/test_archive_contract.py`, `tests/archive_loader.test.mjs` | Executable contract | Budgets, reproducibility, request scopes, keyboard behavior |
+
+### Build
 
 ```bash
-pip install -r requirements.txt
-python3 -m playwright install chromium   # 首次需要下載瀏覽器
-python3 -m pytest -q                     # 真實 Chromium：鍵盤操作 / 語意 / 計分 / 重置 / 檢視切換 / AX tree
+python3 tests/rebuild_index.py           # regenerate index.html and category assets
+python3 tests/rebuild_index.py --check   # verify generated files match sources
 ```
 
-測試以 Playwright 驅動 headless Chromium 載入 `index.html`，
-模擬真實鍵盤（focus、Space、方向鍵）與 label 點擊，
-並經由 CDP `Accessibility.queryAXTree` 檢查輔助科技樹，
-產出寫入 `tests/artifacts/`。
+Sources and category assets are stored LF; the build emits CRLF for
+`index.html`, matching the committed artifact's convention. The build is
+deterministic and byte-exact: `tests/` verifies it.
+
+### Test
+
+```bash
+python3 -m pip install -r requirements.txt
+python3 -m pytest -q
+```
+
+CI (`.github/workflows/test.yml`) runs the Python contract suite, dependency-free
+Node loader tests, the rebuild check, and a separate Chromium browser smoke on
+every push to `main` and every pull request. To run the browser checks locally:
+
+```bash
+python3 -m pip install -r requirements-browser.txt
+python3 -m playwright install chromium
+python3 tests/browser_smoke.py
+```
+
+The five browser journeys verify first-load year scoping, keyboard search and
+question expansion, mobile navigation, selected-subject loading, and reflow at
+640 CSS pixels (the effective width of a 1280-pixel viewport at 200% zoom).
+They serve the generated site on loopback and block optional external fonts.
+
+## Data provenance
+
+Content was compiled from publicly released 考選部 police special-examination
+papers and embedded as HTML sections. The audits that produced this split live
+in `docs/audits/` and `.github/quality-audits/`; the originating protocol is
+`Reese-max/autodev-ng/docs/portfolio-audit/2026-09-06-50-persona-audit.md`.
+
+## Payload budgets (enforced by tests)
+
+- generated `index.html` ≤ 120,000 bytes; the archive questions are not embedded
+- shell template plus `src/archive-loader.js` ≤ 120,000 bytes
+- per-year chunk ≤ 160,000 bytes
+- total generated category/year fragments ≤ 1,400,000 bytes; selecting one
+  subject fetches only its fragments, while the year source remains canonical
+
+## Roadmap / known gaps
+
+- The first page request contains only the shell and loader. It fetches year
+  114 so the first archive result is usable; other years load when their
+  navigation, hash link, or year filter is opened.
+- Subject view fetches only the selected subject's per-year fragments. A
+  search without a year or subject filter loads all year chunks when the query
+  is submitted so result counts remain complete.
+- Category fragments are generated from `data/year-NNN.txt`; never edit those
+  derived files directly. The Node checks use the built-in test runner and do
+  not require a package manager or third-party JavaScript dependencies.
+- Automated Chromium tests run against the candidate's local static server.
+  Deployed Pages, physical-device zoom, and human screen-reader acceptance
+  remain outstanding; equivalent-width reflow is not a device zoom receipt.
+
+## Practice accessibility
+
+Multiple-choice questions use native radio groups with question legends, visible
+keyboard focus, and polite live result announcements. Only the first attempt per
+source question counts toward the score, including when switching between year
+and subject views. Both views share the latest selection and answer feedback,
+including when a subject view is rebuilt or a year is loaded later. Reset clears
+the score, selections and saved feedback. Lazy-loaded years and
+subjects receive the same enhancement; inactive practice controls are disabled.
+
+Run the keyboard, accessibility-tree and scoring regression cases using:
+
+```bash
+python3 -m pip install -r requirements.txt -r requirements-browser.txt
+python3 -m playwright install chromium
+python3 -m pytest tests/test_practice_a11y.py -q
+```
+
+These Chromium checks do not replace a human screen-reader check on the deployed
+site. That acceptance layer remains outstanding.
