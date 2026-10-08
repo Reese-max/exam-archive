@@ -5,6 +5,7 @@ from functools import partial
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 from threading import Thread
+from urllib.parse import urlparse
 
 import pytest
 from playwright.sync_api import sync_playwright
@@ -302,3 +303,248 @@ def test_dark_mode_keeps_answer_feedback_visible(page):
     assert field.locator(".mc-verdict").evaluate(
         "verdict => getComputedStyle(verdict).color"
     ) == "rgb(252, 129, 129)"
+
+
+def synthetic_card(year, subject):
+    """Small fake papers; canonical exam questions and answers stay untouched."""
+    number, title = {"constitution": (1, "中華民國憲法"), "chinese": (2, "國文")}[subject]
+    questions = "".join(
+        f'<div class="mc-question"><span class="q-number">{question}</span>'
+        f'<span class="q-text">合成測試題 {question}</span></div>'
+        + "".join(
+            f'<div class="mc-option"><span class="opt-label">({letter})</span>'
+            f'<span class="opt-text">測試選項 {letter}</span></div>'
+            for letter in "ABCD"
+        )
+        for question in range(1, 4)
+    )
+    return (
+        f'<div class="subject-card" id="y{year}-{number}">'
+        f'<div class="subject-header"><h3>{title}</h3></div>'
+        f'<div class="subject-body">{questions}<div class="answer-section">'
+        '<div class="answer-cell"><span class="q-num">1</span><span class="q-ans">A</span></div>'
+        '<div class="answer-cell"><span class="q-num">2</span><span class="q-ans">C</span></div>'
+        '</div></div></div>'
+    )
+
+
+@pytest.fixture()
+def synthetic_page(browser, site_url):
+    page = browser.new_page()
+    errors = []
+    page.on("pageerror", lambda error: errors.append(str(error)))
+    origin = site_url.removesuffix("/index.html")
+
+    def serve(route):
+        path = urlparse(route.request.url).path
+        if not route.request.url.startswith(origin + "/"):
+            route.abort()
+        elif path.startswith("/data/"):
+            year = re.search(r"year-(\d+)\.txt$", path).group(1)
+            if path.startswith("/data/subjects/"):
+                html = synthetic_card(year, path.split("/")[3])
+            else:
+                html = (
+                    f'<div class="year-section" id="year-{year}">'
+                    f'<h2 class="year-heading">{year}年</h2>'
+                    + synthetic_card(year, "constitution")
+                    + synthetic_card(year, "chinese")
+                    + '</div>'
+                )
+            route.fulfill(status=200, content_type="text/plain; charset=utf-8", body=html)
+        else:
+            route.continue_()
+
+    page.route("**/*", serve)
+    page.goto(site_url, wait_until="load")
+    page.locator("#year-114 fieldset.mc-field").first.wait_for(state="attached")
+    yield page
+    page.close()
+    assert errors == []
+
+
+def press_button(page, selector):
+    page.locator(selector).focus()
+    page.keyboard.press("Enter")
+
+
+def synthetic_field(page, view, year="114", question=0, subject=1):
+    field = page.locator(
+        f'#{view}View fieldset.mc-field[data-akey="y{year}-{subject}-q{question}"]'
+    )
+    field.wait_for(state="attached")
+    return field
+
+
+def assert_feedback(field, chosen, answer="A"):
+    state = field.evaluate(
+        """field => {
+            const values = selector => [...field.querySelectorAll(selector)].map(radio => radio.value);
+            const verdict = field.querySelector('.mc-verdict');
+            return {
+                checked: values('input:checked'),
+                selected: values('.mc-option.selected input'),
+                correct: values('.mc-option.correct input'),
+                wrong: values('.mc-option.wrong input'),
+                verdict: verdict.textContent,
+                kind: verdict.className,
+                role: verdict.getAttribute('role'),
+                live: verdict.getAttribute('aria-live'),
+            };
+        }"""
+    )
+    assert state["checked"] == state["selected"] == [chosen]
+    assert state["correct"] == ([answer] if answer else [])
+    assert state["wrong"] == ([chosen] if answer and chosen != answer else [])
+    kind, message = ("na", "無標準答案") if not answer else (
+        ("ok", "答對") if chosen == answer else ("err", "答錯")
+    )
+    assert state["kind"] == f"mc-verdict {kind}"
+    assert message in state["verdict"]
+    assert state["role"] == "status" and state["live"] == "polite"
+
+
+def assert_no_feedback(page):
+    assert page.locator("input.mc-radio:checked").count() == 0
+    assert page.locator(".mc-option.selected, .mc-option.correct, .mc-option.wrong, .mc-option.shake").count() == 0
+    assert page.locator(".mc-verdict").evaluate_all(
+        "verdicts => verdicts.every(verdict => !verdict.textContent && verdict.className === 'mc-verdict')"
+    )
+
+
+@pytest.mark.parametrize("first_view", ["year", "subject"])
+def test_synthetic_feedback_syncs_both_directions_and_first_attempt_score(synthetic_page, first_view):
+    page = synthetic_page
+    practice_on(page)
+    year = "114" if first_view == "year" else "113"
+    if first_view == "subject":
+        assert page.locator("#year-113 .mc-field").count() == 0
+        press_button(page, "#viewBySubject")
+    field = synthetic_field(page, first_view, year)
+    open_card(field)
+    chosen = "B" if first_view == "year" else "A"
+    choose(page, field, chosen)
+    expected_score = {"correct": int(chosen == "A"), "total": 1}
+    assert_feedback(field, chosen)
+    assert score(page) == expected_score
+
+    other_view = "subject" if first_view == "year" else "year"
+    press_button(page, "#viewBySubject" if other_view == "subject" else "#viewByYear")
+    if other_view == "year":
+        press_button(page, "#year-113 button")
+    other = synthetic_field(page, other_view, year)
+    open_card(other)
+    assert_feedback(other, chosen)
+    assert field.locator("input").first.get_attribute("name") != other.locator("input").first.get_attribute("name")
+    other.locator("input:checked").focus()
+    page.keyboard.press("ArrowUp" if chosen == "B" else "ArrowDown")
+    changed = "A" if chosen == "B" else "B"
+    assert_feedback(other, changed)
+    assert other.locator("input:checked").evaluate("radio => radio === document.activeElement")
+    assert_feedback(field, changed)
+    press_button(page, "#viewByYear" if first_view == "year" else "#viewBySubject")
+    assert_feedback(field, changed)
+    assert score(page) == expected_score
+    choose(page, field, chosen)
+    assert_feedback(other, chosen)
+    assert score(page) == expected_score
+
+
+def test_synthetic_subject_rebuild_restores_feedback_without_recounting(synthetic_page):
+    page = synthetic_page
+    practice_on(page)
+    year_field = synthetic_field(page, "year")
+    open_card(year_field)
+    choose(page, year_field, "B")
+    press_button(page, "#viewBySubject")
+    subject_field = synthetic_field(page, "subject")
+    assert_feedback(subject_field, "B")
+    old_node = subject_field.element_handle()
+    page.locator("#subjectFilter").select_option("國文")
+    other_subject = synthetic_field(page, "subject", subject=2)
+    choose(page, other_subject, "A")
+    assert not old_node.evaluate("field => field.isConnected")
+    page.locator("#subjectFilter").select_option("憲法")
+    rebuilt = synthetic_field(page, "subject")
+    assert_feedback(rebuilt, "B")
+    choose(page, rebuilt, "A")
+    assert_feedback(year_field, "A")
+    assert score(page) == {"correct": 1, "total": 2}
+
+
+def test_synthetic_restored_selection_keeps_keyboard_and_accessibility_state(synthetic_page):
+    page = synthetic_page
+    practice_on(page)
+    year_field = synthetic_field(page, "year")
+    open_card(year_field)
+    choose(page, year_field, "B")
+    press_button(page, "#viewBySubject")
+    field = synthetic_field(page, "subject")
+    header = field.locator("xpath=ancestor::div[contains(@class, 'subject-card')]").locator(".subject-header")
+    header.focus()
+    page.keyboard.press("Enter")
+    assert header.get_attribute("aria-expanded") == "false"
+    page.keyboard.press("Space")
+    assert header.get_attribute("aria-expanded") == "true"
+    page.keyboard.press("Tab")
+    selected = field.locator('input[value="B"]')
+    assert selected.evaluate("radio => radio === document.activeElement")
+    page.keyboard.press("Tab")
+    next_field = synthetic_field(page, "subject", question=1)
+    assert next_field.locator("input").first.evaluate("radio => radio === document.activeElement")
+    page.keyboard.press("Shift+Tab")
+    assert selected.evaluate("radio => radio === document.activeElement")
+    snapshot = field.aria_snapshot()
+    assert 'group "第1題：合成測試題 1"' in snapshot
+    assert 'radio "(B) 測試選項 B" [checked]' in snapshot
+    assert "status: 第1題：答錯了，正確答案是 A" in snapshot
+    assert_feedback(field, "B")
+    assert score(page) == {"correct": 0, "total": 1}
+
+
+@pytest.mark.parametrize("reset_method", ["score", "toggle"])
+def test_synthetic_reset_clears_mounted_and_evicted_feedback(synthetic_page, reset_method):
+    page = synthetic_page
+    practice_on(page)
+    year_field = synthetic_field(page, "year")
+    open_card(year_field)
+    choose(page, year_field, "B")
+    press_button(page, "#viewBySubject")
+    choose(page, synthetic_field(page, "subject", "113"), "A")
+    page.locator("#subjectFilter").select_option("國文")
+    choose(page, synthetic_field(page, "subject", subject=2), "A")
+    assert score(page) == {"correct": 2, "total": 3}
+    if reset_method == "score":
+        press_button(page, ".score-reset")
+    else:
+        press_button(page, "#practiceToggle")
+        assert page.locator("input.mc-radio:not(:disabled)").count() == 0
+        press_button(page, "#practiceToggle")
+    assert_no_feedback(page)
+    page.locator("#subjectFilter").select_option("憲法")
+    rebuilt = synthetic_field(page, "subject")
+    assert_no_feedback(page)
+    press_button(page, "#viewByYear")
+    press_button(page, "#year-113 button")
+    synthetic_field(page, "year", "113")
+    assert_no_feedback(page)
+    assert score(page) == {"correct": 0, "total": 0}
+    press_button(page, "#viewBySubject")
+    choose(page, rebuilt, "A")
+    assert_feedback(year_field, "A")
+    assert score(page) == {"correct": 1, "total": 1}
+
+
+def test_synthetic_missing_answer_feedback_survives_rebuild_without_scoring(synthetic_page):
+    page = synthetic_page
+    practice_on(page)
+    field = synthetic_field(page, "year", question=2)
+    open_card(field)
+    choose(page, field, "B")
+    press_button(page, "#viewBySubject")
+    assert_feedback(synthetic_field(page, "subject", question=2), "B", answer="")
+    page.locator("#subjectFilter").select_option("國文")
+    synthetic_field(page, "subject", subject=2)
+    page.locator("#subjectFilter").select_option("憲法")
+    assert_feedback(synthetic_field(page, "subject", question=2), "B", answer="")
+    assert score(page) == {"correct": 0, "total": 0}

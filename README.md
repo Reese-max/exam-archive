@@ -95,7 +95,9 @@ in `docs/audits/` and `.github/quality-audits/`; the originating protocol is
 Multiple-choice questions use native radio groups with question legends, visible
 keyboard focus, and polite live result announcements. Only the first attempt per
 source question counts toward the score, including when switching between year
-and subject views. Reset clears the score and selections. Lazy-loaded years and
+and subject views. Both views share the latest selection and answer feedback,
+including when a subject view is rebuilt or a year is loaded later. Reset clears
+the score, selections and saved feedback. Lazy-loaded years and
 subjects receive the same enhancement; inactive practice controls are disabled.
 
 Run the keyboard, accessibility-tree and scoring regression cases using:

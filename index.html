@@ -1329,6 +1329,8 @@ let practiceMode = false;
 let practiceCorrect = 0, practiceTotal = 0;
 let mcGroupSeq = 0;
 const answeredKeys = new Set();
+// Latest feedback survives lazy view rebuilds; scoring still uses first attempts.
+const practiceAnswers = new Map();
 
 function updateScoreUI() {
   document.getElementById('scoreCorrect').textContent = practiceCorrect;
@@ -1341,6 +1343,7 @@ function resetScore() {
   practiceCorrect = 0;
   practiceTotal = 0;
   answeredKeys.clear();
+  practiceAnswers.clear();
   updateScoreUI();
   // 清除所有選擇狀態
   document.querySelectorAll('.mc-option').forEach(opt => {
@@ -1418,6 +1421,9 @@ function enhanceMcGroups(root) {
       field.appendChild(verdict);
     });
   });
+  root.querySelectorAll('.mc-field').forEach(field => {
+    renderPracticeAnswer(field, practiceAnswers.get(field.dataset.akey));
+  });
 }
 
 function fixupClonedMcGroups(root) {
@@ -1436,6 +1442,22 @@ function setVerdict(element, kind, text) {
   if (!element) return;
   element.className = `mc-verdict ${kind}`;
   element.textContent = text;
+}
+
+function renderPracticeAnswer(field, state) {
+  if (!state) return;
+  field.querySelectorAll('.mc-option').forEach(option => {
+    const letter = mcLetterOf(option);
+    const selected = letter === state.chosen;
+    const correct = !!state.correctAnswer && letter === state.correctAnswer;
+    option.classList.toggle('selected', selected);
+    option.classList.toggle('correct', correct);
+    option.classList.toggle('wrong', !!state.correctAnswer && selected && !correct);
+    option.classList.remove('shake');
+    const radio = option.querySelector('.mc-radio');
+    if (radio) radio.checked = selected;
+  });
+  setVerdict(field.querySelector('.mc-verdict'), state.kind, state.text);
 }
 
 function applyPracticeMode(root) {
@@ -1507,7 +1529,6 @@ function handleMcOptionChange(radio) {
 
   const questionIndex = Number(field.dataset.qidx);
   const answerKey = field.dataset.akey;
-  const options = Array.from(field.querySelectorAll('.mc-option'));
   // 從答案格找正確答案
   const answerSection = card.querySelector('.answer-section');
   const cell = answerSection && answerSection.querySelectorAll('.answer-cell')[questionIndex];
@@ -1519,34 +1540,32 @@ function handleMcOptionChange(radio) {
   const chosen = radio.value;
   const questionNumber = field.dataset.qnum || String(questionIndex + 1);
 
-  // 標記選擇
-  options.forEach(item => item.classList.remove('selected', 'correct', 'wrong', 'shake'));
-  option.classList.add('selected');
-  const verdict = field.querySelector('.mc-verdict');
-
+  let kind, text;
   if (!correctAnswer) {
-    setVerdict(verdict, 'na', `第${questionNumber}題：已選擇 ${chosen}（本卷無標準答案）`);
-    return;
-  }
-  if (chosen === correctAnswer) {
-    option.classList.add('correct');
+    kind = 'na';
+    text = `第${questionNumber}題：已選擇 ${chosen}（本卷無標準答案）`;
+  } else if (chosen === correctAnswer) {
     if (firstAttempt) {
       practiceCorrect++;
       practiceTotal++;
     }
-    setVerdict(verdict, 'ok', `第${questionNumber}題：答對了 ✓`);
+    kind = 'ok';
+    text = `第${questionNumber}題：答對了 ✓`;
   } else {
-    option.classList.add('wrong', 'shake');
-    // shake 動畫
-    setTimeout(() => option.classList.remove('shake'), 400);
-    // 標示正確答案
-    options.forEach(item => {
-      if (mcLetterOf(item) === correctAnswer) item.classList.add('correct');
-    });
     if (firstAttempt) practiceTotal++;
-    setVerdict(verdict, 'err', `第${questionNumber}題：答錯了，正確答案是 ${correctAnswer}`);
+    kind = 'err';
+    text = `第${questionNumber}題：答錯了，正確答案是 ${correctAnswer}`;
   }
-  if (firstAttempt) updateScoreUI();
+  const state = { chosen, correctAnswer, kind, text };
+  practiceAnswers.set(answerKey, state);
+  document.querySelectorAll('.mc-field').forEach(target => {
+    if (target.dataset.akey === answerKey) renderPracticeAnswer(target, state);
+  });
+  if (kind === 'err') {
+    option.classList.add('shake');
+    setTimeout(() => option.classList.remove('shake'), 400);
+  }
+  if (firstAttempt && correctAnswer) updateScoreUI();
 }
 
 /* === DOMContentLoaded === */
