@@ -1,0 +1,85 @@
+<div class="subject-card" id="y106-30930">
+<div class="subject-header" onclick="toggleCard(this)">
+  <h3>國文（作文、公文與測驗）</h3>
+  <span class="subject-toggle">▼</span>
+</div>
+<div class="subject-body">
+<div class="exam-meta-bar">
+<span class="meta-tag">2 頁</span>
+<span class="meta-tag">選擇題 10 題</span>
+<span class="meta-tag">申論題</span>
+</div>
+<div class="exam-content-v2">
+<div class="exam-metadata">
+<div class="meta-line">106年公務人員特種考試警察人員、一般警察 13110-13710全一張 人員考試及106年特種考試交通事業鐵路 代 號：50110-51310 （正面） 人員、退除役軍人轉任公務人員考試試題考 試 別 ：一般警察人員考試、警察人員考試、鐵路人員考試、退除役軍人轉任公務人員考試等 別 ：三等考試、高員三級考試類 科 別 ：各類科、各類別科 目 ：國文（作文、公文與測驗）考試時間 ： 2 小時 座號：</div>
+</div>
+<div class="exam-note">※注意： 禁止使用電子計算器。</div>
+<div class="exam-section-marker">甲、作文與公文部分：</div>
+<div class="exam-note">㈠請以藍、黑色鋼筆或原子筆在申論試卷上由左至右橫式作答，於本試題上作答者，不予計分。</div>
+<div class="exam-note">㈡不得於試卷上書寫姓名或入場證號。</div>
+<div class="essay-question">一、作文：（60 分）法庭上正進行偷竊案件審理。法官最後詢問：「老婦人！妳為何一再竊取超市的麵包？」老婦哀戚地說：「孫子多日沒吃東西，我身上也沒有錢……。」此後一片沈寂，旁聽席的人都在等待宣判。終於法槌敲下，庭長說：「偷竊屬實，貧窮可憫，依法輕判拘役七日，亦可易科罰金三千。」老婦聞判，低頭不停地哭泣。旁聽席的人都望著庭長。庭長不疾不徐，從身上掏出三千元，請法警帶老婦去結案。從這則故事中，可看到法官既行公義，又富憐憫之心。目前社會上公義與憐憫抉擇兩難的事情也經常發生，請以「公義與憐憫」為題，作文一篇，闡述己見。</div>
+<div class="essay-question">二、公文：（20 分）地球暖化日益嚴重，導致氣候多變，生態亦深受影響。據科學家研究指出，最大禍首是碳過度排放所致。有鑑於此，院長在某次院會中指示速謀因應。試擬行政院致環保署函，請儘速研擬具體措施，力謀改善之道，並於文到三個月函復。</div>
+<div class="exam-section-marker">乙、測驗部分：（20 分） 代號：1301</div>
+<div class="exam-note">㈠本試題為單一選擇題，請選出一個正確或最適當的答案，複選作答者，該題不予計分。</div>
+<div class="exam-note">㈡共10題，每題2分，須用2B鉛筆在試卡上依題號清楚劃記，於本試題或申論試卷上作答者，不予計分。①下列選項中的成語，何者使用錯誤？</div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">做人要懂得感恩，「睚眥必報」，這是最基本的道理</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">你是個好好先生，擁有好人緣，但是容易「姑息養奸」</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">當年一起進公司的同事紛紛被裁員，讓她不免有「物傷其類」的感嘆</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">現代人已經不重視「瓜瓞綿綿、五世其昌」的觀念，你就別再催小倆口了②治天下之道，至公而已爾。公則胡越一家，私則肝膽楚越，此古聖人所以視天下為一家，中國為一人也。（葉子奇《草木子‧克謹》）上文中「肝膽楚越」的意義是：</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">雖近猶遠</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">勾心鬥角</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">推心置腹</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">恤近忽遠③酈道元〈孟門山〉：「此石經始禹鑿，河中漱廣，夾岸崇深，傾崖返捍，巨石臨危，若墜復倚。古之人有言：『水非石鑿，而能入石。』信哉！其中水流交衝，素氣雲浮，往來遙觀者，常若霧露沾人，窺深悸魄。」文中「素氣」所指為何？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">黑色的煙霧</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">灰色的沙塵</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">白色的水氣</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">灰色的霧氣</span></div>
+<div class="exam-metadata">
+<div class="meta-line">106年公務人員特種考試警察人員、一般警察 13110-13710全一張 人員考試及106年特種考試交通事業鐵路 代 號：50110-51310 （背面） 人員、退除役軍人轉任公務人員考試試題考 試 別 ：一般警察人員考試、警察人員考試、鐵路人員考試、退除役軍人轉任公務人員考試等 別 ：三等考試、高員三級考試類 科 別 ：各類科、各類別科 目 ：國文（作文、公文與測驗）④「氣和天惟澄，班坐依遠流。弱湍馳文魴，閑谷矯鳴鷗。迥澤散游目，緬然睇曾丘。」下列選項何者與上引詩句的描寫最為接近？</div>
+</div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">醉莫插花花莫笑，可憐春似人將老</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">子在川上，曰：「逝者如斯夫！不舍晝夜。」</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">當待春中，草木蔓發，春山可望，輕鯈出水，白鷗矯翼</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">獨在異鄉為異客，每逢佳節倍思親。遙知兄弟登高處，遍插茱萸少一人⑤「願意認真去看德州農場報告的人會發現，他們對王建民最主要的診斷──王建民幸運地擁有強大的手臂，光靠手臂力量，他就能投出大聯盟等級的快速球。但這同時也就是他的致命缺點，他不太需要下肢的協助來投球，所以也就從來沒有學會如何善加利用下肢的力量。換句話說，他的手臂天分如果沒那麼高，或許他就不會因為下肢缺乏訓練而受傷、而沉淪了。對我來說，教育的本質，不就是這樣的發掘、建議與協助嗎？」上文所要強調的教育理念是：</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">發展個人長處，適應變化多端的環境</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">發掘受教者真正的長處，積極發揮自我的能力</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">能了解個人的優點、缺點，隨時作適當的調整</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">不要因為一時表現優異而沾沾自喜，稍不留神，危機就來⑥「你坐在船上，應該是游山的態度。看看四周物色，隨處可見的山，岸旁的烏桕，河邊的紅蓼和白蘋，漁舍，各式各樣的橋，困倦的時候睡在艙中拏出隨筆來看；或者冲一碗清茶喝喝。」本段文字旨在強調：</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">知情識趣</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">參觀博覽</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">閒情逸致</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">林下風致⑦有時主人方在用飯，而高軒賁止，便不能不效周公之「一飯三吐哺」，但是來客並無歸心，只好等送客出門之後再補充些殘羹賸飯，有時主人已經就枕，而不能不倒屐相迎。從文意中可看出主人：</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">不厭其煩</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">禮賢下士</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">勞於公務</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">不勝其擾⑧「近年，吾兒忽然問我：『爸爸，我是那裏人？』這問題，竟爾難以回答。我出生於 J 縣，在那兒過了窮苦而快樂的童年。然後，搬到繁華得讓人窒息的 T 城，讀書、工作、娶妻、生子，耗了三十多年，至少遷移七、八次家。如今，攜著妻兒，告別 T 城，又落籍在人們視為偏遠的 H 縣。我是那裏人？吾兒的疑惑，能如何解答！什麼都不明確。」下列那一選項最能契合作者的心境？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">榮辱譽非那復問，無何有處是吾鄉</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">地勝人高多樂事，須知洵美是吾鄉</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">極目雲山疑歸路，悠悠何處是吾鄉</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">更倩漁郎問樵徑，深山深處是吾鄉⑨「簡樸的生活、規律的作息、適當的運動、清淡的飲食。千百年來，這套養生哲學是最佳途徑。不過，我忍不住想加一句：自在以當壽。人生如登山健行，不停地數算自己走了幾里路，有何意義？登山不是為了算里程，是為了遊興；一個人入世，不是為了活幾歲，是為了驗收自己成為什麼樣的人。」文中作者賦予「養生」何種意義？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">身體健康的持盈保泰</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">理解個人能力的有限</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">確認自我生命的價值</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">勇敢面對衰老的挑戰⑩下列對聯，何者組合正確？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">洞悉古今物，暢談中外事</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">藏古今學術，聚天地精華</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">門牆多古意，安居德是鄰</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">擇里仁為美，家世重儒風</span></div>
+</div>
+<div class="answer-section">
+<h4 class="answer-title">📋 標準答案</h4>
+<div class="answer-grid">
+<div class="answer-cell"><span class="q-num">1</span><span class="q-ans">A</span></div>
+<div class="answer-cell"><span class="q-num">2</span><span class="q-ans">A</span></div>
+<div class="answer-cell"><span class="q-num">3</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">4</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">5</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">6</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">7</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">8</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">9</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">10</span><span class="q-ans">B</span></div>
+</div>
+</div>
+</div>
+</div>

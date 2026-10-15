@@ -1,0 +1,33 @@
+<div class="subject-card" id="y109-92248">
+<div class="subject-header" onclick="toggleCard(this)">
+  <h3>電腦犯罪偵查</h3>
+  <span class="subject-toggle">▼</span>
+</div>
+<div class="subject-body">
+<div class="exam-meta-bar">
+<span class="meta-tag">1 頁</span>
+<span class="meta-tag">申論題</span>
+</div>
+<div class="exam-content-v2">
+<div class="exam-metadata">
+<div class="meta-line">一般警察人員考試及109年特種考試交 通 事 業 鐵 路 人 員 考 試 試 題 考 試 別：警察人員考試 等 別：三等考試 類 科 別：警察資訊管理人員 科 目：電腦犯罪偵查 考試時間：2 小時 座號：</div>
+</div>
+<div class="exam-note">※注意：㈠禁止使用電子計算器。</div>
+<div class="exam-note">㈡不必抄題，作答時請將試題題號及答案依照順序寫在試卷上，於本試題上作答者，不予計分。</div>
+<div class="exam-note">㈢本科目除專門名詞或數理公式外，應使用本國文字作答。</div>
+<div class="essay-question">一、請根據我國刑法回答下列問題：</div>
+<div class="exam-note">㈠請條列說明妨害電腦使用罪之行為並註記那些屬告訴乃論。（20 分）</div>
+<div class="exam-note">㈡承上題，那些行為之對象為公務機關之電腦或其相關設備時，加重其刑，又加重之程度為何？（5 分）</div>
+<div class="essay-question">二、請依個人資料保護法回答下列問題：</div>
+<div class="exam-note">㈠公務機關對個人資料之蒐集或處理，除法律明文規定外，應有特定目的，並符合那些可能情形之一。（6 分）</div>
+<div class="exam-note">㈡公務機關對個人資料之利用，除法律明文規定外，應於執行法定職務必要範圍內為之，並與蒐集之特定目的相符。但有那些情形之一者，得為特定目的外之利用。（19 分）</div>
+<div class="essay-question">三、請根據政府機關（構）資安事件數位證據保全標準作業程序，說明數位證據封緘作業。（25 分）</div>
+<div class="essay-question">四、請解釋說明下列 OWASP 公告之網站安全弱點。（每小題 5 分，共 25 分）</div>
+<div class="exam-note">㈠ Security Misconfiguration</div>
+<div class="exam-note">㈡ Cross-Site Scripting</div>
+<div class="exam-note">㈢ Insecure Deserialization</div>
+<div class="exam-note">㈣ Injection Flaws</div>
+<div class="exam-note">㈤ Broken Authentication</div>
+</div>
+</div>
+</div>

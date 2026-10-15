@@ -1,0 +1,24 @@
+<div class="subject-card" id="y109-89699">
+<div class="subject-header" onclick="toggleCard(this)">
+  <h3>警政資訊管理與應用</h3>
+  <span class="subject-toggle">▼</span>
+</div>
+<div class="subject-body">
+<div class="exam-meta-bar">
+<span class="meta-tag">1 頁</span>
+<span class="meta-tag">申論題</span>
+</div>
+<div class="exam-content-v2">
+<div class="exam-metadata">
+<div class="meta-line">一般警察人員考試及109年特種考試交 通 事 業 鐵 路 人 員 考 試 試 題 考 試 別：警察人員考試 等 別：三等考試 類 科 別：警察資訊管理人員 科 目：警政資訊管理與應用 考試時間：2 小時 座號：</div>
+</div>
+<div class="exam-note">※注意：㈠禁止使用電子計算器。</div>
+<div class="exam-note">㈡不必抄題，作答時請將試題題號及答案依照順序寫在試卷上，於本試題上作答者，不予計分。</div>
+<div class="exam-note">㈢本科目除專門名詞或數理公式外，應使用本國文字作答。</div>
+<div class="essay-question">一、請說明如何利用目前的警政資訊系統，來找出犯罪地點及時間的熱點。（12 分）並說明目前的警政資訊系統，關於犯罪熱點搜尋及預測，有那些改進的空間，以再強化治安。（13 分）</div>
+<div class="essay-question">二、請說明如何利用資通訊的技術來達成機動派出所的目標？（12 分）要達成機動派出所目標，相關的警政資訊系統或是警政作業程序，該如何來修正或整合？（13 分）</div>
+<div class="essay-question">三、近年來網路科技詐騙犯罪形態與種類越來越多，你覺得常見的網路科技詐騙犯罪有那些？（12 分）並說明目前警政資訊系統有那些功能必須修正或增加，得以強化網路科技詐騙犯罪偵查的工作。（13 分）</div>
+<div class="essay-question">四、請說明目前警政資訊系統資料庫及網路，如何抵擋來自駭客及病毒的攻擊？（12 分）並說明如何在有限的資源及經費限制下，分階段進行那些網管設備及資通訊技術的採購，以強化警政資訊系統資料庫及網路的安全性。（13 分）</div>
+</div>
+</div>
+</div>

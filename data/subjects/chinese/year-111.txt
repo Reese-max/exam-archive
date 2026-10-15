@@ -1,0 +1,92 @@
+<div class="subject-card" id="y111-30930">
+<div class="subject-header" onclick="toggleCard(this)">
+  <h3>國文（作文、公文與測驗）</h3>
+  <span class="subject-toggle">▼</span>
+</div>
+<div class="subject-body">
+<div class="exam-meta-bar">
+<span class="meta-tag">4 頁</span>
+<span class="meta-tag">選擇題 10 題</span>
+</div>
+<div class="exam-content-v2">
+<div class="exam-metadata">
+<div class="meta-line">111年公務人員特種考試警察人員、一般警察人員、國家安全局國家安全情報人員考試及111年特種考試交通事業鐵路人員考試試題 考 試 別：一般警察人員考試、警察人員考試、鐵路人員考試、國家安全情報人員考試 等 別：三等考試、高員三級考試 類科組別：各類別、各類科、各組別 科 目：國文（作文、公文與測驗） 考試時間：2 小時 座號：</div>
+</div>
+<div class="exam-note">※注意：禁止使用電子計算器。</div>
+<div class="exam-section-marker">甲、申論部分：（60分）</div>
+<div class="exam-section-marker">甲、作文與公文部分：</div>
+<div class="exam-note">㈠請以藍、黑色鋼筆或原子筆在申論試卷上由左至右橫式作答，於本試題上作答者，不予計分。</div>
+<div class="exam-note">㈡不得於試卷上書寫姓名或座號。</div>
+<div class="essay-question">一、作文：（60 分）現代教育觀念非常強調跨領域學習。有一篇關於「不被未來世界淘汰」的報導提到：「未來人才會被期待要懂多個領域，並有綜整專業知識的能力。」甚至還強調「學什麼不重要，重點是想學」。請以「多元學習與專業素養」為題，作文一篇，具體說明自己對於未來工作的期望，以及此時此刻，最想學的知識或技術是什麼？對於提升專業素養有何助益？</div>
+<div class="essay-question">二、公文：（20 分）教育部國民及學前教育署將於 111 年 8 月 6 日（星期六），假國立臺灣師範大學綜合大樓國際會議廳舉辦「111 學年度精進線上教學中學種子教師研習」，並已訂定實施計畫。試擬教育部國民及學前教育署致各直轄市、縣（市）政府教育局、處函：檢送實施計畫，薦派所屬各級中學種子教師出席，並給予出席者公（差）假及課務調整；報名網址：https://○○○，111 年 7 月 22日（星期五）截止報名。</div>
+<div class="exam-section-marker">乙、測驗部分：（20 分） 代號：1301</div>
+<div class="exam-note">㈠本測驗試題為單一選擇題，請選出一個正確或最適當的答案，複選作答者，該題不予計分。</div>
+<div class="exam-note">㈡共10題，每題2分，須用2B鉛筆在試卡上依題號清楚劃記，於本試題或申論試卷上作答者，不予計分。</div>
+<div class="mc-question"><span class="q-number">1</span><span class="q-text">「美國職棒選手有一句代代相傳的名言：『每一年，每支球隊要打一百六十二場。你注定輸五十四場，注定贏五十四場。大家在拼的，其實是那剩下的五十四場。』」根據上文，下列選項最符合旨意的是：</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">人生的成功，是從失敗中學習</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">成功的關鍵，在於最後的努力</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">輸贏成敗是冥冥之中早已注定的</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">追求成功當盡力掌握三分之一機率</span></div>
+<div class="mc-question"><span class="q-number">2</span><span class="q-text">「如果說求知是人類的天性，那麼探索宇宙人生的奧祕也應可說是深藏於人性內裡的精神欲求。此一充滿智性的欲求便是『哲學』發生的根源——至少是所謂『主體性』的根源，它讓哲學思考得以生根茁壯，伸展枝葉花菓於生活世界之中。」關於哲學的功能，根據上文意旨，下列選項何者最適切？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">提升科技</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">促進經濟</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">融入生活</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">實現夢想</span></div>
+<div class="mc-question"><span class="q-number">3</span><span class="q-text">「如果照一般作文的寫法：先敘述某個事件、這個事件給了什麼啟發、我的觀點是……，先不說演講時間夠不夠長，聽眾恐怕要先睡著了。除非你做的是故事性的演講，否則可以試著改為：我的觀點是、我為什麼有這樣的觀點，聽眾會順著你的脈絡思考，更有助於他們理解演講內容。」根據上文，作者認為好的演講應該：</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">在有限時間內呈現最多內容</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">讓聽眾改變觀察事物的角度</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">以開門見山的方式切進主題</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">善用寫作文的技巧引人入勝</span></div>
+<div class="mc-question"><span class="q-number">4</span><span class="q-text">「在宣達公文前，先設身處地想到同仁們可能會出現的各種反應，並且將反對問題一一做回答。如果同仁的疑問是我未想到且無法立即回答的，我會告訴對方：『這個問題很好，我會先問過公司之後，再回答你。』假如主管對公司政策有想法，也不宜在夥伴面前批評，最好的方式就是自己與公司相關人員請教或溝通，讓事情達到雙贏的效果。」根據上文，下列選項何者正確？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">對公司政策有意見時應與相關人員討論溝通</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">對公司政策有意見應該與屬下一起檢討批評</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">宣達公文的人應該要為政策辯護，不宜存有懷疑之心</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">執行公司政策應該要有魄力，不須考慮下屬的心情想法</span></div>
+<div class="mc-question"><span class="q-number">5</span><span class="q-text">「這次的自然觀察創作，幾近科學紀錄的敘述，反而離文學的本質較遠了。科學紀錄的冗長、枯燥無味，對一個喜愛講求詩般文字精鍊度的創作者，無疑是相當殘忍的煎熬。我常被自己呆板而模式化的文字敘事方式，感到怒不可遏，又時而情緒沮喪到了極點。但我亦無奈地深知，這種重複而呆滯的文字敘述是必須的，唯有透過這般自然寫作的紀錄，生態習性的知識才能清楚而準確的表達。」根據上文，下列何者是作者最關心的重點？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">純文學寫作和自然寫作的表現差異問題</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">自己未來應該如何面對自然寫作的問題</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">自己想要從事純文學或自然寫作的問題</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">自然寫作存在的變數該如何控制的問題</span></div>
+<div class="mc-question"><span class="q-number">6</span><span class="q-text">「我說：『我們這一行有些人嘴巴又毒又刁，他吃妳炒的菜時會說：嗯，文章寫得好，菜不見得燒得好；他看妳的文章時又會說：嗯，菜燒得好，文章不見得寫得好。』她不表贊同，說起善廚的老師們不僅不減地位崇隆，反而更添美事。我說：『學術與文壇是兩個江湖，你們那裡文明些，吵起架來，大概丟一兩根粉筆就算是嚴重衝突了。我們這邊不一樣，多的是帶箭的夜行人，你要是得罪人，背部中的箭，大概夠你編成籬笆了。』」下列敘述，何者最符合文中「我」的看法？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">文壇作家大多說一口好菜而拙於燒菜</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">善於燒菜的學界教師常獲得崇隆地位</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">文人相輕常使作家彼此不假辭色貶損</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">學術圈若有煙硝味可能比文壇清淡些</span></div>
+<div class="mc-question"><span class="q-number">7</span><span class="q-text">「一旦我離開鄉土，故鄉和他鄉一樣，都是『距離』以外的東西，都成了比較和思考的對象：既流動（可以批評），又恆定（可以鄉愁）。我變成了他者，也就是局外人。只有在這局外人的意義上，我在漂流。永遠以外來者的眼光衡量一切，永遠處於比較和批判的角色，不管是對母文化還是他文化。」根據上文，下列選項最接近本文意旨的是：</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">離鄉越久越遠，更能深刻感受鄉愁</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">角色變換，對照故鄉與他鄉，體認二者差異</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">在流動與比較過程中，應飲水思源，切忌忘本</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">國際化交流為當今無可避免之現象，須時時反思</span></div>
+<div class="mc-question"><span class="q-number">8</span><span class="q-text">「所謂『意』，實在是兼容了多重暗示性的紋緒；也許，我們可以參照『愁緒』、『思緒』的用法，引申為『意緒』，都是指可感而不可盡言的情況與狀態。『意』是指作者用以發散出多重思緒或情緒、讀者得進以體驗這些思緒或情緒的美感活動領域。這個領域，要用語言去『存真』，必須在活動上『近似』詩人觀、感事物時未加概念前的實際狀況，因而中國傳統批評中亦強調『如在目前』。」下列選項，何者最符合本文意旨？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">意緒可感不可盡言故作詩必須意在言先</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">語言可以確實呈現情感意象的實際狀況</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">詩是詩人以概念化語言呈現意象的結果</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">任何眼前意象必然引發人們的美感活動</span></div>
+<div class="mc-question"><span class="q-number">9</span><span class="q-text">「牠們對擠著兜圈子，露出牙齒急如閃電互相撕咬。只見年輕的狼腳步一亂，那隻大老狼已經騎到牠身上。就在這時，令人難以置信的事發生了。這一圈灰色的身體忽然靜止下來，牠們肩併著肩，頭朝同一方向，生硬而緊張的站在一起。老狼的嘴離年輕狼的頸子非常的近，後者的頸彎幾乎就在敵手的口邊！看起來就像落敗者故意讓對方一口咬死自己！但是這種情形並沒有發生。直到今天，人類的禮節還留下許多示弱的表情和訊號，鞠躬、脫帽、軍禮裡的獻槍等都是。如果古時的記載屬實，哀求的舉動似乎並不能引起勝利者的同情，希臘詩人荷馬筆下的英雄，絕對不比狼群心軟！詩人舉出數不清的乞憐者遭受屠戮的例子，北歐的傳說也載滿了告饒無效的證明。幾乎直到騎士時代，才有『不殺降者』的觀念，就動機而言，那些基督武士的俠義作風完全是基於傳統和宗教上的理由，與狼群與生俱有的禁忌不同。然而動物界這種與生俱來的本能禁忌，只有功能上可以拿來與人類的社會道德相比，頂多也只能算是社會道德的前驅而已。凡是研究比較行為學的人應當注意，不要隨便拿道德律法衡量動物的行為。」根據上文，狼群爭鬥時，勝利者不咬死臣服的落敗者的原因是：</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">道德觀念的規範</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">不殺同類的本能</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">面對求饒而心軟</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">惺惺相惜而不忍</span></div>
+<div class="mc-question"><span class="q-number">10</span><span class="q-text">承上題，下列敘述最符合上文旨意的是：</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">荷馬史詩中的英雄對待落敗敵手的模式，與狼相同</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">騎士不殺降者的觀念，源於希臘的哲學傳統與宗教</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">動物的特定行為雖功能與人類道德相近，但不宜輕易類比看待</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">禮節中種種示弱的表情和訊號，說明人始終處於被噬的恐懼中</span></div>
+</div>
+<div class="answer-section">
+<h4 class="answer-title">📋 標準答案</h4>
+<div class="answer-grid">
+<div class="answer-cell"><span class="q-num">1</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">2</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">3</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">4</span><span class="q-ans">A</span></div>
+<div class="answer-cell"><span class="q-num">5</span><span class="q-ans">B</span></div>
+<div class="answer-cell"><span class="q-num">6</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">7</span><span class="q-ans">B</span></div>
+<div class="answer-cell"><span class="q-num">8</span><span class="q-ans">A</span></div>
+<div class="answer-cell"><span class="q-num">9</span><span class="q-ans">B</span></div>
+<div class="answer-cell"><span class="q-num">10</span><span class="q-ans">C</span></div>
+</div>
+</div>
+</div>
+</div>

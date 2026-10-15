@@ -1,0 +1,30 @@
+<div class="subject-card" id="y105-92248">
+<div class="subject-header" onclick="toggleCard(this)">
+  <h3>電腦犯罪偵查</h3>
+  <span class="subject-toggle">▼</span>
+</div>
+<div class="subject-body">
+<div class="exam-meta-bar">
+<span class="meta-tag">1 頁</span>
+<span class="meta-tag">申論題</span>
+</div>
+<div class="exam-content-v2">
+<div class="exam-metadata">
+<div class="meta-line">105年公務人員特種考試警察人員、一般警察人員代 號：50860 全一頁 考試及105年特種考試交通事業鐵路人員考試試題 考 試 別： 警察人員考試 等 別： 三等考試 類 科 別： 警察資訊管理人員 科 目： 電腦犯罪偵查考試時間 ： 2 小時 座號：</div>
+</div>
+<div class="exam-note">※注意： ㈠禁止使用電子計算器。</div>
+<div class="exam-note">㈡不必抄題，作答時請將試題題號及答案依照順序寫在試卷上，於本試題上作答者，不予計分。</div>
+<div class="essay-question">一、網路犯罪往往有跨越國家疆界的特性。請回答下列問題：</div>
+<div class="exam-note">㈠何謂「跨境網路犯罪」？（8 分）</div>
+<div class="exam-note">㈡跨境網路犯罪對犯罪偵查上產生那些挑戰？（8 分）</div>
+<div class="exam-note">㈢請以跨境網路詐欺為例，就偵查對象、偵查手段、偵查結果和偵查結束時對案件之處理等方面，闡述跨境網路犯罪偵查必須對一般國內電腦詐欺犯罪偵查作何種必要之延伸。（9 分）</div>
+<div class="essay-question">二、警察機關在過去已經累積了大量的治安及犯罪資料，而今巨量資料分析（Big Data Analytics）技術已臻成熟，可以用於犯罪偵查之上。</div>
+<div class="exam-note">㈠請舉兩個在電腦犯罪偵查上的可能應用，並作必要之說明。（12 分）</div>
+<div class="exam-note">㈡巨量資料分析雖可運用在犯罪偵查上，但是必須遵守一些原則，才能使偵查行為符合法律規定（Regulatory Compliance）。請舉兩個在電腦犯罪偵查上應守之原則，並作必要之說明。（13 分）</div>
+<div class="essay-question">三、在智慧型手機上進行數位證物蒐集，依照所採集的檔案資料可以區分為邏輯萃取（Logical Acquisition）和實體萃取（Physical Acquisition）兩者，請描述其方法，並說明其在偵查實務上之應用。（25 分）</div>
+<div class="essay-question">四、Cookie 是協助使用者瀏覽網頁的一個工具，請回答下列問題：</div>
+<div class="exam-note">㈠何謂 HTTP Cookie？它的功用為何？Cookies 對資訊安全有何影響？（12 分）</div>
+<div class="exam-note">㈡請問偵查人員可以如何利用 Cookies 來協助犯罪之偵查？（13 分）</div>
+</div>
+</div>
+</div>

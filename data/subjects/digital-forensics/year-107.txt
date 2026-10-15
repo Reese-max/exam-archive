@@ -1,0 +1,33 @@
+<div class="subject-card" id="y107-66628">
+<div class="subject-header" onclick="toggleCard(this)">
+  <h3>數位鑑識執法</h3>
+  <span class="subject-toggle">▼</span>
+</div>
+<div class="subject-body">
+<div class="exam-meta-bar">
+<span class="meta-tag">1 頁</span>
+<span class="meta-tag">申論題</span>
+</div>
+<div class="exam-content-v2">
+<div class="exam-metadata">
+<div class="meta-line">107年公務人員特種考試警察人員、一般警察人員考試及107年特 種 考 試 交 通 事 業 鐵 路 人 員 考 試 試 題 考 試 別： 警察人員考試 等 別： 三等考試 類 科 別： 警察資訊管理人員 科 目： 數位鑑識執法考試時間 ： 2 小時 座號：</div>
+</div>
+<div class="exam-note">※注意： ㈠禁止使用電子計算器。</div>
+<div class="exam-note">㈡不必抄題，作答時請將試題題號及答案依照順序寫在試卷上，於本試題上作答者，不予計分。</div>
+<div class="exam-note">㈢本科目除專門名詞或數理公式外，應使用本國文字作答。</div>
+<div class="essay-question">一、請說明下列數位證據相關名詞之意涵：（每小題 5 分，共 25 分）</div>
+<div class="exam-note">㈠Locard’s exchange principle</div>
+<div class="exam-note">㈡Bit stream copy</div>
+<div class="exam-note">㈢Write blocking device（Write blocker）</div>
+<div class="exam-note">㈣File slack space</div>
+<div class="exam-note">㈤Chain of custody</div>
+<div class="essay-question">二、有關於數位鑑識中的數位證據識別與保存，請問：</div>
+<div class="exam-note">㈠何謂「易揮發證據（Volatile evidence）」？請以最常見的 Windows 作業系統為例，列舉易揮發證據並說明其在犯罪偵查上的可能用途。（15 分）</div>
+<div class="exam-note">㈡根據我國政府機關（構）資安事件數位證據保全標準作業程序之規定，於數據封緘作業時有那些程序需遵守？（10 分）</div>
+<div class="essay-question">三、數位鑑識工作中包括現場重建（reconstruction of crime）步驟，請問：</div>
+<div class="exam-note">㈠此步驟的內容與目的為何？（10 分）</div>
+<div class="exam-note">㈡現場重建後的報告中，通常會做Timeline analysis，Relational analysis以及Functional analysis 三種分析報告，請舉例說明此三份分析報告的意涵。（15 分）</div>
+<div class="essay-question">四、假設在犯罪現場查扣一台筆電與一個 USB 介面之外接式硬碟，初步檢查發現此外接式硬碟內容含有犯罪證據，而筆電內沒有犯罪證據。因查扣當時該硬碟並未連接筆電，所以某甲雖承認該筆電是他所有，但推說硬碟是行蹤不明的某乙所有，且該硬碟從未連上筆電，以此主張他和犯罪事件無關。面對某甲陳述，請問你會採用那些數位鑑識步驟來證明某甲所述為非？（假設筆電使用 Windows 作業系統。回答本題時請說明該擷取那些證據，使用那些工具以及採取那些步驟。）（25 分）</div>
+</div>
+</div>
+</div>

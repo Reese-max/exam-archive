@@ -1,82 +1,137 @@
-# exam-archive
+# 資管系考古題總覽 — exam-archive
 
-> **A single static HTML page that ships a public-domain exam / past-paper archive.**
-> Repo is short on purpose: one `index.html`, GitHub Pages workflow, audit history.
-> It is **not** superseded by any other repo — this **is** the canonical artifact.
-
-## What this is
-
-- A static `index.html` (currently ~1.35 MB) that renders the archive as a
-  single long page (sections per year + category). No JavaScript
-  framework, no build step.
-- A GitHub Pages deployment workflow under `.github/workflows/`.
-- An audit-history directory at `docs/audits/`.
-
-## What this is NOT
-
-- Not an interactive web app. There is no SPA, no router, no runtime data fetch.
-- Not superseded by `police-exam-archive` or `police-exam-practice`. Those
-  are sibling repos with different product shapes (interactive practice,
-  separate topic layout). If you are looking for an interactively
-  answerable question bank, go to those, **not** here.
-- Not a CDN / mirror. There is one canonical copy: this repo's `main` branch.
+Static archive of 警察特考三等資訊管理組 (Police Special Examination, Level 3,
+Information Management) past papers: ROC years 105–114, 7 subjects, 70 papers,
+126 referenced PDFs, ~4,700 questions with answers.
 
 ## Status
 
-| Asset | Source | State |
-|-------|--------|-------|
-| Content | Embedded inside `index.html` | Generated from upstream by hand / script — provenance chain documented below |
-| Layout | Embedded inside `index.html` | Hand-curated, no build step |
-| Deployment | `.github/workflows/` → GitHub Pages | Automated on push to `main` |
+**Active and maintained.** This repository is the source of truth for the
+archive and is **not superseded** by any other repository. If that ever changes,
+this section becomes the redirect notice.
 
-The 1.35 MB monolithic `index.html` is the audit's known concern.
-**Splitting it into per-year / per-category chunks with lazy-loading is
-a follow-up engineering task** that the audit tracked as a separate
-item; it is **not** done in this README PR. The audit's PR-1 acceptance
-criteria are partially addressed below.
+## What this is NOT
 
-## What is acknowledged as **not yet done**
+- Not a CDN / mirror. There is one canonical copy: this repo's `main` branch.
+- Not superseded by `police-exam-archive` or `police-exam-practice`. Those are
+  sibling repos with different product shapes; see the repo map below.
 
-1. **Per-year / per-category lazy-loading chunks.** The monolithic
-   payload remains. A split would require either a build step
-   (added complexity for no current user-reported need) or hand-splitting
-   per section (large diff). The audit accepted either; this README PR
-   chooses the *document-the-state* arm and leaves the split as an
-   engineering work item for the same re-audit round.
-2. **Build step for reproducible regeneration.** The current
-   `index.html` is updated by hand against an upstream paste / mirror
-   of the archive. If a future maintainer wants reproducible
-   generation, a separate PR can introduce a small script
-   (e.g. `build.py`) plus a `.github/workflows/release.yml`.
-3. **Payload budgets.** Until #1 lands, there is no asset to budget
-   against; this README is the only file that is small.
+## Canonical public URL
 
-## Provenance
+<https://reese-max.github.io/exam-archive/> — deployed from the repo root by
+`.github/workflows/pages.yml` (GitHub Pages).
 
-| Source | Where it comes from |
-|--------|---------------------|
-| Past-paper content | Authoritative source external to this repo; reconciled into `index.html` per the audit round. The exact reconciliation process is recorded in `docs/audits/`. |
-| Layout / typography | Hand-edited alongside content updates; `git log` shows the change history. |
+## Repository contract
 
-## Local viewing
+| Path | Role | Rule |
+|---|---|---|
+| `index.html` | Generated deployable shell with year placeholders | Never hand-edit; rebuild it |
+| `src/index.template.txt` | Page shell (markup, CSS, JS) with `<!--ARCHIVE-DATA:year-NNN-->` seams | Edit for shell/UI changes |
+| `src/archive-loader.js` | Dependency-free runtime loader and keyboard search shortcuts | Edit for asset loading behavior |
+| `data/year-NNN.txt` | Canonical per-year archive sections (HTML fragments, LF), ROC 114→105 | Edit for content changes |
+| `data/subjects/{slug}/year-NNN.txt` | Generated category/year card fragments | Rebuilt from the canonical year sources |
+| `tests/rebuild_index.py` | Build step | Writes or verifies the shell and category assets |
+| `tests/test_archive_contract.py`, `tests/archive_loader.test.mjs` | Executable contract | Budgets, reproducibility, request scopes, keyboard behavior |
+
+### Build
+
+```bash
+python3 tests/rebuild_index.py           # regenerate index.html and category assets
+python3 tests/rebuild_index.py --check   # verify generated files match sources
+```
+
+Sources and category assets are stored LF; the build emits CRLF for
+`index.html`, matching the committed artifact's convention. The build is
+deterministic and byte-exact: `tests/` verifies it.
+
+### Test
+
+```bash
+python3 -m pip install -r requirements.txt
+python3 -m pytest -q
+```
+
+CI (`.github/workflows/test.yml`) runs the Python contract suite, dependency-free
+Node loader tests, the rebuild check, and a separate Chromium browser smoke on
+every push to `main` and every pull request. To run the browser checks locally:
+
+```bash
+python3 -m pip install -r requirements-browser.txt
+python3 -m playwright install chromium
+python3 tests/browser_smoke.py
+```
+
+The five browser journeys verify first-load year scoping, keyboard search and
+question expansion, mobile navigation, selected-subject loading, and reflow at
+640 CSS pixels (the effective width of a 1280-pixel viewport at 200% zoom).
+They serve the generated site on loopback and block optional external fonts.
+
+### Local viewing
 
 ```bash
 python -m http.server 8765
 # open http://localhost:8765/
 ```
 
-(1.35 MB loads fast on a desktop browser; mobile / slow-network users
-should expect ~1-2 second parse delay — acknowledged limitation, not
-blocking.)
+## Data provenance
 
-## Local setup
+Content was compiled from publicly released 考選部 police special-examination
+papers and embedded as HTML sections. The audits that produced this split live
+in `docs/audits/` and `.github/quality-audits/`; the originating protocol is
+`Reese-max/autodev-ng/docs/portfolio-audit/2026-09-06-50-persona-audit.md`.
 
-No dependencies. No build. The "build" is a one-shot save of `index.html`.
+## Payload budgets (enforced by tests)
+
+- generated `index.html` ≤ 120,000 bytes; the archive questions are not embedded
+- shell template plus `src/archive-loader.js` ≤ 120,000 bytes
+- per-year chunk ≤ 160,000 bytes
+- total generated category/year fragments ≤ 1,400,000 bytes; selecting one
+  subject fetches only its fragments, while the year source remains canonical
+
+## Roadmap / known gaps
+
+The per-year / per-category lazy-loading split, the reproducible build step,
+and the payload budgets previously tracked as open audit items have landed and
+are enforced by the contract suite above. Still outstanding:
+
+- The first page request contains only the shell and loader. It fetches year
+  114 so the first archive result is usable; other years load when their
+  navigation, hash link, or year filter is opened.
+- Subject view fetches only the selected subject's per-year fragments. A
+  search without a year or subject filter loads all year chunks when the query
+  is submitted so result counts remain complete.
+- Category fragments are generated from `data/year-NNN.txt`; never edit those
+  derived files directly. The Node checks use the built-in test runner and do
+  not require a package manager or third-party JavaScript dependencies.
+- Automated Chromium tests run against the candidate's local static server.
+  Deployed Pages, physical-device zoom, and human screen-reader acceptance
+  remain outstanding; equivalent-width reflow is not a device zoom receipt.
+
+## Practice accessibility
+
+Multiple-choice questions use native radio groups with question legends, visible
+keyboard focus, and polite live result announcements. Only the first attempt per
+source question counts toward the score, including when switching between year
+and subject views. Both views share the latest selection and answer feedback,
+including when a subject view is rebuilt or a year is loaded later. Reset clears
+the score, selections and saved feedback. Lazy-loaded years and
+subjects receive the same enhancement; inactive practice controls are disabled.
+
+Run the keyboard, accessibility-tree and scoring regression cases using:
+
+```bash
+python3 -m pip install -r requirements.txt -r requirements-browser.txt
+python3 -m playwright install chromium
+python3 -m pytest tests/test_practice_a11y.py -q
+```
+
+These Chromium checks do not replace a human screen-reader check on the deployed
+site. That acceptance layer remains outstanding.
 
 ## Secrets & data hygiene
 
-- **No secrets** in this repository. There is no `.env` and no CI
-  workflow that needs one.
+- **No secrets** in this repository. There is no `.env` and no CI workflow that
+  needs one.
 - **No PII**. Past-paper content is by definition not PII.
 - Public-only content. If a non-public exam item is discovered during
   reconciliation, delete the corresponding section before committing.
@@ -88,8 +143,8 @@ by the maintainers. PRs:
 
 - Must cite the upstream source in the commit body when adding / updating
   content.
-- Must **not** introduce a build system without first reopening this
-  README.
+- Must change the generated `index.html` only through
+  `tests/rebuild_index.py`, never by hand-editing the artifact.
 - Must respect the policy in `docs/audits/`.
 - Must pass Pages deployment cleanly (i.e. the Pages workflow must stay
   green post-merge).
@@ -98,7 +153,7 @@ by the maintainers. PRs:
 
 | Repo | What it is |
 |------|-----------|
-| `Reese-max/exam-archive` (this) | Static long-page archive of past papers. Read-only consumption. |
+| `Reese-max/exam-archive` (this) | Static archive of past papers with lazy-loaded year/subject views and practice scoring. |
 | `Reese-max/police-exam-archive` | Earlier / different layout for similar content; consult its README to decide whether to redirect here. |
 | `Reese-max/police-exam-practice` | Interactive answering practice for the same content; different product shape. |
 

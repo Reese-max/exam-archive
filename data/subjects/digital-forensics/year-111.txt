@@ -1,0 +1,28 @@
+<div class="subject-card" id="y111-66628">
+<div class="subject-header" onclick="toggleCard(this)">
+  <h3>數位鑑識執法</h3>
+  <span class="subject-toggle">▼</span>
+</div>
+<div class="subject-body">
+<div class="exam-meta-bar">
+<span class="meta-tag">1 頁</span>
+<span class="meta-tag">申論題</span>
+</div>
+<div class="exam-content-v2">
+<div class="exam-metadata">
+<div class="meta-line">安全情報人員考試及111年特種考試交通事業鐵路人員考試試題 考 試 別：警察人員考試 等 別：三等考試 類科組別：警察資訊管理人員 科 目：數位鑑識執法 考試時間：2 小時 座號：</div>
+</div>
+<div class="exam-note">※注意：㈠禁止使用電子計算器。</div>
+<div class="exam-note">㈡不必抄題，作答時請將試題題號及答案依照順序寫在試卷上，於本試題上作答者，不予計分。</div>
+<div class="exam-note">㈢本科目除專門名詞或數理公式外，應使用本國文字作答。</div>
+<div class="essay-question">一、請說明依循 ISO/IEC 27037 標準來進行數位鑑識的目的為何？（30 分）</div>
+<div class="essay-question">二、請定義在數位鑑識執行過程中「再現性或可重現性（Reproducibility）」為何？並請舉例說明之。（20 分）</div>
+<div class="essay-question">三、試詳述雜湊函數（HF：Hash Function）與訊息鑑別碼（MAC：Message Authentication Code）之異同。（20 分）</div>
+<div class="essay-question">四、請試述下列數位證據相關名詞之意涵。（每小題 5 分，共 15 分）</div>
+<div class="exam-note">㈠ DEFR（Digital Evidence First Responder）</div>
+<div class="exam-note">㈡ DES（Digital Evidence Specialist）</div>
+<div class="exam-note">㈢ Digital Forensic Analyst</div>
+<div class="essay-question">五、請列出 ISO/IEC 27037 中規範「數位證據處理」的三個基本需求為何？（15 分）</div>
+</div>
+</div>
+</div>

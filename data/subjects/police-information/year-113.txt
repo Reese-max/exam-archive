@@ -1,0 +1,24 @@
+<div class="subject-card" id="y113-89699">
+<div class="subject-header" onclick="toggleCard(this)">
+  <h3>警政資訊管理與應用</h3>
+  <span class="subject-toggle">▼</span>
+</div>
+<div class="subject-body">
+<div class="exam-meta-bar">
+<span class="meta-tag">1 頁</span>
+<span class="meta-tag">申論題</span>
+</div>
+<div class="exam-content-v2">
+<div class="exam-metadata">
+<div class="meta-line">國家安全局國家安全情報人員及移民行政人員考試試題 考 試 別：警察人員考試 等 別：三等考試 類科組別：警察資訊管理人員 科 目：警政資訊管理與應用 考試時間：2 小時 座號：</div>
+</div>
+<div class="exam-note">※注意：㈠禁止使用電子計算器。</div>
+<div class="exam-note">㈡不必抄題，作答時請將試題題號及答案依照順序寫在試卷上，於本試題上作答者，不予計分。</div>
+<div class="exam-note">㈢本科目得以本國文字或英文作答。</div>
+<div class="essay-question">一、路口監視器影像的比對可以利用人工智慧技術自動比對來取代人力，請說明影響人工智慧比對正確性的關鍵因素。（10 分）如果你來開發此項人工智慧系統，請說明所使用的人工智慧平台與工具、人工智慧模型、資料集如何收集、註解、訓練、測試與建置過程。（15 分）</div>
+<div class="essay-question">二、請說明目前警政資訊系統對於民眾的個資在對內部及對外部的保護措施及相關規範。（10 分）並提出如何精進目前民眾個資保護機制之警政作業程序、技術細節及系統架構。（15 分）</div>
+<div class="essay-question">三、網路詐騙犯罪常以虛擬貨幣作為支付工具，請說明目前常見的虛擬貨幣支付流程及現行警政系統的偵查機制。（10 分）就你認為，如何加強反制機制來加強防堵，請從警政作業程序、法規及資通訊技術來加以說明。（15 分）</div>
+<div class="essay-question">四、請說明現行勤務指揮工作可以透過那些資通訊技術來加以輔助以提升效率。（10 分）如果讓你來開發一個提升勤務指揮工作效率的系統，請說明其功能與目標、系統架構、資料流程及相關演算法。（15 分）</div>
+</div>
+</div>
+</div>

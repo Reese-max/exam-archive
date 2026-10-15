@@ -1,0 +1,376 @@
+<div class="subject-card" id="y106-38157">
+<div class="subject-header" onclick="toggleCard(this)">
+  <h3>中華民國憲法與警察專業英文</h3>
+  <span class="subject-toggle">▼</span>
+</div>
+<div class="subject-body">
+<div class="exam-meta-bar">
+<span class="meta-tag">6 頁</span>
+<span class="meta-tag">選擇題 60 題</span>
+</div>
+<div class="exam-content-v2">
+<div class="exam-text">106年公務人員特種考試警察人員、一般警察人員考試及106年特種考試交通事業鐵路人員、退除役軍人轉任公務人員考試試題</div>
+<div class="exam-metadata">
+<div class="meta-line">人員、退除役軍人轉任公務人員考試試題 考 試 別： 警察人員考試 等 別： 三等考試類 科 別 ： 行政警察人員、外事警察人員（選試英語）、刑事警察人員、公共安全人員、犯罪防治人員預防組、交通警察人員交通組、警察資訊管理人員、刑事鑑識人員、國境警察人員、警察法制人員、行政管理人員 科 目： 中華民國憲法與警察專業英文 考試時間： 2 小時 座號：</div>
+</div>
+<div class="exam-note">※注意：禁止使用電子計算器。</div>
+<div class="exam-section-marker">甲、申論題部分：（25分）</div>
+<div class="exam-note">㈠不必抄題，作答時請將試題題號及答案依照順序寫在申論試卷上，於本試題上作答者，不予計分。</div>
+<div class="exam-note">㈡請以藍、黑色鋼筆或原子筆在申論試卷上作答。</div>
+<div class="essay-question">一、英譯中：請將下列英文翻譯成中文（10 分）“Viral video” is one of those buzzwords that gets thrown around a lot. A few years ago, a video online could be considered “viral” if it hit a million views, but today, only if it gets more than 5 million views in a 3–7 day period can it be considered "viral".</div>
+<div class="essay-question">二、中譯英：請將下列中文翻譯成英文（15 分）在 13 歲到 18 歲的青少年當中，有百分之二十二左右的人在學校曾遭到霸凌，而診斷出有身心障礙的孩子可能遭到霸凌或騷擾的比例大概是兩到三倍。有些地方正在辯論是否將校園霸凌判定為犯罪行為。</div>
+<div class="exam-section-marker">乙、測驗題部分：（75分） 代號：2501</div>
+<div class="exam-note">㈠本試題為單一選擇題，請選出一個正確或最適當的答案，複選作答者，該題不予計分。</div>
+<div class="exam-note">㈡共60題，每題1.25分，須用2B鉛筆在試卡上依題號清楚劃記，於本試題或申論試卷上作答者，不予計分。</div>
+<div class="mc-question"><span class="q-number">1</span><span class="q-text">依憲法規定，考試院副院長人選之同意權屬於下列何者？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">總統</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">立法院</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">考試院</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">監察院</span></div>
+<div class="mc-question"><span class="q-number">2</span><span class="q-text">關於司法院大法官組成憲法法庭審理政黨違憲解散案件，下列敘述何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">得向司法院聲請解散違憲政黨者為立法院</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">憲法法庭認為聲請無理由者，應以判決駁回</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">憲法法庭之判決有協同意見書或不同意見書者，應一併公告</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">被宣告解散之政黨，不得成立目的相同之代替組織</span></div>
+<div class="mc-question"><span class="q-number">3</span><span class="q-text">依司法院大法官審理案件法之規定，司法院大法官作成下列何種決議所需法定人數要求最低？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">解釋憲法</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">統一解釋法律及命令</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">宣告法律牴觸憲法</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">宣告命令牴觸憲法</span></div>
+<div class="mc-question"><span class="q-number">4</span><span class="q-text">依憲法增修條文規定，有關大法官之敘述，下列何者正確？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">大法官由總統提名，經監察院同意任命之</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">司法院院長、副院長並非大法官，不納入大法官員額計算</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">本為法學教授之大法官，不適用法官終身職待遇之規定</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">大法官任期4年，得連任一次</span></div>
+<div class="mc-question"><span class="q-number">5</span><span class="q-text">下列立法院之委員會何者屬於特種委員會？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">外交及國防委員會</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">經濟委員會</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">修憲委員會</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">司法及法制委員會</span></div>
+<div class="mc-question"><span class="q-number">6</span><span class="q-text">關於立法院之組織，下列敘述何者正確？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">立法院以院長為代表，為首長制機關</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">立法院院長由立法委員互選產生，必須具備立法委員身分</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">立法院院長應本公平中立原則，必須完全脫離政黨活動</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">立法院院長得由監察院彈劾</span></div>
+<div class="mc-question"><span class="q-number">7</span><span class="q-text">依憲法本文及增修條文之規定，下列何者不屬於立法院之職權？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">聽取總統國情報告</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">提出領土變更案</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">追認緊急命令</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">彈劾行政院院長</span></div>
+<div class="mc-question"><span class="q-number">8</span><span class="q-text">依司法院釋字第585號解釋，關於立法院調查權之敘述，下列何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">屬於國家機關獨立行使職權受憲法保障者，即非立法院所得調查之事物範圍</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">可能干預行政部門有效運作之資訊，行政首長基於行政特權有決定不予公開之權力，立法院調查時應予適當尊重</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">立法院調查權包括文件調閱權、要求相關人民或政府人員陳述證言，但不得施以強制手段</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">即使有其必要，除非立法院制定特別法，否則不得委任非立法委員之人士就特定事項協助調查</span></div>
+<div class="mc-question"><span class="q-number">9</span><span class="q-text">下列何者並非隸屬行政院？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">國史館</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">國立故宮博物院</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">國家發展委員會</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">中央銀行</span></div>
+<div class="mc-question"><span class="q-number">10</span><span class="q-text">總統於立法院解散後發布緊急命令，立法院應如何處理？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">因立法院已解散，故只能留待新任立法委員選出後加以處理</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">立法院應由立法院院長決定是否追認</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">立法院應於法定期限內自行集會、開議，以決定是否追認</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">立法院應由委員連署聲請大法官解釋，以確定總統此種行為是否因違反誠信原則而違憲</span></div>
+<div class="mc-question"><span class="q-number">11</span><span class="q-text">關於總統、副總統罷免之敘述，下列何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">罷免案宣告成立之日起，任何人不得有罷免或阻止罷免之宣傳活動</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">總統、副總統選舉、罷免訴訟，專屬中央政府所在地之高等行政法院管轄</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">罷免案通過者，被罷免人4年內不得為總統、副總統候選人</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">對於總統、副總統罷免案之提出，依法應予以被罷免人得提出答辯書之機會</span></div>
+<div class="mc-question"><span class="q-number">12</span><span class="q-text">年滿40歲之中華民國自由地區人民，擬向中央選舉委員會申請登記為總統、副總統參選人，下列何種方式不屬之？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">單一政黨單獨推薦方式</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">二個以上政黨共同推薦方式</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">選民連署方式</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">繳納保證金自我推薦方式</span></div>
+<div class="mc-question"><span class="q-number">13</span><span class="q-text">關於國家安全會議以及國家安全有關大政方針之敘述，下列何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">國家安全會議為總統決定國家安全有關大政方針之諮詢機關</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">國家安全會議以國家安全會議秘書長為會議主席</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">國家安全會議所作成之決議，僅作為總統決策之參考</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">總統得指定有關人員列席國家安全會議</span></div>
+<div class="mc-question"><span class="q-number">14</span><span class="q-text">依公職人員選舉罷免法之規定，下列敘述何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">現役軍人不得登記為候選人</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">外國人不享有選舉權</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">選舉無效之訴以選舉委員會為被告</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">選舉無效之訴終審法院為高等行政法院</span></div>
+<div class="mc-question"><span class="q-number">15</span><span class="q-text">中華民國國民，原則上於年滿幾歲時，有依法被選舉之權？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">20歲</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">23歲</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">30歲</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">40歲</span></div>
+<div class="mc-question"><span class="q-number">16</span><span class="q-text">依國家賠償法之規定，下列敘述何者正確？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">公務員於執行職務行使公權力時，因故意不法侵害人民自由或權利者，國家應負損害賠償責任，過失者不在此限</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">公有公共設施因設置或管理有欠缺，致人民生命、身體、自由或財產受損害者，國家應負損害賠償責任</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">國家賠償請求權，自請求權人知有損害時起，因 2 年間不行使而消滅；自損害發生時起，逾 5 年者亦同</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">國家負損害賠償責任者，應以回復原狀為原則，例外以金錢賠償之</span></div>
+<div class="mc-question"><span class="q-number">17</span><span class="q-text">下列何人之任命，非屬行政院院長得獨立決定之人事權範圍？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">中央銀行總裁</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">審計長</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">經濟部部長</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">內政部部長</span></div>
+<div class="mc-question"><span class="q-number">18</span><span class="q-text">行政院公民投票審議委員會委員，係由何人任命？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">行政院院長</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">行政院副院長</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">總統</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">總統府秘書長</span></div>
+<div class="mc-question"><span class="q-number">19</span><span class="q-text">按憲法第9條規定：「人民除現役軍人外，不受軍事審判。」下列何者為大法官對軍事審判之主張？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">軍事審判機關對於軍人之犯罪應有專屬之審判權</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">軍事審判之建制，憲法未設明文規定，得以法律定之</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">軍人除非經終審軍事審判機關宣告無期徒刑以上之案件，否則不得向普通法院請求救濟</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">軍事審判不須有審判獨立之保障</span></div>
+<div class="mc-question"><span class="q-number">20</span><span class="q-text">下列何種權利，應受憲法絕對之保障？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">居住自由</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">財產自由</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">內在信仰自由</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">政治言論自由</span></div>
+<div class="mc-question"><span class="q-number">21</span><span class="q-text">依司法院大法官之解釋，個人之主體性及人格之自由發展，係基於下列何種理念，而應受憲法保障？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">人性尊嚴</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">倫理道德</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">幸福追求</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">理性平等</span></div>
+<div class="mc-question"><span class="q-number">22</span><span class="q-text">下列何種情形，司法院大法官認為違反平等原則？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">祭祀公業條例施行前已存在之祭祀公業，以規約約定女子不得為派下員</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">立法委員選舉政黨比例代表席次之分配，設有百分之五之門檻</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">稅法規定，須扶養親屬未滿20歲或年滿60歲者始得減除免稅額</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">稅法規定，未成立婚姻關係之異性伴侶間之相互贈與不得免徵贈與稅</span></div>
+<div class="mc-question"><span class="q-number">23</span><span class="q-text">依司法院釋字第499號解釋，下列何者非屬憲法修正時不得變更之基本原則？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">福利國原則</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">民主共和國原則</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">國民主權原則</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">權力分立原則</span></div>
+<div class="mc-question"><span class="q-number">24</span><span class="q-text">依憲法增修條文第12條規定，憲法之修改應依據下列何種程序？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">監察院提案</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">總統提案</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">立法院複決</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">公民投票複決</span></div>
+<div class="mc-question"><span class="q-number">25</span><span class="q-text">依據司法院大法官解釋所揭示之見解，下列何者非屬憲法第19條「租稅法律主義」適用之事項？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">納稅之稅目及稅率應以法律規定</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">課稅原因事實之有無及有關證據之證明力</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">不得對納稅義務人以行政命令增加稅法所無之義務</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">租稅之優惠及減免應以法律規定</span></div>
+<div class="mc-question"><span class="q-number">26</span><span class="q-text">依地方制度法之規定，下列何種主管或首長，應依專屬人事管理法律任命？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">環保</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">教育</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">政風</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">建築管理</span></div>
+<div class="mc-question"><span class="q-number">27</span><span class="q-text">下列何者為地方自治團體？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">臺灣省</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">臺北市中正區</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">新北市烏來區</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">臺南市政府</span></div>
+<div class="mc-question"><span class="q-number">28</span><span class="q-text">依照憲法增修條文第5條之規定，司法院設置大法官幾人？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">9人</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">11人</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">13人</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">15人</span></div>
+<div class="mc-question"><span class="q-number">29</span><span class="q-text">地方制度法第2條所規定之核定，其性質為何？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">為上級機關對地方自治團體之事後監督機制</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">為一種觀念通知</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">為上級政府機關對下級政府機關所陳報事項，進行實質審查之決定</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">為下級機關依法完成法定效力後，陳報上級機關知悉</span></div>
+<div class="mc-question"><span class="q-number">30</span><span class="q-text">依據憲法規定，下列何者並非縣自治事項之範圍？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">銀行</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">郵政</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">公營事業</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">租稅</span></div>
+<div class="mc-question"><span class="q-number">31</span><span class="q-text">我國憲法「前言」中明文提及下列何者？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">權力分立</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">地方自治</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">聯邦制度</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">鞏固國權</span></div>
+<div class="mc-question"><span class="q-number">32</span><span class="q-text">有關法律保留原則之敘述，下列何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">法律保留原則為現代法治國原則之具體表現</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">法律保留原則不僅規範國家與人民之關係</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">行政與立法兩權之權限分配，不受法律保留原則之規範</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">給付行政如涉及公共利益等重大事項，仍應有法律保留原則之適用</span></div>
+<div class="mc-question"><span class="q-number">33</span><span class="q-text">集會自由權是建立在憲法兩個原則上，一為自決原則，另一為何？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">民主政治原則</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">行政權優位原則</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">國家監督原則</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">行政自我拘束原則</span></div>
+<div class="mc-question"><span class="q-number">34</span><span class="q-text">中央警察大學研究所碩士班入學考試簡章中，規定以有無色盲決定能否取得入學資格，下列何者與司法院大法官解釋意旨無關？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">該簡章規定與憲法第7條保障之平等權並無牴觸</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">該簡章規定之目的係為達成重要公共利益</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">該簡章規定與促進公益有實質關聯性</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">該簡章規定違反比例原則</span></div>
+<div class="mc-question"><span class="q-number">35</span><span class="q-text">下列何種規定，因違反比例原則而遭司法院大法官宣告違憲？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">土壤及地下水污染整治法使污染行為人就該法施行前發生、施行後仍存在之污染狀況負整治義務</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">藥師法規定藥師執業處所應以一處為限</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">道路交通管理處罰條例於汽車駕駛人拒絕酒測時吊銷其駕駛執照、禁止其 3 年內考領駕駛執照，並吊銷其所持有各級車類駕駛執照</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">社會秩序維護法處罰意圖得利而與人姦、宿者3日以下拘留或新臺幣3萬元以下之罰鍰</span></div>
+<div class="mc-question"><span class="q-number">36</span><span class="q-text">國軍老舊眷村改建條例第22條規定，針對不同意眷村改建之眷戶，主管機關得逕行註銷其眷舍居住憑證及原眷戶權益，收回房地，司法院釋字第727號解釋認為未違背人民下列何項權利？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">工作權</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">居住遷徙自由</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">隱私權</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">平等權</span></div>
+<div class="mc-question"><span class="q-number">37</span><span class="q-text">依司法院釋字第654號解釋，關於律師接見受羈押被告之敘述，下列何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">律師接見受羈押被告時，監所一律予以監聽錄音，已逾越必要程度而侵害被告訴訟權</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">刑事被告與律師在不受干預下充分自由溝通，才能獲得確實有效之防禦權</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">受羈押被告與辯護人接見時，監所得予以監聽，所得之資訊並得作為審判上認定被告本案犯罪事實之證據</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">監所為維持押所秩序必要，於律師接見受羈押被告時，予以監看而不與聞，尚未侵害訴訟權</span></div>
+<div class="mc-question"><span class="q-number">38</span><span class="q-text">依司法院大法官解釋，下列何者受勞動權之保障？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">組織聯誼會</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">參加國家考試</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">加入政黨之勞工代表</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">組織工會</span></div>
+<div class="mc-question"><span class="q-number">39</span><span class="q-text">下列何者屬於訴訟權保障之內涵？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">聽審請求權</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">證據自由順序原則</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">三級三審級制度</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">秘密審判請求權</span></div>
+<div class="mc-question"><span class="q-number">40</span><span class="q-text">教育部依法發布「普通高級中學課程綱要」作為編寫教科用書之標準，此不涉及憲法所保障之下列何種自由權利？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">思想自由</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">教學自由</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">受國民教育之權利</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">人身自由</span></div>
+<div class="mc-question"><span class="q-number">41</span><span class="q-text">The name polygraph comes from the fact that the machine records several different body _____ simultaneously as the individual is questioned.</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">responses</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">impulses</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">positions</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">organs</span></div>
+<div class="mc-question"><span class="q-number">42</span><span class="q-text">The police will need to capture demographic information to _____ crime trends.</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">mention</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">monitor</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">mobilize</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">medicate</span></div>
+<div class="mc-question"><span class="q-number">43</span><span class="q-text">_____ is the act of a person who, on more than one occasion, follows, pursues or harasses another person, causing the victim to feel endangered or distressed.</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">Stalking</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">Striking</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">Stealing</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">Spelling</span></div>
+<div class="mc-question"><span class="q-number">44</span><span class="q-text">All of the following are symptoms of post-traumatic stress syndrome except _____.</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">headaches</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">nightmares</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">anxiety</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">euphoria</span></div>
+<div class="mc-question"><span class="q-number">45</span><span class="q-text">The use of science to answer legal questions is known as _____.</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">toxicology</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">criminology</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">forensics</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">symbiosis</span></div>
+<div class="mc-question"><span class="q-number">46</span><span class="q-text">_____ is the condition of habitually using a narcotic drug having lost the power of self-control with respect to it.</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">Addiction</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">Psychological screening</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">Physical dependence</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">Tolerance</span></div>
+<div class="mc-question"><span class="q-number">47</span><span class="q-text">Police agencies across Michigan are going to be stepping _____ drunk driving enforcement in the coming months.</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">of</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">for</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">to</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">up</span></div>
+<div class="mc-question"><span class="q-number">48</span><span class="q-text">Security and intelligence agencies that generally operate undercover have played an increasingly important role in combating _____, especially since the September 11 attacks in the United States in 2001.</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">tournament</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">tourism</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">terrorism</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">territorialism</span></div>
+<div class="mc-question"><span class="q-number">49</span><span class="q-text">Many of the Pacific Ocean’s island nations with only a few thousand citizens and no major industries are limited in preventing their economies from becoming staging grounds for _____ crime syndicates.</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">transcultural</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">intercultural</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">institutional</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">transnational</span></div>
+<div class="mc-question"><span class="q-number">50</span><span class="q-text">A person can waive constitutionally provided protections against unreasonable searches and seizures and allow an officer to search home, person, and property. Such a search is known as _____.</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">consent search</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">plain view search</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">stop and frisk</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">search incident to an arrest</span></div>
+<div class="mc-question"><span class="q-number">51</span><span class="q-text">Policing is most often performed by the public _____ forces that patrol public spaces, often in marked cars, and whose members wear a uniform.</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">congressional</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">constabulary</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">constitutional</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">continental</span></div>
+<div class="mc-question"><span class="q-number">52</span><span class="q-text">Methods to prevent workplace harassment include all but _____.</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">policy development</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">negative discipline</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">training</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">supervision</span></div>
+<div class="exam-note">請依下文回答第53題至第57題：</div>
+<div class="essay-question">We take all personal crimes very seriously and will record and investigate this __53__ even if you do not want to give your details. However, you must know that the investigation and ability to __54__ the suspect(s) is severely limited if the police can not contact you. You may specify how you are contacted and if contacting you would cause you any difficulties. We will not pass on your details without your consent and would ask you to consider giving your details __55__. Once submitted, our Contact Handlers will review the form's contents within 24 hours, __56__ the risk and take appropriate action. Please be assured that we will __57__ contact you if you have given us permission to do so.</div>
+<div class="mc-question"><span class="q-number">53</span><span class="q-text">(A)defense (B)detention (C)offence (D)offer</span></div>
+<div class="mc-question"><span class="q-number">54</span><span class="q-text">(A)project (B)produce (C)protect (D)prosecute</span></div>
+<div class="mc-question"><span class="q-number">55</span><span class="q-text">(A)contently (B)confidentially (C)conversely (D)consistently</span></div>
+<div class="mc-question"><span class="q-number">56</span><span class="q-text">(A)assess (B)allow (C)appoint (D)approach</span></div>
+<div class="mc-question"><span class="q-number">57</span><span class="q-text">(A)simply (B)only (C)naturally (D)barely</span></div>
+<div class="exam-note">請依下文回答第58題至第60題：</div>
+<div class="essay-question">When the New York Police Department (NYPD) was established in 1845, Mayor Isaac Varian expressed the hope that the city's peace officers would be "but a part of the citizens" rather than outsiders. To that end, each ward had its own police station, while policemen were required to live in the precinct. Local control was a political necessity of the time, but with the department established, localism began a long decline. The residency requirement was never strictly enforced, but at first, two-thirds to three-fourths of the police lived in the ward in which they worked. After the requirement was abolished in 1857, the number of local residents dropped to less than half. Regardless of the rules, practical considerations dictated living near the workplace since mass transit was limited and expensive.</div>
+<div class="mc-question"><span class="q-number">58</span><span class="q-text">What would be the most appropriate title for the passage？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">At the Heart of the Insistence</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">The Political Necessity</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">New York City’s Peace Officers</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">The Patrolman’s Own Neighborhood</span></div>
+<div class="mc-question"><span class="q-number">59</span><span class="q-text">According to the passage, which of the following is NOT true？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">NYPD was established more than 170 years ago.</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">Local control was a political necessity in the middle of 19th century.</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">Since the residency requirement was enforced, two-thirds to three-fourths of the police lived in the ward in which they worked.</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">The cost of transportation was one of the reasons why the police would like to live near their workplace.</span></div>
+<div class="mc-question"><span class="q-number">60</span><span class="q-text">According to the passage, what is the most likely percentage of the NYPD officers living in the precinct they worked in the second half of the 19th century？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">3/4</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">1/4</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">3/5</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">4/5</span></div>
+</div>
+<div class="answer-section">
+<h4 class="answer-title">📋 標準答案</h4>
+<div class="answer-grid">
+<div class="answer-cell"><span class="q-num">1</span><span class="q-ans">B</span></div>
+<div class="answer-cell"><span class="q-num">2</span><span class="q-ans">A</span></div>
+<div class="answer-cell"><span class="q-num">3</span><span class="q-ans">B</span></div>
+<div class="answer-cell"><span class="q-num">4</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">5</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">6</span><span class="q-ans">B</span></div>
+<div class="answer-cell"><span class="q-num">7</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">8</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">9</span><span class="q-ans">A</span></div>
+<div class="answer-cell"><span class="q-num">10</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">11</span><span class="q-ans">B</span></div>
+<div class="answer-cell"><span class="q-num">12</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">13</span><span class="q-ans">B</span></div>
+<div class="answer-cell"><span class="q-num">14</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">15</span><span class="q-ans">B</span></div>
+<div class="answer-cell"><span class="q-num">16</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">17</span><span class="q-ans">B</span></div>
+<div class="answer-cell"><span class="q-num">18</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">19</span><span class="q-ans">B</span></div>
+<div class="answer-cell"><span class="q-num">20</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">21</span><span class="q-ans">A</span></div>
+<div class="answer-cell"><span class="q-num">22</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">23</span><span class="q-ans">A</span></div>
+<div class="answer-cell"><span class="q-num">24</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">25</span><span class="q-ans">B</span></div>
+<div class="answer-cell"><span class="q-num">26</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">27</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">28</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">29</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">30</span><span class="q-ans">B</span></div>
+<div class="answer-cell"><span class="q-num">31</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">32</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">33</span><span class="q-ans">A</span></div>
+<div class="answer-cell"><span class="q-num">34</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">35</span><span class="q-ans">B</span></div>
+<div class="answer-cell"><span class="q-num">36</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">37</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">38</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">39</span><span class="q-ans">A</span></div>
+<div class="answer-cell"><span class="q-num">40</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">41</span><span class="q-ans">A</span></div>
+<div class="answer-cell"><span class="q-num">42</span><span class="q-ans">B</span></div>
+<div class="answer-cell"><span class="q-num">43</span><span class="q-ans">A</span></div>
+<div class="answer-cell"><span class="q-num">44</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">45</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">46</span><span class="q-ans">A</span></div>
+<div class="answer-cell"><span class="q-num">47</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">48</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">49</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">50</span><span class="q-ans">A</span></div>
+<div class="answer-cell"><span class="q-num">51</span><span class="q-ans">B</span></div>
+<div class="answer-cell"><span class="q-num">52</span><span class="q-ans">B</span></div>
+<div class="answer-cell"><span class="q-num">53</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">54</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">55</span><span class="q-ans">B</span></div>
+<div class="answer-cell"><span class="q-num">56</span><span class="q-ans">A</span></div>
+<div class="answer-cell"><span class="q-num">57</span><span class="q-ans">B</span></div>
+<div class="answer-cell"><span class="q-num">58</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">59</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">60</span><span class="q-ans">B</span></div>
+</div>
+</div>
+</div>
+</div>
