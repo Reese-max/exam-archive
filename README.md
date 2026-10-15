@@ -10,6 +10,12 @@ Information Management) past papers: ROC years 105–114, 7 subjects, 70 papers,
 archive and is **not superseded** by any other repository. If that ever changes,
 this section becomes the redirect notice.
 
+## What this is NOT
+
+- Not a CDN / mirror. There is one canonical copy: this repo's `main` branch.
+- Not superseded by `police-exam-archive` or `police-exam-practice`. Those are
+  sibling repos with different product shapes; see the repo map below.
+
 ## Canonical public URL
 
 <https://reese-max.github.io/exam-archive/> — deployed from the repo root by
@@ -60,6 +66,13 @@ question expansion, mobile navigation, selected-subject loading, and reflow at
 640 CSS pixels (the effective width of a 1280-pixel viewport at 200% zoom).
 They serve the generated site on loopback and block optional external fonts.
 
+### Local viewing
+
+```bash
+python -m http.server 8765
+# open http://localhost:8765/
+```
+
 ## Data provenance
 
 Content was compiled from publicly released 考選部 police special-examination
@@ -76,6 +89,10 @@ in `docs/audits/` and `.github/quality-audits/`; the originating protocol is
   subject fetches only its fragments, while the year source remains canonical
 
 ## Roadmap / known gaps
+
+The per-year / per-category lazy-loading split, the reproducible build step,
+and the payload budgets previously tracked as open audit items have landed and
+are enforced by the contract suite above. Still outstanding:
 
 - The first page request contains only the shell and loader. It fetches year
   114 so the first archive result is usable; other years load when their
@@ -110,3 +127,37 @@ python3 -m pytest tests/test_practice_a11y.py -q
 
 These Chromium checks do not replace a human screen-reader check on the deployed
 site. That acceptance layer remains outstanding.
+
+## Secrets & data hygiene
+
+- **No secrets** in this repository. There is no `.env` and no CI workflow that
+  needs one.
+- **No PII**. Past-paper content is by definition not PII.
+- Public-only content. If a non-public exam item is discovered during
+  reconciliation, delete the corresponding section before committing.
+
+## License & contribution
+
+No `LICENSE` file is committed. Until one is added, all-rights-reserved
+by the maintainers. PRs:
+
+- Must cite the upstream source in the commit body when adding / updating
+  content.
+- Must change the generated `index.html` only through
+  `tests/rebuild_index.py`, never by hand-editing the artifact.
+- Must respect the policy in `docs/audits/`.
+- Must pass Pages deployment cleanly (i.e. the Pages workflow must stay
+  green post-merge).
+
+## Repo map / sibling products
+
+| Repo | What it is |
+|------|-----------|
+| `Reese-max/exam-archive` (this) | Static archive of past papers with lazy-loaded year/subject views and practice scoring. |
+| `Reese-max/police-exam-archive` | Earlier / different layout for similar content; consult its README to decide whether to redirect here. |
+| `Reese-max/police-exam-practice` | Interactive answering practice for the same content; different product shape. |
+
+When in doubt about which repo to edit, ask: "am I adding a new
+question to a practice bank, or am I restoring historical paper content
+to a long-form archive?" Practice bank → `police-exam-practice`.
+Historical archive → **this repo**.

@@ -23,8 +23,24 @@ def browser():
             shutil.which("google-chrome-stable"),
             shutil.which("chromium"),
             shutil.which("chromium-browser"),
+            os.path.join(
+                os.environ.get("PROGRAMFILES", r"C:\Program Files"),
+                "Google",
+                "Chrome",
+                "Application",
+                "chrome.exe",
+            ),
         ]
-        executable = next((candidate for candidate in candidates if candidate), None)
+        executable = next(
+            (
+                candidate
+                for candidate in candidates
+                if candidate
+                and os.path.isfile(candidate)
+                and not candidate.lower().endswith((".cmd", ".bat"))
+            ),
+            None,
+        )
         launch_options = {"headless": True}
         if executable:
             launch_options["executable_path"] = executable
