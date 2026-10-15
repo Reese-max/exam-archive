@@ -1,0 +1,36 @@
+<div class="subject-card" id="y108-92248">
+<div class="subject-header" onclick="toggleCard(this)">
+  <h3>電腦犯罪偵查</h3>
+  <span class="subject-toggle">▼</span>
+</div>
+<div class="subject-body">
+<div class="exam-meta-bar">
+<span class="meta-tag">1 頁</span>
+<span class="meta-tag">申論題</span>
+</div>
+<div class="exam-content-v2">
+<div class="exam-metadata">
+<div class="meta-line">108年特種考試交通事業鐵路人員、退除役軍人轉任公務人員考試試題 考 試 別：警察人員考試 等 別：三等考試 類 科 別：警察資訊管理人員 科 目：電腦犯罪偵查 考試時間：2 小時 座號：</div>
+</div>
+<div class="exam-note">※注意： ㈠禁止使用電子計算器。</div>
+<div class="exam-note">㈡不必抄題，作答時請將試題題號及答案依照順序寫在試卷上，於本試題上作答者，不予計分。</div>
+<div class="exam-note">㈢本科目除專門名詞或數理公式外，應使用本國文字作答。</div>
+<div class="essay-question">一、由於科技的進步，物聯網、穿戴式裝置已經廣泛在企業及民生使用；相應的若有犯罪情事發生，偵查也會擴及到這些設備上。</div>
+<div class="exam-note">㈠請在傳統電腦犯罪偵查的基礎上，列舉至少三項物聯網物證鑑識應注意的新課題。（12 分）</div>
+<div class="exam-note">㈡請在物聯網犯罪偵查的基礎上，列舉至少三項穿戴式系統物證鑑識應注意的新課題。（13 分）</div>
+<div class="essay-question">二、警察機關為犯罪偵查之目的，可能會利用許多個人資料。</div>
+<div class="exam-note">㈠請列舉至少五個犯罪偵查時個人資料的來源。（5 分）</div>
+<div class="exam-note">㈡我國相關法令對個人資料之蒐集有何規範？（10 分）</div>
+<div class="exam-note">㈢請列舉至少三種利用個人資料於犯罪偵查之應用，並作說明。（10 分）</div>
+<div class="essay-question">三、在電腦犯罪偵查中，警察有時要作「記憶體鑑識」。</div>
+<div class="exam-note">㈠請解釋何謂記憶體鑑識？（6 分）</div>
+<div class="exam-note">㈡請說明記憶體鑑識之必要性。（6 分）</div>
+<div class="exam-note">㈢與在硬碟裡的資料鑑識相比，請問記憶體鑑識之特殊性為何？（6 分）</div>
+<div class="exam-note">㈣請以您所熟悉的數位鑑識工具，描述記憶體鑑識的步驟。（7 分）</div>
+<div class="essay-question">四、在網路技術中，區塊鏈已被廣為重視。</div>
+<div class="exam-note">㈠何謂「區塊鏈」？（5 分）</div>
+<div class="exam-note">㈡區塊鏈系統的主要特性為何？（10 分）</div>
+<div class="exam-note">㈢區塊鏈的主要特性如何運用於數位化證據之保全？請您勾勒如此一個數位證據保全系統之架構；必要時請繪圖說明。（10 分）</div>
+</div>
+</div>
+</div>

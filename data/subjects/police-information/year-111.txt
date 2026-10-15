@@ -1,0 +1,24 @@
+<div class="subject-card" id="y111-89699">
+<div class="subject-header" onclick="toggleCard(this)">
+  <h3>警政資訊管理與應用</h3>
+  <span class="subject-toggle">▼</span>
+</div>
+<div class="subject-body">
+<div class="exam-meta-bar">
+<span class="meta-tag">1 頁</span>
+<span class="meta-tag">申論題</span>
+</div>
+<div class="exam-content-v2">
+<div class="exam-metadata">
+<div class="meta-line">安全情報人員考試及111年特種考試交通事業鐵路人員考試試題 考 試 別：警察人員考試 等 別：三等考試 類科組別：警察資訊管理人員 科 目：警政資訊管理與應用 考試時間：2 小時 座號：</div>
+</div>
+<div class="exam-note">※注意：㈠可以使用電子計算器。</div>
+<div class="exam-note">㈡不必抄題，作答時請將試題題號及答案依照順序寫在試卷上，於本試題上作答者，不予計分。</div>
+<div class="exam-note">㈢本科目除專門名詞或數理公式外，應使用本國文字作答。</div>
+<div class="essay-question">一、聯合國教育、科學及文化組織（United Nations Educational, Scientific and Cultural Organization, UNESCO）秘書長阿祖萊（Audrey Azoulay）在 2021 年 11 月 25 日宣布通過「人工智慧倫理建議書」（Recommendation on the Ethics of Artificial Intelligence），請說明該建議書有關發展人工智慧應遵循之原則（Principles），（10 分）並請依據該原則為內政部警政署訂定「警察機關發展人工智慧倫理規範」。（10 分）</div>
+<div class="essay-question">二、近年電信詐欺案件頻傳，你負責建置一警察機關「打擊電信詐欺知識管理系統」，請說明貴警察機關打擊電信詐欺的知識管理策略（10 分）及知識管理流程。（20 分）</div>
+<div class="essay-question">三、你負責承辦一警察機關資訊安全管理系統（ISMS）公正第三方驗證委外服務案，請說明該服務案之建議書徵求文件（RFP）應包含那些項目，（20 分）並請估算本案執行驗證稽核所需人天數及所需費用。（10 分）</div>
+<div class="essay-question">四、警政資訊系統中何項作業可以製作「治安斑點圖」？請說明該項作業名稱及該項作業所有功能，（10 分）又該作業依不同的資料來源提供那幾種「治安斑點圖」。（10 分）</div>
+</div>
+</div>
+</div>

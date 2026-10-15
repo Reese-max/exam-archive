@@ -1,0 +1,24 @@
+<div class="subject-card" id="y108-66628">
+<div class="subject-header" onclick="toggleCard(this)">
+  <h3>數位鑑識執法</h3>
+  <span class="subject-toggle">▼</span>
+</div>
+<div class="subject-body">
+<div class="exam-meta-bar">
+<span class="meta-tag">1 頁</span>
+<span class="meta-tag">申論題</span>
+</div>
+<div class="exam-content-v2">
+<div class="exam-metadata">
+<div class="meta-line">108年特種考試交通事業鐵路人員、退除役軍人轉任公務人員考試試題 考 試 別：警察人員考試 等 別：三等考試 類 科 別：警察資訊管理人員 科 目：數位鑑識執法 考試時間：2 小時 座號：</div>
+</div>
+<div class="exam-note">※注意： ㈠禁止使用電子計算器。</div>
+<div class="exam-note">㈡不必抄題，作答時請將試題題號及答案依照順序寫在試卷上，於本試題上作答者，不予計分。</div>
+<div class="exam-note">㈢本科目除專門名詞或數理公式外，應使用本國文字作答。</div>
+<div class="essay-question">一、國際上可做為法院認可之電腦證據，其基本處理之四項指導原則為何？（25 分）</div>
+<div class="essay-question">二、面對日新月異的電腦犯罪案件，搜索票之申請有那些注意事項？（25 分）</div>
+<div class="essay-question">三、在數位證據扣押回實驗室後，如何做有系統化的鑑識？有那些基本的處理分析步驟，試說明之。（25 分）</div>
+<div class="essay-question">四、試述秘密金鑰（對稱式）密碼系統與公開金鑰（非對稱式）密碼系統。（25 分）</div>
+</div>
+</div>
+</div>

@@ -1,0 +1,91 @@
+<div class="subject-card" id="y110-11008">
+<div class="subject-header" onclick="toggleCard(this)">
+  <h3>國文(作文、公文與測驗)</h3>
+  <span class="subject-toggle">▼</span>
+</div>
+<div class="subject-body">
+<div class="exam-meta-bar">
+<span class="meta-tag">3 頁</span>
+<span class="meta-tag">選擇題 10 題</span>
+</div>
+<div class="exam-content-v2">
+<div class="exam-metadata">
+<div class="meta-line">70110-70410 國家安全局國家安全情報人員考試及110年特種考試 交通事業鐵路人員、退除役軍人轉任公務人員考試試題 考 試 別：一般警察人員考試、警察人員考試、鐵路人員考試、退除役軍人轉任公務人員考試、國家安全情報人員考試 等 別：三等考試、高員三級考試 類科組別：各類別、各類科、各組別 科 目：國文（作文、公文與測驗） 考試時間： 2 小時 座號：</div>
+</div>
+<div class="exam-note">※注意：禁止使用電子計算器。</div>
+<div class="exam-section-marker">甲、作文與公文部分：甲、申論題部分：</div>
+<div class="exam-note">㈠請以藍、黑色鋼筆或原子筆在申論試卷上由左至右橫式作答，於本試題上作答者，不予計分。</div>
+<div class="exam-note">㈡不得於試卷上書寫姓名或入場證號。</div>
+<div class="essay-question">一、作文：（60 分）要維持社會的穩定運作，除了法律之外，久而久之會形成許多「傳統」，如：道德、規矩、習俗、人情…等等。這些傳統，固然維繫了社會的長期運作，但隨著觀念、潮流的改變，往往也會造成扞格與衝突，此時應如何處理或化解這些衝突，考驗著我們的智慧。身為公務人員，一定難免面臨這種情況，請以「傳統與創新」為題，作文一篇，依據你的經驗與體會，申論如何在舊傳統與新思維之間，找到平衡。</div>
+<div class="essay-question">二、公文：（20分）根據中央氣象局統計，臺灣夏季均溫約在攝氏30度左右，最高溫時更達攝氏35度以上，氣候環境大大增加了中暑的發生率。以今年來看，5月高溫少雨，天氣炎熱，南臺灣更飆出40℃高溫，天氣風險公司表示，今年5月確實為有氣象觀測紀錄的60年以來「最熱的5月」。依衛生福利部「及時疫情監視及預警系統」，分析全國170多家醫院急診及時資料顯示：每年的7至8月是民眾因中暑等熱急症至急診就醫的高峰期，近日邁入酷熱的炎夏，氣溫勢必會持續上升，民眾仍應提高警覺，小心防範中暑。試擬衛生福利部致國民健康署函：近日氣溫飆高，民眾容易中暑，應加強宣導中暑的正確處理方式，避免因延遲治療導致永久性的傷害。</div>
+<div class="exam-section-marker">乙、測驗部分：（20分） 代號：1301</div>
+<div class="exam-note">㈠本測驗試題為單一選擇題，請選出一個正確或最適當的答案，複選作答者，該題不予計分。</div>
+<div class="exam-note">㈡共10題，每題2分，須用2B鉛筆在試卡上依題號清楚劃記，於本試題或申論試卷上作答者，不予計分。</div>
+<div class="mc-question"><span class="q-number">1</span><span class="q-text">王勃〈滕王閣〉詩：「閒雲潭影日悠悠，物換星移幾度秋」。下列選項，何者意思與「物換星移」之意相反？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">江山如故</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">時移事往</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">滄海桑田</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">時過境遷</span></div>
+<div class="mc-question"><span class="q-number">2</span><span class="q-text">顏色在中文使用上變化多元，下列選項對「 」中的顏色敘述何者正確？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">朝如「青絲」暮成雪，指染髮</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">國劇中以「黑臉」代表奸詐小人</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">他在商場上的表現令人「眼紅」，指心生嫉妒</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">週末颱風來襲，不宜「踏青」，指虛擲青春年華</span></div>
+<div class="mc-question"><span class="q-number">3</span><span class="q-text">孟子：「愛人不親，反其仁；治人不治，反其智；禮人不答，反其敬。」上文所說的道理是：</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">對症下藥</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">正本清源</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">以德報怨</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">責躬省過</span></div>
+<div class="mc-question"><span class="q-number">4</span><span class="q-text">下列詩句對於「浮雲」的意象有種種描述，何者解讀錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">不畏浮雲遮望眼，只緣身在最高層：困頓阻礙</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">浪跡江湖白髮新，浮雲一片是吾身：羈旅漂泊</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">浮雲柳絮無根蒂，天地闊遠隨飛揚：縹緲不定</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">悠然坐看南窗外，片片浮雲空自忙：閒適愉快</span></div>
+<div class="mc-question"><span class="q-number">5</span><span class="q-text">「中老年人就像是中古車，保養完善的中古車與新車一樣都能行走，但保養不好的中古車隨時可能拋錨，人體也是。在漫長的人生中要是沒有好好照顧自己的身體，當年齡增加時，病痛就會清楚地顯現出來。所以中老年人若認為同世代的人做得到，自己也能做到，這是很嚴重的錯誤觀念。」本文的旨意近於：</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">驕兵必敗</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">自知者明</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">前車之鑑</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">駑馬十駕</span></div>
+<div class="mc-question"><span class="q-number">6</span><span class="q-text">「創造好的學習環境，有助於學習者各方面的發展，包括認知、情感、社會、品格與性靈。進而讓學習者發揮最大的潛力、培養所需的能力，以走上成功之途。」下列選項，何者與引文主旨最相近？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">夫學者猶種樹也，春玩其華，秋登其實</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">庸德之行，庸言之謹。有所不足，不敢不勉</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">君子學以聚之，問以辯之，寬以居之，仁以行之</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">君子居必擇鄉，遊必就士，所以防邪辟而近中正也</span></div>
+<div class="mc-question"><span class="q-number">7</span><span class="q-text">「從小就看人指點觀音山，說何處是鼻子，何處是額頭，何處是下巴。指點的人，指著指著，又覺得不對，部位都不準確，只好放棄了。可是，一不指點，猛然回頭，赫然又是一尊觀音，安安靜靜，天地之際，處處都是菩薩的淺笑，怎麼看都是觀音。」下列選項，何者最符合上文的描述？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">松下問童子，言師採藥去。只在此山中，雲深不知處</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">眾里尋他千百度，驀然回首，那人卻在，燈火闌珊處</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">橫看成嶺側成峯，遠近高低各不同。不識廬山真面目，只緣身在此山中</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">料峭春風吹酒醒，微冷、山頭斜照卻相迎。回首向來蕭瑟處，歸去、也無風雨也無晴</span></div>
+<div class="mc-question"><span class="q-number">8</span><span class="q-text">「有一個詩人說：『如果我不來，這一山野花都白開了。』花開了，又謝了，落在泥土裡腐爛了，而山上只有牛羊走過，老鷹飛過，那教花兒怎麼忍受––作家來了，他觀察這些花，產生意象，這些花就可能永遠不凋謝，價值也可能不只是一些花。」根據文意，下列選項何者錯誤？</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">作家是生命力的見證人，美的發現者</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">作家運用細微的觀察力，是為了增強寫作技巧</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">作家將美好的所見記錄下來，使它們不被時間毀滅</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">作家觀察自然萬象，能藉由產生的意象賦予永恆的生命</span></div>
+<div class="mc-question"><span class="q-number">9</span><span class="q-text">余猶及見老儒先生，自言其少時，欲求《史記》、《漢書》而不可得，幸而得之，皆手自書，日夜誦讀，惟恐不及。近歲巿人轉相摹刻諸子百家之書，日傳萬紙，學者之於書，多且易致如此，其文詞學術，當倍蓰於昔人，而後生科舉之士，皆束書不觀，遊談無根，此又何也？（蘇軾〈李氏山房藏書記〉）下列選項，最符合上文文意的是：</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">書籍出版量增加，但讀書風氣每況愈下</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">印刷術的出現，得以保存許多珍貴的書籍</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">書籍取得容易，讓人可以引經據典，漫談古今</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">手抄書，勤誦讀，都不是培養閱讀習慣的好方法</span></div>
+<div class="mc-question"><span class="q-number">10</span><span class="q-text">「人類與其他動物不同的地方，在於我們建構和整合抽象資訊的認知能力，也在於我們能發明編造、分析假想，甚至是虛構情景的力量，以及將感知到的事物轉化為有意義的『為什麼』及『如何』等能力。正是這種好奇心及為了解事件成因與影響的探究欲望，讓宗教誕生、讓邏輯秩序出現、讓追求理解大自然如何運作的行動迸現，隨後也讓多數研究付諸實際應用。」根據上文，下列選項與本文意旨最相近的是：</span></div>
+<div class="mc-option"><span class="opt-label">(A)</span><span class="opt-text">人與動物不同是因為有想像力</span></div>
+<div class="mc-option"><span class="opt-label">(B)</span><span class="opt-text">宗教與邏輯秩序起源於虛構力</span></div>
+<div class="mc-option"><span class="opt-label">(C)</span><span class="opt-text">好奇心是人類進步的重要推手</span></div>
+<div class="mc-option"><span class="opt-label">(D)</span><span class="opt-text">形成邏輯秩序仰賴深入的研究</span></div>
+</div>
+<div class="answer-section">
+<h4 class="answer-title">📋 標準答案</h4>
+<div class="answer-grid">
+<div class="answer-cell"><span class="q-num">1</span><span class="q-ans">A</span></div>
+<div class="answer-cell"><span class="q-num">2</span><span class="q-ans">C</span></div>
+<div class="answer-cell"><span class="q-num">3</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">4</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">5</span><span class="q-ans">B</span></div>
+<div class="answer-cell"><span class="q-num">6</span><span class="q-ans">D</span></div>
+<div class="answer-cell"><span class="q-num">7</span><span class="q-ans">B</span></div>
+<div class="answer-cell"><span class="q-num">8</span><span class="q-ans">B</span></div>
+<div class="answer-cell"><span class="q-num">9</span><span class="q-ans">A</span></div>
+<div class="answer-cell"><span class="q-num">10</span><span class="q-ans">C</span></div>
+</div>
+</div>
+</div>
+</div>

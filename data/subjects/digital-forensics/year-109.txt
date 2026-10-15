@@ -1,0 +1,30 @@
+<div class="subject-card" id="y109-66628">
+<div class="subject-header" onclick="toggleCard(this)">
+  <h3>數位鑑識執法</h3>
+  <span class="subject-toggle">▼</span>
+</div>
+<div class="subject-body">
+<div class="exam-meta-bar">
+<span class="meta-tag">1 頁</span>
+<span class="meta-tag">申論題</span>
+</div>
+<div class="exam-content-v2">
+<div class="exam-metadata">
+<div class="meta-line">一般警察人員考試及109年特種考試交 通 事 業 鐵 路 人 員 考 試 試 題 考 試 別：警察人員考試 等 別：三等考試 類 科 別：警察資訊管理人員 科 目：數位鑑識執法 考試時間：2 小時 座號：</div>
+</div>
+<div class="exam-note">※注意：㈠禁止使用電子計算器。</div>
+<div class="exam-note">㈡不必抄題，作答時請將試題題號及答案依照順序寫在試卷上，於本試題上作答者，不予計分。</div>
+<div class="exam-note">㈢本科目除專門名詞或數理公式外，應使用本國文字作答。</div>
+<div class="essay-question">一、在行動通訊普及的今天，可能會有人利用手機等行動通訊設備在社群媒體（如在 LINE）上進行犯罪行為。</div>
+<div class="exam-note">㈠請依攻擊方式對社群媒體犯罪作分類，並舉例說明之。（5 分）</div>
+<div class="exam-note">㈡請問偵查社群媒體犯罪的證據，必須從那裡取得？蒐證的範圍又應該包括那些？（10 分）</div>
+<div class="exam-note">㈢何謂社群媒體快照（Social Snapshot）的數位取證方法？採用這種資料收集方法的理由為何？（10 分）</div>
+<div class="essay-question">二、㈠一個良好的數位鑑識軟體應該具有那些特色？（10 分）</div>
+<div class="exam-note">㈡鑑識軟體 FTK 的主要工具有那些？請說明其功用。（15 分）</div>
+<div class="essay-question">三、㈠要作網路即時資料的鑑識就必須進行封包分析。請問鑑識時應檢視那些重點？（10 分）</div>
+<div class="exam-note">㈡在網路攻擊事件中，可能有某機構（如銀行）電腦或行動通訊設備被植入惡意程式，作為竊取機敏資料的手段。請說明如何佈署蒐證環境以便即時分析網路封包來偵查此類攻擊事件；並繪圖說明此類攻擊行為的即時資料分析流程。（15 分）</div>
+<div class="essay-question">四、㈠為什麼網路位址在數位鑑識中是很重要的衡量因素？（5 分）</div>
+<div class="exam-note">㈡網際網路的位址（IP Address）大致可分為那幾類？對每一類在數位取證時應注意那些要點？（20 分）</div>
+</div>
+</div>
+</div>
